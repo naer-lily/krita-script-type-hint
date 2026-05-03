@@ -1,5 +1,43 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.11.0" xml:lang="en-US">
+  <compound refid="class_angle_selector" kind="class"><name>AngleSelector</name>
+    <member refid="class_angle_selector_1a489a381b687c3da06e2ef25b3a571e38" kind="variable"><name>d</name></member>
+    <member refid="class_angle_selector_1ae9fed469aede06c4bbcf6568d5c0531a" kind="function"><name>AngleSelector</name></member>
+    <member refid="class_angle_selector_1a3871b12c3b6f37ad590c68d0718e5324" kind="function"><name>~AngleSelector</name></member>
+    <member refid="class_angle_selector_1ac3fa489fce8eca45481838785a012438" kind="slot"><name>widget</name></member>
+    <member refid="class_angle_selector_1aeff3157a0e56babe6b900a3880c02897" kind="slot"><name>setAngle</name></member>
+    <member refid="class_angle_selector_1a6b1f18ead0545ee0c944683a9ef4fdaa" kind="slot"><name>reset</name></member>
+    <member refid="class_angle_selector_1a0dc7e69ab29f9d1ff8e58d5053708e4e" kind="slot"><name>angle</name></member>
+    <member refid="class_angle_selector_1a9c48b30eed0ab06aa48cae53ed8e3567" kind="slot"><name>snapAngle</name></member>
+    <member refid="class_angle_selector_1ad067fe0002c1dc620a15d7e592f8b38a" kind="slot"><name>resetAngle</name></member>
+    <member refid="class_angle_selector_1ad48bff7c6b2f23233307109e42c549ec" kind="slot"><name>decimals</name></member>
+    <member refid="class_angle_selector_1a30c068a33b0408bf5d93504fc282a5af" kind="slot"><name>maximum</name></member>
+    <member refid="class_angle_selector_1a19737b6b396fc27913f72e82377fe4c6" kind="slot"><name>minimum</name></member>
+    <member refid="class_angle_selector_1a6641e44aced2dd67f9d1b7a48e97b05d" kind="slot"><name>prefix</name></member>
+    <member refid="class_angle_selector_1ab864a8ad4d2267a87eec6d7de073a7a7" kind="slot"><name>wrapping</name></member>
+    <member refid="class_angle_selector_1a90662ff862817f2de83763155416d827" kind="slot"><name>flipOptionsMode</name></member>
+    <member refid="class_angle_selector_1a3f751fee419cb8816079b453431e86bc" kind="slot"><name>widgetsHeight</name></member>
+    <member refid="class_angle_selector_1a5690735e8a545752f99476520dde1667" kind="slot"><name>increasingDirection</name></member>
+    <member refid="class_angle_selector_1ac607a9accbf3cd301ee643bc885595dd" kind="slot"><name>isUsingFlatSpinBox</name></member>
+    <member refid="class_angle_selector_1abc89bd449e517934b9febf77af478b4d" kind="slot"><name>setSnapAngle</name></member>
+    <member refid="class_angle_selector_1ab640a4c7bfa70a6575c32019eed9024a" kind="slot"><name>setResetAngle</name></member>
+    <member refid="class_angle_selector_1aeb0fc28a91b76a073334aba9e5f32c35" kind="slot"><name>setDecimals</name></member>
+    <member refid="class_angle_selector_1ac0013c69f6e91cd2f4b97ebb4dd9f19f" kind="slot"><name>setMaximum</name></member>
+    <member refid="class_angle_selector_1a415f37ada5d1e6becc031f90491ef842" kind="slot"><name>setMinimum</name></member>
+    <member refid="class_angle_selector_1a72c5b9ba42b2cc8f3023fa7fa8cc020a" kind="slot"><name>setRange</name></member>
+    <member refid="class_angle_selector_1a78f21ba3cd1e759b3b5ad7a39b5e058f" kind="slot"><name>setPrefix</name></member>
+    <member refid="class_angle_selector_1af18571bbeabab33c4fa04d646291c638" kind="slot"><name>setWrapping</name></member>
+    <member refid="class_angle_selector_1aadf21365ed1dc565a3c59e1252804246" kind="slot"><name>setFlipOptionsMode</name></member>
+    <member refid="class_angle_selector_1add593fc80247502a44822d4389ccf2a6" kind="slot"><name>setWidgetsHeight</name></member>
+    <member refid="class_angle_selector_1a8b897d88e2925c93cbbc2e61c7430c4a" kind="slot"><name>setIncreasingDirection</name></member>
+    <member refid="class_angle_selector_1a88f1cbc172051cb7b363b5f98d12f878" kind="slot"><name>useFlatSpinBox</name></member>
+    <member refid="class_angle_selector_1aea488ee6f3cb52babe1bd9eb4e8cd651" kind="slot"><name>closestCoterminalAngleInRange</name></member>
+    <member refid="class_angle_selector_1a62e7e3c86a1ba0156e82807539e8acc7" kind="slot"><name>closestCoterminalAngleInRange</name></member>
+    <member refid="class_angle_selector_1a7642966b80b9cac1ce759537193a7b81" kind="slot"><name>flipAngle</name></member>
+    <member refid="class_angle_selector_1a330abe7729e97782926a37d16cb692e8" kind="slot"><name>flipAngle</name></member>
+    <member refid="class_angle_selector_1ab132d71ba44005571bf180019e9990ff" kind="slot"><name>flip</name></member>
+    <member refid="class_angle_selector_1ad41376596f3a6708a50ea68903ca4950" kind="signal"><name>angleChanged</name></member>
+  </compound>
   <compound refid="class_canvas" kind="class"><name>Canvas</name>
     <member refid="class_canvas_1a944be00db0ae07d95f00efdc8db036e3" kind="friend"><name>ManagedColor</name></member>
     <member refid="class_canvas_1ae9df4750825a1d5873f5b58f2454e80a" kind="variable"><name>d</name></member>
@@ -9,6 +47,9 @@
     <member refid="class_canvas_1a90bc5cc31a732aec8e4178106e11c0f5" kind="function"><name>operator!=</name></member>
     <member refid="class_canvas_1aac55c17eba53f1b4b49c23759c61174b" kind="slot"><name>zoomLevel</name></member>
     <member refid="class_canvas_1ad5dc2852848a82be509b84d4b07f5015" kind="slot"><name>setZoomLevel</name></member>
+    <member refid="class_canvas_1ad72584b1416051d1c893a4ae1eb81b12" kind="slot"><name>setPreferredCenter</name></member>
+    <member refid="class_canvas_1a7b99a999ab120a8526a5da037ac936f7" kind="slot"><name>preferredCenter</name></member>
+    <member refid="class_canvas_1af42386e5bbc7ca97c810c33782e7c073" kind="slot"><name>pan</name></member>
     <member refid="class_canvas_1afe46d22d824c72fae2e598a00e964aa2" kind="slot"><name>resetZoom</name></member>
     <member refid="class_canvas_1a32c3031fa460b467c59b3b3824cf1bc1" kind="slot"><name>rotation</name></member>
     <member refid="class_canvas_1a406503d884c3333a09877820bacbdeae" kind="slot"><name>setRotation</name></member>
@@ -100,10 +141,10 @@
     <member refid="class_document_1aacbeebde0dea142096b48b3ec3cf748d" kind="function"><name>~Document</name></member>
     <member refid="class_document_1a65ba42f6e17ea29eddb833dcd9f14bfb" kind="function"><name>operator==</name></member>
     <member refid="class_document_1a3c6b7bd2d552ec9f38730953915e6f1b" kind="function"><name>operator!=</name></member>
-    <member refid="class_document_1aa78509a280eac278a787b3699b323098" kind="function"><name>horizontalGuides</name></member>
-    <member refid="class_document_1a8d51ceb6f54c696a3dffa1a42cf07532" kind="function"><name>verticalGuides</name></member>
-    <member refid="class_document_1a047471b983ac42cb1f2e9d63079a2d36" kind="function"><name>guidesVisible</name></member>
-    <member refid="class_document_1a90f86452915fabb8fbfb61b2e71bf749" kind="function"><name>guidesLocked</name></member>
+    <member refid="class_document_1aa78509a280eac278a787b3699b323098" kind="slot"><name>horizontalGuides</name></member>
+    <member refid="class_document_1a8d51ceb6f54c696a3dffa1a42cf07532" kind="slot"><name>verticalGuides</name></member>
+    <member refid="class_document_1a047471b983ac42cb1f2e9d63079a2d36" kind="slot"><name>guidesVisible</name></member>
+    <member refid="class_document_1a90f86452915fabb8fbfb61b2e71bf749" kind="slot"><name>guidesLocked</name></member>
     <member refid="class_document_1a68ae4fc363bd83064e5e81d3cf2116ed" kind="slot"><name>clone</name></member>
     <member refid="class_document_1a81fc9b650731cdba56d98567aa8b19e5" kind="slot"><name>batchmode</name></member>
     <member refid="class_document_1ac0986f4a125d3e279ab597494f6c6cbe" kind="slot"><name>setBatchmode</name></member>
@@ -198,14 +239,86 @@
     <member refid="class_document_1ae32a697218e1dc97243518626e8ce9c3" kind="slot"><name>annotation</name></member>
     <member refid="class_document_1ac14a7967cae6208045d29034b969dd02" kind="slot"><name>setAnnotation</name></member>
     <member refid="class_document_1a7f00eb295da0131886522cef8f4f1a64" kind="slot"><name>removeAnnotation</name></member>
+    <member refid="class_document_1a62bae31d334d9b3818902e1c9add9b11" kind="slot"><name>setAutosave</name></member>
+    <member refid="class_document_1ab4f5a2a4709f2f2e7948835bf64ff07f" kind="slot"><name>autosave</name></member>
+    <member refid="class_document_1a545e2b783b958b48f948f35014e89b46" kind="slot"><name>guidesConfig</name></member>
+    <member refid="class_document_1a0d8ffb7003d6843b7e011540dd5e194c" kind="slot"><name>setGuidesConfig</name></member>
+    <member refid="class_document_1aabf1dcd98162755785b7052cf8a8138c" kind="slot"><name>gridConfig</name></member>
+    <member refid="class_document_1a2c0352afc6dd15afe4ab2f25e9a96b16" kind="slot"><name>setGridConfig</name></member>
+    <member refid="class_document_1a776c0c1b1738e1ca1d6ef0cdbcc2b88f" kind="slot"><name>audioLevel</name></member>
+    <member refid="class_document_1a5a17f06317ce75c4b18e86e7bbf61ca6" kind="slot"><name>setAudioLevel</name></member>
+    <member refid="class_document_1adbfa10287b64b447dc8fdcee255888f9" kind="slot"><name>audioTracks</name></member>
+    <member refid="class_document_1a3bde0f04021f803e12f667df266b52ca" kind="slot"><name>setAudioTracks</name></member>
     <member refid="class_document_1a0f9a625dc1a4b2bf0f9f1719e7e64c9d" kind="function"><name>document</name></member>
     <member refid="class_document_1af62cf1923acb777e79274ca19a31600c" kind="function"><name>setOwnsDocument</name></member>
+  </compound>
+  <compound refid="class_double_parse_spin_box" kind="class"><name>DoubleParseSpinBox</name>
+    <member refid="class_double_parse_spin_box_1a2e7c82805f71fbf7c39795704f903208" kind="variable"><name>d</name></member>
+    <member refid="class_double_parse_spin_box_1a26e54d0c42ca554ffeba41bc3428dd1f" kind="function"><name>DoubleParseSpinBox</name></member>
+    <member refid="class_double_parse_spin_box_1ae8c975baec9e3b37bf91a3702f04f48b" kind="function"><name>~DoubleParseSpinBox</name></member>
+    <member refid="class_double_parse_spin_box_1a288b01b78ad22a6508b8c1177d02ee81" kind="slot"><name>widget</name></member>
+    <member refid="class_double_parse_spin_box_1aad3c29eb6ce1662a95a9e0a1a5206e4a" kind="slot"><name>stepBy</name></member>
+    <member refid="class_double_parse_spin_box_1abdf63d5556608eab25789c6e165b1f51" kind="slot"><name>setValue</name></member>
+    <member refid="class_double_parse_spin_box_1a646c27da08eada2d3eb097145a23b179" kind="slot"><name>isLastValid</name></member>
+    <member refid="class_double_parse_spin_box_1ab97680f96ee0770892c962da20419014" kind="slot"><name>veryCleanText</name></member>
+    <member refid="class_double_parse_spin_box_1ad15ef5e2ca98a2e3cdddfe5043221d2c" kind="signal"><name>errorWhileParsing</name></member>
+    <member refid="class_double_parse_spin_box_1a2fcf88a0398bc0413cb0d1935eac0366" kind="signal"><name>noMoreParsingError</name></member>
+  </compound>
+  <compound refid="class_double_slider_spin_box" kind="class"><name>DoubleSliderSpinBox</name>
+    <member refid="class_double_slider_spin_box_1a24cd4f99f11e434dfe0f406bb4291c16" kind="variable"><name>d</name></member>
+    <member refid="class_double_slider_spin_box_1ae1a1767504cad86087eb0e37c6f5e2bc" kind="function"><name>DoubleSliderSpinBox</name></member>
+    <member refid="class_double_slider_spin_box_1a3500e83f82d4d22cc8e57beb38ebd29b" kind="function"><name>~DoubleSliderSpinBox</name></member>
+    <member refid="class_double_slider_spin_box_1ae9f22ca05fde82cd416345c9b4f6d2bf" kind="slot"><name>widget</name></member>
+    <member refid="class_double_slider_spin_box_1a782d97fcea2086752c76c920df5e8cb4" kind="slot"><name>fastSliderStep</name></member>
+    <member refid="class_double_slider_spin_box_1a0d5345c4e22aa6abe7ccaa59c9247b23" kind="slot"><name>softMinimum</name></member>
+    <member refid="class_double_slider_spin_box_1addce61b4356527a0e48618993e6e99b7" kind="slot"><name>softMaximum</name></member>
+    <member refid="class_double_slider_spin_box_1ab9e3a4e07bbe2284978c991f6c996c5a" kind="slot"><name>isDragging</name></member>
+    <member refid="class_double_slider_spin_box_1a62e870e6a5b53963be8c8940a0f54643" kind="slot"><name>setValue</name></member>
+    <member refid="class_double_slider_spin_box_1a01e4b51ca9c66a140cd13a99400f3657" kind="slot"><name>setRange</name></member>
+    <member refid="class_double_slider_spin_box_1a4783ee79a1fc742eb967dad88f58a82f" kind="slot"><name>setMinimum</name></member>
+    <member refid="class_double_slider_spin_box_1a8448182c1bf512314b02d1e5d5dd1a2e" kind="slot"><name>setMaximum</name></member>
+    <member refid="class_double_slider_spin_box_1af31123af51cc46ae002b38bae2689b30" kind="slot"><name>setExponentRatio</name></member>
+    <member refid="class_double_slider_spin_box_1aa7fd94f07c6389434cd1df7d41b613c5" kind="slot"><name>setBlockUpdateSignalOnDrag</name></member>
+    <member refid="class_double_slider_spin_box_1a783797ff95162be8b16eb204e7ca5883" kind="slot"><name>setFastSliderStep</name></member>
+    <member refid="class_double_slider_spin_box_1aee3a0e5cd00c92635b7365c4aa9327dd" kind="slot"><name>setSoftRange</name></member>
+    <member refid="class_double_slider_spin_box_1ad50f4b66cfecec2b69dca3aa115d2976" kind="slot"><name>setSoftMinimum</name></member>
+    <member refid="class_double_slider_spin_box_1a3e53d86c3b2ebd28703ea1b22c0b239d" kind="slot"><name>setSoftMaximum</name></member>
+    <member refid="class_double_slider_spin_box_1ab7fd0b2fd8c7eb029b843d529bc531fd" kind="signal"><name>draggingFinished</name></member>
   </compound>
   <compound refid="class_extension" kind="class"><name>Extension</name>
     <member refid="class_extension_1a8ccfa7876f4a45b46739534ac3ac2401" kind="function"><name>Extension</name></member>
     <member refid="class_extension_1a00f4a172bb6d8a7ee0c45e0292e2c4dd" kind="function"><name>~Extension</name></member>
     <member refid="class_extension_1a6cff8cdb3ed68deb71c34994d203e5ba" kind="function"><name>setup</name></member>
     <member refid="class_extension_1a041bbafb817a67f8742ccd2b5011b77d" kind="function"><name>createActions</name></member>
+  </compound>
+  <compound refid="class_file_dialog" kind="class"><name>FileDialog</name>
+    <member refid="class_file_dialog_1a9f0ef4051efbdd60ad5ce92ddb218104" kind="enum"><name>DialogType</name></member>
+    <member refid="class_file_dialog_1a9f0ef4051efbdd60ad5ce92ddb218104a856f777752629a384e75668420ad99fe" kind="enumvalue"><name>OpenFile</name></member>
+    <member refid="class_file_dialog_1a9f0ef4051efbdd60ad5ce92ddb218104a487bcbc6dc1a2f441780dafa04aafa72" kind="enumvalue"><name>OpenFiles</name></member>
+    <member refid="class_file_dialog_1a9f0ef4051efbdd60ad5ce92ddb218104a81b2870f16ff822da5ced284c8ae2b8d" kind="enumvalue"><name>OpenDirectory</name></member>
+    <member refid="class_file_dialog_1a9f0ef4051efbdd60ad5ce92ddb218104aecbc5b6defe235c237b08119aa1b4dc6" kind="enumvalue"><name>ImportFile</name></member>
+    <member refid="class_file_dialog_1a9f0ef4051efbdd60ad5ce92ddb218104a43ecd8d7c662e567b0d02626cef017dc" kind="enumvalue"><name>ImportFiles</name></member>
+    <member refid="class_file_dialog_1a9f0ef4051efbdd60ad5ce92ddb218104ac0ea499ce2fb0230247791c9e993f702" kind="enumvalue"><name>ImportDirectory</name></member>
+    <member refid="class_file_dialog_1a9f0ef4051efbdd60ad5ce92ddb218104a71e530315aa587a471f47982488deeb0" kind="enumvalue"><name>SaveFile</name></member>
+    <member refid="class_file_dialog_1acca05ac7b20514c2b56a4d6fefb63f53" kind="variable"><name>d</name></member>
+    <member refid="class_file_dialog_1af64d0a14ec374e2fe596c226edf5d680" kind="function"><name>FileDialog</name></member>
+    <member refid="class_file_dialog_1a1ef8dbc180e8bb58fd41ef0763be4d01" kind="function"><name>~FileDialog</name></member>
+    <member refid="class_file_dialog_1a160ab1d508bf8b9747fd46c15dfeeef0" kind="function"><name>setCaption</name></member>
+    <member refid="class_file_dialog_1a26507b658bfac1f1f804ffab00322648" kind="function"><name>setDefaultDir</name></member>
+    <member refid="class_file_dialog_1a5e7eeeba357a1841f2d41490392bb4a4" kind="function"><name>setDirectoryUrl</name></member>
+    <member refid="class_file_dialog_1aa81437b63ec8d14ebf632dcb6933b383" kind="function"><name>setImageFilters</name></member>
+    <member refid="class_file_dialog_1a2bcac4b11d41af0de794f9f071016806" kind="function"><name>setMimeTypeFilters</name></member>
+    <member refid="class_file_dialog_1af3179c58e042baec635af83047b2658d" kind="function"><name>setNameFilter</name></member>
+    <member refid="class_file_dialog_1a89801941657609ebc02285aa07da5891" kind="function"><name>selectNameFilter</name></member>
+    <member refid="class_file_dialog_1a2120e6b8ec71680beb3d902ea729b371" kind="function"><name>filenames</name></member>
+    <member refid="class_file_dialog_1a803fa896805a157c894ef62b132b5d65" kind="function"><name>filename</name></member>
+    <member refid="class_file_dialog_1a63f49b847bc16174dd466fc1670d8ef0" kind="function"><name>selectedNameFilter</name></member>
+    <member refid="class_file_dialog_1a4a48e0a7dc7c4672b51bdc1b9bec53af" kind="function"><name>selectedMimeType</name></member>
+    <member refid="class_file_dialog_1af378bed4a4fc2a9120bcfd048dd5c2d3" kind="function"><name>getOpenFileName</name></member>
+    <member refid="class_file_dialog_1afdcb881aa1960cb21e5f79c6965790bf" kind="function"><name>getOpenFileNames</name></member>
+    <member refid="class_file_dialog_1a88620bb7c4f30ae4a89291718788b1ea" kind="function"><name>getExistingDirectory</name></member>
+    <member refid="class_file_dialog_1ad73c0049a070d04cbed4f9dcc2d9e808" kind="function"><name>getSaveFileName</name></member>
+    <member refid="class_file_dialog_1a1e97bc27641634737ea79a8b32cd998c" kind="slot"><name>onFilterSelected</name></member>
   </compound>
   <compound refid="class_file_layer" kind="class"><name>FileLayer</name>
     <member refid="class_file_layer_1ada4b4b316f6e4790f967dfd4a1b0fd73" kind="variable"><name>m_baseName</name></member>
@@ -261,6 +374,64 @@
     <member refid="class_filter_mask_1a10f3c602d885e3bc3963d919c195689a" kind="slot"><name>setFilter</name></member>
     <member refid="class_filter_mask_1aa9caa2f5ba1b830d5a641acc95219e2d" kind="slot"><name>filter</name></member>
   </compound>
+  <compound refid="class_grid_config" kind="class"><name>GridConfig</name>
+    <member refid="class_grid_config_1a883538034e58fc5c0de7d4e4cab3cef7" kind="friend"><name>Document</name></member>
+    <member refid="class_grid_config_1a4082d7da032167343dd44d9411a52c7d" kind="variable"><name>d</name></member>
+    <member refid="class_grid_config_1af7cacb093cde0d2674184406db8f5a4a" kind="function"><name>GridConfig</name></member>
+    <member refid="class_grid_config_1a27c6b9874435407999307e987a8698e2" kind="function"><name>GridConfig</name></member>
+    <member refid="class_grid_config_1af698d929b42c8230f211785b1ab2a730" kind="function"><name>~GridConfig</name></member>
+    <member refid="class_grid_config_1a14cfb9eb41b664889bfa7786bf528dce" kind="function"><name>operator==</name></member>
+    <member refid="class_grid_config_1a97b71fd63abc700adc57d06f3cc302bc" kind="function"><name>operator!=</name></member>
+    <member refid="class_grid_config_1a1510d718883ec560b09e6edeb732b473" kind="slot"><name>visible</name></member>
+    <member refid="class_grid_config_1a0ccceffaf515098930a2ff3ba4786899" kind="slot"><name>setVisible</name></member>
+    <member refid="class_grid_config_1a8a9534138a19daa3ecd31bed898ed81f" kind="slot"><name>snap</name></member>
+    <member refid="class_grid_config_1a16ffd0e0c0f3b2f3058e1e3403ade51f" kind="slot"><name>setSnap</name></member>
+    <member refid="class_grid_config_1a221e3a257fbd88939944fe1779ecac41" kind="slot"><name>offset</name></member>
+    <member refid="class_grid_config_1a614acf54a846f8812922485b787436c6" kind="slot"><name>setOffset</name></member>
+    <member refid="class_grid_config_1a2fd24096673b1e0b4e99a362b04f3750" kind="slot"><name>spacing</name></member>
+    <member refid="class_grid_config_1aecfa2bcad54a9c2ab524bb399504f826" kind="slot"><name>setSpacing</name></member>
+    <member refid="class_grid_config_1aa6aebb1116e032535556b58be8c5ba89" kind="slot"><name>spacingActiveHorizontal</name></member>
+    <member refid="class_grid_config_1ae89c473e95533c81410cd63254584e3b" kind="slot"><name>setSpacingActiveHorizontal</name></member>
+    <member refid="class_grid_config_1abb94025172816fecc3fd19e54cee874d" kind="slot"><name>spacingActiveVertical</name></member>
+    <member refid="class_grid_config_1ab0257f62f334d29c1936acc56bf9f1dd" kind="slot"><name>setSpacingActiveVertical</name></member>
+    <member refid="class_grid_config_1a5efff3a25e1eb69cdbbc26564d1a076e" kind="slot"><name>subdivision</name></member>
+    <member refid="class_grid_config_1a97fbd636402551acb46cf43f563bbf20" kind="slot"><name>setSubdivision</name></member>
+    <member refid="class_grid_config_1a62952c47aa375f92a3c39267b5ba6e97" kind="slot"><name>angleLeft</name></member>
+    <member refid="class_grid_config_1ab3d64e89facdc2b4c1bcc92373e828a6" kind="slot"><name>setAngleLeft</name></member>
+    <member refid="class_grid_config_1ade8bd52724f939e2bca6cfd2d20a00f8" kind="slot"><name>angleRight</name></member>
+    <member refid="class_grid_config_1a753f98063e6ff2df300f6803bd4a0c94" kind="slot"><name>setAngleRight</name></member>
+    <member refid="class_grid_config_1a13f31572461a2b319d73dc2d6a495d73" kind="slot"><name>angleLeftActive</name></member>
+    <member refid="class_grid_config_1abd743f45252cf6a927bb0ef831972fe0" kind="slot"><name>setAngleLeftActive</name></member>
+    <member refid="class_grid_config_1a8e32bfceba553cfa0e5ff213a5542d60" kind="slot"><name>angleRightActive</name></member>
+    <member refid="class_grid_config_1a36a39fc001d74c40ea1d9628e3f38cd9" kind="slot"><name>setAngleRightActive</name></member>
+    <member refid="class_grid_config_1ad649361c62ea1c2f6362036605e5c1db" kind="slot"><name>cellSpacing</name></member>
+    <member refid="class_grid_config_1ac8b75c54795b0ae75e7822bbd61bb466" kind="slot"><name>setCellSpacing</name></member>
+    <member refid="class_grid_config_1aebdad27902ba007d3efa6b13b017e4d3" kind="slot"><name>cellSize</name></member>
+    <member refid="class_grid_config_1a9adf97f964fed679a43c82a0061635f3" kind="slot"><name>setCellSize</name></member>
+    <member refid="class_grid_config_1aaf533a325caea7c39d8c4c7ec6a55d12" kind="slot"><name>type</name></member>
+    <member refid="class_grid_config_1aadd0dad39257913064852b6384a63400" kind="slot"><name>setType</name></member>
+    <member refid="class_grid_config_1aba79068c676f165cdb367a76a67388e1" kind="slot"><name>offsetAspectLocked</name></member>
+    <member refid="class_grid_config_1a14329c3fc88ef6cd1bccb537db59cfa2" kind="slot"><name>setOffsetAspectLocked</name></member>
+    <member refid="class_grid_config_1a4d2bc9f85c12c69bd249988522b7b407" kind="slot"><name>spacingAspectLocked</name></member>
+    <member refid="class_grid_config_1a12b5da402cee7b65293eb4285b3125ac" kind="slot"><name>setSpacingAspectLocked</name></member>
+    <member refid="class_grid_config_1ad3b26b28c0804779267f81baaed48501" kind="slot"><name>angleAspectLocked</name></member>
+    <member refid="class_grid_config_1a3776da93fb631de82f0149b86e59144b" kind="slot"><name>setAngleAspectLocked</name></member>
+    <member refid="class_grid_config_1a43630580f6fc8d8a1a43ff2d08f717ab" kind="slot"><name>lineTypeMain</name></member>
+    <member refid="class_grid_config_1a8d375a2693166b4e92e67bedce669ba7" kind="slot"><name>setLineTypeMain</name></member>
+    <member refid="class_grid_config_1a86c88e8d7c8d8803e1ea8d0878aca0d6" kind="slot"><name>lineTypeSubdivision</name></member>
+    <member refid="class_grid_config_1a04329803e56380b855c522f295b485ac" kind="slot"><name>setLineTypeSubdivision</name></member>
+    <member refid="class_grid_config_1aa3ad958e9e7cc3cefd8c560d0a994a2c" kind="slot"><name>lineTypeVertical</name></member>
+    <member refid="class_grid_config_1acd948ad0c8e958a6656cd63f40066af9" kind="slot"><name>setLineTypeVertical</name></member>
+    <member refid="class_grid_config_1a320fbd39a4f290dff4c266b75010e884" kind="slot"><name>colorMain</name></member>
+    <member refid="class_grid_config_1ab9d02ecca39e723d2c4a5c4fb14eaa4c" kind="slot"><name>setColorMain</name></member>
+    <member refid="class_grid_config_1aa3710bf7a65753984df53659da9b0aa7" kind="slot"><name>colorSubdivision</name></member>
+    <member refid="class_grid_config_1a7f4326d29ff507f62f94289cf46d2447" kind="slot"><name>setColorSubdivision</name></member>
+    <member refid="class_grid_config_1add18464c1a26d0e4b6d3a43ab8847bf5" kind="slot"><name>colorVertical</name></member>
+    <member refid="class_grid_config_1acc1f218ea37f50d0369ad5bce4ff2456" kind="slot"><name>setColorVertical</name></member>
+    <member refid="class_grid_config_1aa03aa5d746b535903e6f68515b44cd0d" kind="slot"><name>fromXml</name></member>
+    <member refid="class_grid_config_1a30fb9ee5aedd633eebe6011450653e68" kind="slot"><name>toXml</name></member>
+    <member refid="class_grid_config_1a7a87e74739860ce7d93f8e760ada3bd8" kind="function"><name>gridConfig</name></member>
+  </compound>
   <compound refid="class_group_layer" kind="class"><name>GroupLayer</name>
     <member refid="class_group_layer_1aa59ac54fc433b4d458e1a92be0c72640" kind="function"><name>GroupLayer</name></member>
     <member refid="class_group_layer_1ad7064f1a92c8e5402db9b736ec226a17" kind="function"><name>GroupLayer</name></member>
@@ -275,6 +446,35 @@
     <member refid="class_group_shape_1a94cf6b88eab2a08a92c9c86d954d4587" kind="function"><name>~GroupShape</name></member>
     <member refid="class_group_shape_1a083f2c571f014d702bd02c2cb8ff4a60" kind="slot"><name>type</name></member>
     <member refid="class_group_shape_1a8b00840b8cc751d7c501b33dbad205d5" kind="slot"><name>children</name></member>
+  </compound>
+  <compound refid="class_guides_config" kind="class"><name>GuidesConfig</name>
+    <member refid="class_guides_config_1a883538034e58fc5c0de7d4e4cab3cef7" kind="friend"><name>Document</name></member>
+    <member refid="class_guides_config_1afd60bc238ca4b1a61ba4190c5eb67c90" kind="variable"><name>d</name></member>
+    <member refid="class_guides_config_1ac182ff771d240e4089ac2fd1da98704f" kind="function"><name>GuidesConfig</name></member>
+    <member refid="class_guides_config_1af83f81000a481170d0d0e0e542599ce0" kind="function"><name>GuidesConfig</name></member>
+    <member refid="class_guides_config_1ad2bf4c8771de738dc6f701fdfcd026ff" kind="function"><name>~GuidesConfig</name></member>
+    <member refid="class_guides_config_1a2d8976cd694939b0fdd1e00eabac108b" kind="function"><name>operator==</name></member>
+    <member refid="class_guides_config_1a1385eea8e191cd437ef1edf351c990b5" kind="function"><name>operator!=</name></member>
+    <member refid="class_guides_config_1a187f5b23c07b8a775280c1ba9076916a" kind="slot"><name>color</name></member>
+    <member refid="class_guides_config_1a0bd40ed88eb9d01d4dbc98e2e0322bff" kind="slot"><name>setColor</name></member>
+    <member refid="class_guides_config_1a8917556bd1577506095caa03b2a1fb31" kind="slot"><name>lineType</name></member>
+    <member refid="class_guides_config_1af8cdd1ce233bfbde8999ab5a0c84feee" kind="slot"><name>setLineType</name></member>
+    <member refid="class_guides_config_1a4c450e4d519100f422bcb17d8ec28d97" kind="slot"><name>hasGuides</name></member>
+    <member refid="class_guides_config_1a048ffe49629cf34d6be3d601146b2c39" kind="slot"><name>hasSamePositionAs</name></member>
+    <member refid="class_guides_config_1a1020772889c43f3958be5d418797b805" kind="slot"><name>horizontalGuides</name></member>
+    <member refid="class_guides_config_1acc3f3b9b734731f50e8a8f2f40e6c6df" kind="slot"><name>setHorizontalGuides</name></member>
+    <member refid="class_guides_config_1aceba8e77bc94db9dcd5e9ae806125c1f" kind="slot"><name>verticalGuides</name></member>
+    <member refid="class_guides_config_1a26ad3445c6affb718a01903603fac5a8" kind="slot"><name>setVerticalGuides</name></member>
+    <member refid="class_guides_config_1a1c787e55bff64a2f4bc335d2096cf3eb" kind="slot"><name>fromXml</name></member>
+    <member refid="class_guides_config_1a06bbf358cd8851872d549e896c3a917c" kind="slot"><name>toXml</name></member>
+    <member refid="class_guides_config_1a1e093eba4aa6aa84b245de11ae09434e" kind="slot"><name>removeAllGuides</name></member>
+    <member refid="class_guides_config_1aca1c3e733aaf9f9e1613fd5a2be26ba1" kind="slot"><name>visible</name></member>
+    <member refid="class_guides_config_1a5af892150ae48f1fabffcd05cc1cca5f" kind="slot"><name>setVisible</name></member>
+    <member refid="class_guides_config_1ad30b38d49e2cea604f845fb796067117" kind="slot"><name>locked</name></member>
+    <member refid="class_guides_config_1a318a13dd336e4c596a49b8b543c64b42" kind="slot"><name>setLocked</name></member>
+    <member refid="class_guides_config_1acb3a322e078b5542be7b59af8f95cc52" kind="slot"><name>snap</name></member>
+    <member refid="class_guides_config_1adc169a8a412a8b18ba10ede7401784e9" kind="slot"><name>setSnap</name></member>
+    <member refid="class_guides_config_1aa4408992f7ab69f1252348e8d8b3a64d" kind="function"><name>guidesConfig</name></member>
   </compound>
   <compound refid="class_info_object" kind="class"><name>InfoObject</name>
     <member refid="class_info_object_1a34f7bc7cd29643e53d23b7d500d21739" kind="friend"><name>Filter</name></member>
@@ -291,6 +491,20 @@
     <member refid="class_info_object_1a45fd7051d88d4d02221cb81d54189bc3" kind="slot"><name>setProperty</name></member>
     <member refid="class_info_object_1a4c7c32dd2695d12dab60bfc64a187ac7" kind="slot"><name>property</name></member>
     <member refid="class_info_object_1ace7facdd40a6afb614f6924c5bfcdd25" kind="function"><name>configuration</name></member>
+  </compound>
+  <compound refid="class_int_parse_spin_box" kind="class"><name>IntParseSpinBox</name>
+    <member refid="class_int_parse_spin_box_1a7141b0e500b4bd9904b520d3307e4faa" kind="variable"><name>d</name></member>
+    <member refid="class_int_parse_spin_box_1aa1118c40a80bddd74494c9a783446a03" kind="function"><name>IntParseSpinBox</name></member>
+    <member refid="class_int_parse_spin_box_1a1c53721e993497ffa8c414cce3e92ff0" kind="function"><name>~IntParseSpinBox</name></member>
+    <member refid="class_int_parse_spin_box_1a3abd6b87dbdeecb9bd0039b2062be8ea" kind="slot"><name>widget</name></member>
+    <member refid="class_int_parse_spin_box_1a24fa9d50a35d2c8456305a0bffe6f50d" kind="slot"><name>stepBy</name></member>
+    <member refid="class_int_parse_spin_box_1a6260a27cb58a723dee50564bc55eebb5" kind="slot"><name>setValue</name></member>
+    <member refid="class_int_parse_spin_box_1af285e6bdeac68b0761dde3cc98dc09c5" kind="slot"><name>isLastValid</name></member>
+    <member refid="class_int_parse_spin_box_1ac11c7e9a90c63a00324cfaf2a2021137" kind="slot"><name>veryCleanText</name></member>
+    <member refid="class_int_parse_spin_box_1a4f48b0f5db78f853a13bfa1939891bbf" kind="signal"><name>errorWhileParsing</name></member>
+    <member refid="class_int_parse_spin_box_1a7ff0d4b38329881a21a757f12238fe4c" kind="signal"><name>noMoreParsingError</name></member>
+  </compound>
+  <compound refid="class_kis_slider_spin_box_private" kind="class"><name>KisSliderSpinBoxPrivate</name>
   </compound>
   <compound refid="class_krita" kind="class"><name>Krita</name>
     <member refid="class_krita_1a348047da560279dafc7af783b02fc35a" kind="variable"><name>d</name></member>
@@ -440,6 +654,12 @@
     <member refid="class_node_1a94190cf2a87e074684c28284ee7961f2" kind="slot"><name>setLayerStyleFromAsl</name></member>
     <member refid="class_node_1a8bdc901118f26e80a5c2c2ded2408491" kind="slot"><name>index</name></member>
     <member refid="class_node_1a31d13de31ecd8ac3fc722e42bd580ce0" kind="slot"><name>uniqueId</name></member>
+    <member refid="class_node_1a3f244028e74a9ec7eacb176e781d583d" kind="slot"><name>paintLine</name></member>
+    <member refid="class_node_1a5f7d775a50c382798cbd0982f816589a" kind="slot"><name>paintRectangle</name></member>
+    <member refid="class_node_1a0b866eac75ac43ca4046ab456b7fcebc" kind="slot"><name>paintPolygon</name></member>
+    <member refid="class_node_1a38de6d617881385aafc2d39f5f472cca" kind="slot"><name>paintEllipse</name></member>
+    <member refid="class_node_1aaf7adef0ec8fc009012fe2e55295147f" kind="slot"><name>paintPath</name></member>
+    <member refid="class_node_1a85f4e802ebaebebed1cfb4e004d05d59" kind="slot"><name>paintAbility</name></member>
     <member refid="class_node_1a1b8f854db8d50e4a91038a7532ac9952" kind="function"><name>Node</name></member>
     <member refid="class_node_1ab373c1a89af40d4da1a1b01d7c2a1cdd" kind="function"><name>paintDevice</name></member>
     <member refid="class_node_1a78929231e337e96acc4c725dcbd4727c" kind="function"><name>image</name></member>
@@ -469,24 +689,36 @@
   <compound refid="class_palette" kind="class"><name>Palette</name>
     <member refid="class_palette_1a60683b9c5b46c483ea04874dd0b7298f" kind="friend"><name>PaletteView</name></member>
     <member refid="class_palette_1a1875dfa4de68619b9fea8305e4ba5a24" kind="variable"><name>d</name></member>
-    <member refid="class_palette_1adf23b57b3932e7ed8abe2904e97ffd5f" kind="function"><name>Palette</name></member>
+    <member refid="class_palette_1a07d685b6445531547af7ff6b97c5aa9f" kind="function"><name>Palette</name></member>
     <member refid="class_palette_1ac825150e0f48e6b548251d153c21ac04" kind="function"><name>~Palette</name></member>
-    <member refid="class_palette_1a4f7d4ae377c007921aba8587b4e2068a" kind="function"><name>numberOfEntries</name></member>
-    <member refid="class_palette_1aa4a1692384fad19290fbacad428e1976" kind="function"><name>columnCount</name></member>
-    <member refid="class_palette_1a1df8cd5812bbd2fdb00074b630f8a4ae" kind="function"><name>setColumnCount</name></member>
-    <member refid="class_palette_1a90430a37493dcea1254e1d236c0d87ae" kind="function"><name>comment</name></member>
-    <member refid="class_palette_1adf98dde5e3c98f2f38ee3d4055c4217c" kind="function"><name>setComment</name></member>
-    <member refid="class_palette_1af416b9a7261dac292e7ae0a38de1ed3a" kind="function"><name>groupNames</name></member>
-    <member refid="class_palette_1a42273af7febf84600f27099ef40c6322" kind="function"><name>addGroup</name></member>
-    <member refid="class_palette_1ab7aaa1d021f8428d627caf8d89e0faa3" kind="function"><name>removeGroup</name></member>
-    <member refid="class_palette_1a9cd0dc8d44a457e24c0e48753ee558ad" kind="function"><name>colorsCountTotal</name></member>
-    <member refid="class_palette_1a884d7c1e2196818176185d60b2f5449b" kind="function"><name>colorSetEntryByIndex</name></member>
-    <member refid="class_palette_1a5d0f39d86b690c3464fa49c433213bc3" kind="function"><name>colorSetEntryFromGroup</name></member>
-    <member refid="class_palette_1aef8a606c04b86c08ec7f0583a9c9ffea" kind="function"><name>addEntry</name></member>
-    <member refid="class_palette_1a34cd5b0581ecee77e443294f388a27c1" kind="function"><name>removeEntry</name></member>
-    <member refid="class_palette_1a39ba7d689fa0b42deada95edbe9c5918" kind="function"><name>changeGroupName</name></member>
-    <member refid="class_palette_1a0d67cb6899650bbfa01f7177dc39046e" kind="function"><name>moveGroup</name></member>
-    <member refid="class_palette_1a113a430b0dad2ef0cf3061f872cc9c13" kind="function"><name>save</name></member>
+    <member refid="class_palette_1aba6fd37df89b727bbd1c1a1757068594" kind="function"><name>operator==</name></member>
+    <member refid="class_palette_1a09cbe7b7315316fc448f597165324fdd" kind="function"><name>operator!=</name></member>
+    <member refid="class_palette_1a4f7d4ae377c007921aba8587b4e2068a" kind="slot"><name>numberOfEntries</name></member>
+    <member refid="class_palette_1aa4a1692384fad19290fbacad428e1976" kind="slot"><name>columnCount</name></member>
+    <member refid="class_palette_1a1df8cd5812bbd2fdb00074b630f8a4ae" kind="slot"><name>setColumnCount</name></member>
+    <member refid="class_palette_1af2a369d930609ac6bf625c0321acabd0" kind="slot"><name>rowCount</name></member>
+    <member refid="class_palette_1ad3d263529f31cf15d9c7922cec677ee1" kind="slot"><name>rowCountGroup</name></member>
+    <member refid="class_palette_1aa89bf716e372e1d1ae6348a5c0053d2b" kind="slot"><name>setRowCountGroup</name></member>
+    <member refid="class_palette_1a90430a37493dcea1254e1d236c0d87ae" kind="slot"><name>comment</name></member>
+    <member refid="class_palette_1adf98dde5e3c98f2f38ee3d4055c4217c" kind="slot"><name>setComment</name></member>
+    <member refid="class_palette_1af416b9a7261dac292e7ae0a38de1ed3a" kind="slot"><name>groupNames</name></member>
+    <member refid="class_palette_1a42273af7febf84600f27099ef40c6322" kind="slot"><name>addGroup</name></member>
+    <member refid="class_palette_1ab7aaa1d021f8428d627caf8d89e0faa3" kind="slot"><name>removeGroup</name></member>
+    <member refid="class_palette_1a9cd0dc8d44a457e24c0e48753ee558ad" kind="slot"><name>colorsCountTotal</name></member>
+    <member refid="class_palette_1a06332d2205977ba5cbcd13ffd401c2e6" kind="slot"><name>colorsCountGroup</name></member>
+    <member refid="class_palette_1aa9800c80988ba5da969141c9d9188fde" kind="slot"><name>slotCount</name></member>
+    <member refid="class_palette_1a443d8f091e1a3537919977d69eeb4f8f" kind="slot"><name>slotCountGroup</name></member>
+    <member refid="class_palette_1a884d7c1e2196818176185d60b2f5449b" kind="slot"><name>colorSetEntryByIndex</name></member>
+    <member refid="class_palette_1a3f72194883768a23e7a01dd2a4173b07" kind="slot"><name>entryByIndex</name></member>
+    <member refid="class_palette_1a5d0f39d86b690c3464fa49c433213bc3" kind="slot"><name>colorSetEntryFromGroup</name></member>
+    <member refid="class_palette_1a229f18f32065ba96da1ef8d3cae39eeb" kind="slot"><name>entryByIndexFromGroup</name></member>
+    <member refid="class_palette_1aef8a606c04b86c08ec7f0583a9c9ffea" kind="slot"><name>addEntry</name></member>
+    <member refid="class_palette_1a33665baad958cda13dfb89f1eac9e64d" kind="slot"><name>removeEntry</name></member>
+    <member refid="class_palette_1adf2ef1127bdc78a44aef0e4ab7782fcf" kind="slot"><name>removeEntryFromGroup</name></member>
+    <member refid="class_palette_1a39ba7d689fa0b42deada95edbe9c5918" kind="slot"><name>changeGroupName</name></member>
+    <member refid="class_palette_1a9e89c3b39fb54823df5d8b8a76fb8303" kind="slot"><name>renameGroup</name></member>
+    <member refid="class_palette_1a0d67cb6899650bbfa01f7177dc39046e" kind="slot"><name>moveGroup</name></member>
+    <member refid="class_palette_1a113a430b0dad2ef0cf3061f872cc9c13" kind="slot"><name>save</name></member>
     <member refid="class_palette_1ac4a1706326a009897f3ff4777fa7375d" kind="function"><name>colorSet</name></member>
   </compound>
   <compound refid="class_palette_view" kind="class"><name>PaletteView</name>
@@ -500,8 +732,7 @@
     <member refid="class_palette_view_1a94739533dae4bc8c2ffe098fddb16a29" kind="slot"><name>trySelectClosestColor</name></member>
     <member refid="class_palette_view_1a0655b8406939098ca9392ac8b44dc80c" kind="signal"><name>entrySelectedForeGround</name></member>
     <member refid="class_palette_view_1ab48ccabd5f7383f2725e62d9a41d73be" kind="signal"><name>entrySelectedBackGround</name></member>
-    <member refid="class_palette_view_1a9dd4b42af8237d2b6dc4dc99f51d367c" kind="slot"><name>fgSelected</name></member>
-    <member refid="class_palette_view_1af2c239eeac90ef87cf372293f9b548d1" kind="slot"><name>bgSelected</name></member>
+    <member refid="class_palette_view_1ad870d8b3de2aecdccdc8dd9a9bca6534" kind="slot"><name>fgSelected</name></member>
   </compound>
   <compound refid="class_preset" kind="class"><name>Preset</name>
     <member refid="class_preset_1a936c01fd033d53ea2368d6b5f6a944e3" kind="variable"><name>d</name></member>
@@ -521,6 +752,10 @@
     <member refid="class_preset_chooser_1a699ddb4c64264064c7e7f4e913fa1e2a" kind="slot"><name>slotResourceSelected</name></member>
     <member refid="class_preset_chooser_1a7c99385fcde0f0681e9e1d889dc9af02" kind="slot"><name>slotResourceClicked</name></member>
   </compound>
+  <compound refid="struct_angle_selector_1_1_private" kind="struct"><name>AngleSelector::Private</name>
+    <member refid="struct_angle_selector_1_1_private_1aa40762b097181214db68095774e04de9" kind="variable"><name>widget</name></member>
+    <member refid="struct_angle_selector_1_1_private_1af91be291aee60df333a1d408ec537712" kind="function"><name>Private</name></member>
+  </compound>
   <compound refid="struct_canvas_1_1_private" kind="struct"><name>Canvas::Private</name>
     <member refid="struct_canvas_1_1_private_1a4d4ff9ce71244626a9cb9d45064d7f17" kind="variable"><name>canvas</name></member>
     <member refid="struct_canvas_1_1_private_1ad29a20222412d3824355e974b60bc156" kind="function"><name>Private</name></member>
@@ -539,14 +774,38 @@
     <member refid="struct_document_1_1_private_1af9cba9733e36c0da6420632bc1a91178" kind="variable"><name>ownsDocument</name></member>
     <member refid="struct_document_1_1_private_1ad568ed02dfa6314d916bdbcac1f93df0" kind="function"><name>Private</name></member>
   </compound>
+  <compound refid="struct_double_parse_spin_box_1_1_private" kind="struct"><name>DoubleParseSpinBox::Private</name>
+    <member refid="struct_double_parse_spin_box_1_1_private_1ad5f926110759e3498461c70e45b4ae31" kind="variable"><name>widget</name></member>
+    <member refid="struct_double_parse_spin_box_1_1_private_1a394e3dd3b2097e30ae66e7140b922ae5" kind="function"><name>Private</name></member>
+  </compound>
+  <compound refid="struct_double_slider_spin_box_1_1_private" kind="struct"><name>DoubleSliderSpinBox::Private</name>
+    <member refid="struct_double_slider_spin_box_1_1_private_1a1c1868f55233cad9cba4fa5917fbf4de" kind="variable"><name>widget</name></member>
+    <member refid="struct_double_slider_spin_box_1_1_private_1a41e8e048c8d4a87bf5242a247b623baa" kind="function"><name>Private</name></member>
+  </compound>
+  <compound refid="struct_file_dialog_1_1_private" kind="struct"><name>FileDialog::Private</name>
+    <member refid="struct_file_dialog_1_1_private_1afea9625c084ac699586d28324b65b1f4" kind="variable"><name>dialog</name></member>
+    <member refid="struct_file_dialog_1_1_private_1a74a493c7be824b5caef8ccbd99ab5b62" kind="function"><name>Private</name></member>
+  </compound>
   <compound refid="struct_filter_1_1_private" kind="struct"><name>Filter::Private</name>
     <member refid="struct_filter_1_1_private_1adad23cfd4f2b6a0887d2eac9c9a06365" kind="variable"><name>name</name></member>
     <member refid="struct_filter_1_1_private_1afb255bd66fe11ff8dcf80ac26a117a00" kind="variable"><name>configuration</name></member>
     <member refid="struct_filter_1_1_private_1ab5601c3a1cb355b4c55cf08cc26c6916" kind="function"><name>Private</name></member>
   </compound>
+  <compound refid="struct_grid_config_1_1_private" kind="struct"><name>GridConfig::Private</name>
+    <member refid="struct_grid_config_1_1_private_1a07b33f757c04f2f4fc0417e66ea86f48" kind="variable"><name>gridConfig</name></member>
+    <member refid="struct_grid_config_1_1_private_1a4af56d9a1504ac4735e7438e9059d574" kind="function"><name>Private</name></member>
+  </compound>
+  <compound refid="struct_guides_config_1_1_private" kind="struct"><name>GuidesConfig::Private</name>
+    <member refid="struct_guides_config_1_1_private_1af2504046dc94b1cc3fc8522afafcf134" kind="variable"><name>guidesConfig</name></member>
+    <member refid="struct_guides_config_1_1_private_1a6cc3bea560928663df7f395f1cc9fd9f" kind="function"><name>Private</name></member>
+  </compound>
   <compound refid="struct_info_object_1_1_private" kind="struct"><name>InfoObject::Private</name>
     <member refid="struct_info_object_1_1_private_1a5a8bd59e02ddef45aa3de95624447859" kind="variable"><name>properties</name></member>
     <member refid="struct_info_object_1_1_private_1a935674c1177e026ac901fce71084c31d" kind="function"><name>Private</name></member>
+  </compound>
+  <compound refid="struct_int_parse_spin_box_1_1_private" kind="struct"><name>IntParseSpinBox::Private</name>
+    <member refid="struct_int_parse_spin_box_1_1_private_1a347f4477abafb2324c447a351a8c715e" kind="variable"><name>widget</name></member>
+    <member refid="struct_int_parse_spin_box_1_1_private_1acf76cf5f26375dc523d0165982cd941b" kind="function"><name>Private</name></member>
   </compound>
   <compound refid="struct_krita_1_1_private" kind="struct"><name>Krita::Private</name>
     <member refid="struct_krita_1_1_private_1ac1839996234eabdfa0912300d41a32ec" kind="variable"><name>extensions</name></member>
@@ -596,6 +855,10 @@
     <member refid="struct_shape_1_1_private_1a2a9110b0b4546b7a911cb5d384e35056" kind="variable"><name>shape</name></member>
     <member refid="struct_shape_1_1_private_1a150144f498a90f9ced1393007a17aad3" kind="function"><name>Private</name></member>
   </compound>
+  <compound refid="struct_slider_spin_box_1_1_private" kind="struct"><name>SliderSpinBox::Private</name>
+    <member refid="struct_slider_spin_box_1_1_private_1a525770dbce9355a69075c3cd9f4bc8fe" kind="variable"><name>widget</name></member>
+    <member refid="struct_slider_spin_box_1_1_private_1a469e4c880ca7a0fc31f11edc4d8646ef" kind="function"><name>Private</name></member>
+  </compound>
   <compound refid="struct_swatch_1_1_private" kind="struct"><name>Swatch::Private</name>
     <member refid="struct_swatch_1_1_private_1a2da98a8756df82c3310c87407603101f" kind="variable"><name>swatch</name></member>
   </compound>
@@ -633,12 +896,33 @@
     <member refid="class_scratchpad_1ad0cfa2a4fc0a082be4597ea23b9d86b8" kind="function"><name>Scratchpad</name></member>
     <member refid="class_scratchpad_1a4b445c03d298cc484b599eb5d39089cf" kind="function"><name>~Scratchpad</name></member>
     <member refid="class_scratchpad_1af0ca32712f6315e4013dc5a94c1a9214" kind="slot"><name>clear</name></member>
+    <member refid="class_scratchpad_1a62c1d5e6e9edd0d268bde62e14a8aaa5" kind="slot"><name>fillDefault</name></member>
+    <member refid="class_scratchpad_1aafed394c47ef581207c1f27333dccd42" kind="slot"><name>fillGradient</name></member>
+    <member refid="class_scratchpad_1a16f51ba3b3938f6b98e1f80904115f8a" kind="slot"><name>fillBackground</name></member>
+    <member refid="class_scratchpad_1ac554cbe8ca8471e2a427c395f598a0a5" kind="slot"><name>fillForeground</name></member>
+    <member refid="class_scratchpad_1a3adddb3bd9dd17a6befbe7dfd31212c5" kind="slot"><name>fillTransparent</name></member>
+    <member refid="class_scratchpad_1ac4a6ca76d9f08ceeb68b58ccb0dbd35a" kind="slot"><name>fillDocument</name></member>
+    <member refid="class_scratchpad_1a205db7ae410d577334e6aabbd3e13593" kind="slot"><name>fillLayer</name></member>
+    <member refid="class_scratchpad_1a33bc361614eec65ba58546192c6ca498" kind="slot"><name>fillPattern</name></member>
     <member refid="class_scratchpad_1a918b99aec6c8c88a22636b54e0e66896" kind="slot"><name>setFillColor</name></member>
     <member refid="class_scratchpad_1a528753f96e576779230ac978b9c27093" kind="slot"><name>setModeManually</name></member>
     <member refid="class_scratchpad_1acb508de32241af1351881518cdffb9f8" kind="slot"><name>setMode</name></member>
     <member refid="class_scratchpad_1a6d48412ef18d9a6b8c9fd00fcd4ec84c" kind="slot"><name>linkCanvasZoom</name></member>
+    <member refid="class_scratchpad_1af56f73fdd4e9ce1b245353be6f9d42a4" kind="slot"><name>canvasZoomLink</name></member>
+    <member refid="class_scratchpad_1ab0c4d61994ff76a903f8da253ec88b3e" kind="slot"><name>setCanvasZoomLink</name></member>
+    <member refid="class_scratchpad_1a545db7508965c1da30c8d46a771d4916" kind="slot"><name>scale</name></member>
+    <member refid="class_scratchpad_1af70e130719e7a7e86f309c0acf77936a" kind="slot"><name>setScale</name></member>
+    <member refid="class_scratchpad_1a9e5936e9aa9e6a962e5cc8a9620f2c36" kind="slot"><name>scaleToFit</name></member>
+    <member refid="class_scratchpad_1a4efcb93bc7ae24b375a7a029ac2b0a69" kind="slot"><name>scaleReset</name></member>
+    <member refid="class_scratchpad_1ab1a58ce0910c333874450a84f1b2f377" kind="slot"><name>panTo</name></member>
+    <member refid="class_scratchpad_1a3c18eea0381630439725c535519081a1" kind="slot"><name>panCenter</name></member>
     <member refid="class_scratchpad_1afa1cb389afc43d758ea8910141a475cd" kind="slot"><name>loadScratchpadImage</name></member>
     <member refid="class_scratchpad_1a417c504e17f6959d5844ba9634d7993d" kind="slot"><name>copyScratchpadImageData</name></member>
+    <member refid="class_scratchpad_1abcf7787e929edae6c72a475d2ce75a11" kind="slot"><name>viewportBounds</name></member>
+    <member refid="class_scratchpad_1a2eda572aa1f9dbcbd325fa2e219d0380" kind="slot"><name>contentBounds</name></member>
+    <member refid="class_scratchpad_1a1782189eb38c2a9c5694d261160cbdcc" kind="signal"><name>scaleChanged</name></member>
+    <member refid="class_scratchpad_1a055dd25d90516cfb7aced69525eb96f7" kind="signal"><name>contentChanged</name></member>
+    <member refid="class_scratchpad_1a2a9a877a2d3538f2f652dc223b460e67" kind="signal"><name>viewportChanged</name></member>
   </compound>
   <compound refid="class_selection" kind="class"><name>Selection</name>
     <member refid="class_selection_1a883538034e58fc5c0de7d4e4cab3cef7" kind="friend"><name>Document</name></member>
@@ -727,25 +1011,48 @@
     <member refid="class_shape_1a887d3555ac8e7205a28e09389c4ee67e" kind="slot"><name>parentShape</name></member>
     <member refid="class_shape_1a7cf7d1aa63b5222a18c75dca88bd6517" kind="function"><name>shape</name></member>
   </compound>
+  <compound refid="class_slider_spin_box" kind="class"><name>SliderSpinBox</name>
+    <member refid="class_slider_spin_box_1a2a7f77a74f4d9c7640f60dfc86154b53" kind="variable"><name>d</name></member>
+    <member refid="class_slider_spin_box_1accb31a76e17b8efb7de0a852a3a7579b" kind="function"><name>SliderSpinBox</name></member>
+    <member refid="class_slider_spin_box_1ad11d8f7d9d650cbdfe78ebb8503fae73" kind="function"><name>~SliderSpinBox</name></member>
+    <member refid="class_slider_spin_box_1abcc176941be38d96d4358eb89503d25c" kind="slot"><name>widget</name></member>
+    <member refid="class_slider_spin_box_1a10b85bc672d750106a437259a3f84a35" kind="slot"><name>fastSliderStep</name></member>
+    <member refid="class_slider_spin_box_1a521d56ac51827d9715d535c0bc06d4d2" kind="slot"><name>softMinimum</name></member>
+    <member refid="class_slider_spin_box_1a70880fa75dd59c406441418feafda766" kind="slot"><name>softMaximum</name></member>
+    <member refid="class_slider_spin_box_1ae94e1d47efe2a9400db731857a2bfde8" kind="slot"><name>isDragging</name></member>
+    <member refid="class_slider_spin_box_1a6da2b32b17a8bb0619d6429e96fe6edd" kind="slot"><name>setValue</name></member>
+    <member refid="class_slider_spin_box_1a4d44e08e7ffa10bd3694c6acfad86a9a" kind="slot"><name>setRange</name></member>
+    <member refid="class_slider_spin_box_1a00482b7f454223ef95325eb164ae6cbc" kind="slot"><name>setMinimum</name></member>
+    <member refid="class_slider_spin_box_1ae039aa3871e936fa5bc0a8d28ae36b1e" kind="slot"><name>setMaximum</name></member>
+    <member refid="class_slider_spin_box_1ac3186386823f6edab319d52b35060582" kind="slot"><name>setExponentRatio</name></member>
+    <member refid="class_slider_spin_box_1a90780034d8b7818d4bbc0664ccfe3a74" kind="slot"><name>setBlockUpdateSignalOnDrag</name></member>
+    <member refid="class_slider_spin_box_1a1b6ae067642b55dd37c809f3bb1fd5dd" kind="slot"><name>setFastSliderStep</name></member>
+    <member refid="class_slider_spin_box_1a828c636653a26f408bf35dd07cbbef1f" kind="slot"><name>setSoftRange</name></member>
+    <member refid="class_slider_spin_box_1af1332db4c8aeaa5e7e0ec03751daf62e" kind="slot"><name>setSoftMinimum</name></member>
+    <member refid="class_slider_spin_box_1ab6bc957c46736d6ce6babb01787d2d8d" kind="slot"><name>setSoftMaximum</name></member>
+    <member refid="class_slider_spin_box_1a1a5f0e88c8510dfc4be114ab5d575b5d" kind="signal"><name>draggingFinished</name></member>
+  </compound>
   <compound refid="class_swatch" kind="class"><name>Swatch</name>
     <member refid="class_swatch_1aafe548b2907c73c87d743ba67d4b92d7" kind="friend"><name>Palette</name></member>
     <member refid="class_swatch_1a60683b9c5b46c483ea04874dd0b7298f" kind="friend"><name>PaletteView</name></member>
     <member refid="class_swatch_1a1fa426539b7f822e43d317e7037c3ec8" kind="variable"><name>d</name></member>
-    <member refid="class_swatch_1a0b9ce16b476fce6ff8fcb892b98f32a1" kind="function"><name>Swatch</name></member>
+    <member refid="class_swatch_1a6cb8b2e8635e56ac8870224a3ef68c4d" kind="function"><name>Swatch</name></member>
     <member refid="class_swatch_1a5b1a3477e39bc33de7b6530760c66494" kind="function"><name>kisSwatch</name></member>
-    <member refid="class_swatch_1abc6d531a1b5089ff1a0971806d067e43" kind="function"><name>Swatch</name></member>
+    <member refid="class_swatch_1a29af48dc92c097a0b00aefa8b2d49e76" kind="function"><name>Swatch</name></member>
     <member refid="class_swatch_1a4c274e2eed3aa7010e4a076d64f91032" kind="function"><name>~Swatch</name></member>
-    <member refid="class_swatch_1a338447525dd2216b46e73826f7465d8f" kind="function"><name>Swatch</name></member>
+    <member refid="class_swatch_1aac56093d4ee30d1d7bb3d34cd9ad2dcd" kind="function"><name>Swatch</name></member>
     <member refid="class_swatch_1abb02248697902913a96313b1cf9f8131" kind="function"><name>operator=</name></member>
-    <member refid="class_swatch_1a4763b7796c0179c04362ce3cc87fbd77" kind="function"><name>name</name></member>
-    <member refid="class_swatch_1a2fb9851c1c5b137693ca5648d6925c29" kind="function"><name>setName</name></member>
-    <member refid="class_swatch_1a00e39cafd2add324bed55345667043a9" kind="function"><name>id</name></member>
-    <member refid="class_swatch_1a34d5523f138f68fc0b8591cdd2a6c4ad" kind="function"><name>setId</name></member>
-    <member refid="class_swatch_1a7c7da234adbe8d22a658465518d3c969" kind="function"><name>color</name></member>
-    <member refid="class_swatch_1aeb9dff41601d59760b0c8c674a38ecea" kind="function"><name>setColor</name></member>
-    <member refid="class_swatch_1a0b04109e78d7afbcdbd412243b3e0822" kind="function"><name>spotColor</name></member>
-    <member refid="class_swatch_1af1776e959d243ee142d3ab77197509c2" kind="function"><name>setSpotColor</name></member>
-    <member refid="class_swatch_1afdd08bed2a7f1bce3fc5aec7d04755d2" kind="function"><name>isValid</name></member>
+    <member refid="class_swatch_1a79c212b747baa79e1df5fef7b034d9e1" kind="function"><name>operator==</name></member>
+    <member refid="class_swatch_1aaa26932747eb313141aa117cb35d3eeb" kind="function"><name>operator!=</name></member>
+    <member refid="class_swatch_1a4763b7796c0179c04362ce3cc87fbd77" kind="slot"><name>name</name></member>
+    <member refid="class_swatch_1a2fb9851c1c5b137693ca5648d6925c29" kind="slot"><name>setName</name></member>
+    <member refid="class_swatch_1a00e39cafd2add324bed55345667043a9" kind="slot"><name>id</name></member>
+    <member refid="class_swatch_1a34d5523f138f68fc0b8591cdd2a6c4ad" kind="slot"><name>setId</name></member>
+    <member refid="class_swatch_1a7c7da234adbe8d22a658465518d3c969" kind="slot"><name>color</name></member>
+    <member refid="class_swatch_1aeb9dff41601d59760b0c8c674a38ecea" kind="slot"><name>setColor</name></member>
+    <member refid="class_swatch_1a0b04109e78d7afbcdbd412243b3e0822" kind="slot"><name>spotColor</name></member>
+    <member refid="class_swatch_1af1776e959d243ee142d3ab77197509c2" kind="slot"><name>setSpotColor</name></member>
+    <member refid="class_swatch_1afdd08bed2a7f1bce3fc5aec7d04755d2" kind="slot"><name>isValid</name></member>
   </compound>
   <compound refid="class_transform_mask" kind="class"><name>TransformMask</name>
     <member refid="class_transform_mask_1a7f09a5d1845123fd102bdd9644f10d74" kind="function"><name>TransformMask</name></member>
@@ -775,6 +1082,8 @@
     <member refid="class_vector_layer_1affd8474580fb1a40640e8bd99c206fc1" kind="slot"><name>shapeAtPosition</name></member>
     <member refid="class_vector_layer_1a8926d833982e2b4f9073c6aca3bba6e9" kind="slot"><name>shapesInRect</name></member>
     <member refid="class_vector_layer_1ace11d831969e7d94b185baff02784eeb" kind="slot"><name>createGroupShape</name></member>
+    <member refid="class_vector_layer_1a06157e7b10e786ff25830b00a4d0bfe5" kind="slot"><name>isAntialiased</name></member>
+    <member refid="class_vector_layer_1addd2450571edd61b380c02c6c9d5e7f1" kind="slot"><name>setAntialiased</name></member>
   </compound>
   <compound refid="class_view" kind="class"><name>View</name>
     <member refid="class_view_1a553f958a25683445088050a69d3de8e9" kind="friend"><name>Window</name></member>
@@ -811,10 +1120,20 @@
     <member refid="class_view_1a85ae27b0f1a895b3666e014157ee9ee5" kind="slot"><name>setPaintingOpacity</name></member>
     <member refid="class_view_1afde6199aea404549c344dd531c556a8c" kind="slot"><name>brushSize</name></member>
     <member refid="class_view_1a2c6bd83434d1a71ad7a8f695e192c5de" kind="slot"><name>setBrushSize</name></member>
+    <member refid="class_view_1aa7987507e15f437bb3851a8876c79e7b" kind="slot"><name>brushFade</name></member>
+    <member refid="class_view_1aed393c43695cb4699714749691d05d6a" kind="slot"><name>setBrushFade</name></member>
     <member refid="class_view_1aa15321d641fbe8cb62f433bb35a8380b" kind="slot"><name>brushRotation</name></member>
     <member refid="class_view_1a0bbc7ed156aa6ca4ff8d58b79bb7214d" kind="slot"><name>setBrushRotation</name></member>
     <member refid="class_view_1a3d8f1702f2b67e0adbb4a0824879797a" kind="slot"><name>paintingFlow</name></member>
     <member refid="class_view_1ab04ace4224618b8f46059f3d4a85a546" kind="slot"><name>setPaintingFlow</name></member>
+    <member refid="class_view_1a27a99d16d2482efab1c8e4fe06696cad" kind="slot"><name>patternSize</name></member>
+    <member refid="class_view_1aa73c0c236c133c8b004b7398c8d90b59" kind="slot"><name>setPatternSize</name></member>
+    <member refid="class_view_1a1638c345204e9146955bf91b0877dc3c" kind="slot"><name>eraserMode</name></member>
+    <member refid="class_view_1accf67d92f632bbffef38a252b4823091" kind="slot"><name>setEraserMode</name></member>
+    <member refid="class_view_1a239102701c922a03cf5b573989ab9244" kind="slot"><name>globalAlphaLock</name></member>
+    <member refid="class_view_1a384cf6e2046a66c8c728013a14446b45" kind="slot"><name>setGlobalAlphaLock</name></member>
+    <member refid="class_view_1aff9f281d713b7ba29edabda9dae37071" kind="slot"><name>disablePressure</name></member>
+    <member refid="class_view_1a31b83c09f36518ea087d5dae5bcd769c" kind="slot"><name>setDisablePressure</name></member>
     <member refid="class_view_1a79cdd37c763800a22e1f4bba9fdedcad" kind="slot"><name>showFloatingMessage</name></member>
     <member refid="class_view_1aa7956b8880a33fe130b5555280b2fb25" kind="slot"><name>selectedNodes</name></member>
     <member refid="class_view_1ac6347e3d8c592cdec3f202bdd7025f55" kind="slot"><name>flakeToDocumentTransform</name></member>
@@ -832,7 +1151,7 @@
     <member refid="class_window_1a5e1bc0e9da0d92f6dba586b9ee5c19d4" kind="slot"><name>dockers</name></member>
     <member refid="class_window_1a6a567e4898b290c141eb5ef94f784221" kind="slot"><name>views</name></member>
     <member refid="class_window_1af3dfb2c3a8feca3f94be9658fd125a99" kind="slot"><name>addView</name></member>
-    <member refid="class_window_1a8c1a0b11e3ae1c7ec37eb8fbc53d22de" kind="slot"><name>showView</name></member>
+    <member refid="class_window_1ab7f73e746a32e4d302557355a4bea7a9" kind="slot"><name>showView</name></member>
     <member refid="class_window_1a586ace18f4be797f92af47a92195a084" kind="slot"><name>activeView</name></member>
     <member refid="class_window_1ac03c0847a4488cf2ae4b7e5203b3a8fe" kind="slot"><name>activate</name></member>
     <member refid="class_window_1a35055c04498121d39741bfcd5082705b" kind="slot"><name>close</name></member>
@@ -844,6 +1163,17 @@
   <compound refid="namespace_lib_kis_utils" kind="namespace"><name>LibKisUtils</name>
     <member refid="_lib_kis_utils_8h_1a5043def4f7f77080ce3eb0cdc15a65c7" kind="function"><name>createNodeList</name></member>
     <member refid="_lib_kis_utils_8h_1ae0965c969d51d7d8a65332b8cdaf1d98" kind="function"><name>findNodeInDocuments</name></member>
+  </compound>
+  <compound refid="namespace_painting_resources" kind="namespace"><name>PaintingResources</name>
+    <member refid="namespace_painting_resources_1ac673ab0af0b3fa474951f5df2c598d75" kind="variable"><name>defaultStrokeStyle</name></member>
+    <member refid="namespace_painting_resources_1acd7d5b7e478f40b023c7bdb3390191e5" kind="variable"><name>defaultFillStyle</name></member>
+    <member refid="namespace_painting_resources_1aa6936d791043a975a07be43a16269df4" kind="function"><name>createHelper</name></member>
+  </compound>
+  <compound refid="_angle_selector_8cpp" kind="file"><name>AngleSelector.cpp</name>
+    <member refid="_angle_selector_8cpp_1a0c8ebe025840cad37cdade3b0a2f777b" kind="variable"><name>FlipOptionsMode</name></member>
+    <member refid="_angle_selector_8cpp_1a78bf365d2f6c20fa398b50a81710c2cd" kind="variable"><name>IncreasingDirection</name></member>
+  </compound>
+  <compound refid="_angle_selector_8h" kind="file"><name>AngleSelector.h</name>
   </compound>
   <compound refid="_canvas_8cpp" kind="file"><name>Canvas.cpp</name>
   </compound>
@@ -873,9 +1203,18 @@
   </compound>
   <compound refid="_document_8h" kind="file"><name>Document.h</name>
   </compound>
+  <compound refid="_double_parse_spin_box_8cpp" kind="file"><name>DoubleParseSpinBox.cpp</name>
+  </compound>
+  <compound refid="_double_parse_spin_box_8h" kind="file"><name>DoubleParseSpinBox.h</name>
+  </compound>
   <compound refid="_extension_8cpp" kind="file"><name>Extension.cpp</name>
   </compound>
   <compound refid="_extension_8h" kind="file"><name>Extension.h</name>
+  </compound>
+  <compound refid="_file_dialog_8cpp" kind="file"><name>FileDialog.cpp</name>
+    <member refid="_file_dialog_8cpp_1a89dc28413d0cb51d8527a917c8575c3a" kind="function"><name>createDialog</name></member>
+  </compound>
+  <compound refid="_file_dialog_8h" kind="file"><name>FileDialog.h</name>
   </compound>
   <compound refid="_file_layer_8cpp" kind="file"><name>FileLayer.cpp</name>
   </compound>
@@ -897,6 +1236,10 @@
   </compound>
   <compound refid="_filter_mask_8h" kind="file"><name>FilterMask.h</name>
   </compound>
+  <compound refid="_grid_config_8cpp" kind="file"><name>GridConfig.cpp</name>
+  </compound>
+  <compound refid="_grid_config_8h" kind="file"><name>GridConfig.h</name>
+  </compound>
   <compound refid="_group_layer_8cpp" kind="file"><name>GroupLayer.cpp</name>
   </compound>
   <compound refid="_group_layer_8h" kind="file"><name>GroupLayer.h</name>
@@ -905,9 +1248,17 @@
   </compound>
   <compound refid="_group_shape_8h" kind="file"><name>GroupShape.h</name>
   </compound>
+  <compound refid="_guides_config_8cpp" kind="file"><name>GuidesConfig.cpp</name>
+  </compound>
+  <compound refid="_guides_config_8h" kind="file"><name>GuidesConfig.h</name>
+  </compound>
   <compound refid="_info_object_8cpp" kind="file"><name>InfoObject.cpp</name>
   </compound>
   <compound refid="_info_object_8h" kind="file"><name>InfoObject.h</name>
+  </compound>
+  <compound refid="_int_parse_spin_box_8cpp" kind="file"><name>IntParseSpinBox.cpp</name>
+  </compound>
+  <compound refid="_int_parse_spin_box_8h" kind="file"><name>IntParseSpinBox.h</name>
   </compound>
   <compound refid="_krita_8cpp" kind="file"><name>Krita.cpp</name>
   </compound>
@@ -934,6 +1285,12 @@
   <compound refid="_notifier_8cpp" kind="file"><name>Notifier.cpp</name>
   </compound>
   <compound refid="_notifier_8h" kind="file"><name>Notifier.h</name>
+  </compound>
+  <compound refid="_painting_resources_8cpp" kind="file"><name>PaintingResources.cpp</name>
+    <member refid="_painting_resources_8cpp_1a76d5768b72275ac447489096789951fe" kind="variable"><name>StrokeStyle</name></member>
+    <member refid="_painting_resources_8cpp_1ae3e35f4601a909e0ca08d820873bc5d6" kind="variable"><name>FillStyle</name></member>
+  </compound>
+  <compound refid="_painting_resources_8h" kind="file"><name>PaintingResources.h</name>
   </compound>
   <compound refid="_palette_8cpp" kind="file"><name>Palette.cpp</name>
   </compound>
@@ -970,6 +1327,10 @@
   <compound refid="_shape_8cpp" kind="file"><name>Shape.cpp</name>
   </compound>
   <compound refid="_shape_8h" kind="file"><name>Shape.h</name>
+  </compound>
+  <compound refid="_slider_spin_box_8cpp" kind="file"><name>SliderSpinBox.cpp</name>
+  </compound>
+  <compound refid="_slider_spin_box_8h" kind="file"><name>SliderSpinBox.h</name>
   </compound>
   <compound refid="_swatch_8cpp" kind="file"><name>Swatch.cpp</name>
   </compound>

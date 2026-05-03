@@ -129,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Resource.h" line="35" column="5" bodyfile="Resource.cpp" bodystart="29" bodyend="38"/>
+        <location file="Resource.h" line="35" column="5" bodyfile="Resource.cpp" bodystart="28" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="class_resource_1ae710e1cbd9388fba470ad35e8e5d7c76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -156,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Resource.h" line="36" column="5" bodyfile="Resource.cpp" bodystart="40" bodyend="49"/>
+        <location file="Resource.h" line="36" column="5" bodyfile="Resource.cpp" bodystart="39" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="class_resource_1a82b84bab09fd9b9be8a56af0bda43f35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -170,7 +170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Resource.h" line="37" column="5" bodyfile="Resource.cpp" bodystart="51" bodyend="53"/>
+        <location file="Resource.h" line="37" column="5" bodyfile="Resource.cpp" bodystart="50" bodyend="52"/>
       </memberdef>
       <memberdef kind="function" id="class_resource_1ababb9fe80f024a4f03a19fa00372757c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -188,7 +188,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Resource.h" line="38" column="5" bodyfile="Resource.cpp" bodystart="55" bodyend="64"/>
+        <location file="Resource.h" line="38" column="5" bodyfile="Resource.cpp" bodystart="54" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="class_resource_1a5a2b169aedbdc269d4966f5bb023fd74" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -206,7 +206,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Resource.h" line="40" column="10" bodyfile="Resource.cpp" bodystart="66" bodyend="69"/>
+        <location file="Resource.h" line="40" column="10" bodyfile="Resource.cpp" bodystart="65" bodyend="68"/>
       </memberdef>
       <memberdef kind="function" id="class_resource_1abcd1e7ccb0a947f519b2bbc7fad1fd17" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -224,7 +224,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Resource.h" line="41" column="10" bodyfile="Resource.cpp" bodystart="71" bodyend="74"/>
+        <location file="Resource.h" line="41" column="10" bodyfile="Resource.cpp" bodystart="70" bodyend="73"/>
       </memberdef>
       <memberdef kind="function" id="class_resource_1ada42ecac30377a1270b16eca17a75a9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_resource" kindref="compound">Resource</ref></type>
@@ -242,7 +242,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Resource.h" line="42" column="14" bodyfile="Resource.cpp" bodystart="76" bodyend="84"/>
+        <location file="Resource.h" line="42" column="14" bodyfile="Resource.cpp" bodystart="75" bodyend="83"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-slot">
@@ -279,7 +279,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Resource.h" line="58" column="13" bodyfile="Resource.cpp" bodystart="86" bodyend="89"/>
+        <location file="Resource.h" line="58" column="13" bodyfile="Resource.cpp" bodystart="85" bodyend="88"/>
       </memberdef>
       <memberdef kind="slot" id="class_resource_1a05c867777670d0eb14767319fba14dc3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -294,7 +294,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Resource.h" line="63" column="13" bodyfile="Resource.cpp" bodystart="91" bodyend="94"/>
+        <location file="Resource.h" line="63" column="13" bodyfile="Resource.cpp" bodystart="90" bodyend="93"/>
       </memberdef>
       <memberdef kind="slot" id="class_resource_1a14c600896ae7fc78a443645e09042089" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -313,7 +313,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Resource.h" line="68" column="10" bodyfile="Resource.cpp" bodystart="96" bodyend="99"/>
+        <location file="Resource.h" line="68" column="10" bodyfile="Resource.cpp" bodystart="95" bodyend="98"/>
       </memberdef>
       <memberdef kind="slot" id="class_resource_1aeef17a630621dd054e6493531e090a62" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -328,7 +328,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Resource.h" line="74" column="13" bodyfile="Resource.cpp" bodystart="101" bodyend="104"/>
+        <location file="Resource.h" line="74" column="13" bodyfile="Resource.cpp" bodystart="100" bodyend="103"/>
       </memberdef>
       <memberdef kind="slot" id="class_resource_1a96f9d1edbe52d44fc78aa835b53ca3e5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QImage</type>
@@ -343,7 +343,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Resource.h" line="82" column="12" bodyfile="Resource.cpp" bodystart="107" bodyend="110"/>
+        <location file="Resource.h" line="82" column="12" bodyfile="Resource.cpp" bodystart="106" bodyend="109"/>
       </memberdef>
       <memberdef kind="slot" id="class_resource_1afd53d2d6a680e0b033a5bc9df9ae0e41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -362,7 +362,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Resource.h" line="87" column="10" bodyfile="Resource.cpp" bodystart="112" bodyend="115"/>
+        <location file="Resource.h" line="87" column="10" bodyfile="Resource.cpp" bodystart="111" bodyend="114"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -378,7 +378,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Resource.h" line="95" column="18" bodyfile="Resource.cpp" bodystart="117" bodyend="122"/>
+        <location file="Resource.h" line="95" column="18" bodyfile="Resource.cpp" bodystart="116" bodyend="121"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

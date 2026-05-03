@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.cpp" line="70" column="14" bodyfile="Document.cpp" bodystart="70" bodyend="-1"/>
+        <location file="Document.cpp" line="75" column="14" bodyfile="Document.cpp" bodystart="75" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_document_1_1_private_1af9cba9733e36c0da6420632bc1a91178" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.cpp" line="71" column="10" bodyfile="Document.cpp" bodystart="71" bodyend="71"/>
+        <location file="Document.cpp" line="76" column="10" bodyfile="Document.cpp" bodystart="76" bodyend="76"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -46,14 +46,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.cpp" line="69" column="5" bodyfile="Document.cpp" bodystart="69" bodyend="69"/>
+        <location file="Document.cpp" line="74" column="5" bodyfile="Document.cpp" bodystart="74" bodyend="74"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Document.cpp" line="68" column="1" bodyfile="Document.cpp" bodystart="68" bodyend="72"/>
+    <location file="Document.cpp" line="73" column="1" bodyfile="Document.cpp" bodystart="73" bodyend="77"/>
     <listofallmembers>
       <member refid="struct_document_1_1_private_1a5b2488b78168a5341fe8190b5951c143" prot="public" virt="non-virtual"><scope>Document::Private</scope><name>document</name></member>
       <member refid="struct_document_1_1_private_1af9cba9733e36c0da6420632bc1a91178" prot="public" virt="non-virtual"><scope>Document::Private</scope><name>ownsDocument</name></member>

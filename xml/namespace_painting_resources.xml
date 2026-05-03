@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespace_painting_resources" kind="namespace" language="C++">
+    <compoundname>PaintingResources</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace_painting_resources_1ac673ab0af0b3fa474951f5df2c598d75" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString PaintingResources::defaultStrokeStyle</definition>
+        <argsstring></argsstring>
+        <name>defaultStrokeStyle</name>
+        <qualifiedname>PaintingResources::defaultStrokeStyle</qualifiedname>
+        <initializer>= &quot;ForegroundColor&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PaintingResources.h" line="20" column="19" bodyfile="PaintingResources.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_painting_resources_1acd7d5b7e478f40b023c7bdb3390191e5" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString PaintingResources::defaultFillStyle</definition>
+        <argsstring></argsstring>
+        <name>defaultFillStyle</name>
+        <qualifiedname>PaintingResources::defaultFillStyle</qualifiedname>
+        <initializer>= &quot;None&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PaintingResources.h" line="21" column="19" bodyfile="PaintingResources.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_painting_resources_1aa6936d791043a975a07be43a16269df4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>KisFigurePaintingToolHelper</type>
+        <definition>KisFigurePaintingToolHelper PaintingResources::createHelper</definition>
+        <argsstring>(KisImageWSP image, KisNodeSP node, const QString strokeStyle=defaultStrokeStyle, const QString fillStyle=defaultFillStyle)</argsstring>
+        <name>createHelper</name>
+        <qualifiedname>PaintingResources::createHelper</qualifiedname>
+        <param>
+          <type>KisImageWSP</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>KisNodeSP</type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>const QString</type>
+          <declname>strokeStyle</declname>
+          <defval>defaultStrokeStyle</defval>
+        </param>
+        <param>
+          <type>const QString</type>
+          <declname>fillStyle</declname>
+          <defval>defaultFillStyle</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PaintingResources.h" line="23" column="33" bodyfile="PaintingResources.cpp" bodystart="30" bodyend="71" declfile="PaintingResources.h" declline="23" declcolumn="33"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="namespace_painting_resources" kindref="compound">PaintingResources</ref> namespace Sets up information related to making painting strokes. Used primarily in the <ref refid="class_node" kindref="compound">Node</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PaintingResources.h" line="17" column="1"/>
+  </compounddef>
+</doxygen>

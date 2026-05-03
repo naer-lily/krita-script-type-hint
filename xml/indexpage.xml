@@ -33,7 +33,6 @@
 <codeline><highlight class="normal">Type=Service</highlight></codeline>
 <codeline><highlight class="normal">ServiceTypes=<ref refid="class_krita" kindref="compound">Krita</ref>/PythonPlugin</highlight></codeline>
 <codeline><highlight class="normal">X-KDE-Library=hello</highlight></codeline>
-<codeline><highlight class="normal">X-Python-2-Compatible=</highlight><highlight class="keyword">false</highlight><highlight class="normal"></highlight></codeline>
 <codeline><highlight class="normal">Name=Hello<sp/>World</highlight></codeline>
 <codeline><highlight class="normal">Comment=Basic<sp/>plugin<sp/>to<sp/>test<sp/>PyKrita</highlight></codeline>
 </programlisting></para>

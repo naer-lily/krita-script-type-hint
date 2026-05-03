@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="_angle_selector_8cpp" kind="file" language="C++">
+    <compoundname>AngleSelector.cpp</compoundname>
+    <includes refid="_angle_selector_8h" local="yes">AngleSelector.h</includes>
+    <includes local="yes">kis_debug.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>AngleSelector.cpp</label>
+        <link refid="_angle_selector_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AngleSelector.h</label>
+        <link refid="_angle_selector_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>libkis.h</label>
+        <link refid="libkis_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>KisAngleSelector.h</label>
+      </node>
+      <node id="8">
+        <label>QAction</label>
+      </node>
+      <node id="7">
+        <label>QMap</label>
+      </node>
+      <node id="6">
+        <label>QVariant</label>
+      </node>
+      <node id="9">
+        <label>kis_debug.h</label>
+      </node>
+      <node id="4">
+        <label>kritalibkis_export.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="struct_angle_selector_1_1_private" prot="public">AngleSelector::Private</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="_angle_selector_8cpp_1a0c8ebe025840cad37cdade3b0a2f777b" prot="public" static="no" mutable="no">
+        <type>const QList&lt; QString &gt;</type>
+        <definition>const QList&lt;QString&gt; FlipOptionsMode</definition>
+        <argsstring></argsstring>
+        <name>FlipOptionsMode</name>
+        <initializer>= {
+    &quot;NoFlipOptions&quot;,    
+    &quot;MenuButton&quot;,       
+    &quot;Buttons&quot;,          
+    &quot;ContextMenu&quot;       
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.cpp" line="11" column="13" bodyfile="AngleSelector.cpp" bodystart="11" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="variable" id="_angle_selector_8cpp_1a78bf365d2f6c20fa398b50a81710c2cd" prot="public" static="no" mutable="no">
+        <type>const QList&lt; QString &gt;</type>
+        <definition>const QList&lt;QString&gt; IncreasingDirection</definition>
+        <argsstring></argsstring>
+        <name>IncreasingDirection</name>
+        <initializer>= {
+    &quot;CounterClockwise&quot;, 
+    &quot;Clockwise&quot;         
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.cpp" line="18" column="13" bodyfile="AngleSelector.cpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/><sp/>SPDX-FileCopyrightText:<sp/>2020<sp/>Deif<sp/>Lou<sp/>&lt;ginoba@gmail.com&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>SPDX-License-Identifier:<sp/>GPL-2.0-or-later</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;AngleSelector.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;kis_debug.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QList&lt;QString&gt;<sp/>FlipOptionsMode<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;NoFlipOptions&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>0<sp/>=<sp/>KisAngleSelector::FlipOptionsMode_NoFlipOptions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;MenuButton&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>KisAngleSelector::FlipOptionsMode_MenuButton</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Buttons&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>KisAngleSelector::FlipOptionsMode_Buttons</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ContextMenu&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>KisAngleSelector::FlipOptionsMode_ContextMenu</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QList&lt;QString&gt;<sp/>IncreasingDirection<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;CounterClockwise&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="comment">//<sp/>0<sp/>=<sp/>KisAngleGauge::IncreasingDirection_CounterClockwise</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Clockwise&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>KisAngleGauge::IncreasingDirection_Clockwise</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="struct_angle_selector_1_1_private" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_angle_selector_1_1_private" kindref="compound">AngleSelector::Private</ref><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_angle_selector_1_1_private" kindref="compound">Private</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>KisAngleSelector<sp/>*widget;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">AngleSelector::AngleSelector()</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>QObject()</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>,<sp/>d(new<sp/><ref refid="struct_angle_selector_1_1_private" kindref="compound">Private</ref>)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;widget<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>KisAngleSelector();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Forward<sp/>KisAngleSelector::angleChanged<sp/>to<sp/>AngleSelector::angleChanged</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(d-&gt;widget,<sp/>SIGNAL(angleChanged(qreal)),<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>SIGNAL(angleChanged(qreal)));</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">AngleSelector::~AngleSelector()</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>d;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">QWidget*<sp/><ref refid="class_angle_selector_1ac3fa489fce8eca45481838785a012438" kindref="member">AngleSelector::widget</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="45"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;widget;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">qreal<sp/><ref refid="class_angle_selector_1a0dc7e69ab29f9d1ff8e58d5053708e4e" kindref="member">AngleSelector::angle</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="50"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;widget-&gt;angle();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">qreal<sp/><ref refid="class_angle_selector_1a9c48b30eed0ab06aa48cae53ed8e3567" kindref="member">AngleSelector::snapAngle</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="55"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;widget-&gt;snapAngle();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">qreal<sp/><ref refid="class_angle_selector_1ad067fe0002c1dc620a15d7e592f8b38a" kindref="member">AngleSelector::resetAngle</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="60"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;widget-&gt;resetAngle();</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_angle_selector_1ad48bff7c6b2f23233307109e42c549ec" kindref="member">AngleSelector::decimals</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="65"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;widget-&gt;decimals();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal">qreal<sp/><ref refid="class_angle_selector_1a30c068a33b0408bf5d93504fc282a5af" kindref="member">AngleSelector::maximum</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="70"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;widget-&gt;maximum();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">qreal<sp/><ref refid="class_angle_selector_1a19737b6b396fc27913f72e82377fe4c6" kindref="member">AngleSelector::minimum</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="75"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;widget-&gt;minimum();</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">QString<sp/><ref refid="class_angle_selector_1a6641e44aced2dd67f9d1b7a48e97b05d" kindref="member">AngleSelector::prefix</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="80"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;widget-&gt;prefix();</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_angle_selector_1ab864a8ad4d2267a87eec6d7de073a7a7" kindref="member">AngleSelector::wrapping</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="85"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;widget-&gt;wrapping();</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal">QString<sp/><ref refid="class_angle_selector_1a90662ff862817f2de83763155416d827" kindref="member">AngleSelector::flipOptionsMode</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="90"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>KisAngleSelector::FlipOptionsMode<sp/>mode<sp/>=<sp/>d-&gt;widget-&gt;flipOptionsMode();</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(0<sp/>&lt;=<sp/>mode<sp/>&amp;&amp;<sp/>mode<sp/>&lt;=<sp/>FlipOptionsMode.size()))<sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>warnScript<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;AngleSelector::flipOptionsMode()<sp/>doesn&apos;t<sp/>handle<sp/>mode<sp/>&apos;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>mode<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&apos;!&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FlipOptionsMode[mode];</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_angle_selector_1a3f751fee419cb8816079b453431e86bc" kindref="member">AngleSelector::widgetsHeight</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="100"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;widget-&gt;widgetsHeight();</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal">QString<sp/><ref refid="class_angle_selector_1a5690735e8a545752f99476520dde1667" kindref="member">AngleSelector::increasingDirection</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="105"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>KisAngleGauge::IncreasingDirection<sp/><ref refid="class_angle_selector_1a5690735e8a545752f99476520dde1667" kindref="member">increasingDirection</ref><sp/>=<sp/>d-&gt;widget-&gt;increasingDirection();</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(0<sp/>&lt;=<sp/><ref refid="class_angle_selector_1a5690735e8a545752f99476520dde1667" kindref="member">increasingDirection</ref><sp/>&amp;&amp;<sp/><ref refid="class_angle_selector_1a5690735e8a545752f99476520dde1667" kindref="member">increasingDirection</ref><sp/>&lt;=<sp/>IncreasingDirection.size()))<sp/>{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>warnScript<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;AngleSelector::increasingDirection()<sp/>doesn&apos;t<sp/>handle<sp/>mode<sp/>&apos;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_angle_selector_1a5690735e8a545752f99476520dde1667" kindref="member">increasingDirection</ref><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&apos;!&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>IncreasingDirection[<ref refid="class_angle_selector_1a5690735e8a545752f99476520dde1667" kindref="member">increasingDirection</ref>];</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_angle_selector_1ac607a9accbf3cd301ee643bc885595dd" kindref="member">AngleSelector::isUsingFlatSpinBox</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="115"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;widget-&gt;isUsingFlatSpinBox();</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_angle_selector_1aeff3157a0e56babe6b900a3880c02897" kindref="member">AngleSelector::setAngle</ref>(qreal<sp/>newAngle)</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;widget-&gt;setAngle(newAngle);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_angle_selector_1abc89bd449e517934b9febf77af478b4d" kindref="member">AngleSelector::setSnapAngle</ref>(qreal<sp/>newSnapAngle)</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;widget-&gt;setSnapAngle(newSnapAngle);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_angle_selector_1ab640a4c7bfa70a6575c32019eed9024a" kindref="member">AngleSelector::setResetAngle</ref>(qreal<sp/>newResetAngle)</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;widget-&gt;setResetAngle(newResetAngle);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_angle_selector_1aeb0fc28a91b76a073334aba9e5f32c35" kindref="member">AngleSelector::setDecimals</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>newNumberOfDecimals)</highlight></codeline>
+<codeline lineno="135"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;widget-&gt;setDecimals(newNumberOfDecimals);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_angle_selector_1ac0013c69f6e91cd2f4b97ebb4dd9f19f" kindref="member">AngleSelector::setMaximum</ref>(qreal<sp/>newMaximum)</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;widget-&gt;setMaximum(newMaximum);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_angle_selector_1a415f37ada5d1e6becc031f90491ef842" kindref="member">AngleSelector::setMinimum</ref>(qreal<sp/>newMinimum)</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;widget-&gt;setMinimum(newMinimum);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_angle_selector_1a72c5b9ba42b2cc8f3023fa7fa8cc020a" kindref="member">AngleSelector::setRange</ref>(qreal<sp/>newMinimum,<sp/>qreal<sp/>newMaximum)</highlight></codeline>
+<codeline lineno="150"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;widget-&gt;setRange(newMinimum,<sp/>newMaximum);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_angle_selector_1a78f21ba3cd1e759b3b5ad7a39b5e058f" kindref="member">AngleSelector::setPrefix</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;newPrefix)</highlight></codeline>
+<codeline lineno="155"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;widget-&gt;setPrefix(newPrefix);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_angle_selector_1af18571bbeabab33c4fa04d646291c638" kindref="member">AngleSelector::setWrapping</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>newWrapping)</highlight></codeline>
+<codeline lineno="160"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;widget-&gt;setWrapping(newWrapping);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_angle_selector_1aadf21365ed1dc565a3c59e1252804246" kindref="member">AngleSelector::setFlipOptionsMode</ref>(QString<sp/>newMode)</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index<sp/>=<sp/>FlipOptionsMode.indexOf(newMode);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(index<sp/>==<sp/>-1)<sp/>{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dbgScript<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Script<sp/>using<sp/>AngleSelector.setFlipOptionsMode()<sp/>passed<sp/>invalid<sp/>mode<sp/>&apos;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>newMode<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&apos;,<sp/>ignoring.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;widget-&gt;setFlipOptionsMode((KisAngleSelector::FlipOptionsMode)<sp/>index);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_angle_selector_1add593fc80247502a44822d4389ccf2a6" kindref="member">AngleSelector::setWidgetsHeight</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>newHeight)</highlight></codeline>
+<codeline lineno="175"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;widget-&gt;setWidgetsHeight(newHeight);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_angle_selector_1a8b897d88e2925c93cbbc2e61c7430c4a" kindref="member">AngleSelector::setIncreasingDirection</ref>(QString<sp/>newIncreasingDirection)</highlight></codeline>
+<codeline lineno="180"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index<sp/>=<sp/>IncreasingDirection.indexOf(newIncreasingDirection);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(index<sp/>==<sp/>-1)<sp/>{</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dbgScript<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Script<sp/>using<sp/>AngleSelector.setIncreasingDirection()<sp/>passed<sp/>invalid<sp/>mode<sp/>&apos;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>newIncreasingDirection<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&apos;,<sp/>ignoring.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;widget-&gt;setIncreasingDirection((KisAngleGauge::IncreasingDirection)<sp/>index);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_angle_selector_1a88f1cbc172051cb7b363b5f98d12f878" kindref="member">AngleSelector::useFlatSpinBox</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>newUseFlatSpinBox)</highlight></codeline>
+<codeline lineno="190"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;widget-&gt;useFlatSpinBox(newUseFlatSpinBox);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_angle_selector_1a6b1f18ead0545ee0c944683a9ef4fdaa" kindref="member">AngleSelector::reset</ref>()</highlight></codeline>
+<codeline lineno="195"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;widget-&gt;reset();</highlight></codeline>
+<codeline lineno="197"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal">qreal<sp/><ref refid="class_angle_selector_1aea488ee6f3cb52babe1bd9eb4e8cd651" kindref="member">AngleSelector::closestCoterminalAngleInRange</ref>(qreal<sp/><ref refid="class_angle_selector_1a0dc7e69ab29f9d1ff8e58d5053708e4e" kindref="member">angle</ref>,<sp/>qreal<sp/><ref refid="class_angle_selector_1a19737b6b396fc27913f72e82377fe4c6" kindref="member">minimum</ref>,<sp/>qreal<sp/><ref refid="class_angle_selector_1a30c068a33b0408bf5d93504fc282a5af" kindref="member">maximum</ref>,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*ok)</highlight></codeline>
+<codeline lineno="200"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>KisAngleSelector::closestCoterminalAngleInRange(<ref refid="class_angle_selector_1a0dc7e69ab29f9d1ff8e58d5053708e4e" kindref="member">angle</ref>,<sp/><ref refid="class_angle_selector_1a19737b6b396fc27913f72e82377fe4c6" kindref="member">minimum</ref>,<sp/><ref refid="class_angle_selector_1a30c068a33b0408bf5d93504fc282a5af" kindref="member">maximum</ref>,<sp/>ok);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal">qreal<sp/><ref refid="class_angle_selector_1aea488ee6f3cb52babe1bd9eb4e8cd651" kindref="member">AngleSelector::closestCoterminalAngleInRange</ref>(qreal<sp/><ref refid="class_angle_selector_1a0dc7e69ab29f9d1ff8e58d5053708e4e" kindref="member">angle</ref>,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*ok)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="205"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;widget-&gt;closestCoterminalAngleInRange(<ref refid="class_angle_selector_1a0dc7e69ab29f9d1ff8e58d5053708e4e" kindref="member">angle</ref>,<sp/>ok);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal">qreal<sp/><ref refid="class_angle_selector_1a7642966b80b9cac1ce759537193a7b81" kindref="member">AngleSelector::flipAngle</ref>(qreal<sp/><ref refid="class_angle_selector_1a0dc7e69ab29f9d1ff8e58d5053708e4e" kindref="member">angle</ref>,<sp/>Qt::Orientations<sp/>orientations)</highlight></codeline>
+<codeline lineno="210"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>KisAngleSelector::flipAngle(<ref refid="class_angle_selector_1a0dc7e69ab29f9d1ff8e58d5053708e4e" kindref="member">angle</ref>,<sp/>orientations);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal">qreal<sp/><ref refid="class_angle_selector_1a7642966b80b9cac1ce759537193a7b81" kindref="member">AngleSelector::flipAngle</ref>(qreal<sp/><ref refid="class_angle_selector_1a0dc7e69ab29f9d1ff8e58d5053708e4e" kindref="member">angle</ref>,<sp/>qreal<sp/><ref refid="class_angle_selector_1a19737b6b396fc27913f72e82377fe4c6" kindref="member">minimum</ref>,<sp/>qreal<sp/><ref refid="class_angle_selector_1a30c068a33b0408bf5d93504fc282a5af" kindref="member">maximum</ref>,<sp/>Qt::Orientations<sp/>orientations,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*ok)</highlight></codeline>
+<codeline lineno="215"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>KisAngleSelector::flipAngle(<ref refid="class_angle_selector_1a0dc7e69ab29f9d1ff8e58d5053708e4e" kindref="member">angle</ref>,<sp/><ref refid="class_angle_selector_1a19737b6b396fc27913f72e82377fe4c6" kindref="member">minimum</ref>,<sp/><ref refid="class_angle_selector_1a30c068a33b0408bf5d93504fc282a5af" kindref="member">maximum</ref>,<sp/>orientations,<sp/>ok);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_angle_selector_1ab132d71ba44005571bf180019e9990ff" kindref="member">AngleSelector::flip</ref>(Qt::Orientations<sp/>orientations)</highlight></codeline>
+<codeline lineno="220"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ok<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>qreal<sp/>flippedAngle<sp/>=<sp/><ref refid="class_angle_selector_1a7642966b80b9cac1ce759537193a7b81" kindref="member">flipAngle</ref>(<ref refid="class_angle_selector_1a0dc7e69ab29f9d1ff8e58d5053708e4e" kindref="member">angle</ref>(),<sp/><ref refid="class_angle_selector_1a19737b6b396fc27913f72e82377fe4c6" kindref="member">minimum</ref>(),<sp/><ref refid="class_angle_selector_1a30c068a33b0408bf5d93504fc282a5af" kindref="member">maximum</ref>(),<sp/>orientations,<sp/>&amp;ok);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ok)<sp/>{</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_angle_selector_1aeff3157a0e56babe6b900a3880c02897" kindref="member">setAngle</ref>(flippedAngle);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="226"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="AngleSelector.cpp"/>
+  </compounddef>
+</doxygen>

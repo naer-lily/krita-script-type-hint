@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="176" column="18" bodyfile="View.h" bodystart="176" bodyend="-1"/>
+        <location file="View.h" line="361" column="18" bodyfile="View.h" bodystart="361" bodyend="-1"/>
       </memberdef>
       <memberdef kind="friend" id="class_view_1a4c09e157d0e3941dd526f3ced7f3d6f7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class</type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="177" column="18" bodyfile="View.h" bodystart="177" bodyend="-1"/>
+        <location file="View.h" line="362" column="18" bodyfile="View.h" bodystart="362" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="183" column="19" bodyfile="View.h" bodystart="183" bodyend="-1"/>
+        <location file="View.h" line="368" column="19" bodyfile="View.h" bodystart="368" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="30" column="14" bodyfile="View.cpp" bodystart="39" bodyend="44"/>
+        <location file="View.h" line="30" column="14" bodyfile="View.cpp" bodystart="38" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="class_view_1a03c7de75b3d338c79b0fd0100153ca1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="31" column="5" bodyfile="View.cpp" bodystart="46" bodyend="49"/>
+        <location file="View.h" line="31" column="5" bodyfile="View.cpp" bodystart="45" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="class_view_1ab2ea7b4391850f95a99eabcff24da48c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -111,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="33" column="10" bodyfile="View.cpp" bodystart="51" bodyend="54"/>
+        <location file="View.h" line="33" column="10" bodyfile="View.cpp" bodystart="50" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="class_view_1ae6f9598634dbfdddbac8918283e3cafb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -129,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="34" column="10" bodyfile="View.cpp" bodystart="56" bodyend="59"/>
+        <location file="View.h" line="34" column="10" bodyfile="View.cpp" bodystart="55" bodyend="58"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-slot">
@@ -148,7 +148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="41" column="12" bodyfile="View.cpp" bodystart="61" bodyend="67"/>
+        <location file="View.h" line="41" column="12" bodyfile="View.cpp" bodystart="60" bodyend="66"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1afb79e5ff78dcecb2c9b38b53389f7eda" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_document" kindref="compound">Document</ref> *</type>
@@ -165,7 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="46" column="14" bodyfile="View.cpp" bodystart="70" bodyend="75"/>
+        <location file="View.h" line="46" column="14" bodyfile="View.cpp" bodystart="69" bodyend="74"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a4093039939fd6f9f55b942ebe0f82836" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -184,7 +184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="51" column="10" bodyfile="View.cpp" bodystart="77" bodyend="81"/>
+        <location file="View.h" line="51" column="10" bodyfile="View.cpp" bodystart="76" bodyend="80"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a25efd59adc30472912be0345bd273761" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -195,13 +195,13 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>true if the current view is visible, false if not. </para>
+<para><simplesect kind="return"><para>True if the current view is visible, False if not. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="56" column="10" bodyfile="View.cpp" bodystart="83" bodyend="87"/>
+        <location file="View.h" line="56" column="10" bodyfile="View.cpp" bodystart="82" bodyend="86"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1ae5c04a6c590e1c2de2ceea7ab2db6b9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -216,7 +216,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="61" column="10" bodyfile="View.cpp" bodystart="89" bodyend="95"/>
+        <location file="View.h" line="61" column="10" bodyfile="View.cpp" bodystart="88" bodyend="94"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a99a088b993877ba6188f114d223b0d64" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_canvas" kindref="compound">Canvas</ref> *</type>
@@ -233,7 +233,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="67" column="12" bodyfile="View.cpp" bodystart="97" bodyend="102"/>
+        <location file="View.h" line="67" column="12" bodyfile="View.cpp" bodystart="96" bodyend="101"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a93b1f781d18cdc8d5ed463190fbafc06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -262,7 +262,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="73" column="10" bodyfile="View.cpp" bodystart="109" bodyend="126"/>
+        <location file="View.h" line="73" column="10" bodyfile="View.cpp" bodystart="108" bodyend="125"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a51e2829282079de9c30f496430b033ed" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_managed_color" kindref="compound">ManagedColor</ref> *</type>
@@ -273,14 +273,18 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>   @brief foregroundColor allows access to the currently active color.
+<para><verbatim>   @brief foregroundColor allows access to the currently active foreground color.
    This is nominally per canvas/view, but in practice per mainwindow.
+
    @code
-</verbatim> color = Application.activeWindow().activeView().<ref refid="class_view_1a51e2829282079de9c30f496430b033ed" kindref="member">foregroundColor()</ref> components = color.components() components[0] = 1.0 components[1] = 0.6 components[2] = 0.7 color.setComponents(components) Application.activeWindow().activeView().setForeGroundColor(color)  </para>
+</verbatim> color = Application.activeWindow().activeView().<ref refid="class_view_1a51e2829282079de9c30f496430b033ed" kindref="member">foregroundColor()</ref> components = color.components() components[0] = 1.0 components[1] = 0.6 components[2] = 0.7 color.setComponents(components) Application.activeWindow().activeView().setForeGroundColor(color) </para>
+<para><simplesect kind="return"><para>The current foreground color </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="90" column="18" bodyfile="View.cpp" bodystart="129" bodyend="133"/>
+        <location file="View.h" line="93" column="18" bodyfile="View.cpp" bodystart="128" bodyend="132"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1af24996f7c120d102d451cbbc5a4da116" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -298,7 +302,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="91" column="10" bodyfile="View.cpp" bodystart="135" bodyend="139"/>
+        <location file="View.h" line="94" column="10" bodyfile="View.cpp" bodystart="134" bodyend="138"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a692583f994437dc7c99a7b1180281a1e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_managed_color" kindref="compound">ManagedColor</ref> *</type>
@@ -307,12 +311,16 @@
         <name>backgroundColor</name>
         <qualifiedname>View::backgroundColor</qualifiedname>
         <briefdescription>
+<para>backgroundColor allows access to the currently active background color. This is nominally per canvas/view, but in practice per mainwindow. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>The current background color </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="93" column="18" bodyfile="View.cpp" bodystart="141" bodyend="145"/>
+        <location file="View.h" line="102" column="18" bodyfile="View.cpp" bodystart="140" bodyend="144"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a27c29c2ecfc2005183fecd06ab283fe7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -330,7 +338,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="94" column="10" bodyfile="View.cpp" bodystart="147" bodyend="151"/>
+        <location file="View.h" line="103" column="10" bodyfile="View.cpp" bodystart="146" bodyend="150"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1aac55de71e884732e62ebcc1f5a12c157" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_resource" kindref="compound">Resource</ref> *</type>
@@ -339,12 +347,16 @@
         <name>currentBrushPreset</name>
         <qualifiedname>View::currentBrushPreset</qualifiedname>
         <briefdescription>
+<para>return the current selected preset </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>the current preset (<ref refid="class_resource" kindref="compound">Resource</ref> type = &apos;preset&apos;) </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="96" column="14" bodyfile="View.cpp" bodystart="153" bodyend="157"/>
+        <location file="View.h" line="110" column="14" bodyfile="View.cpp" bodystart="152" bodyend="156"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a2d00737b10840da6d0994601e45cab09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -357,12 +369,23 @@
           <declname>resource</declname>
         </param>
         <briefdescription>
+<para>set the current selected preset </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the current preset to set (<ref refid="class_resource" kindref="compound">Resource</ref> type = &apos;preset&apos;) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="97" column="10" bodyfile="View.cpp" bodystart="159" bodyend="162"/>
+        <location file="View.h" line="117" column="10" bodyfile="View.cpp" bodystart="158" bodyend="161"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a598a400048c450a851d3f6bbba76c480" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_resource" kindref="compound">Resource</ref> *</type>
@@ -371,12 +394,16 @@
         <name>currentPattern</name>
         <qualifiedname>View::currentPattern</qualifiedname>
         <briefdescription>
+<para>return the current selected pattern </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>the current pattern (<ref refid="class_resource" kindref="compound">Resource</ref> type = &apos;pattern&apos;) </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="99" column="14" bodyfile="View.cpp" bodystart="164" bodyend="168"/>
+        <location file="View.h" line="124" column="14" bodyfile="View.cpp" bodystart="163" bodyend="167"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a4c191d34781c257fd92de44f0bc19261" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -389,12 +416,23 @@
           <declname>resource</declname>
         </param>
         <briefdescription>
+<para>set the current selected pattern </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the current pattern to set (<ref refid="class_resource" kindref="compound">Resource</ref> type = &apos;pattern&apos;) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="100" column="10" bodyfile="View.cpp" bodystart="170" bodyend="173"/>
+        <location file="View.h" line="131" column="10" bodyfile="View.cpp" bodystart="169" bodyend="172"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1ad7c252c3254754ac458b31cc69d21344" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_resource" kindref="compound">Resource</ref> *</type>
@@ -403,12 +441,16 @@
         <name>currentGradient</name>
         <qualifiedname>View::currentGradient</qualifiedname>
         <briefdescription>
+<para>return the current selected gradient </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>the current gradient (<ref refid="class_resource" kindref="compound">Resource</ref> type = &apos;gradient&apos;) </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="102" column="14" bodyfile="View.cpp" bodystart="175" bodyend="179"/>
+        <location file="View.h" line="138" column="14" bodyfile="View.cpp" bodystart="174" bodyend="178"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1af7ccfe73e61fb4d49d56f6da4f7e5c65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -421,12 +463,23 @@
           <declname>resource</declname>
         </param>
         <briefdescription>
+<para>set the current selected gradient </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the current gradient to set (<ref refid="class_resource" kindref="compound">Resource</ref> type = &apos;gradient&apos;) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="103" column="10" bodyfile="View.cpp" bodystart="181" bodyend="184"/>
+        <location file="View.h" line="145" column="10" bodyfile="View.cpp" bodystart="180" bodyend="183"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a72f0c1287b50223a948b49de40f68b94" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -435,12 +488,16 @@
         <name>currentBlendingMode</name>
         <qualifiedname>View::currentBlendingMode</qualifiedname>
         <briefdescription>
+<para>return the current blending mode for brush </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>the current blending mode identifier </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="105" column="13" bodyfile="View.cpp" bodystart="186" bodyend="190"/>
+        <location file="View.h" line="152" column="13" bodyfile="View.cpp" bodystart="185" bodyend="189"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a60e2805bd14cc5765d622b21fa1b67b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -453,12 +510,23 @@
           <declname>blendingMode</declname>
         </param>
         <briefdescription>
+<para>set the current blending mode for brush </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>blendingMode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the current belding mode identifier </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="106" column="10" bodyfile="View.cpp" bodystart="192" bodyend="196"/>
+        <location file="View.h" line="159" column="10" bodyfile="View.cpp" bodystart="191" bodyend="195"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a0ffa6c8384429bd51254644a1a57d11a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -469,10 +537,13 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>the current HDR Exposure value </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="108" column="11" bodyfile="View.cpp" bodystart="198" bodyend="203"/>
+        <location file="View.h" line="164" column="11" bodyfile="View.cpp" bodystart="197" bodyend="202"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1aa023b0febceefc5fe2b34868a86db385" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -485,12 +556,23 @@
           <declname>exposure</declname>
         </param>
         <briefdescription>
+<para>set the current HDR Exposure value </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>exposure</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the HDR Exposure to set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="109" column="10" bodyfile="View.cpp" bodystart="205" bodyend="210"/>
+        <location file="View.h" line="171" column="10" bodyfile="View.cpp" bodystart="204" bodyend="209"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a4eee99c0d30b2ba782d5cce71d29dbbb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -501,10 +583,13 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>the current HDR Gamma value </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="111" column="11" bodyfile="View.cpp" bodystart="212" bodyend="217"/>
+        <location file="View.h" line="176" column="11" bodyfile="View.cpp" bodystart="211" bodyend="216"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a1d8df11e392d34bcf3a1c80860d248a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -517,12 +602,23 @@
           <declname>gamma</declname>
         </param>
         <briefdescription>
+<para>set the current HDR Gamma value </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>exposure</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the HDR Gamma to set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="112" column="10" bodyfile="View.cpp" bodystart="219" bodyend="224"/>
+        <location file="View.h" line="183" column="10" bodyfile="View.cpp" bodystart="218" bodyend="223"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a92cec2910cdba5dda3507a7f7412e5dc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>qreal</type>
@@ -531,12 +627,16 @@
         <name>paintingOpacity</name>
         <qualifiedname>View::paintingOpacity</qualifiedname>
         <briefdescription>
+<para>return the current opacity for brush </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>the brush opacity value (0.00=fully transparent - 1.00=fully opaque) </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="114" column="11" bodyfile="View.cpp" bodystart="226" bodyend="230"/>
+        <location file="View.h" line="190" column="11" bodyfile="View.cpp" bodystart="225" bodyend="229"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a85ae27b0f1a895b3666e014157ee9ee5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -549,12 +649,23 @@
           <declname>opacity</declname>
         </param>
         <briefdescription>
+<para>set the current opacity for brush </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>opacity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the opacity value (0.00=fully transparent - 1.00=fully opaque) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="115" column="10" bodyfile="View.cpp" bodystart="232" bodyend="236"/>
+        <location file="View.h" line="197" column="10" bodyfile="View.cpp" bodystart="231" bodyend="235"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1afde6199aea404549c344dd531c556a8c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>qreal</type>
@@ -563,12 +674,16 @@
         <name>brushSize</name>
         <qualifiedname>View::brushSize</qualifiedname>
         <briefdescription>
+<para>return the current size for brush </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>the brush size value (in pixels) </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="117" column="11" bodyfile="View.cpp" bodystart="238" bodyend="242"/>
+        <location file="View.h" line="204" column="11" bodyfile="View.cpp" bodystart="237" bodyend="241"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a2c6bd83434d1a71ad7a8f695e192c5de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -581,12 +696,70 @@
           <declname>brushSize</declname>
         </param>
         <briefdescription>
+<para>set the current size for brush </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>brushSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the brush size (in pixels) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="118" column="10" bodyfile="View.cpp" bodystart="244" bodyend="248"/>
+        <location file="View.h" line="211" column="10" bodyfile="View.cpp" bodystart="243" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1aa7987507e15f437bb3851a8876c79e7b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal View::brushFade</definition>
+        <argsstring>() const</argsstring>
+        <name>brushFade</name>
+        <qualifiedname>View::brushFade</qualifiedname>
+        <briefdescription>
+<para>return the current fade for brush </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the brush fade value (0.00 - 1.00) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="218" column="11" bodyfile="View.cpp" bodystart="249" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1aed393c43695cb4699714749691d05d6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::setBrushFade</definition>
+        <argsstring>(qreal brushFade)</argsstring>
+        <name>setBrushFade</name>
+        <qualifiedname>View::setBrushFade</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>brushFade</declname>
+        </param>
+        <briefdescription>
+<para>set the current fade for brush </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>brushFade</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the brush fade (0.00 - 1.00) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="225" column="10" bodyfile="View.cpp" bodystart="255" bodyend="259"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1aa15321d641fbe8cb62f433bb35a8380b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>qreal</type>
@@ -595,12 +768,16 @@
         <name>brushRotation</name>
         <qualifiedname>View::brushRotation</qualifiedname>
         <briefdescription>
+<para>return the current rotation for brush tip </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>the brush tip rotation value (in degrees) </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="120" column="11" bodyfile="View.cpp" bodystart="250" bodyend="254"/>
+        <location file="View.h" line="232" column="11" bodyfile="View.cpp" bodystart="261" bodyend="265"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a0bbc7ed156aa6ca4ff8d58b79bb7214d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -613,12 +790,23 @@
           <declname>brushRotation</declname>
         </param>
         <briefdescription>
+<para>set the current rotation for brush tip </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>brushRotation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the brush tip rotation (in degrees) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="121" column="10" bodyfile="View.cpp" bodystart="256" bodyend="260"/>
+        <location file="View.h" line="239" column="10" bodyfile="View.cpp" bodystart="267" bodyend="271"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a3d8f1702f2b67e0adbb4a0824879797a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>qreal</type>
@@ -627,12 +815,16 @@
         <name>paintingFlow</name>
         <qualifiedname>View::paintingFlow</qualifiedname>
         <briefdescription>
+<para>return the current flow for brush </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>the brush flow value </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="123" column="11" bodyfile="View.cpp" bodystart="262" bodyend="266"/>
+        <location file="View.h" line="246" column="11" bodyfile="View.cpp" bodystart="273" bodyend="277"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1ab04ace4224618b8f46059f3d4a85a546" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -645,12 +837,211 @@
           <declname>flow</declname>
         </param>
         <briefdescription>
+<para>set the current flow value for brush </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>flow</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the brush flow </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="124" column="10" bodyfile="View.cpp" bodystart="268" bodyend="272"/>
+        <location file="View.h" line="253" column="10" bodyfile="View.cpp" bodystart="279" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a27a99d16d2482efab1c8e4fe06696cad" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal View::patternSize</definition>
+        <argsstring>() const</argsstring>
+        <name>patternSize</name>
+        <qualifiedname>View::patternSize</qualifiedname>
+        <briefdescription>
+<para>return the current pattern size for brush </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the brush pattern size value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="260" column="11" bodyfile="View.cpp" bodystart="285" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1aa73c0c236c133c8b004b7398c8d90b59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::setPatternSize</definition>
+        <argsstring>(qreal size)</argsstring>
+        <name>setPatternSize</name>
+        <qualifiedname>View::setPatternSize</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>set the current pattern size value for brush </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>flow</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the brush pattern size </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="267" column="10" bodyfile="View.cpp" bodystart="291" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a1638c345204e9146955bf91b0877dc3c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool View::eraserMode</definition>
+        <argsstring>() const</argsstring>
+        <name>eraserMode</name>
+        <qualifiedname>View::eraserMode</qualifiedname>
+        <briefdescription>
+<para>return current eraser mode status (active/inactive) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if eraser mode is active, otherwise False </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="274" column="10" bodyfile="View.cpp" bodystart="297" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1accf67d92f632bbffef38a252b4823091" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::setEraserMode</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setEraserMode</name>
+        <qualifiedname>View::setEraserMode</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>set current eraser active/inactive </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Set to True to activate eraser mode, False to deactivate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="281" column="10" bodyfile="View.cpp" bodystart="305" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a239102701c922a03cf5b573989ab9244" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool View::globalAlphaLock</definition>
+        <argsstring>() const</argsstring>
+        <name>globalAlphaLock</name>
+        <qualifiedname>View::globalAlphaLock</qualifiedname>
+        <briefdescription>
+<para>return current global alpha lock mode (active/inactive) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if is active, otherwise False </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="288" column="10" bodyfile="View.cpp" bodystart="313" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a384cf6e2046a66c8c728013a14446b45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::setGlobalAlphaLock</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setGlobalAlphaLock</name>
+        <qualifiedname>View::setGlobalAlphaLock</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>set current global alpha lock mode active/inactive </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Set to True to lock global alpha mode, False to unlock </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="295" column="10" bodyfile="View.cpp" bodystart="321" bodyend="327"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1aff9f281d713b7ba29edabda9dae37071" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool View::disablePressure</definition>
+        <argsstring>() const</argsstring>
+        <name>disablePressure</name>
+        <qualifiedname>View::disablePressure</qualifiedname>
+        <briefdescription>
+<para>return current disabled pressure status </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if is pressure is disabled, otherwise False </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="302" column="10" bodyfile="View.cpp" bodystart="329" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a31b83c09f36518ea087d5dae5bcd769c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::setDisablePressure</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setDisablePressure</name>
+        <qualifiedname>View::setDisablePressure</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>set current disabled pressure status </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Set to True to disable pressure, False to enabled pressure </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="View.h" line="309" column="10" bodyfile="View.cpp" bodystart="337" bodyend="343"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a79cdd37c763800a22e1f4bba9fdedcad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -715,7 +1106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="134" column="10" bodyfile="View.cpp" bodystart="284" bodyend="292"/>
+        <location file="View.h" line="319" column="10" bodyfile="View.cpp" bodystart="356" bodyend="364"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1aa7956b8880a33fe130b5555280b2fb25" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QList&lt; <ref refid="class_node" kindref="compound">Node</ref> * &gt;</type>
@@ -740,7 +1131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="151" column="11" bodyfile="View.cpp" bodystart="274" bodyend="282"/>
+        <location file="View.h" line="336" column="11" bodyfile="View.cpp" bodystart="346" bodyend="354"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1ac6347e3d8c592cdec3f202bdd7025f55" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QTransform</type>
@@ -758,7 +1149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="158" column="16" bodyfile="View.cpp" bodystart="294" bodyend="298"/>
+        <location file="View.h" line="343" column="16" bodyfile="View.cpp" bodystart="366" bodyend="370"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a6ecf5929fcac8e3ec1e7f426c82a1d03" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QTransform</type>
@@ -776,7 +1167,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="165" column="16" bodyfile="View.cpp" bodystart="300" bodyend="304"/>
+        <location file="View.h" line="350" column="16" bodyfile="View.cpp" bodystart="372" bodyend="376"/>
       </memberdef>
       <memberdef kind="slot" id="class_view_1a87b0192a7aa2176455a7a4653858c41f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QTransform</type>
@@ -794,7 +1185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="172" column="16" bodyfile="View.cpp" bodystart="306" bodyend="314"/>
+        <location file="View.h" line="357" column="16" bodyfile="View.cpp" bodystart="378" bodyend="386"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -810,7 +1201,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.h" line="180" column="13" bodyfile="View.cpp" bodystart="104" bodyend="107"/>
+        <location file="View.h" line="365" column="13" bodyfile="View.cpp" bodystart="103" bodyend="106"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -840,10 +1231,11 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="View.h" line="24" column="1" bodyfile="View.h" bodystart="25" bodyend="185"/>
+    <location file="View.h" line="24" column="1" bodyfile="View.h" bodystart="25" bodyend="370"/>
     <listofallmembers>
       <member refid="class_view_1a93b1f781d18cdc8d5ed463190fbafc06" prot="public" virt="non-virtual"><scope>View</scope><name>activateResource</name></member>
       <member refid="class_view_1a692583f994437dc7c99a7b1180281a1e" prot="public" virt="non-virtual"><scope>View</scope><name>backgroundColor</name></member>
+      <member refid="class_view_1aa7987507e15f437bb3851a8876c79e7b" prot="public" virt="non-virtual"><scope>View</scope><name>brushFade</name></member>
       <member refid="class_view_1aa15321d641fbe8cb62f433bb35a8380b" prot="public" virt="non-virtual"><scope>View</scope><name>brushRotation</name></member>
       <member refid="class_view_1afde6199aea404549c344dd531c556a8c" prot="public" virt="non-virtual"><scope>View</scope><name>brushSize</name></member>
       <member refid="class_view_1a99a088b993877ba6188f114d223b0d64" prot="public" virt="non-virtual"><scope>View</scope><name>canvas</name></member>
@@ -852,39 +1244,48 @@
       <member refid="class_view_1ad7c252c3254754ac458b31cc69d21344" prot="public" virt="non-virtual"><scope>View</scope><name>currentGradient</name></member>
       <member refid="class_view_1a598a400048c450a851d3f6bbba76c480" prot="public" virt="non-virtual"><scope>View</scope><name>currentPattern</name></member>
       <member refid="class_view_1a2d195884b16e2da027910229c28073e2" prot="private" virt="non-virtual"><scope>View</scope><name>d</name></member>
+      <member refid="class_view_1aff9f281d713b7ba29edabda9dae37071" prot="public" virt="non-virtual"><scope>View</scope><name>disablePressure</name></member>
       <member refid="class_view_1afb79e5ff78dcecb2c9b38b53389f7eda" prot="public" virt="non-virtual"><scope>View</scope><name>document</name></member>
+      <member refid="class_view_1a1638c345204e9146955bf91b0877dc3c" prot="public" virt="non-virtual"><scope>View</scope><name>eraserMode</name></member>
       <member refid="class_view_1a6ecf5929fcac8e3ec1e7f426c82a1d03" prot="public" virt="non-virtual"><scope>View</scope><name>flakeToCanvasTransform</name></member>
       <member refid="class_view_1ac6347e3d8c592cdec3f202bdd7025f55" prot="public" virt="non-virtual"><scope>View</scope><name>flakeToDocumentTransform</name></member>
       <member refid="class_view_1a87b0192a7aa2176455a7a4653858c41f" prot="public" virt="non-virtual"><scope>View</scope><name>flakeToImageTransform</name></member>
       <member refid="class_view_1a51e2829282079de9c30f496430b033ed" prot="public" virt="non-virtual"><scope>View</scope><name>foregroundColor</name></member>
+      <member refid="class_view_1a239102701c922a03cf5b573989ab9244" prot="public" virt="non-virtual"><scope>View</scope><name>globalAlphaLock</name></member>
       <member refid="class_view_1a0ffa6c8384429bd51254644a1a57d11a" prot="public" virt="non-virtual"><scope>View</scope><name>HDRExposure</name></member>
       <member refid="class_view_1a4eee99c0d30b2ba782d5cce71d29dbbb" prot="public" virt="non-virtual"><scope>View</scope><name>HDRGamma</name></member>
       <member refid="class_view_1ae6f9598634dbfdddbac8918283e3cafb" prot="public" virt="non-virtual"><scope>View</scope><name>operator!=</name></member>
       <member refid="class_view_1ab2ea7b4391850f95a99eabcff24da48c" prot="public" virt="non-virtual"><scope>View</scope><name>operator==</name></member>
       <member refid="class_view_1a3d8f1702f2b67e0adbb4a0824879797a" prot="public" virt="non-virtual"><scope>View</scope><name>paintingFlow</name></member>
       <member refid="class_view_1a92cec2910cdba5dda3507a7f7412e5dc" prot="public" virt="non-virtual"><scope>View</scope><name>paintingOpacity</name></member>
+      <member refid="class_view_1a27a99d16d2482efab1c8e4fe06696cad" prot="public" virt="non-virtual"><scope>View</scope><name>patternSize</name></member>
       <member refid="class_view_1a4c09e157d0e3941dd526f3ced7f3d6f7" prot="private" virt="non-virtual"><scope>View</scope><name>Scratchpad</name></member>
       <member refid="class_view_1aa7956b8880a33fe130b5555280b2fb25" prot="public" virt="non-virtual"><scope>View</scope><name>selectedNodes</name></member>
       <member refid="class_view_1a27c29c2ecfc2005183fecd06ab283fe7" prot="public" virt="non-virtual"><scope>View</scope><name>setBackGroundColor</name></member>
+      <member refid="class_view_1aed393c43695cb4699714749691d05d6a" prot="public" virt="non-virtual"><scope>View</scope><name>setBrushFade</name></member>
       <member refid="class_view_1a0bbc7ed156aa6ca4ff8d58b79bb7214d" prot="public" virt="non-virtual"><scope>View</scope><name>setBrushRotation</name></member>
       <member refid="class_view_1a2c6bd83434d1a71ad7a8f695e192c5de" prot="public" virt="non-virtual"><scope>View</scope><name>setBrushSize</name></member>
       <member refid="class_view_1a60e2805bd14cc5765d622b21fa1b67b5" prot="public" virt="non-virtual"><scope>View</scope><name>setCurrentBlendingMode</name></member>
       <member refid="class_view_1a2d00737b10840da6d0994601e45cab09" prot="public" virt="non-virtual"><scope>View</scope><name>setCurrentBrushPreset</name></member>
       <member refid="class_view_1af7ccfe73e61fb4d49d56f6da4f7e5c65" prot="public" virt="non-virtual"><scope>View</scope><name>setCurrentGradient</name></member>
       <member refid="class_view_1a4c191d34781c257fd92de44f0bc19261" prot="public" virt="non-virtual"><scope>View</scope><name>setCurrentPattern</name></member>
+      <member refid="class_view_1a31b83c09f36518ea087d5dae5bcd769c" prot="public" virt="non-virtual"><scope>View</scope><name>setDisablePressure</name></member>
       <member refid="class_view_1a4093039939fd6f9f55b942ebe0f82836" prot="public" virt="non-virtual"><scope>View</scope><name>setDocument</name></member>
+      <member refid="class_view_1accf67d92f632bbffef38a252b4823091" prot="public" virt="non-virtual"><scope>View</scope><name>setEraserMode</name></member>
       <member refid="class_view_1af24996f7c120d102d451cbbc5a4da116" prot="public" virt="non-virtual"><scope>View</scope><name>setForeGroundColor</name></member>
+      <member refid="class_view_1a384cf6e2046a66c8c728013a14446b45" prot="public" virt="non-virtual"><scope>View</scope><name>setGlobalAlphaLock</name></member>
       <member refid="class_view_1aa023b0febceefc5fe2b34868a86db385" prot="public" virt="non-virtual"><scope>View</scope><name>setHDRExposure</name></member>
       <member refid="class_view_1a1d8df11e392d34bcf3a1c80860d248a2" prot="public" virt="non-virtual"><scope>View</scope><name>setHDRGamma</name></member>
       <member refid="class_view_1ab04ace4224618b8f46059f3d4a85a546" prot="public" virt="non-virtual"><scope>View</scope><name>setPaintingFlow</name></member>
       <member refid="class_view_1a85ae27b0f1a895b3666e014157ee9ee5" prot="public" virt="non-virtual"><scope>View</scope><name>setPaintingOpacity</name></member>
+      <member refid="class_view_1aa73c0c236c133c8b004b7398c8d90b59" prot="public" virt="non-virtual"><scope>View</scope><name>setPatternSize</name></member>
       <member refid="class_view_1ae5c04a6c590e1c2de2ceea7ab2db6b9f" prot="public" virt="non-virtual"><scope>View</scope><name>setVisible</name></member>
       <member refid="class_view_1a79cdd37c763800a22e1f4bba9fdedcad" prot="public" virt="non-virtual"><scope>View</scope><name>showFloatingMessage</name></member>
       <member refid="class_view_1a1f20f994975aff14d01c86de535ab80e" prot="public" virt="non-virtual"><scope>View</scope><name>View</name></member>
       <member refid="class_view_1aa6656cb36ef7ea405798f94456509dc4" prot="private" virt="non-virtual"><scope>View</scope><name>view</name></member>
       <member refid="class_view_1a25efd59adc30472912be0345bd273761" prot="public" virt="non-virtual"><scope>View</scope><name>visible</name></member>
-      <member refid="class_view_1a553f958a25683445088050a69d3de8e9" prot="private" virt="non-virtual"><scope>View</scope><name>Window</name></member>
       <member refid="class_view_1aa9ae34c5b6b7340c05547a716ee3da38" prot="public" virt="non-virtual"><scope>View</scope><name>window</name></member>
+      <member refid="class_view_1a553f958a25683445088050a69d3de8e9" prot="private" virt="non-virtual"><scope>View</scope><name>Window</name></member>
       <member refid="class_view_1a03c7de75b3d338c79b0fd0100153ca1d" prot="public" virt="non-virtual"><scope>View</scope><name>~View</name></member>
     </listofallmembers>
   </compounddef>

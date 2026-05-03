@@ -291,6 +291,53 @@
         </inbodydescription>
         <location file="VectorLayer.h" line="96" column="11" bodyfile="VectorLayer.cpp" bodystart="190" bodyend="234"/>
       </memberdef>
+      <memberdef kind="slot" id="class_vector_layer_1a06157e7b10e786ff25830b00a4d0bfe5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VectorLayer::isAntialiased</definition>
+        <argsstring>() const</argsstring>
+        <name>isAntialiased</name>
+        <qualifiedname>VectorLayer::isAntialiased</qualifiedname>
+        <briefdescription>
+<para>return antialiasing status for the Vector layer </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if antialiasing is active for the layer </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="VectorLayer.h" line="102" column="10" bodyfile="VectorLayer.cpp" bodystart="237" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_vector_layer_1addd2450571edd61b380c02c6c9d5e7f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VectorLayer::setAntialiased</definition>
+        <argsstring>(const bool antialiased)</argsstring>
+        <name>setAntialiased</name>
+        <qualifiedname>VectorLayer::setAntialiased</qualifiedname>
+        <param>
+          <type>const bool</type>
+          <declname>antialiased</declname>
+        </param>
+        <briefdescription>
+<para>set antialiasing status for the Vector layer </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>antialiased</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>set to True to activate antialiasing </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="VectorLayer.h" line="108" column="10" bodyfile="VectorLayer.cpp" bodystart="243" bodyend="247"/>
+      </memberdef>
     </sectiondef>
     <briefdescription>
 <para>The <ref refid="class_vector_layer" kindref="compound">VectorLayer</ref> class A vector layer is a special layer that stores and shows vector shapes. </para>
@@ -332,7 +379,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="VectorLayer.h" line="31" column="1" bodyfile="VectorLayer.h" bodystart="32" bodyend="98"/>
+    <location file="VectorLayer.h" line="31" column="1" bodyfile="VectorLayer.h" bodystart="32" bodyend="109"/>
     <listofallmembers>
       <member refid="class_node_1aac9529a234783d6fc0eec605ed008ddf" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>addChildNode</name></member>
       <member refid="class_vector_layer_1a508e74fee672036d9f934e31caecaad9" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>addShapesFromSvg</name></member>
@@ -359,6 +406,7 @@
       <member refid="class_node_1a39c42f4d3720132eaa4bf5387b3f2e86" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>icon</name></member>
       <member refid="class_node_1a8bdc901118f26e80a5c2c2ded2408491" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>index</name></member>
       <member refid="class_node_1a689a98bf668b87aef051d7af4f7d8816" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>inheritAlpha</name></member>
+      <member refid="class_vector_layer_1a06157e7b10e786ff25830b00a4d0bfe5" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>isAntialiased</name></member>
       <member refid="class_node_1ae85372aefa12b3942da3da67f3701c68" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>isPinnedToTimeline</name></member>
       <member refid="class_node_1a9ca29d6258da85cbe168bd4a5f80bb24" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>layerStyleToAsl</name></member>
       <member refid="class_node_1a1cdff70e3281c1ba1e377d059890685d" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>locked</name></member>
@@ -368,6 +416,12 @@
       <member refid="class_node_1a8caff4eebed355d4de68075e1e4e3184" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>opacity</name></member>
       <member refid="class_node_1a438f9a583f733cd05d0a6e0ef28dd3ef" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>operator!=</name></member>
       <member refid="class_node_1a0e28753e22ef956f881210795f1c102f" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>operator==</name></member>
+      <member refid="class_node_1a85f4e802ebaebebed1cfb4e004d05d59" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>paintAbility</name></member>
+      <member refid="class_node_1a38de6d617881385aafc2d39f5f472cca" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>paintEllipse</name></member>
+      <member refid="class_node_1a3f244028e74a9ec7eacb176e781d583d" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>paintLine</name></member>
+      <member refid="class_node_1aaf7adef0ec8fc009012fe2e55295147f" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>paintPath</name></member>
+      <member refid="class_node_1a0b866eac75ac43ca4046ab456b7fcebc" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>paintPolygon</name></member>
+      <member refid="class_node_1a5f7d775a50c382798cbd0982f816589a" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>paintRectangle</name></member>
       <member refid="class_node_1ad1368afb97550d97d066853e4ec8b0d2" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>parentNode</name></member>
       <member refid="class_node_1a68cac1af91841ef565f64c0d1d168146" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>pixelData</name></member>
       <member refid="class_node_1ae83dab802ae203ccb60cedff957052f8" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>pixelDataAtTime</name></member>
@@ -379,6 +433,7 @@
       <member refid="class_node_1a7b6d20aacd97816747e7a11b38cd8b76" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>save</name></member>
       <member refid="class_node_1a0767a5d240cb4ec152b77fe21932fb23" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>scaleNode</name></member>
       <member refid="class_node_1a0899d64a8814896260b20d38927f8a9b" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>setAlphaLocked</name></member>
+      <member refid="class_vector_layer_1addd2450571edd61b380c02c6c9d5e7f1" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>setAntialiased</name></member>
       <member refid="class_node_1a047273470b5e2199e4bef7b385db5476" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>setBlendingMode</name></member>
       <member refid="class_node_1a35718c8c37b9cc7c1dc0f35347587233" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>setChildNodes</name></member>
       <member refid="class_node_1a0ec780c17a196114303fdce2367fea15" prot="public" virt="non-virtual"><scope>VectorLayer</scope><name>setCollapsed</name></member>

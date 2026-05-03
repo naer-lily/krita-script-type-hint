@@ -1,0 +1,1131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_angle_selector" kind="class" language="C++" prot="public">
+    <compoundname>AngleSelector</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <includes refid="_angle_selector_8h" local="no">AngleSelector.h</includes>
+    <innerclass refid="struct_angle_selector_1_1_private" prot="public">AngleSelector::Private</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_angle_selector_1a489a381b687c3da06e2ef25b3a571e38" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_angle_selector_1_1_private" kindref="compound">Private</ref> *const</type>
+        <definition>Private* const AngleSelector::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>AngleSelector::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="308" column="19" bodyfile="AngleSelector.h" bodystart="308" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_angle_selector_1ae9fed469aede06c4bbcf6568d5c0531a" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AngleSelector::AngleSelector</definition>
+        <argsstring>()</argsstring>
+        <name>AngleSelector</name>
+        <qualifiedname>AngleSelector::AngleSelector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="27" column="14" bodyfile="AngleSelector.cpp" bodystart="29" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_angle_selector_1a3871b12c3b6f37ad590c68d0718e5324" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AngleSelector::~AngleSelector</definition>
+        <argsstring>() override</argsstring>
+        <name>~AngleSelector</name>
+        <qualifiedname>AngleSelector::~AngleSelector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="28" column="5" bodyfile="AngleSelector.cpp" bodystart="39" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_angle_selector_1ac3fa489fce8eca45481838785a012438" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QWidget *</type>
+        <definition>QWidget * AngleSelector::widget</definition>
+        <argsstring>() const</argsstring>
+        <name>widget</name>
+        <qualifiedname>AngleSelector::widget</qualifiedname>
+        <briefdescription>
+<para>Get the internal KisAngleSelector as a QWidget, so it may be added to a UI. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the internal KisAngleSelector as a QWidget </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="38" column="13" bodyfile="AngleSelector.cpp" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1aeff3157a0e56babe6b900a3880c02897" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AngleSelector::setAngle</definition>
+        <argsstring>(qreal newAngle)</argsstring>
+        <name>setAngle</name>
+        <qualifiedname>AngleSelector::setAngle</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>newAngle</declname>
+        </param>
+        <briefdescription>
+<para>Sets the current angle. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newAngle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new angle </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1a0dc7e69ab29f9d1ff8e58d5053708e4e" kindref="member">angle() const</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="45" column="10" bodyfile="AngleSelector.cpp" bodystart="119" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1a6b1f18ead0545ee0c944683a9ef4fdaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AngleSelector::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>AngleSelector::reset</qualifiedname>
+        <briefdescription>
+<para>Sets the current angle to the reset angle. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="class_angle_selector_1ad067fe0002c1dc620a15d7e592f8b38a" kindref="member">resetAngle() const</ref> </para>
+</simplesect>
+<simplesect kind="see"><para>setResetAngle(qreal) const </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="51" column="10" bodyfile="AngleSelector.cpp" bodystart="194" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1a0dc7e69ab29f9d1ff8e58d5053708e4e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal AngleSelector::angle</definition>
+        <argsstring>() const</argsstring>
+        <name>angle</name>
+        <qualifiedname>AngleSelector::angle</qualifiedname>
+        <briefdescription>
+<para>Gets the current angle. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The current angle </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1aeff3157a0e56babe6b900a3880c02897" kindref="member">setAngle(qreal)</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="58" column="11" bodyfile="AngleSelector.cpp" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1a9c48b30eed0ab06aa48cae53ed8e3567" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal AngleSelector::snapAngle</definition>
+        <argsstring>() const</argsstring>
+        <name>snapAngle</name>
+        <qualifiedname>AngleSelector::snapAngle</qualifiedname>
+        <briefdescription>
+<para>Gets the angle to which multiples the selected angle will snap. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The default snap angle is 15 degrees so the selected angle will snap to its multiples (0, 15, 30, 45, etc.) <simplesect kind="return"><para>The angle to which multiples the selected angle will snap </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1abc89bd449e517934b9febf77af478b4d" kindref="member">setSnapAngle(qreal)</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="67" column="11" bodyfile="AngleSelector.cpp" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1ad067fe0002c1dc620a15d7e592f8b38a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal AngleSelector::resetAngle</definition>
+        <argsstring>() const</argsstring>
+        <name>resetAngle</name>
+        <qualifiedname>AngleSelector::resetAngle</qualifiedname>
+        <briefdescription>
+<para>Gets the angle that is used to reset the current angle. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This angle is used when the user double clicks on the widget <simplesect kind="return"><para>The angle that is used to reset the current angle </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1ab640a4c7bfa70a6575c32019eed9024a" kindref="member">setResetAngle(qreal)</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="75" column="11" bodyfile="AngleSelector.cpp" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1ad48bff7c6b2f23233307109e42c549ec" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int AngleSelector::decimals</definition>
+        <argsstring>() const</argsstring>
+        <name>decimals</name>
+        <qualifiedname>AngleSelector::decimals</qualifiedname>
+        <briefdescription>
+<para>Gets the number of decimals (precision) used by the angle. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If you want to simulate integer angles, set it to 0. The default is 2. <simplesect kind="return"><para>The number of decimals being used </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1aeb0fc28a91b76a073334aba9e5f32c35" kindref="member">setDecimals(int)</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="83" column="8" bodyfile="AngleSelector.cpp" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1a30c068a33b0408bf5d93504fc282a5af" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal AngleSelector::maximum</definition>
+        <argsstring>() const</argsstring>
+        <name>maximum</name>
+        <qualifiedname>AngleSelector::maximum</qualifiedname>
+        <briefdescription>
+<para>Gets the maximum value for the angle. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The default is 360 <simplesect kind="return"><para>The maximum value for the angle </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1ac0013c69f6e91cd2f4b97ebb4dd9f19f" kindref="member">setMaximum(qreal)</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1a72c5b9ba42b2cc8f3023fa7fa8cc020a" kindref="member">setRange(qreal, qreal)</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="92" column="11" bodyfile="AngleSelector.cpp" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1a19737b6b396fc27913f72e82377fe4c6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal AngleSelector::minimum</definition>
+        <argsstring>() const</argsstring>
+        <name>minimum</name>
+        <qualifiedname>AngleSelector::minimum</qualifiedname>
+        <briefdescription>
+<para>Gets the minimum value for the angle. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The default is 0 <simplesect kind="return"><para>The minimum value for the angle </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1a415f37ada5d1e6becc031f90491ef842" kindref="member">setMinimum(qreal)</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1a72c5b9ba42b2cc8f3023fa7fa8cc020a" kindref="member">setRange(qreal, qreal)</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="101" column="11" bodyfile="AngleSelector.cpp" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1a6641e44aced2dd67f9d1b7a48e97b05d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString AngleSelector::prefix</definition>
+        <argsstring>() const</argsstring>
+        <name>prefix</name>
+        <qualifiedname>AngleSelector::prefix</qualifiedname>
+        <briefdescription>
+<para>Gets the prefix shown in the spin box. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The prefix shown in the spin box </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1a78f21ba3cd1e759b3b5ad7a39b5e058f" kindref="member">setPrefix(const QString&amp;)</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="107" column="13" bodyfile="AngleSelector.cpp" bodystart="79" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1ab864a8ad4d2267a87eec6d7de073a7a7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AngleSelector::wrapping</definition>
+        <argsstring>() const</argsstring>
+        <name>wrapping</name>
+        <qualifiedname>AngleSelector::wrapping</qualifiedname>
+        <briefdescription>
+<para>Gets if the angle should wrap pass the minimum or maximum angles. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if the angle should wrap pass the minimum or maximum angles, false otherwise </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1af18571bbeabab33c4fa04d646291c638" kindref="member">setWrapping(bool)</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="114" column="10" bodyfile="AngleSelector.cpp" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1a90662ff862817f2de83763155416d827" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString AngleSelector::flipOptionsMode</definition>
+        <argsstring>() const</argsstring>
+        <name>flipOptionsMode</name>
+        <qualifiedname>AngleSelector::flipOptionsMode</qualifiedname>
+        <briefdescription>
+<para>Gets the mode in which the flip options should be shown. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The default is Buttons <simplesect kind="return"><para>The mode in which the flip options should be shown. </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1aadf21365ed1dc565a3c59e1252804246" kindref="member">setFlipOptionsMode(QString)</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="122" column="13" bodyfile="AngleSelector.cpp" bodystart="89" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1a3f751fee419cb8816079b453431e86bc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int AngleSelector::widgetsHeight</definition>
+        <argsstring>() const</argsstring>
+        <name>widgetsHeight</name>
+        <qualifiedname>AngleSelector::widgetsHeight</qualifiedname>
+        <briefdescription>
+<para>Gets the common height of the widgets inside this angle selector. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The height of the internal widgets (angle gauge, spin box, etc.). Returns 0 if each widget has its default height. </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1add593fc80247502a44822d4389ccf2a6" kindref="member">setWidgetsHeight(int)</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="129" column="9" bodyfile="AngleSelector.cpp" bodystart="99" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1a5690735e8a545752f99476520dde1667" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString AngleSelector::increasingDirection</definition>
+        <argsstring>() const</argsstring>
+        <name>increasingDirection</name>
+        <qualifiedname>AngleSelector::increasingDirection</qualifiedname>
+        <briefdescription>
+<para>Gets the direction in which the angle increases in the angle gauge. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The direction in which the angle increases </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1a8b897d88e2925c93cbbc2e61c7430c4a" kindref="member">setIncreasingDirection(QString)</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="135" column="13" bodyfile="AngleSelector.cpp" bodystart="104" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1ac607a9accbf3cd301ee643bc885595dd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AngleSelector::isUsingFlatSpinBox</definition>
+        <argsstring>() const</argsstring>
+        <name>isUsingFlatSpinBox</name>
+        <qualifiedname>AngleSelector::isUsingFlatSpinBox</qualifiedname>
+        <briefdescription>
+<para>Gets if the spin box is flat (no border or background) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if the spin box is flat, false otherwise </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1a88f1cbc172051cb7b363b5f98d12f878" kindref="member">useFlatSpinBox(bool)</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="141" column="10" bodyfile="AngleSelector.cpp" bodystart="114" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1abc89bd449e517934b9febf77af478b4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AngleSelector::setSnapAngle</definition>
+        <argsstring>(qreal newSnapAngle)</argsstring>
+        <name>setSnapAngle</name>
+        <qualifiedname>AngleSelector::setSnapAngle</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>newSnapAngle</declname>
+        </param>
+        <briefdescription>
+<para>Sets the angle to which multiples the selected angle will snap. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newSnapAngle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new angle to which multiples the selected angle will snap </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1a9c48b30eed0ab06aa48cae53ed8e3567" kindref="member">snapAngle() const</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="148" column="10" bodyfile="AngleSelector.cpp" bodystart="124" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1ab640a4c7bfa70a6575c32019eed9024a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AngleSelector::setResetAngle</definition>
+        <argsstring>(qreal newResetAngle)</argsstring>
+        <name>setResetAngle</name>
+        <qualifiedname>AngleSelector::setResetAngle</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>newResetAngle</declname>
+        </param>
+        <briefdescription>
+<para>Sets the angle that is used to reset the current angle. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newResetAngle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new angle that is used to reset the current angle </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1ad067fe0002c1dc620a15d7e592f8b38a" kindref="member">resetAngle() const</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="154" column="10" bodyfile="AngleSelector.cpp" bodystart="129" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1aeb0fc28a91b76a073334aba9e5f32c35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AngleSelector::setDecimals</definition>
+        <argsstring>(int newNumberOfDecimals)</argsstring>
+        <name>setDecimals</name>
+        <qualifiedname>AngleSelector::setDecimals</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>newNumberOfDecimals</declname>
+        </param>
+        <briefdescription>
+<para>Sets the number of decimals (precision) used by the angle. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newNumberOfDecimals</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new number of decimals used by the angle </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1ad48bff7c6b2f23233307109e42c549ec" kindref="member">decimals() const</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="160" column="10" bodyfile="AngleSelector.cpp" bodystart="134" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1ac0013c69f6e91cd2f4b97ebb4dd9f19f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AngleSelector::setMaximum</definition>
+        <argsstring>(qreal newMaximum)</argsstring>
+        <name>setMaximum</name>
+        <qualifiedname>AngleSelector::setMaximum</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>newMaximum</declname>
+        </param>
+        <briefdescription>
+<para>Sets the maximum value for the angle. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newMaximum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new maximum value for the angle </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1a30c068a33b0408bf5d93504fc282a5af" kindref="member">maximum() const</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1a72c5b9ba42b2cc8f3023fa7fa8cc020a" kindref="member">setRange(qreal, qreal)</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="167" column="10" bodyfile="AngleSelector.cpp" bodystart="139" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1a415f37ada5d1e6becc031f90491ef842" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AngleSelector::setMinimum</definition>
+        <argsstring>(qreal newMinimum)</argsstring>
+        <name>setMinimum</name>
+        <qualifiedname>AngleSelector::setMinimum</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>newMinimum</declname>
+        </param>
+        <briefdescription>
+<para>Sets the minimum value for the angle. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newMinimum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new minimum value for the angle </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1a19737b6b396fc27913f72e82377fe4c6" kindref="member">minimum() const</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1a72c5b9ba42b2cc8f3023fa7fa8cc020a" kindref="member">setRange(qreal, qreal)</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="174" column="10" bodyfile="AngleSelector.cpp" bodystart="144" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1a72c5b9ba42b2cc8f3023fa7fa8cc020a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AngleSelector::setRange</definition>
+        <argsstring>(qreal newMinimum, qreal newMaximum)</argsstring>
+        <name>setRange</name>
+        <qualifiedname>AngleSelector::setRange</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>newMinimum</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>newMaximum</declname>
+        </param>
+        <briefdescription>
+<para>Sets the minimum and maximum values for the angle. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newMinimum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new minimum value for the angle </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newMaximum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new maximum value for the angle </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1a19737b6b396fc27913f72e82377fe4c6" kindref="member">minimum() const</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1a30c068a33b0408bf5d93504fc282a5af" kindref="member">maximum() const</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1a415f37ada5d1e6becc031f90491ef842" kindref="member">setMinimum(qreal)</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1ac0013c69f6e91cd2f4b97ebb4dd9f19f" kindref="member">setMaximum(qreal)</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="184" column="10" bodyfile="AngleSelector.cpp" bodystart="149" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1a78f21ba3cd1e759b3b5ad7a39b5e058f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AngleSelector::setPrefix</definition>
+        <argsstring>(const QString &amp;newPrefix)</argsstring>
+        <name>setPrefix</name>
+        <qualifiedname>AngleSelector::setPrefix</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>newPrefix</declname>
+        </param>
+        <briefdescription>
+<para>Sets the prefix shown in the spin box. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newPrefix</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new prefix for the spin box </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1a6641e44aced2dd67f9d1b7a48e97b05d" kindref="member">prefix() const</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="190" column="10" bodyfile="AngleSelector.cpp" bodystart="154" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1af18571bbeabab33c4fa04d646291c638" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AngleSelector::setWrapping</definition>
+        <argsstring>(bool newWrapping)</argsstring>
+        <name>setWrapping</name>
+        <qualifiedname>AngleSelector::setWrapping</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>newWrapping</declname>
+        </param>
+        <briefdescription>
+<para>Sets if the angle should wrap pass the minimum or maximum angles. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newWrapping</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the angle should wrap pass the minimum or maximum angles, false otherwise </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1ab864a8ad4d2267a87eec6d7de073a7a7" kindref="member">wrapping() const</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="197" column="10" bodyfile="AngleSelector.cpp" bodystart="159" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1aadf21365ed1dc565a3c59e1252804246" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AngleSelector::setFlipOptionsMode</definition>
+        <argsstring>(QString newMode)</argsstring>
+        <name>setFlipOptionsMode</name>
+        <qualifiedname>AngleSelector::setFlipOptionsMode</qualifiedname>
+        <param>
+          <type>QString</type>
+          <declname>newMode</declname>
+        </param>
+        <briefdescription>
+<para>Sets the mode in which the flip options should be shown. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newMode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new mode in which the flip options should be shown Valid arguments: <itemizedlist>
+<listitem>
+<para>NoFlipOptions - There are no flip options available </para>
+</listitem>
+<listitem>
+<para>MenuButton - The flip options are shown as a menu accessible via a options button </para>
+</listitem>
+<listitem>
+<para>Buttons - The flip options are shown as individual buttons </para>
+</listitem>
+<listitem>
+<para>ContextMenu - The flip options are shown only as a context menu when right-clicking the gauge widget <itemizedlist>
+<listitem>
+</listitem>
+</itemizedlist>
+<ref refid="class_angle_selector_1a90662ff862817f2de83763155416d827" kindref="member">flipOptionsMode() const</ref> </para>
+</listitem>
+</itemizedlist>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="211" column="10" bodyfile="AngleSelector.cpp" bodystart="164" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1add593fc80247502a44822d4389ccf2a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AngleSelector::setWidgetsHeight</definition>
+        <argsstring>(int newHeight)</argsstring>
+        <name>setWidgetsHeight</name>
+        <qualifiedname>AngleSelector::setWidgetsHeight</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>newHeight</declname>
+        </param>
+        <briefdescription>
+<para>Sets the common height of the widgets inside this angle selector. Use 0 to reset widgets to default height. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newHeight</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new height of the internal widgets (angle gauge, spin box, etc.) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1a3f751fee419cb8816079b453431e86bc" kindref="member">widgetsHeight() const</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="218" column="10" bodyfile="AngleSelector.cpp" bodystart="174" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1a8b897d88e2925c93cbbc2e61c7430c4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AngleSelector::setIncreasingDirection</definition>
+        <argsstring>(QString newIncreasingDirection)</argsstring>
+        <name>setIncreasingDirection</name>
+        <qualifiedname>AngleSelector::setIncreasingDirection</qualifiedname>
+        <param>
+          <type>QString</type>
+          <declname>newIncreasingDirection</declname>
+        </param>
+        <briefdescription>
+<para>Sets the increasing direction in the angle gauge. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newIncreasingDirection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new increasing direction Valid arguments: CounterClockwise or Clockwise. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1a5690735e8a545752f99476520dde1667" kindref="member">increasingDirection() const</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="225" column="10" bodyfile="AngleSelector.cpp" bodystart="179" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1a88f1cbc172051cb7b363b5f98d12f878" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AngleSelector::useFlatSpinBox</definition>
+        <argsstring>(bool newUseFlatSpinBox)</argsstring>
+        <name>useFlatSpinBox</name>
+        <qualifiedname>AngleSelector::useFlatSpinBox</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>newUseFlatSpinBox</declname>
+        </param>
+        <briefdescription>
+<para>Sets if the spin box should be flat. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newUseFlatSpinBox</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True if the spin box should be flat, false otherwise </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_angle_selector_1ac607a9accbf3cd301ee643bc885595dd" kindref="member">isUsingFlatSpinBox() const</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="232" column="10" bodyfile="AngleSelector.cpp" bodystart="189" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1aea488ee6f3cb52babe1bd9eb4e8cd651" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal AngleSelector::closestCoterminalAngleInRange</definition>
+        <argsstring>(qreal angle, qreal minimum, qreal maximum, bool *ok=nullptr)</argsstring>
+        <name>closestCoterminalAngleInRange</name>
+        <qualifiedname>AngleSelector::closestCoterminalAngleInRange</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>minimum</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>maximum</declname>
+        </param>
+        <param>
+          <type>bool *</type>
+          <declname>ok</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>Gets the closest coterminal angle to the provided angle that is in the range provided. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>A coterminal angle to the provided angle is one that differs in size by an integer multiple of a turn (360 degrees) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>angle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The reference angle for which the function will try to find a coterminal angle </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>minimum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The range&apos;s lower bound </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maximum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The range&apos;s upper bound </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">ok</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>This parameter will be set to true if a coterminal angle exists in the provided range, or to false otherwise </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The closest coterminal angle in the provided range if one exists, or the closest value in the range (the minimum or maximum) otherwise. If the reference angle is already in the range then it is returned </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="250" column="18" bodyfile="AngleSelector.cpp" bodystart="199" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1a62e7e3c86a1ba0156e82807539e8acc7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal AngleSelector::closestCoterminalAngleInRange</definition>
+        <argsstring>(qreal angle, bool *ok=nullptr) const</argsstring>
+        <name>closestCoterminalAngleInRange</name>
+        <qualifiedname>AngleSelector::closestCoterminalAngleInRange</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>bool *</type>
+          <declname>ok</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>Gets the closest coterminal angle to the provided angle that is in the range established. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>A coterminal angle to the provided angle is one that differs in size by an integer multiple of a turn (360 degrees) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>angle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The reference angle for which the function will try to find a coterminal angle </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">ok</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>This parameter will be set to true if a coterminal angle exists in the specified range, or to false otherwise </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The closest coterminal angle in the specified range if one exists, or the closest value in the range (the minimum or maximum) otherwise. If the reference angle is already in the range then it is returned </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="265" column="11" bodyfile="AngleSelector.cpp" bodystart="204" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1a7642966b80b9cac1ce759537193a7b81" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal AngleSelector::flipAngle</definition>
+        <argsstring>(qreal angle, Qt::Orientations orientations)</argsstring>
+        <name>flipAngle</name>
+        <qualifiedname>AngleSelector::flipAngle</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>Qt::Orientations</type>
+          <declname>orientations</declname>
+        </param>
+        <briefdescription>
+<para>Flips an angle horizontally, vertically, or both. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will always try to get the closest angle to the provided one that satisfies the flipping requirements <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>angle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The angle to be flipped </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>orientations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Flags indicating in which directions the angle should be flipped </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The flipped angle </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="276" column="18" bodyfile="AngleSelector.cpp" bodystart="209" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1a330abe7729e97782926a37d16cb692e8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal AngleSelector::flipAngle</definition>
+        <argsstring>(qreal angle, qreal minimum, qreal maximum, Qt::Orientations orientations, bool *ok=nullptr)</argsstring>
+        <name>flipAngle</name>
+        <qualifiedname>AngleSelector::flipAngle</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>minimum</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>maximum</declname>
+        </param>
+        <param>
+          <type>Qt::Orientations</type>
+          <declname>orientations</declname>
+        </param>
+        <param>
+          <type>bool *</type>
+          <declname>ok</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>Flips an angle horizontally, vertically, or both. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will always try to get the closest angle to the provided one that satisfies the flipping requirements <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>angle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The angle to be flipped </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>minimum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The lower bound of the valid range </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maximum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The upper bound of the valid range </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>orientations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Flags indicating in which directions the angle should be flipped </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">ok</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>This parameter will be set to true if the flipped angle is in the provided range, or to false otherwise </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The flipped angle if it lies in the provided range or the closest value in the range (the minimum or maximum) otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="292" column="18" bodyfile="AngleSelector.cpp" bodystart="214" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_angle_selector_1ab132d71ba44005571bf180019e9990ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AngleSelector::flip</definition>
+        <argsstring>(Qt::Orientations orientations)</argsstring>
+        <name>flip</name>
+        <qualifiedname>AngleSelector::flip</qualifiedname>
+        <param>
+          <type>Qt::Orientations</type>
+          <declname>orientations</declname>
+        </param>
+        <briefdescription>
+<para>Flips the angle horizontally, vertically, or both. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will always try to set the closest angle to the stablished one that satisfies the flipping requirements <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>orientations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Flags indicating in which directions the angle should be flipped </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="301" column="10" bodyfile="AngleSelector.cpp" bodystart="219" bodyend="226"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_angle_selector_1ad41376596f3a6708a50ea68903ca4950" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AngleSelector::angleChanged</definition>
+        <argsstring>(qreal angle)</argsstring>
+        <name>angleChanged</name>
+        <qualifiedname>AngleSelector::angleChanged</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.h" line="304" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>A wrapper around KisAngleSelector, a widget with several options to select an angle. The widget itself is accessed with the <ref refid="class_angle_selector_1ac3fa489fce8eca45481838785a012438" kindref="member">widget()</ref> function. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This widget is a combination of a KisAngleGauge and a spin box, along with some flipping options </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AngleSelector</label>
+        <link refid="class_angle_selector"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AngleSelector</label>
+        <link refid="class_angle_selector"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="AngleSelector.h" line="21" column="1" bodyfile="AngleSelector.h" bodystart="22" bodyend="310"/>
+    <listofallmembers>
+      <member refid="class_angle_selector_1a0dc7e69ab29f9d1ff8e58d5053708e4e" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>angle</name></member>
+      <member refid="class_angle_selector_1ad41376596f3a6708a50ea68903ca4950" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>angleChanged</name></member>
+      <member refid="class_angle_selector_1ae9fed469aede06c4bbcf6568d5c0531a" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>AngleSelector</name></member>
+      <member refid="class_angle_selector_1aea488ee6f3cb52babe1bd9eb4e8cd651" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>closestCoterminalAngleInRange</name></member>
+      <member refid="class_angle_selector_1a62e7e3c86a1ba0156e82807539e8acc7" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>closestCoterminalAngleInRange</name></member>
+      <member refid="class_angle_selector_1a489a381b687c3da06e2ef25b3a571e38" prot="private" virt="non-virtual"><scope>AngleSelector</scope><name>d</name></member>
+      <member refid="class_angle_selector_1ad48bff7c6b2f23233307109e42c549ec" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>decimals</name></member>
+      <member refid="class_angle_selector_1ab132d71ba44005571bf180019e9990ff" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>flip</name></member>
+      <member refid="class_angle_selector_1a7642966b80b9cac1ce759537193a7b81" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>flipAngle</name></member>
+      <member refid="class_angle_selector_1a330abe7729e97782926a37d16cb692e8" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>flipAngle</name></member>
+      <member refid="class_angle_selector_1a90662ff862817f2de83763155416d827" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>flipOptionsMode</name></member>
+      <member refid="class_angle_selector_1a5690735e8a545752f99476520dde1667" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>increasingDirection</name></member>
+      <member refid="class_angle_selector_1ac607a9accbf3cd301ee643bc885595dd" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>isUsingFlatSpinBox</name></member>
+      <member refid="class_angle_selector_1a30c068a33b0408bf5d93504fc282a5af" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>maximum</name></member>
+      <member refid="class_angle_selector_1a19737b6b396fc27913f72e82377fe4c6" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>minimum</name></member>
+      <member refid="class_angle_selector_1a6641e44aced2dd67f9d1b7a48e97b05d" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>prefix</name></member>
+      <member refid="class_angle_selector_1a6b1f18ead0545ee0c944683a9ef4fdaa" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>reset</name></member>
+      <member refid="class_angle_selector_1ad067fe0002c1dc620a15d7e592f8b38a" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>resetAngle</name></member>
+      <member refid="class_angle_selector_1aeff3157a0e56babe6b900a3880c02897" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>setAngle</name></member>
+      <member refid="class_angle_selector_1aeb0fc28a91b76a073334aba9e5f32c35" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>setDecimals</name></member>
+      <member refid="class_angle_selector_1aadf21365ed1dc565a3c59e1252804246" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>setFlipOptionsMode</name></member>
+      <member refid="class_angle_selector_1a8b897d88e2925c93cbbc2e61c7430c4a" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>setIncreasingDirection</name></member>
+      <member refid="class_angle_selector_1ac0013c69f6e91cd2f4b97ebb4dd9f19f" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>setMaximum</name></member>
+      <member refid="class_angle_selector_1a415f37ada5d1e6becc031f90491ef842" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>setMinimum</name></member>
+      <member refid="class_angle_selector_1a78f21ba3cd1e759b3b5ad7a39b5e058f" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>setPrefix</name></member>
+      <member refid="class_angle_selector_1a72c5b9ba42b2cc8f3023fa7fa8cc020a" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>setRange</name></member>
+      <member refid="class_angle_selector_1ab640a4c7bfa70a6575c32019eed9024a" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>setResetAngle</name></member>
+      <member refid="class_angle_selector_1abc89bd449e517934b9febf77af478b4d" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>setSnapAngle</name></member>
+      <member refid="class_angle_selector_1add593fc80247502a44822d4389ccf2a6" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>setWidgetsHeight</name></member>
+      <member refid="class_angle_selector_1af18571bbeabab33c4fa04d646291c638" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>setWrapping</name></member>
+      <member refid="class_angle_selector_1a9c48b30eed0ab06aa48cae53ed8e3567" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>snapAngle</name></member>
+      <member refid="class_angle_selector_1a88f1cbc172051cb7b363b5f98d12f878" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>useFlatSpinBox</name></member>
+      <member refid="class_angle_selector_1ac3fa489fce8eca45481838785a012438" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>widget</name></member>
+      <member refid="class_angle_selector_1a3f751fee419cb8816079b453431e86bc" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>widgetsHeight</name></member>
+      <member refid="class_angle_selector_1ab864a8ad4d2267a87eec6d7de073a7a7" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>wrapping</name></member>
+      <member refid="class_angle_selector_1a3871b12c3b6f37ad590c68d0718e5324" prot="public" virt="non-virtual"><scope>AngleSelector</scope><name>~AngleSelector</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

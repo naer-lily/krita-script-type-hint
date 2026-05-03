@@ -1,0 +1,1410 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_grid_config" kind="class" language="C++" prot="public">
+    <compoundname>GridConfig</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <includes refid="_grid_config_8h" local="no">GridConfig.h</includes>
+    <innerclass refid="struct_grid_config_1_1_private" prot="public">GridConfig::Private</innerclass>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_grid_config_1a883538034e58fc5c0de7d4e4cab3cef7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Document</definition>
+        <argsstring></argsstring>
+        <name>Document</name>
+        <qualifiedname>GridConfig::Document</qualifiedname>
+        <param>
+          <type><ref refid="class_document" kindref="compound">Document</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="410" column="18" bodyfile="GridConfig.h" bodystart="410" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_grid_config_1a4082d7da032167343dd44d9411a52c7d" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_grid_config_1_1_private" kindref="compound">Private</ref> *</type>
+        <definition>Private* GridConfig::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>GridConfig::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="416" column="13" bodyfile="GridConfig.h" bodystart="416" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_grid_config_1af7cacb093cde0d2674184406db8f5a4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GridConfig::GridConfig</definition>
+        <argsstring>(KisGridConfig *guidesConfig)</argsstring>
+        <name>GridConfig</name>
+        <qualifiedname>GridConfig::GridConfig</qualifiedname>
+        <param>
+          <type>KisGridConfig *</type>
+          <declname>guidesConfig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="24" column="5" bodyfile="GridConfig.cpp" bodystart="19" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_config_1a27c6b9874435407999307e987a8698e2" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GridConfig::GridConfig</definition>
+        <argsstring>(QObject *parent=0)</argsstring>
+        <name>GridConfig</name>
+        <qualifiedname>GridConfig::GridConfig</qualifiedname>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new, empty <ref refid="class_grid_config" kindref="compound">GridConfig</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="29" column="14" bodyfile="GridConfig.cpp" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_config_1af698d929b42c8230f211785b1ab2a730" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GridConfig::~GridConfig</definition>
+        <argsstring>() override</argsstring>
+        <name>~GridConfig</name>
+        <qualifiedname>GridConfig::~GridConfig</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="30" column="5" bodyfile="GridConfig.cpp" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_config_1a14cfb9eb41b664889bfa7786bf528dce" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GridConfig::operator==</definition>
+        <argsstring>(const GridConfig &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>GridConfig::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="class_grid_config" kindref="compound">GridConfig</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="32" column="10" bodyfile="GridConfig.cpp" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_config_1a97b71fd63abc700adc57d06f3cc302bc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GridConfig::operator!=</definition>
+        <argsstring>(const GridConfig &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>GridConfig::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="class_grid_config" kindref="compound">GridConfig</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="33" column="10" bodyfile="GridConfig.cpp" bodystart="43" bodyend="46"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_grid_config_1a1510d718883ec560b09e6edeb732b473" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GridConfig::visible</definition>
+        <argsstring>() const</argsstring>
+        <name>visible</name>
+        <qualifiedname>GridConfig::visible</qualifiedname>
+        <briefdescription>
+<para>Returns grid visibility for document. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>If grid is visible, return True. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="41" column="10" bodyfile="GridConfig.cpp" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1a0ccceffaf515098930a2ff3ba4786899" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridConfig::setVisible</definition>
+        <argsstring>(bool visible)</argsstring>
+        <name>setVisible</name>
+        <qualifiedname>GridConfig::setVisible</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>visible</declname>
+        </param>
+        <briefdescription>
+<para>Set grid visibility for document. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>snap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Set to True to get grid visible. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="47" column="10" bodyfile="GridConfig.cpp" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1a8a9534138a19daa3ecd31bed898ed81f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GridConfig::snap</definition>
+        <argsstring>() const</argsstring>
+        <name>snap</name>
+        <qualifiedname>GridConfig::snap</qualifiedname>
+        <briefdescription>
+<para>Returns snap to grid status for document. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>If snap to grid is active on document, return True. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="53" column="10" bodyfile="GridConfig.cpp" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1a16ffd0e0c0f3b2f3058e1e3403ade51f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridConfig::setSnap</definition>
+        <argsstring>(bool snap)</argsstring>
+        <name>setSnap</name>
+        <qualifiedname>GridConfig::setSnap</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>snap</declname>
+        </param>
+        <briefdescription>
+<para>Activate or deactivate snap to grid for document. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>snap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Set to True to activate snap to grid. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="59" column="10" bodyfile="GridConfig.cpp" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1a221e3a257fbd88939944fe1779ecac41" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QPoint</type>
+        <definition>QPoint GridConfig::offset</definition>
+        <argsstring>() const</argsstring>
+        <name>offset</name>
+        <qualifiedname>GridConfig::offset</qualifiedname>
+        <briefdescription>
+<para>Returns grid offset (in pixels, from origin) for document. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A QPoint that define X and Y offset. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="65" column="12" bodyfile="GridConfig.cpp" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1a614acf54a846f8812922485b787436c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridConfig::setOffset</definition>
+        <argsstring>(QPoint offset)</argsstring>
+        <name>setOffset</name>
+        <qualifiedname>GridConfig::setOffset</qualifiedname>
+        <param>
+          <type>QPoint</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+<para>Define grid offset (in pixels, from origin) for document. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A QPoint that define X and Y offset (X and Y in range [0 - 500]) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="71" column="10" bodyfile="GridConfig.cpp" bodystart="74" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1a2fd24096673b1e0b4e99a362b04f3750" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QPoint</type>
+        <definition>QPoint GridConfig::spacing</definition>
+        <argsstring>() const</argsstring>
+        <name>spacing</name>
+        <qualifiedname>GridConfig::spacing</qualifiedname>
+        <briefdescription>
+<para>Returns grid spacing (in pixels) for document. Spacing value is used for grid type &quot;rectangular&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A QPoint that define X and Y spacing. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="78" column="12" bodyfile="GridConfig.cpp" bodystart="82" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1aecfa2bcad54a9c2ab524bb399504f826" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridConfig::setSpacing</definition>
+        <argsstring>(QPoint spacing)</argsstring>
+        <name>setSpacing</name>
+        <qualifiedname>GridConfig::setSpacing</qualifiedname>
+        <param>
+          <type>QPoint</type>
+          <declname>spacing</declname>
+        </param>
+        <briefdescription>
+<para>Set grid spacing (in pixels) for document. Spacing value is used for grid type &quot;rectangular&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>spacing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A QPoint that define X and Y spacing (minimum value for X and Y is 1) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="85" column="10" bodyfile="GridConfig.cpp" bodystart="87" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1aa6aebb1116e032535556b58be8c5ba89" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GridConfig::spacingActiveHorizontal</definition>
+        <argsstring>() const</argsstring>
+        <name>spacingActiveHorizontal</name>
+        <qualifiedname>GridConfig::spacingActiveHorizontal</qualifiedname>
+        <briefdescription>
+<para>Returns if horizontal grid spacing is active. Spacing value is used for grid type &quot;rectangular&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a boolean which indicate if horizontal grid is active or not </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="93" column="10" bodyfile="GridConfig.cpp" bodystart="99" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1ae89c473e95533c81410cd63254584e3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridConfig::setSpacingActiveHorizontal</definition>
+        <argsstring>(bool active)</argsstring>
+        <name>setSpacingActiveHorizontal</name>
+        <qualifiedname>GridConfig::setSpacingActiveHorizontal</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Set horizontal grid spacing active. Spacing value is used for grid type &quot;rectangular&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True to activate horizontal spacing, False to deactivate it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="101" column="10" bodyfile="GridConfig.cpp" bodystart="104" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1abb94025172816fecc3fd19e54cee874d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GridConfig::spacingActiveVertical</definition>
+        <argsstring>() const</argsstring>
+        <name>spacingActiveVertical</name>
+        <qualifiedname>GridConfig::spacingActiveVertical</qualifiedname>
+        <briefdescription>
+<para>Returns if vertical grid spacing is active. Spacing value is used for grid type &quot;rectangular&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a boolean which indicate if vertical grid is active or not </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="109" column="10" bodyfile="GridConfig.cpp" bodystart="109" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1ab0257f62f334d29c1936acc56bf9f1dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridConfig::setSpacingActiveVertical</definition>
+        <argsstring>(bool active)</argsstring>
+        <name>setSpacingActiveVertical</name>
+        <qualifiedname>GridConfig::setSpacingActiveVertical</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Set vertical grid spacing active. Spacing value is used for grid type &quot;rectangular&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True to activate vertical spacing, False to deactivate it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="117" column="10" bodyfile="GridConfig.cpp" bodystart="114" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1a5efff3a25e1eb69cdbbc26564d1a076e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int GridConfig::subdivision</definition>
+        <argsstring>() const</argsstring>
+        <name>subdivision</name>
+        <qualifiedname>GridConfig::subdivision</qualifiedname>
+        <briefdescription>
+<para>Returns number of grid subdivision for document. Subdivision value is used for grid type &quot;rectangular&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A positive integer value, starting from 1 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="124" column="9" bodyfile="GridConfig.cpp" bodystart="119" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1a97fbd636402551acb46cf43f563bbf20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridConfig::setSubdivision</definition>
+        <argsstring>(int subdivision)</argsstring>
+        <name>setSubdivision</name>
+        <qualifiedname>GridConfig::setSubdivision</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>subdivision</declname>
+        </param>
+        <briefdescription>
+<para>Set number of grid subdivision for document. Subdivision value is used for grid type &quot;rectangular&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>subdivision</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A positive integer value, in range [1 - 10] </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="131" column="10" bodyfile="GridConfig.cpp" bodystart="124" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1a62952c47aa375f92a3c39267b5ba6e97" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal GridConfig::angleLeft</definition>
+        <argsstring>() const</argsstring>
+        <name>angleLeft</name>
+        <qualifiedname>GridConfig::angleLeft</qualifiedname>
+        <briefdescription>
+<para>Returns left angle (in degrees) of isometric grid for document. AngleLeft value is used for grid type &quot;isometric&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A positive decimal value, in range [0.00 - 89.00] </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="138" column="11" bodyfile="GridConfig.cpp" bodystart="129" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1ab3d64e89facdc2b4c1bcc92373e828a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridConfig::setAngleLeft</definition>
+        <argsstring>(qreal angleLeft)</argsstring>
+        <name>setAngleLeft</name>
+        <qualifiedname>GridConfig::setAngleLeft</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>angleLeft</declname>
+        </param>
+        <briefdescription>
+<para>Set left angle (in degrees) of isometric grid for document. AngleLeft value is used for grid type &quot;isometric&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>angleLeft</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A positive decimal value, in range [0.00 - 89.00] </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="145" column="10" bodyfile="GridConfig.cpp" bodystart="134" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1ade8bd52724f939e2bca6cfd2d20a00f8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal GridConfig::angleRight</definition>
+        <argsstring>() const</argsstring>
+        <name>angleRight</name>
+        <qualifiedname>GridConfig::angleRight</qualifiedname>
+        <briefdescription>
+<para>Returns right angle (in degrees) of isometric grid for document. AngleRight value is used for grid type &quot;isometric&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A positive decimal value, in range [0.00 - 89.00] </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="152" column="11" bodyfile="GridConfig.cpp" bodystart="139" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1a753f98063e6ff2df300f6803bd4a0c94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridConfig::setAngleRight</definition>
+        <argsstring>(qreal angleRight)</argsstring>
+        <name>setAngleRight</name>
+        <qualifiedname>GridConfig::setAngleRight</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>angleRight</declname>
+        </param>
+        <briefdescription>
+<para>Set right angle (in degrees) of isometric grid for document. AngleRight value is used for grid type &quot;isometric&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>angleRight</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A positive decimal value, in range [0.00 - 89.00] </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="159" column="10" bodyfile="GridConfig.cpp" bodystart="144" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1a13f31572461a2b319d73dc2d6a495d73" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GridConfig::angleLeftActive</definition>
+        <argsstring>() const</argsstring>
+        <name>angleLeftActive</name>
+        <qualifiedname>GridConfig::angleLeftActive</qualifiedname>
+        <briefdescription>
+<para>Returns if left angle grid is active. Spacing value is used for grid type &quot;isometric&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a boolean which indicate if left angle grid is active or not </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="167" column="10" bodyfile="GridConfig.cpp" bodystart="149" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1abd743f45252cf6a927bb0ef831972fe0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridConfig::setAngleLeftActive</definition>
+        <argsstring>(bool active)</argsstring>
+        <name>setAngleLeftActive</name>
+        <qualifiedname>GridConfig::setAngleLeftActive</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Set left angle grid active. Spacing value is used for grid type &quot;isometric&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True to activate left angle grid, False to deactivate it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="175" column="10" bodyfile="GridConfig.cpp" bodystart="154" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1a8e32bfceba553cfa0e5ff213a5542d60" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GridConfig::angleRightActive</definition>
+        <argsstring>() const</argsstring>
+        <name>angleRightActive</name>
+        <qualifiedname>GridConfig::angleRightActive</qualifiedname>
+        <briefdescription>
+<para>Returns if right angle grid is active. Spacing value is used for grid type &quot;isometric&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a boolean which indicate if right angle grid is active or not </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="183" column="10" bodyfile="GridConfig.cpp" bodystart="159" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1a36a39fc001d74c40ea1d9628e3f38cd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridConfig::setAngleRightActive</definition>
+        <argsstring>(bool active)</argsstring>
+        <name>setAngleRightActive</name>
+        <qualifiedname>GridConfig::setAngleRightActive</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Set right angle grid active. Spacing value is used for grid type &quot;isometric&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True to activate right angle grid, False to deactivate it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="191" column="10" bodyfile="GridConfig.cpp" bodystart="164" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1ad649361c62ea1c2f6362036605e5c1db" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int GridConfig::cellSpacing</definition>
+        <argsstring>() const</argsstring>
+        <name>cellSpacing</name>
+        <qualifiedname>GridConfig::cellSpacing</qualifiedname>
+        <briefdescription>
+<para>Returns grid cell spacing (in pixels) for document. Cell spacing value is used for grid type &quot;isometric_legacy&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A positive integer value, minimum value is 10 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="198" column="9" bodyfile="GridConfig.cpp" bodystart="169" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1ac8b75c54795b0ae75e7822bbd61bb466" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridConfig::setCellSpacing</definition>
+        <argsstring>(int cellSpacing)</argsstring>
+        <name>setCellSpacing</name>
+        <qualifiedname>GridConfig::setCellSpacing</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>cellSpacing</declname>
+        </param>
+        <briefdescription>
+<para>Set grid cell spacing for document. Cell spacing value is used for grid type &quot;isometric_legacy&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cellSpacing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A integer that define spacing, in range [10 - 1000] </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="205" column="10" bodyfile="GridConfig.cpp" bodystart="174" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1aebdad27902ba007d3efa6b13b017e4d3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int GridConfig::cellSize</definition>
+        <argsstring>() const</argsstring>
+        <name>cellSize</name>
+        <qualifiedname>GridConfig::cellSize</qualifiedname>
+        <briefdescription>
+<para>Returns grid cell border size (in pixels) for document. Cell spacing value is used for grid type &quot;isometric&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A positive integer value, in range [10 - 1000] </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="212" column="9" bodyfile="GridConfig.cpp" bodystart="179" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1a9adf97f964fed679a43c82a0061635f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridConfig::setCellSize</definition>
+        <argsstring>(int cellSize)</argsstring>
+        <name>setCellSize</name>
+        <qualifiedname>GridConfig::setCellSize</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>cellSize</declname>
+        </param>
+        <briefdescription>
+<para>Set grid cell size (in pixels) for document. Cell spacing value is used for grid type &quot;isometric&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cellSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An integer that define cell border size. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="219" column="10" bodyfile="GridConfig.cpp" bodystart="184" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1aaf533a325caea7c39d8c4c7ec6a55d12" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString GridConfig::type</definition>
+        <argsstring>() const</argsstring>
+        <name>type</name>
+        <qualifiedname>GridConfig::type</qualifiedname>
+        <briefdescription>
+<para>Returns current grid type applied for document. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The grid type can be:<itemizedlist>
+<listitem><para>&quot;rectangular&quot;</para>
+</listitem><listitem><para>&quot;isometric&quot;</para>
+</listitem><listitem><para>&quot;isometric_legacy&quot; </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="228" column="13" bodyfile="GridConfig.cpp" bodystart="189" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1aadd0dad39257913064852b6384a63400" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridConfig::setType</definition>
+        <argsstring>(const QString &amp;gridType)</argsstring>
+        <name>setType</name>
+        <qualifiedname>GridConfig::setType</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>gridType</declname>
+        </param>
+        <briefdescription>
+<para>Set current grid type applied for document. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gridType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The grid type can be:<itemizedlist>
+<listitem><para>&quot;rectangular&quot;</para>
+</listitem><listitem><para>&quot;isometric&quot;</para>
+</listitem><listitem><para>&quot;isometric_legacy&quot; </para>
+</listitem></itemizedlist>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="237" column="10" bodyfile="GridConfig.cpp" bodystart="201" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1aba79068c676f165cdb367a76a67388e1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GridConfig::offsetAspectLocked</definition>
+        <argsstring>() const</argsstring>
+        <name>offsetAspectLocked</name>
+        <qualifiedname>GridConfig::offsetAspectLocked</qualifiedname>
+        <briefdescription>
+<para>Returns status of &quot;Aspect locked&quot; property for offset values (X and Y values are linked to keep ratio) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>If locked, return True. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="244" column="10" bodyfile="GridConfig.cpp" bodystart="214" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1a14329c3fc88ef6cd1bccb537db59cfa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridConfig::setOffsetAspectLocked</definition>
+        <argsstring>(bool offsetAspectLocked)</argsstring>
+        <name>setOffsetAspectLocked</name>
+        <qualifiedname>GridConfig::setOffsetAspectLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>offsetAspectLocked</declname>
+        </param>
+        <briefdescription>
+<para>Set status of &quot;Aspect locked&quot; property for offset values (X and Y values are linked to keep ratio) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>offsetAspectLocked</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Set to True lock aspect. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="251" column="10" bodyfile="GridConfig.cpp" bodystart="219" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1a4d2bc9f85c12c69bd249988522b7b407" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GridConfig::spacingAspectLocked</definition>
+        <argsstring>() const</argsstring>
+        <name>spacingAspectLocked</name>
+        <qualifiedname>GridConfig::spacingAspectLocked</qualifiedname>
+        <briefdescription>
+<para>Returns status of &quot;Aspect locked&quot; property for spacing values (mean, X and Y values are linked to keep ratio) SpacingAspectLocked value is used for grid type &quot;rectangular&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>If locked, return True. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="259" column="10" bodyfile="GridConfig.cpp" bodystart="224" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1a12b5da402cee7b65293eb4285b3125ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridConfig::setSpacingAspectLocked</definition>
+        <argsstring>(bool spacingAspectLocked)</argsstring>
+        <name>setSpacingAspectLocked</name>
+        <qualifiedname>GridConfig::setSpacingAspectLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>spacingAspectLocked</declname>
+        </param>
+        <briefdescription>
+<para>Set status of &quot;Aspect locked&quot; property for spacing values (X and Y values are linked to keep ratio) SpacingAspectLocked value is used for grid type &quot;rectangular&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>spacingAspectLocked</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Set to True lock aspect. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="267" column="10" bodyfile="GridConfig.cpp" bodystart="229" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1ad3b26b28c0804779267f81baaed48501" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GridConfig::angleAspectLocked</definition>
+        <argsstring>() const</argsstring>
+        <name>angleAspectLocked</name>
+        <qualifiedname>GridConfig::angleAspectLocked</qualifiedname>
+        <briefdescription>
+<para>Returns status of &quot;Aspect locked&quot; property for angles values (mean, left and right angles values are linked to keep ratio) AngleAspectLocked value is used for grid type &quot;isometric&quot; and &quot;isometric_legacy&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>If locked, return True. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="275" column="10" bodyfile="GridConfig.cpp" bodystart="234" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1a3776da93fb631de82f0149b86e59144b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridConfig::setAngleAspectLocked</definition>
+        <argsstring>(bool angleAspectLocked)</argsstring>
+        <name>setAngleAspectLocked</name>
+        <qualifiedname>GridConfig::setAngleAspectLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>angleAspectLocked</declname>
+        </param>
+        <briefdescription>
+<para>Set status of &quot;Aspect locked&quot; property for angles values (left and right angles values are linked to keep ratio) AngleAspectLocked value is used for grid type &quot;isometric&quot; and &quot;isometric_legacy&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>angleAspectLocked</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Set to True lock aspect. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="283" column="10" bodyfile="GridConfig.cpp" bodystart="239" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1a43630580f6fc8d8a1a43ff2d08f717ab" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString GridConfig::lineTypeMain</definition>
+        <argsstring>() const</argsstring>
+        <name>lineTypeMain</name>
+        <qualifiedname>GridConfig::lineTypeMain</qualifiedname>
+        <briefdescription>
+<para>Returns grid main line type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The main line type for grid in current document Can be:<itemizedlist>
+<listitem><para>&quot;solid&quot;</para>
+</listitem><listitem><para>&quot;dashed&quot;</para>
+</listitem><listitem><para>&quot;dotted&quot; </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="293" column="13" bodyfile="GridConfig.cpp" bodystart="244" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1a8d375a2693166b4e92e67bedce669ba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridConfig::setLineTypeMain</definition>
+        <argsstring>(const QString &amp;lineType)</argsstring>
+        <name>setLineTypeMain</name>
+        <qualifiedname>GridConfig::setLineTypeMain</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>lineType</declname>
+        </param>
+        <briefdescription>
+<para>Set grid main line type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lineType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The main line type to apply for grid Can be:<itemizedlist>
+<listitem><para>&quot;solid&quot;</para>
+</listitem><listitem><para>&quot;dashed&quot;</para>
+</listitem><listitem><para>&quot;dotted&quot; </para>
+</listitem></itemizedlist>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="303" column="10" bodyfile="GridConfig.cpp" bodystart="256" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1a86c88e8d7c8d8803e1ea8d0878aca0d6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString GridConfig::lineTypeSubdivision</definition>
+        <argsstring>() const</argsstring>
+        <name>lineTypeSubdivision</name>
+        <qualifiedname>GridConfig::lineTypeSubdivision</qualifiedname>
+        <briefdescription>
+<para>Returns grid subdivision line type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The subdivision line type for grid in current document Can be:<itemizedlist>
+<listitem><para>&quot;solid&quot;</para>
+</listitem><listitem><para>&quot;dashed&quot;</para>
+</listitem><listitem><para>&quot;dotted&quot;</para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+LineTypeSubdivision value is used for grid type &quot;rectangular&quot;. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="315" column="13" bodyfile="GridConfig.cpp" bodystart="269" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1a04329803e56380b855c522f295b485ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridConfig::setLineTypeSubdivision</definition>
+        <argsstring>(const QString &amp;lineType)</argsstring>
+        <name>setLineTypeSubdivision</name>
+        <qualifiedname>GridConfig::setLineTypeSubdivision</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>lineType</declname>
+        </param>
+        <briefdescription>
+<para>Set grid subdivision line type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lineType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The subdivision line type to apply for grid Can be:<itemizedlist>
+<listitem><para>&quot;solid&quot;</para>
+</listitem><listitem><para>&quot;dashed&quot;</para>
+</listitem><listitem><para>&quot;dotted&quot;</para>
+</listitem></itemizedlist>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+LineTypeSubdivision value is used for grid type &quot;rectangular&quot;. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="327" column="10" bodyfile="GridConfig.cpp" bodystart="281" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1aa3ad958e9e7cc3cefd8c560d0a994a2c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString GridConfig::lineTypeVertical</definition>
+        <argsstring>() const</argsstring>
+        <name>lineTypeVertical</name>
+        <qualifiedname>GridConfig::lineTypeVertical</qualifiedname>
+        <briefdescription>
+<para>Returns grid vertical line type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The vertical line type for grid in current document Can be:<itemizedlist>
+<listitem><para>&quot;solid&quot;</para>
+</listitem><listitem><para>&quot;dashed&quot;</para>
+</listitem><listitem><para>&quot;dotted&quot;</para>
+</listitem><listitem><para>&quot;none&quot;</para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+LineTypeVertical value is used for grid type &quot;isometric&quot;. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="340" column="13" bodyfile="GridConfig.cpp" bodystart="294" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1acd948ad0c8e958a6656cd63f40066af9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridConfig::setLineTypeVertical</definition>
+        <argsstring>(const QString &amp;lineType)</argsstring>
+        <name>setLineTypeVertical</name>
+        <qualifiedname>GridConfig::setLineTypeVertical</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>lineType</declname>
+        </param>
+        <briefdescription>
+<para>Set grid vertical line type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lineType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The vertical line type to apply for grid Can be:<itemizedlist>
+<listitem><para>&quot;solid&quot;</para>
+</listitem><listitem><para>&quot;dashed&quot;</para>
+</listitem><listitem><para>&quot;dotted&quot;</para>
+</listitem><listitem><para>&quot;none&quot;</para>
+</listitem></itemizedlist>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+LineTypeVertical value is used for grid type &quot;isometric&quot;. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="353" column="10" bodyfile="GridConfig.cpp" bodystart="309" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1a320fbd39a4f290dff4c266b75010e884" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QColor</type>
+        <definition>QColor GridConfig::colorMain</definition>
+        <argsstring>() const</argsstring>
+        <name>colorMain</name>
+        <qualifiedname>GridConfig::colorMain</qualifiedname>
+        <briefdescription>
+<para>Returns grid main line color. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The color for grid main line </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="359" column="12" bodyfile="GridConfig.cpp" bodystart="326" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1ab9d02ecca39e723d2c4a5c4fb14eaa4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridConfig::setColorMain</definition>
+        <argsstring>(QColor colorMain)</argsstring>
+        <name>setColorMain</name>
+        <qualifiedname>GridConfig::setColorMain</qualifiedname>
+        <param>
+          <type>QColor</type>
+          <declname>colorMain</declname>
+        </param>
+        <briefdescription>
+<para>Set grid main line color. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The color to apply for grid main line </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="365" column="10" bodyfile="GridConfig.cpp" bodystart="331" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1aa3710bf7a65753984df53659da9b0aa7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QColor</type>
+        <definition>QColor GridConfig::colorSubdivision</definition>
+        <argsstring>() const</argsstring>
+        <name>colorSubdivision</name>
+        <qualifiedname>GridConfig::colorSubdivision</qualifiedname>
+        <briefdescription>
+<para>Returns grid subdivision line color ColorSubdivision value is used for grid type &quot;rectangular&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The color for grid subdivision line </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="372" column="12" bodyfile="GridConfig.cpp" bodystart="336" bodyend="339"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1a7f4326d29ff507f62f94289cf46d2447" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridConfig::setColorSubdivision</definition>
+        <argsstring>(QColor colorSubdivision)</argsstring>
+        <name>setColorSubdivision</name>
+        <qualifiedname>GridConfig::setColorSubdivision</qualifiedname>
+        <param>
+          <type>QColor</type>
+          <declname>colorSubdivision</declname>
+        </param>
+        <briefdescription>
+<para>Set grid subdivision line color ColorSubdivision value is used for grid type &quot;rectangular&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The color to apply for grid subdivision line </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="379" column="10" bodyfile="GridConfig.cpp" bodystart="341" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1add18464c1a26d0e4b6d3a43ab8847bf5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QColor</type>
+        <definition>QColor GridConfig::colorVertical</definition>
+        <argsstring>() const</argsstring>
+        <name>colorVertical</name>
+        <qualifiedname>GridConfig::colorVertical</qualifiedname>
+        <briefdescription>
+<para>Returns grid vertical line color ColorSubdivision value is used for grid type &quot;isometric&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The color for grid vertical line </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="386" column="12" bodyfile="GridConfig.cpp" bodystart="346" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1acc1f218ea37f50d0369ad5bce4ff2456" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridConfig::setColorVertical</definition>
+        <argsstring>(QColor colorVertical)</argsstring>
+        <name>setColorVertical</name>
+        <qualifiedname>GridConfig::setColorVertical</qualifiedname>
+        <param>
+          <type>QColor</type>
+          <declname>colorVertical</declname>
+        </param>
+        <briefdescription>
+<para>Set grid vertical line color ColorSubdivision value is used for grid type &quot;isometric&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The color to apply for grid vertical line </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="393" column="10" bodyfile="GridConfig.cpp" bodystart="351" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1aa03aa5d746b535903e6f68515b44cd0d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GridConfig::fromXml</definition>
+        <argsstring>(const QString &amp;xmlContent) const</argsstring>
+        <name>fromXml</name>
+        <qualifiedname>GridConfig::fromXml</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>xmlContent</declname>
+        </param>
+        <briefdescription>
+<para>Load grid definition from an XML document. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>xmlContent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>xml content provided as a string </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if xml content is valid and grid has been loaded, otherwise False </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="400" column="10" bodyfile="GridConfig.cpp" bodystart="356" bodyend="366"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_grid_config_1a30fb9ee5aedd633eebe6011450653e68" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString GridConfig::toXml</definition>
+        <argsstring>() const</argsstring>
+        <name>toXml</name>
+        <qualifiedname>GridConfig::toXml</qualifiedname>
+        <briefdescription>
+<para>Save grid definition as an XML document. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A string with xml content </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="406" column="13" bodyfile="GridConfig.cpp" bodystart="368" bodyend="374"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_grid_config_1a7a87e74739860ce7d93f8e760ada3bd8" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>KisGridConfig</type>
+        <definition>KisGridConfig GridConfig::gridConfig</definition>
+        <argsstring>() const</argsstring>
+        <name>gridConfig</name>
+        <qualifiedname>GridConfig::gridConfig</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.h" line="412" column="19" bodyfile="GridConfig.cpp" bodystart="377" bodyend="380"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The <ref refid="class_grid_config" kindref="compound">GridConfig</ref> class encapsulates a <ref refid="class_krita" kindref="compound">Krita</ref> Guides configuration. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GridConfig</label>
+        <link refid="class_grid_config"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GridConfig</label>
+        <link refid="class_grid_config"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="GridConfig.h" line="19" column="1" bodyfile="GridConfig.h" bodystart="20" bodyend="418"/>
+    <listofallmembers>
+      <member refid="class_grid_config_1ad3b26b28c0804779267f81baaed48501" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>angleAspectLocked</name></member>
+      <member refid="class_grid_config_1a62952c47aa375f92a3c39267b5ba6e97" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>angleLeft</name></member>
+      <member refid="class_grid_config_1a13f31572461a2b319d73dc2d6a495d73" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>angleLeftActive</name></member>
+      <member refid="class_grid_config_1ade8bd52724f939e2bca6cfd2d20a00f8" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>angleRight</name></member>
+      <member refid="class_grid_config_1a8e32bfceba553cfa0e5ff213a5542d60" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>angleRightActive</name></member>
+      <member refid="class_grid_config_1aebdad27902ba007d3efa6b13b017e4d3" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>cellSize</name></member>
+      <member refid="class_grid_config_1ad649361c62ea1c2f6362036605e5c1db" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>cellSpacing</name></member>
+      <member refid="class_grid_config_1a320fbd39a4f290dff4c266b75010e884" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>colorMain</name></member>
+      <member refid="class_grid_config_1aa3710bf7a65753984df53659da9b0aa7" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>colorSubdivision</name></member>
+      <member refid="class_grid_config_1add18464c1a26d0e4b6d3a43ab8847bf5" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>colorVertical</name></member>
+      <member refid="class_grid_config_1a4082d7da032167343dd44d9411a52c7d" prot="private" virt="non-virtual"><scope>GridConfig</scope><name>d</name></member>
+      <member refid="class_grid_config_1a883538034e58fc5c0de7d4e4cab3cef7" prot="private" virt="non-virtual"><scope>GridConfig</scope><name>Document</name></member>
+      <member refid="class_grid_config_1aa03aa5d746b535903e6f68515b44cd0d" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>fromXml</name></member>
+      <member refid="class_grid_config_1af7cacb093cde0d2674184406db8f5a4a" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>GridConfig</name></member>
+      <member refid="class_grid_config_1a27c6b9874435407999307e987a8698e2" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>GridConfig</name></member>
+      <member refid="class_grid_config_1a7a87e74739860ce7d93f8e760ada3bd8" prot="private" virt="non-virtual"><scope>GridConfig</scope><name>gridConfig</name></member>
+      <member refid="class_grid_config_1a43630580f6fc8d8a1a43ff2d08f717ab" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>lineTypeMain</name></member>
+      <member refid="class_grid_config_1a86c88e8d7c8d8803e1ea8d0878aca0d6" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>lineTypeSubdivision</name></member>
+      <member refid="class_grid_config_1aa3ad958e9e7cc3cefd8c560d0a994a2c" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>lineTypeVertical</name></member>
+      <member refid="class_grid_config_1a221e3a257fbd88939944fe1779ecac41" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>offset</name></member>
+      <member refid="class_grid_config_1aba79068c676f165cdb367a76a67388e1" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>offsetAspectLocked</name></member>
+      <member refid="class_grid_config_1a97b71fd63abc700adc57d06f3cc302bc" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>operator!=</name></member>
+      <member refid="class_grid_config_1a14cfb9eb41b664889bfa7786bf528dce" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>operator==</name></member>
+      <member refid="class_grid_config_1a3776da93fb631de82f0149b86e59144b" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>setAngleAspectLocked</name></member>
+      <member refid="class_grid_config_1ab3d64e89facdc2b4c1bcc92373e828a6" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>setAngleLeft</name></member>
+      <member refid="class_grid_config_1abd743f45252cf6a927bb0ef831972fe0" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>setAngleLeftActive</name></member>
+      <member refid="class_grid_config_1a753f98063e6ff2df300f6803bd4a0c94" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>setAngleRight</name></member>
+      <member refid="class_grid_config_1a36a39fc001d74c40ea1d9628e3f38cd9" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>setAngleRightActive</name></member>
+      <member refid="class_grid_config_1a9adf97f964fed679a43c82a0061635f3" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>setCellSize</name></member>
+      <member refid="class_grid_config_1ac8b75c54795b0ae75e7822bbd61bb466" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>setCellSpacing</name></member>
+      <member refid="class_grid_config_1ab9d02ecca39e723d2c4a5c4fb14eaa4c" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>setColorMain</name></member>
+      <member refid="class_grid_config_1a7f4326d29ff507f62f94289cf46d2447" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>setColorSubdivision</name></member>
+      <member refid="class_grid_config_1acc1f218ea37f50d0369ad5bce4ff2456" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>setColorVertical</name></member>
+      <member refid="class_grid_config_1a8d375a2693166b4e92e67bedce669ba7" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>setLineTypeMain</name></member>
+      <member refid="class_grid_config_1a04329803e56380b855c522f295b485ac" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>setLineTypeSubdivision</name></member>
+      <member refid="class_grid_config_1acd948ad0c8e958a6656cd63f40066af9" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>setLineTypeVertical</name></member>
+      <member refid="class_grid_config_1a614acf54a846f8812922485b787436c6" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>setOffset</name></member>
+      <member refid="class_grid_config_1a14329c3fc88ef6cd1bccb537db59cfa2" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>setOffsetAspectLocked</name></member>
+      <member refid="class_grid_config_1a16ffd0e0c0f3b2f3058e1e3403ade51f" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>setSnap</name></member>
+      <member refid="class_grid_config_1aecfa2bcad54a9c2ab524bb399504f826" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>setSpacing</name></member>
+      <member refid="class_grid_config_1ae89c473e95533c81410cd63254584e3b" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>setSpacingActiveHorizontal</name></member>
+      <member refid="class_grid_config_1ab0257f62f334d29c1936acc56bf9f1dd" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>setSpacingActiveVertical</name></member>
+      <member refid="class_grid_config_1a12b5da402cee7b65293eb4285b3125ac" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>setSpacingAspectLocked</name></member>
+      <member refid="class_grid_config_1a97fbd636402551acb46cf43f563bbf20" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>setSubdivision</name></member>
+      <member refid="class_grid_config_1aadd0dad39257913064852b6384a63400" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>setType</name></member>
+      <member refid="class_grid_config_1a0ccceffaf515098930a2ff3ba4786899" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>setVisible</name></member>
+      <member refid="class_grid_config_1a8a9534138a19daa3ecd31bed898ed81f" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>snap</name></member>
+      <member refid="class_grid_config_1a2fd24096673b1e0b4e99a362b04f3750" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>spacing</name></member>
+      <member refid="class_grid_config_1aa6aebb1116e032535556b58be8c5ba89" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>spacingActiveHorizontal</name></member>
+      <member refid="class_grid_config_1abb94025172816fecc3fd19e54cee874d" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>spacingActiveVertical</name></member>
+      <member refid="class_grid_config_1a4d2bc9f85c12c69bd249988522b7b407" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>spacingAspectLocked</name></member>
+      <member refid="class_grid_config_1a5efff3a25e1eb69cdbbc26564d1a076e" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>subdivision</name></member>
+      <member refid="class_grid_config_1a30fb9ee5aedd633eebe6011450653e68" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>toXml</name></member>
+      <member refid="class_grid_config_1aaf533a325caea7c39d8c4c7ec6a55d12" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>type</name></member>
+      <member refid="class_grid_config_1a1510d718883ec560b09e6edeb732b473" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>visible</name></member>
+      <member refid="class_grid_config_1af698d929b42c8230f211785b1ab2a730" prot="public" virt="non-virtual"><scope>GridConfig</scope><name>~GridConfig</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

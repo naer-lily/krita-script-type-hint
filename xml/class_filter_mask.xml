@@ -246,6 +246,12 @@ If the <ref refid="class_node" kindref="compound">Node</ref> object isn&apos;t w
       <member refid="class_node_1a8caff4eebed355d4de68075e1e4e3184" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>opacity</name></member>
       <member refid="class_node_1a438f9a583f733cd05d0a6e0ef28dd3ef" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>operator!=</name></member>
       <member refid="class_node_1a0e28753e22ef956f881210795f1c102f" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>operator==</name></member>
+      <member refid="class_node_1a85f4e802ebaebebed1cfb4e004d05d59" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>paintAbility</name></member>
+      <member refid="class_node_1a38de6d617881385aafc2d39f5f472cca" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>paintEllipse</name></member>
+      <member refid="class_node_1a3f244028e74a9ec7eacb176e781d583d" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>paintLine</name></member>
+      <member refid="class_node_1aaf7adef0ec8fc009012fe2e55295147f" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>paintPath</name></member>
+      <member refid="class_node_1a0b866eac75ac43ca4046ab456b7fcebc" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>paintPolygon</name></member>
+      <member refid="class_node_1a5f7d775a50c382798cbd0982f816589a" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>paintRectangle</name></member>
       <member refid="class_node_1ad1368afb97550d97d066853e4ec8b0d2" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>parentNode</name></member>
       <member refid="class_node_1a68cac1af91841ef565f64c0d1d168146" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>pixelData</name></member>
       <member refid="class_node_1ae83dab802ae203ccb60cedff957052f8" prot="public" virt="non-virtual"><scope>FilterMask</scope><name>pixelDataAtTime</name></member>

@@ -2,26 +2,28 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="libkis_8h" kind="file" language="C++">
     <compoundname>libkis.h</compoundname>
-    <includes local="no">QList</includes>
-    <includes local="no">QString</includes>
     <includes local="no">QVariant</includes>
     <includes local="no">QMap</includes>
-    <includes local="no">QByteArray</includes>
     <includes local="no">QAction</includes>
+    <includedby refid="_angle_selector_8h" local="yes">AngleSelector.h</includedby>
     <includedby refid="_canvas_8h" local="yes">Canvas.h</includedby>
     <includedby refid="_channel_8h" local="yes">Channel.h</includedby>
     <includedby refid="_clone_layer_8h" local="yes">CloneLayer.h</includedby>
     <includedby refid="_colorize_mask_8h" local="yes">ColorizeMask.h</includedby>
     <includedby refid="_dock_widget_8h" local="yes">DockWidget.h</includedby>
     <includedby refid="_document_8h" local="yes">Document.h</includedby>
+    <includedby refid="_double_parse_spin_box_8h" local="yes">DoubleParseSpinBox.h</includedby>
     <includedby refid="_file_layer_8h" local="yes">FileLayer.h</includedby>
     <includedby refid="_fill_layer_8h" local="yes">FillLayer.h</includedby>
     <includedby refid="_filter_8h" local="yes">Filter.h</includedby>
     <includedby refid="_filter_layer_8h" local="yes">FilterLayer.h</includedby>
     <includedby refid="_filter_mask_8h" local="yes">FilterMask.h</includedby>
+    <includedby refid="_grid_config_8h" local="yes">GridConfig.h</includedby>
     <includedby refid="_group_layer_8h" local="yes">GroupLayer.h</includedby>
     <includedby refid="_group_shape_8h" local="yes">GroupShape.h</includedby>
+    <includedby refid="_guides_config_8h" local="yes">GuidesConfig.h</includedby>
     <includedby refid="_info_object_8h" local="yes">InfoObject.h</includedby>
+    <includedby refid="_int_parse_spin_box_8h" local="yes">IntParseSpinBox.h</includedby>
     <includedby refid="_krita_8h" local="yes">Krita.h</includedby>
     <includedby refid="_managed_color_8h" local="yes">ManagedColor.h</includedby>
     <includedby refid="_node_8h" local="yes">Node.h</includedby>
@@ -35,6 +37,7 @@
     <includedby refid="_selection_8h" local="yes">Selection.h</includedby>
     <includedby refid="_selection_mask_8h" local="yes">SelectionMask.h</includedby>
     <includedby refid="_shape_8h" local="yes">Shape.h</includedby>
+    <includedby refid="_slider_spin_box_8h" local="yes">SliderSpinBox.h</includedby>
     <includedby refid="_swatch_8h" local="yes">Swatch.h</includedby>
     <includedby refid="_transform_mask_8h" local="yes">TransformMask.h</includedby>
     <includedby refid="_transparency_mask_8h" local="yes">TransparencyMask.h</includedby>
@@ -51,255 +54,272 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="7">
-        <label>QAction</label>
-      </node>
-      <node id="6">
-        <label>QByteArray</label>
-      </node>
-      <node id="2">
-        <label>QList</label>
-      </node>
-      <node id="5">
-        <label>QMap</label>
-      </node>
-      <node id="3">
-        <label>QString</label>
       </node>
       <node id="4">
+        <label>QAction</label>
+      </node>
+      <node id="3">
+        <label>QMap</label>
+      </node>
+      <node id="2">
         <label>QVariant</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
+        <label>AngleSelector.h</label>
+        <link refid="_angle_selector_8h_source"/>
+      </node>
+      <node id="3">
         <label>Canvas.h</label>
         <link refid="_canvas_8h_source"/>
       </node>
-      <node id="3">
+      <node id="4">
         <label>Channel.h</label>
         <link refid="_channel_8h_source"/>
       </node>
-      <node id="4">
+      <node id="5">
         <label>CloneLayer.h</label>
         <link refid="_clone_layer_8h_source"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="7">
-        <label>ColorizeMask.h</label>
-        <link refid="_colorize_mask_8h_source"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="8">
-        <label>DockWidget.h</label>
-        <link refid="_dock_widget_8h_source"/>
-      </node>
-      <node id="5">
-        <label>Document.h</label>
-        <link refid="_document_8h_source"/>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="35">
-        <label>Extension.h</label>
-        <link refid="_extension_8h_source"/>
+      <node id="8">
+        <label>ColorizeMask.h</label>
+        <link refid="_colorize_mask_8h_source"/>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="9">
-        <label>FileLayer.h</label>
-        <link refid="_file_layer_8h_source"/>
-        <childnode refid="5" relation="include">
+        <label>DockWidget.h</label>
+        <link refid="_dock_widget_8h_source"/>
+      </node>
+      <node id="6">
+        <label>Document.h</label>
+        <link refid="_document_8h_source"/>
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="10">
-        <label>FillLayer.h</label>
-        <link refid="_fill_layer_8h_source"/>
-        <childnode refid="5" relation="include">
+        <label>DoubleParseSpinBox.h</label>
+        <link refid="_double_parse_spin_box_8h_source"/>
+        <childnode refid="11" relation="include">
         </childnode>
       </node>
-      <node id="11">
-        <label>Filter.h</label>
-        <link refid="_filter_8h_source"/>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
+      <node id="41">
+        <label>Extension.h</label>
+        <link refid="_extension_8h_source"/>
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="12">
-        <label>FilterLayer.h</label>
-        <link refid="_filter_layer_8h_source"/>
-        <childnode refid="5" relation="include">
+        <label>FileLayer.h</label>
+        <link refid="_file_layer_8h_source"/>
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="13">
-        <label>FilterMask.h</label>
-        <link refid="_filter_mask_8h_source"/>
-        <childnode refid="5" relation="include">
+        <label>FillLayer.h</label>
+        <link refid="_fill_layer_8h_source"/>
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="14">
-        <label>GroupLayer.h</label>
-        <link refid="_group_layer_8h_source"/>
-        <childnode refid="5" relation="include">
+        <label>Filter.h</label>
+        <link refid="_filter_8h_source"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
       <node id="15">
+        <label>FilterLayer.h</label>
+        <link refid="_filter_layer_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>FilterMask.h</label>
+        <link refid="_filter_mask_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>GridConfig.h</label>
+        <link refid="_grid_config_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>GroupLayer.h</label>
+        <link refid="_group_layer_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
         <label>GroupShape.h</label>
         <link refid="_group_shape_8h_source"/>
       </node>
-      <node id="16">
-        <label>InfoObject.h</label>
-        <link refid="_info_object_8h_source"/>
-        <childnode refid="10" relation="include">
-        </childnode>
-      </node>
-      <node id="6">
-        <label>Krita.h</label>
-        <link refid="_krita_8h_source"/>
-      </node>
-      <node id="17">
-        <label>ManagedColor.h</label>
-        <link refid="_managed_color_8h_source"/>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
+      <node id="20">
+        <label>GuidesConfig.h</label>
+        <link refid="_guides_config_8h_source"/>
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="21">
-        <label>Node.h</label>
-        <link refid="_node_8h_source"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
+        <label>InfoObject.h</label>
+        <link refid="_info_object_8h_source"/>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+      </node>
+      <node id="22">
+        <label>IntParseSpinBox.h</label>
+        <link refid="_int_parse_spin_box_8h_source"/>
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
+      </node>
+      <node id="7">
+        <label>Krita.h</label>
+        <link refid="_krita_8h_source"/>
+      </node>
+      <node id="23">
+        <label>ManagedColor.h</label>
+        <link refid="_managed_color_8h_source"/>
+        <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="24" relation="include">
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
       </node>
-      <node id="26">
-        <label>Notifier.h</label>
-        <link refid="_notifier_8h_source"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="20">
-        <label>Palette.h</label>
-        <link refid="_palette_8h_source"/>
-        <childnode refid="18" relation="include">
-        </childnode>
-      </node>
-      <node id="18">
-        <label>PaletteView.h</label>
-        <link refid="_palette_view_8h_source"/>
-      </node>
       <node id="27">
-        <label>Preset.h</label>
-        <link refid="_preset_8h_source"/>
-      </node>
-      <node id="28">
-        <label>PresetChooser.h</label>
-        <link refid="_preset_chooser_8h_source"/>
-      </node>
-      <node id="29">
-        <label>Resource.h</label>
-        <link refid="_resource_8h_source"/>
-        <childnode refid="20" relation="include">
+        <label>Node.h</label>
+        <link refid="_node_8h_source"/>
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
-      </node>
-      <node id="30">
-        <label>Scratchpad.h</label>
-        <link refid="_scratchpad_8h_source"/>
-      </node>
-      <node id="31">
-        <label>Selection.h</label>
-        <link refid="_selection_8h_source"/>
-        <childnode refid="10" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-      </node>
-      <node id="22">
-        <label>SelectionMask.h</label>
-        <link refid="_selection_mask_8h_source"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-      </node>
-      <node id="32">
-        <label>Shape.h</label>
-        <link refid="_shape_8h_source"/>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
-      </node>
-      <node id="19">
-        <label>Swatch.h</label>
-        <link refid="_swatch_8h_source"/>
-        <childnode refid="20" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
-      </node>
-      <node id="23">
-        <label>TransformMask.h</label>
-        <link refid="_transform_mask_8h_source"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
-      </node>
-      <node id="24">
-        <label>TransparencyMask.h</label>
-        <link refid="_transparency_mask_8h_source"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="25">
-        <label>VectorLayer.h</label>
-        <link refid="_vector_layer_8h_source"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="33">
-        <label>View.h</label>
-        <link refid="_view_8h_source"/>
-        <childnode refid="6" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
         <childnode refid="30" relation="include">
         </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>Notifier.h</label>
+        <link refid="_notifier_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>Palette.h</label>
+        <link refid="_palette_8h_source"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>PaletteView.h</label>
+        <link refid="_palette_view_8h_source"/>
+      </node>
+      <node id="33">
+        <label>Preset.h</label>
+        <link refid="_preset_8h_source"/>
       </node>
       <node id="34">
+        <label>PresetChooser.h</label>
+        <link refid="_preset_chooser_8h_source"/>
+      </node>
+      <node id="35">
+        <label>Resource.h</label>
+        <link refid="_resource_8h_source"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>Scratchpad.h</label>
+        <link refid="_scratchpad_8h_source"/>
+      </node>
+      <node id="37">
+        <label>Selection.h</label>
+        <link refid="_selection_8h_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>SelectionMask.h</label>
+        <link refid="_selection_mask_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>Shape.h</label>
+        <link refid="_shape_8h_source"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>SliderSpinBox.h</label>
+        <link refid="_slider_spin_box_8h_source"/>
+      </node>
+      <node id="25">
+        <label>Swatch.h</label>
+        <link refid="_swatch_8h_source"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>TransformMask.h</label>
+        <link refid="_transform_mask_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>TransparencyMask.h</label>
+        <link refid="_transparency_mask_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>VectorLayer.h</label>
+        <link refid="_vector_layer_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>View.h</label>
+        <link refid="_view_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
         <label>Window.h</label>
         <link refid="_window_8h_source"/>
-        <childnode refid="35" relation="include">
+        <childnode refid="41" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -311,17 +331,15 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
@@ -333,21 +351,47 @@
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
         <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="26" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
         <childnode refid="27" relation="include">
         </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
         <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
         </childnode>
         <childnode refid="29" relation="include">
         </childnode>
@@ -355,21 +399,9 @@
         </childnode>
         <childnode refid="31" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
-        <childnode refid="32" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
-        <childnode refid="33" relation="include">
-        </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="40" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -382,43 +414,40 @@
 <codeline lineno="2"><highlight class="comment"><sp/>*<sp/><sp/>SPDX-License-Identifier:<sp/>GPL-3.0-or-later</highlight></codeline>
 <codeline lineno="3"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QList&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QString&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QVariant&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QMap&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QByteArray&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QAction&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_canvas" kindref="compound">Canvas</ref>;</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_channel" kindref="compound">Channel</ref>;</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ColorDepth;</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ColorManager;</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ColorModel;</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ColorProfile;</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_dock_widget" kindref="compound">DockWidget</ref>;</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_dock_widget_factory_base" kindref="compound">DockWidgetFactoryBase</ref>;</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_document" kindref="compound">Document</ref>;</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_filter" kindref="compound">Filter</ref>;</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_info_object" kindref="compound">InfoObject</ref>;</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_krita" kindref="compound">Krita</ref>;</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_node" kindref="compound">Node</ref>;</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_notifier" kindref="compound">Notifier</ref>;</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_resource" kindref="compound">Resource</ref>;</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_scratchpad" kindref="compound">Scratchpad</ref>;</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_selection" kindref="compound">Selection</ref>;</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_view" kindref="compound">View</ref>;</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_extension" kindref="compound">Extension</ref>;</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_window" kindref="compound">Window</ref>;</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_shape" kindref="compound">Shape</ref>;</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_group_shape" kindref="compound">GroupShape</ref>;</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">PaintLayer;</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_clone_layer" kindref="compound">CloneLayer</ref>;</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_group_layer" kindref="compound">GroupLayer</ref>;</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_filter_layer" kindref="compound">FilterLayer</ref>;</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_fill_layer" kindref="compound">FillLayer</ref>;</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_file_layer" kindref="compound">FileLayer</ref>;</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_vector_layer" kindref="compound">VectorLayer</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QVariant&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QMap&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QAction&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_canvas" kindref="compound">Canvas</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_channel" kindref="compound">Channel</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ColorDepth;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ColorManager;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ColorModel;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ColorProfile;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_dock_widget" kindref="compound">DockWidget</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_dock_widget_factory_base" kindref="compound">DockWidgetFactoryBase</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_document" kindref="compound">Document</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_filter" kindref="compound">Filter</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_info_object" kindref="compound">InfoObject</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_krita" kindref="compound">Krita</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_node" kindref="compound">Node</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_notifier" kindref="compound">Notifier</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_resource" kindref="compound">Resource</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_scratchpad" kindref="compound">Scratchpad</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_selection" kindref="compound">Selection</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_view" kindref="compound">View</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_extension" kindref="compound">Extension</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_window" kindref="compound">Window</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_shape" kindref="compound">Shape</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_group_shape" kindref="compound">GroupShape</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">PaintLayer;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_clone_layer" kindref="compound">CloneLayer</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_group_layer" kindref="compound">GroupLayer</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_filter_layer" kindref="compound">FilterLayer</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_fill_layer" kindref="compound">FillLayer</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_file_layer" kindref="compound">FileLayer</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_vector_layer" kindref="compound">VectorLayer</ref>;</highlight></codeline>
     </programlisting>
     <location file="libkis.h"/>
   </compounddef>

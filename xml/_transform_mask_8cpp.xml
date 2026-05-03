@@ -24,11 +24,21 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>PaintingResources.h</label>
+        <link refid="_painting_resources_8h_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
       </node>
       <node id="1">
         <label>TransformMask.cpp</label>
         <link refid="_transform_mask_8cpp"/>
         <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
@@ -36,17 +46,15 @@
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
         <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
         <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -72,56 +80,44 @@
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
       </node>
-      <node id="13">
+      <node id="10">
         <label>QAction</label>
       </node>
-      <node id="12">
-        <label>QByteArray</label>
-      </node>
-      <node id="17">
+      <node id="16">
         <label>QDomDocument</label>
       </node>
-      <node id="8">
-        <label>QList</label>
-      </node>
-      <node id="11">
+      <node id="9">
         <label>QMap</label>
       </node>
       <node id="3">
         <label>QObject</label>
       </node>
-      <node id="9">
-        <label>QString</label>
-      </node>
-      <node id="10">
+      <node id="8">
         <label>QVariant</label>
       </node>
-      <node id="20">
+      <node id="19">
         <label>commands_new/KisLazyCreateTransformMaskKeyframesCommand.h</label>
       </node>
-      <node id="19">
+      <node id="18">
         <label>commands_new/KisSimpleModifyTransformMaskCommand.h</label>
       </node>
-      <node id="15">
-        <label>kis_image.h</label>
-      </node>
-      <node id="21">
-        <label>kis_processing_applicator.h</label>
+      <node id="12">
+        <label>kis_figure_painting_tool_helper.h</label>
       </node>
       <node id="14">
+        <label>kis_image.h</label>
+      </node>
+      <node id="20">
+        <label>kis_processing_applicator.h</label>
+      </node>
+      <node id="13">
         <label>kis_transform_mask.h</label>
       </node>
-      <node id="18">
+      <node id="17">
         <label>kis_transform_mask_params_factory_registry.h</label>
       </node>
-      <node id="16">
+      <node id="15">
         <label>kis_transform_mask_params_interface.h</label>
       </node>
       <node id="5">
@@ -239,15 +235,15 @@
 <codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>QScopedPointer&lt;KUndo2Command&gt;<sp/>cmd(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>KUndo2Command);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unique_ptr&lt;KUndo2Command&gt;<sp/>cmd(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>KUndo2Command);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
 <codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(KisLazyCreateTransformMaskKeyframesCommand::maskHasAnimation(mask))<sp/>{</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>KisLazyCreateTransformMaskKeyframesCommand(mask,<sp/>cmd.data());</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>KisLazyCreateTransformMaskKeyframesCommand(mask,<sp/>cmd.get());</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>KisSimpleModifyTransformMaskCommand(mask,<sp/>params,<sp/>{},<sp/>cmd.data());</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>KisSimpleModifyTransformMaskCommand(mask,<sp/>params,<sp/>{},<sp/>cmd.get());</highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>KisProcessingApplicator::runSingleCommandStroke(this-&gt;node()-&gt;image(),<sp/>cmd.take());</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>KisProcessingApplicator::runSingleCommandStroke(this-&gt;node()-&gt;image(),<sp/>cmd.release());</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"></highlight></codeline>
 <codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="115"><highlight class="normal">}</highlight></codeline>

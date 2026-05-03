@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Scratchpad.h" line="82" column="26" bodyfile="Scratchpad.h" bodystart="82" bodyend="-1"/>
+        <location file="Scratchpad.h" line="257" column="26" bodyfile="Scratchpad.h" bodystart="257" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Scratchpad.h" line="31" column="5" bodyfile="Scratchpad.cpp" bodystart="26" bodyend="35"/>
+        <location file="Scratchpad.h" line="35" column="5" bodyfile="Scratchpad.cpp" bodystart="28" bodyend="46"/>
       </memberdef>
       <memberdef kind="function" id="class_scratchpad_1a4b445c03d298cc484b599eb5d39089cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Scratchpad.h" line="32" column="5" bodyfile="Scratchpad.cpp" bodystart="37" bodyend="39"/>
+        <location file="Scratchpad.h" line="36" column="5" bodyfile="Scratchpad.cpp" bodystart="48" bodyend="50"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-slot">
@@ -78,7 +78,268 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Scratchpad.h" line="39" column="10" bodyfile="Scratchpad.cpp" bodystart="66" bodyend="70"/>
+        <location file="Scratchpad.h" line="43" column="10" bodyfile="Scratchpad.cpp" bodystart="131" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_scratchpad_1a62c1d5e6e9edd0d268bde62e14a8aaa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scratchpad::fillDefault</definition>
+        <argsstring>()</argsstring>
+        <name>fillDefault</name>
+        <qualifiedname>Scratchpad::fillDefault</qualifiedname>
+        <briefdescription>
+<para>Fill the entire scratchpad with default color. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="48" column="10" bodyfile="Scratchpad.cpp" bodystart="142" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_scratchpad_1aafed394c47ef581207c1f27333dccd42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scratchpad::fillGradient</definition>
+        <argsstring>(const QPoint &amp;gradientVectorStart=QPoint(), const QPoint &amp;gradientVectorEnd=QPoint(), const QString &amp;gradientShape=&quot;linear&quot;, const QString &amp;gradientRepeat=&quot;none&quot;, bool reverseGradient=false, bool dither=false)</argsstring>
+        <name>fillGradient</name>
+        <qualifiedname>Scratchpad::fillGradient</qualifiedname>
+        <param>
+          <type>const QPoint &amp;</type>
+          <declname>gradientVectorStart</declname>
+          <defval>QPoint()</defval>
+        </param>
+        <param>
+          <type>const QPoint &amp;</type>
+          <declname>gradientVectorEnd</declname>
+          <defval>QPoint()</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>gradientShape</declname>
+          <defval>&quot;linear&quot;</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>gradientRepeat</declname>
+          <defval>&quot;none&quot;</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>reverseGradient</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>dither</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Fill the entire scratchpad with current gradient. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gradientVectorStart</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a QPoint to define origin of gradient Set an empty QPoint() to use default scratchpad top-left </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gradientVectorEnd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a QPoint to define end of gradient set an empty QPoint() to use default scratchpad bottom-right </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gradientShape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>define which gradient to apply, can be:<itemizedlist>
+<listitem><para>&quot;linear&quot;</para>
+</listitem><listitem><para>&quot;bilinear&quot;</para>
+</listitem><listitem><para>&quot;radial&quot;</para>
+</listitem><listitem><para>&quot;square&quot;</para>
+</listitem><listitem><para>&quot;conical&quot;</para>
+</listitem><listitem><para>&quot;conicalSymmetric&quot;</para>
+</listitem><listitem><para>&quot;spiral&quot;</para>
+</listitem><listitem><para>&quot;reverseSpiral&quot;</para>
+</listitem><listitem><para>&quot;polygonal&quot; </para>
+</listitem></itemizedlist>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gradientRepeat</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>define how to repeat gradient, can be:<itemizedlist>
+<listitem><para>&quot;none&quot;</para>
+</listitem><listitem><para>&quot;alternate&quot;</para>
+</listitem><listitem><para>&quot;forwards&quot; </para>
+</listitem></itemizedlist>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>reverseGradient</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a boolean to define if gradient is reversed or not </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dither</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a boolean to define if gradient is dithered or not </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="73" column="10" bodyfile="Scratchpad.cpp" bodystart="162" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_scratchpad_1a16f51ba3b3938f6b98e1f80904115f8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scratchpad::fillBackground</definition>
+        <argsstring>()</argsstring>
+        <name>fillBackground</name>
+        <qualifiedname>Scratchpad::fillBackground</qualifiedname>
+        <briefdescription>
+<para>Fill the entire scratchpad with current background color. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="83" column="10" bodyfile="Scratchpad.cpp" bodystart="152" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_scratchpad_1ac554cbe8ca8471e2a427c395f598a0a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scratchpad::fillForeground</definition>
+        <argsstring>()</argsstring>
+        <name>fillForeground</name>
+        <qualifiedname>Scratchpad::fillForeground</qualifiedname>
+        <briefdescription>
+<para>Fill the entire scratchpad with current foreground color. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="88" column="10" bodyfile="Scratchpad.cpp" bodystart="157" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_scratchpad_1a3adddb3bd9dd17a6befbe7dfd31212c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scratchpad::fillTransparent</definition>
+        <argsstring>()</argsstring>
+        <name>fillTransparent</name>
+        <qualifiedname>Scratchpad::fillTransparent</qualifiedname>
+        <briefdescription>
+<para>Fill the entire scratchpad with a transparent color. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="93" column="10" bodyfile="Scratchpad.cpp" bodystart="147" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_scratchpad_1ac4a6ca76d9f08ceeb68b58ccb0dbd35a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scratchpad::fillDocument</definition>
+        <argsstring>(bool fullContent=true)</argsstring>
+        <name>fillDocument</name>
+        <qualifiedname>Scratchpad::fillDocument</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>fullContent</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Fill the entire scratchpad with current document projection content. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fullContent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>when True, full document projection is loaded in scratchpad, otherwise only content matching scratchpad viewport is loaded </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="99" column="10" bodyfile="Scratchpad.cpp" bodystart="207" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_scratchpad_1a205db7ae410d577334e6aabbd3e13593" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scratchpad::fillLayer</definition>
+        <argsstring>(bool fullContent=true)</argsstring>
+        <name>fillLayer</name>
+        <qualifiedname>Scratchpad::fillLayer</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>fullContent</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Fill the entire scratchpad with current layer content. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fullContent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>when True, full layer content is loaded in scratchpad, otherwise only content matching scratchpad viewport is loaded </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="105" column="10" bodyfile="Scratchpad.cpp" bodystart="202" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_scratchpad_1a33bc361614eec65ba58546192c6ca498" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scratchpad::fillPattern</definition>
+        <argsstring>(QTransform transform=QTransform())</argsstring>
+        <name>fillPattern</name>
+        <qualifiedname>Scratchpad::fillPattern</qualifiedname>
+        <param>
+          <type>QTransform</type>
+          <declname>transform</declname>
+          <defval>QTransform()</defval>
+        </param>
+        <briefdescription>
+<para>Fill the entire scratchpad with current pattern. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>transform</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is QTransform that let define pattern scale/rotation property </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="111" column="10" bodyfile="Scratchpad.cpp" bodystart="212" bodyend="215"/>
       </memberdef>
       <memberdef kind="slot" id="class_scratchpad_1a918b99aec6c8c88a22636b54e0e66896" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -91,7 +352,7 @@
           <declname>color</declname>
         </param>
         <briefdescription>
-<para>Fill the entire scratchpad with a color. </para>
+<para>Define default fill color for scratchpad. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -107,7 +368,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Scratchpad.h" line="45" column="10" bodyfile="Scratchpad.cpp" bodystart="72" bodyend="75"/>
+        <location file="Scratchpad.h" line="117" column="10" bodyfile="Scratchpad.cpp" bodystart="137" bodyend="140"/>
       </memberdef>
       <memberdef kind="slot" id="class_scratchpad_1a528753f96e576779230ac978b9c27093" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -125,10 +386,10 @@
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>Setting</parametername>
+<parametername>value</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>to true allows GUI to control the mode with explicitly setting mode </para>
+<para>Set to True allows GUI to control the mode with explicitly setting mode </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -136,7 +397,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Scratchpad.h" line="51" column="10" bodyfile="Scratchpad.cpp" bodystart="41" bodyend="44"/>
+        <location file="Scratchpad.h" line="123" column="10" bodyfile="Scratchpad.cpp" bodystart="52" bodyend="55"/>
       </memberdef>
       <memberdef kind="slot" id="class_scratchpad_1acb508de32241af1351881518cdffb9f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -154,10 +415,15 @@
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>Available</parametername>
+<parametername>modeName</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>options are: &quot;painting&quot;, &quot;panning&quot;, and &quot;colorsampling&quot; </para>
+<para>Available options are:<itemizedlist>
+<listitem><para>&quot;painting&quot;</para>
+</listitem><listitem><para>&quot;panning&quot;</para>
+</listitem><listitem><para>&quot;colorsampling&quot; </para>
+</listitem></itemizedlist>
+</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -165,7 +431,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Scratchpad.h" line="58" column="10" bodyfile="Scratchpad.cpp" bodystart="46" bodyend="49"/>
+        <location file="Scratchpad.h" line="132" column="10" bodyfile="Scratchpad.cpp" bodystart="57" bodyend="60"/>
       </memberdef>
       <memberdef kind="slot" id="class_scratchpad_1a6d48412ef18d9a6b8c9fd00fcd4ec84c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -178,15 +444,15 @@
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>Makes a connection between the zoom of the canvas and scratchpad area so they zoom in sync. </para>
+<para>DEPRECATED <ndash/> USE <ref refid="class_scratchpad_1ab0c4d61994ff76a903f8da253ec88b3e" kindref="member">setCanvasZoomLink()</ref> instead Makes a connection between the zoom of the canvas and scratchpad area so they zoom in sync. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>Should</parametername>
+<parametername>value</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>the scratchpad share the zoom level. Default is true </para>
+<para>If True (default) the scratchpad will share the current view zoom level. If False, then use scratchpad scale methods to define current zoom level </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -194,7 +460,189 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Scratchpad.h" line="64" column="10" bodyfile="Scratchpad.cpp" bodystart="51" bodyend="54"/>
+        <location file="Scratchpad.h" line="140" column="10" bodyfile="Scratchpad.cpp" bodystart="62" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_scratchpad_1af56f73fdd4e9ce1b245353be6f9d42a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Scratchpad::canvasZoomLink</definition>
+        <argsstring>()</argsstring>
+        <name>canvasZoomLink</name>
+        <qualifiedname>Scratchpad::canvasZoomLink</qualifiedname>
+        <briefdescription>
+<para>return if scratchpad zoom level is linked with current view zoom level </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>return True if connection between the zoom of the canvas and scratchpad (so they zoom in sync) is active </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="146" column="10" bodyfile="Scratchpad.cpp" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_scratchpad_1ab0c4d61994ff76a903f8da253ec88b3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scratchpad::setCanvasZoomLink</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setCanvasZoomLink</name>
+        <qualifiedname>Scratchpad::setCanvasZoomLink</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Makes a connection between the zoom of the canvas and scratchpad area so they zoom in sync. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If True (default) the scratchpad will share the current view zoom level. If False, then use scratchpad scale methods to define current zoom level </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="153" column="10" bodyfile="Scratchpad.cpp" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_scratchpad_1a545db7508965c1da30c8d46a771d4916" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Scratchpad::scale</definition>
+        <argsstring>()</argsstring>
+        <name>scale</name>
+        <qualifiedname>Scratchpad::scale</qualifiedname>
+        <briefdescription>
+<para>return current zoom level applied on scratchpad (whatever the zoom source is: view zoom level or set manually) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a float value (1.00 = 100%) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="159" column="11" bodyfile="Scratchpad.cpp" bodystart="78" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_scratchpad_1af70e130719e7a7e86f309c0acf77936a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Scratchpad::setScale</definition>
+        <argsstring>(qreal scale) const</argsstring>
+        <name>setScale</name>
+        <qualifiedname>Scratchpad::setScale</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>scale</declname>
+        </param>
+        <briefdescription>
+<para>allow to manually set scratchpad zoom level Note: call method is ignored if <ref refid="class_scratchpad_1af56f73fdd4e9ce1b245353be6f9d42a4" kindref="member">canvasZoomLink()</ref> is True, </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scale</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>zoom level to apply (1.00 = 100%) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>if scale has been applied return True, otherwise return False </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="167" column="10" bodyfile="Scratchpad.cpp" bodystart="84" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_scratchpad_1a9e5936e9aa9e6a962e5cc8a9620f2c36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scratchpad::scaleToFit</definition>
+        <argsstring>()</argsstring>
+        <name>scaleToFit</name>
+        <qualifiedname>Scratchpad::scaleToFit</qualifiedname>
+        <briefdescription>
+<para>calculate scale automatically to fit scratchpad content in scratchpad viewport Note: call method is ignored if <ref refid="class_scratchpad_1af56f73fdd4e9ce1b245353be6f9d42a4" kindref="member">canvasZoomLink()</ref> is True </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="173" column="10" bodyfile="Scratchpad.cpp" bodystart="93" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_scratchpad_1a4efcb93bc7ae24b375a7a029ac2b0a69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scratchpad::scaleReset</definition>
+        <argsstring>()</argsstring>
+        <name>scaleReset</name>
+        <qualifiedname>Scratchpad::scaleReset</qualifiedname>
+        <briefdescription>
+<para>reset scale and pan to origin Note: call method is ignored if <ref refid="class_scratchpad_1af56f73fdd4e9ce1b245353be6f9d42a4" kindref="member">canvasZoomLink()</ref> is True </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="179" column="10" bodyfile="Scratchpad.cpp" bodystart="102" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_scratchpad_1ab1a58ce0910c333874450a84f1b2f377" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scratchpad::panTo</definition>
+        <argsstring>(qint32 x, qint32 y)</argsstring>
+        <name>panTo</name>
+        <qualifiedname>Scratchpad::panTo</qualifiedname>
+        <param>
+          <type>qint32</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>qint32</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>pan scratchpad content to top-left position of scratchpad viewport Provided value are absolute </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>abscissa position to pan to </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ordinate position to pan to </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="187" column="10" bodyfile="Scratchpad.cpp" bodystart="111" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_scratchpad_1a3c18eea0381630439725c535519081a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scratchpad::panCenter</definition>
+        <argsstring>()</argsstring>
+        <name>panCenter</name>
+        <qualifiedname>Scratchpad::panCenter</qualifiedname>
+        <briefdescription>
+<para>pan scratchpad content to center content in viewport </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="192" column="10" bodyfile="Scratchpad.cpp" bodystart="116" bodyend="119"/>
       </memberdef>
       <memberdef kind="slot" id="class_scratchpad_1afa1cb389afc43d758ea8910141a475cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -212,10 +660,10 @@
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>Image</parametername>
+<parametername>image</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>object to load </para>
+<para>Image object to load </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -223,7 +671,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Scratchpad.h" line="71" column="10" bodyfile="Scratchpad.cpp" bodystart="56" bodyend="59"/>
+        <location file="Scratchpad.h" line="198" column="10" bodyfile="Scratchpad.cpp" bodystart="121" bodyend="124"/>
       </memberdef>
       <memberdef kind="slot" id="class_scratchpad_1a417c504e17f6959d5844ba9634d7993d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QImage</type>
@@ -241,7 +689,132 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Scratchpad.h" line="77" column="12" bodyfile="Scratchpad.cpp" bodystart="61" bodyend="64"/>
+        <location file="Scratchpad.h" line="204" column="12" bodyfile="Scratchpad.cpp" bodystart="126" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_scratchpad_1abcf7787e929edae6c72a475d2ce75a11" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QRect</type>
+        <definition>QRect Scratchpad::viewportBounds</definition>
+        <argsstring>() const</argsstring>
+        <name>viewportBounds</name>
+        <qualifiedname>Scratchpad::viewportBounds</qualifiedname>
+        <briefdescription>
+<para>The viewport indicates which part of scratchpad content is visible. It takes in account the current translation &amp; scale. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Example 1:<itemizedlist>
+<listitem><para><ref refid="class_scratchpad" kindref="compound">Scratchpad</ref> size: 500x500</para>
+</listitem><listitem><para><ref refid="class_scratchpad" kindref="compound">Scratchpad</ref> content: 2000x2000</para>
+</listitem><listitem><para><ref refid="class_scratchpad" kindref="compound">Scratchpad</ref> scale: 1.0</para>
+</listitem><listitem><para><ref refid="class_scratchpad" kindref="compound">Scratchpad</ref> pan: 0, 0 Returned viewport is a QRect(0, 0, 500, 500) matching content really visible in scratchpad. If scale is 2.00, returned viewport will be QRect(0, 0, 250, 250) If scale is 0.50, returned viewport will be QRect(0, 0, 1000, 1000)</para>
+</listitem></itemizedlist>
+</para>
+<para>Example 2:<itemizedlist>
+<listitem><para><ref refid="class_scratchpad" kindref="compound">Scratchpad</ref> size: 500x500</para>
+</listitem><listitem><para><ref refid="class_scratchpad" kindref="compound">Scratchpad</ref> content: 2000x2000</para>
+</listitem><listitem><para><ref refid="class_scratchpad" kindref="compound">Scratchpad</ref> scale: 2.0</para>
+</listitem><listitem><para><ref refid="class_scratchpad" kindref="compound">Scratchpad</ref> pan: 500, 1500 Returned viewport is a QRect(500, 1500, 250, 250) matching content really visible in scratchpad.</para>
+</listitem></itemizedlist>
+</para>
+<para><simplesect kind="return"><para>scratchpad viewport bounds as a QRect </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="228" column="11" bodyfile="Scratchpad.cpp" bodystart="217" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_scratchpad_1a2eda572aa1f9dbcbd325fa2e219d0380" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QRect</type>
+        <definition>QRect Scratchpad::contentBounds</definition>
+        <argsstring>() const</argsstring>
+        <name>contentBounds</name>
+        <qualifiedname>Scratchpad::contentBounds</qualifiedname>
+        <briefdescription>
+<para>The content of scratchpad can be bigger or smaller than scratchpad dimension. The bounds return the area in which there&apos;s some content. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>scratchpad content bounds as a QRect </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="235" column="11" bodyfile="Scratchpad.cpp" bodystart="222" bodyend="225"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_scratchpad_1a1782189eb38c2a9c5694d261160cbdcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scratchpad::scaleChanged</definition>
+        <argsstring>(qreal scale)</argsstring>
+        <name>scaleChanged</name>
+        <qualifiedname>Scratchpad::scaleChanged</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>scale</declname>
+        </param>
+        <briefdescription>
+<para>signal is emitted when scratchpad scale is changed (from zoom canvas or manually) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scale</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>updated scale value (1.00 = 100%) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="242" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_scratchpad_1a055dd25d90516cfb7aced69525eb96f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scratchpad::contentChanged</definition>
+        <argsstring>()</argsstring>
+        <name>contentChanged</name>
+        <qualifiedname>Scratchpad::contentChanged</qualifiedname>
+        <briefdescription>
+<para>signal is emitted when scratchpad content is changed (stroke or fill) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="247" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_scratchpad_1a2a9a877a2d3538f2f652dc223b460e67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scratchpad::viewportChanged</definition>
+        <argsstring>(const QRect rect)</argsstring>
+        <name>viewportChanged</name>
+        <qualifiedname>Scratchpad::viewportChanged</qualifiedname>
+        <param>
+          <type>const QRect</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+<para>signal is emitted when scratchpad viewport has been modified (pan, zoom) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new viewport bounds </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scratchpad.h" line="253" column="10"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -271,17 +844,38 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Scratchpad.h" line="27" column="1" bodyfile="Scratchpad.h" bodystart="28" bodyend="84"/>
+    <location file="Scratchpad.h" line="31" column="1" bodyfile="Scratchpad.h" bodystart="32" bodyend="259"/>
     <listofallmembers>
+      <member refid="class_scratchpad_1af56f73fdd4e9ce1b245353be6f9d42a4" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>canvasZoomLink</name></member>
       <member refid="class_scratchpad_1af0ca32712f6315e4013dc5a94c1a9214" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>clear</name></member>
+      <member refid="class_scratchpad_1a2eda572aa1f9dbcbd325fa2e219d0380" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>contentBounds</name></member>
+      <member refid="class_scratchpad_1a055dd25d90516cfb7aced69525eb96f7" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>contentChanged</name></member>
       <member refid="class_scratchpad_1a417c504e17f6959d5844ba9634d7993d" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>copyScratchpadImageData</name></member>
       <member refid="class_scratchpad_1ad14c8668a74ac1bfdd064e1825c6b0f1" prot="private" virt="non-virtual"><scope>Scratchpad</scope><name>d</name></member>
+      <member refid="class_scratchpad_1a16f51ba3b3938f6b98e1f80904115f8a" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>fillBackground</name></member>
+      <member refid="class_scratchpad_1a62c1d5e6e9edd0d268bde62e14a8aaa5" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>fillDefault</name></member>
+      <member refid="class_scratchpad_1ac4a6ca76d9f08ceeb68b58ccb0dbd35a" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>fillDocument</name></member>
+      <member refid="class_scratchpad_1ac554cbe8ca8471e2a427c395f598a0a5" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>fillForeground</name></member>
+      <member refid="class_scratchpad_1aafed394c47ef581207c1f27333dccd42" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>fillGradient</name></member>
+      <member refid="class_scratchpad_1a205db7ae410d577334e6aabbd3e13593" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>fillLayer</name></member>
+      <member refid="class_scratchpad_1a33bc361614eec65ba58546192c6ca498" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>fillPattern</name></member>
+      <member refid="class_scratchpad_1a3adddb3bd9dd17a6befbe7dfd31212c5" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>fillTransparent</name></member>
       <member refid="class_scratchpad_1a6d48412ef18d9a6b8c9fd00fcd4ec84c" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>linkCanvasZoom</name></member>
       <member refid="class_scratchpad_1afa1cb389afc43d758ea8910141a475cd" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>loadScratchpadImage</name></member>
+      <member refid="class_scratchpad_1a3c18eea0381630439725c535519081a1" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>panCenter</name></member>
+      <member refid="class_scratchpad_1ab1a58ce0910c333874450a84f1b2f377" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>panTo</name></member>
+      <member refid="class_scratchpad_1a545db7508965c1da30c8d46a771d4916" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>scale</name></member>
+      <member refid="class_scratchpad_1a1782189eb38c2a9c5694d261160cbdcc" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>scaleChanged</name></member>
+      <member refid="class_scratchpad_1a4efcb93bc7ae24b375a7a029ac2b0a69" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>scaleReset</name></member>
+      <member refid="class_scratchpad_1a9e5936e9aa9e6a962e5cc8a9620f2c36" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>scaleToFit</name></member>
       <member refid="class_scratchpad_1ad0cfa2a4fc0a082be4597ea23b9d86b8" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>Scratchpad</name></member>
+      <member refid="class_scratchpad_1ab0c4d61994ff76a903f8da253ec88b3e" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>setCanvasZoomLink</name></member>
       <member refid="class_scratchpad_1a918b99aec6c8c88a22636b54e0e66896" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>setFillColor</name></member>
       <member refid="class_scratchpad_1acb508de32241af1351881518cdffb9f8" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>setMode</name></member>
       <member refid="class_scratchpad_1a528753f96e576779230ac978b9c27093" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>setModeManually</name></member>
+      <member refid="class_scratchpad_1af70e130719e7a7e86f309c0acf77936a" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>setScale</name></member>
+      <member refid="class_scratchpad_1abcf7787e929edae6c72a475d2ce75a11" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>viewportBounds</name></member>
+      <member refid="class_scratchpad_1a2a9a877a2d3538f2f652dc223b460e67" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>viewportChanged</name></member>
       <member refid="class_scratchpad_1a4b445c03d298cc484b599eb5d39089cf" prot="public" virt="non-virtual"><scope>Scratchpad</scope><name>~Scratchpad</name></member>
     </listofallmembers>
   </compounddef>

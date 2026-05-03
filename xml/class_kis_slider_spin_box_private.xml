@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_kis_slider_spin_box_private" kind="class" language="C++" prot="public">
+    <compoundname>KisSliderSpinBoxPrivate</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename SpinBoxTypeTP</type>
+      </param>
+      <param>
+        <type>typename BaseSpinBoxTypeTP</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SliderSpinBox.h" line="19" column="1" bodyfile="SliderSpinBox.h" bodystart="19" bodyend="-1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

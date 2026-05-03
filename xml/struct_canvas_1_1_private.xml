@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Canvas.cpp" line="18" column="16" bodyfile="Canvas.cpp" bodystart="18" bodyend="18"/>
+        <location file="Canvas.cpp" line="17" column="16" bodyfile="Canvas.cpp" bodystart="17" bodyend="17"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -32,14 +32,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Canvas.cpp" line="17" column="5" bodyfile="Canvas.cpp" bodystart="17" bodyend="17"/>
+        <location file="Canvas.cpp" line="16" column="5" bodyfile="Canvas.cpp" bodystart="16" bodyend="16"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Canvas.cpp" line="16" column="1" bodyfile="Canvas.cpp" bodystart="16" bodyend="19"/>
+    <location file="Canvas.cpp" line="15" column="1" bodyfile="Canvas.cpp" bodystart="15" bodyend="18"/>
     <listofallmembers>
       <member refid="struct_canvas_1_1_private_1a4d4ff9ce71244626a9cb9d45064d7f17" prot="public" virt="non-virtual"><scope>Canvas::Private</scope><name>canvas</name></member>
       <member refid="struct_canvas_1_1_private_1ad29a20222412d3824355e974b60bc156" prot="public" virt="non-virtual"><scope>Canvas::Private</scope><name>Private</name></member>

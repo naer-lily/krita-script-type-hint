@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="struct_double_parse_spin_box_1_1_private" kind="struct" language="C++" prot="public">
+    <compoundname>DoubleParseSpinBox::Private</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_double_parse_spin_box_1_1_private_1ad5f926110759e3498461c70e45b4ae31" prot="public" static="no" mutable="no">
+        <type>KisDoubleParseSpinBox *</type>
+        <definition>KisDoubleParseSpinBox* DoubleParseSpinBox::Private::widget</definition>
+        <argsstring></argsstring>
+        <name>widget</name>
+        <qualifiedname>DoubleParseSpinBox::Private::widget</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DoubleParseSpinBox.cpp" line="13" column="27" bodyfile="DoubleParseSpinBox.cpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_double_parse_spin_box_1_1_private_1a394e3dd3b2097e30ae66e7140b922ae5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DoubleParseSpinBox::Private::Private</definition>
+        <argsstring>()</argsstring>
+        <name>Private</name>
+        <qualifiedname>DoubleParseSpinBox::Private::Private</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DoubleParseSpinBox.cpp" line="11" column="5" bodyfile="DoubleParseSpinBox.cpp" bodystart="11" bodyend="11"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DoubleParseSpinBox.cpp" line="10" column="1" bodyfile="DoubleParseSpinBox.cpp" bodystart="10" bodyend="14"/>
+    <listofallmembers>
+      <member refid="struct_double_parse_spin_box_1_1_private_1a394e3dd3b2097e30ae66e7140b922ae5" prot="public" virt="non-virtual"><scope>DoubleParseSpinBox::Private</scope><name>Private</name></member>
+      <member refid="struct_double_parse_spin_box_1_1_private_1ad5f926110759e3498461c70e45b4ae31" prot="public" virt="non-virtual"><scope>DoubleParseSpinBox::Private</scope><name>widget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

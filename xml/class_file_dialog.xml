@@ -1,0 +1,859 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_file_dialog" kind="class" language="C++" prot="public">
+    <compoundname>FileDialog</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QDialog</basecompoundref>
+    <includes refid="_file_dialog_8h" local="no">FileDialog.h</includes>
+    <innerclass refid="struct_file_dialog_1_1_private" prot="public">FileDialog::Private</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_file_dialog_1a9f0ef4051efbdd60ad5ce92ddb218104" prot="public" static="no" strong="no">
+        <type></type>
+        <name>DialogType</name>
+        <qualifiedname>FileDialog::DialogType</qualifiedname>
+        <enumvalue id="class_file_dialog_1a9f0ef4051efbdd60ad5ce92ddb218104a856f777752629a384e75668420ad99fe" prot="public">
+          <name>OpenFile</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_file_dialog_1a9f0ef4051efbdd60ad5ce92ddb218104a487bcbc6dc1a2f441780dafa04aafa72" prot="public">
+          <name>OpenFiles</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_file_dialog_1a9f0ef4051efbdd60ad5ce92ddb218104a81b2870f16ff822da5ced284c8ae2b8d" prot="public">
+          <name>OpenDirectory</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_file_dialog_1a9f0ef4051efbdd60ad5ce92ddb218104aecbc5b6defe235c237b08119aa1b4dc6" prot="public">
+          <name>ImportFile</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_file_dialog_1a9f0ef4051efbdd60ad5ce92ddb218104a43ecd8d7c662e567b0d02626cef017dc" prot="public">
+          <name>ImportFiles</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_file_dialog_1a9f0ef4051efbdd60ad5ce92ddb218104ac0ea499ce2fb0230247791c9e993f702" prot="public">
+          <name>ImportDirectory</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_file_dialog_1a9f0ef4051efbdd60ad5ce92ddb218104a71e530315aa587a471f47982488deeb0" prot="public">
+          <name>SaveFile</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileDialog.h" line="25" column="5" bodyfile="FileDialog.h" bodystart="26" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_file_dialog_1acca05ac7b20514c2b56a4d6fefb63f53" prot="private" static="no" mutable="no">
+        <type>QScopedPointer&lt; <ref refid="struct_file_dialog_1_1_private" kindref="compound">Private</ref> &gt; const</type>
+        <definition>QScopedPointer&lt;Private&gt; const FileDialog::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>FileDialog::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileDialog.h" line="168" column="26" bodyfile="FileDialog.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_file_dialog_1af64d0a14ec374e2fe596c226edf5d680" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FileDialog::FileDialog</definition>
+        <argsstring>(QWidget *parent=nullptr, const FileDialog::DialogType=DialogType::OpenFile, const QString &amp;dialogName=&quot;&quot;)</argsstring>
+        <name>FileDialog</name>
+        <qualifiedname>FileDialog::FileDialog</qualifiedname>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>const FileDialog::DialogType</type>
+          <defname>type</defname>
+          <defval>DialogType::OpenFile</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>dialogName</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>constructor </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The parent of the file dialog </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dialogType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>usage of the file dialog Valid arguments: <itemizedlist>
+<listitem>
+<para>FileDialog.DialogType.OpenFile </para>
+</listitem>
+<listitem>
+<para>FileDialog.DialogType.OpenFiles </para>
+</listitem>
+<listitem>
+<para>FileDialog.DialogType.OpenDirectory </para>
+</listitem>
+<listitem>
+<para>FileDialog.DialogType.ImportFile </para>
+</listitem>
+<listitem>
+<para>FileDialog.DialogType.ImportFiles </para>
+</listitem>
+<listitem>
+<para>FileDialog.DialogType.ImportDirectory </para>
+</listitem>
+<listitem>
+<para>FileDialog.DialogType.SaveFile <itemizedlist>
+<listitem>
+</listitem>
+</itemizedlist>
+dialogName the name for the file dialog. This will be used to open the filedialog in the last open location, instead of the specified directory.</para>
+<para></para>
+</listitem>
+</itemizedlist>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The name of the entry user selected in the file dialog </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileDialog.h" line="56" column="5" bodyfile="FileDialog.cpp" bodystart="17" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_dialog_1a1ef8dbc180e8bb58fd41ef0763be4d01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FileDialog::~FileDialog</definition>
+        <argsstring>() override</argsstring>
+        <name>~FileDialog</name>
+        <qualifiedname>FileDialog::~FileDialog</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileDialog.h" line="60" column="5" bodyfile="FileDialog.cpp" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_dialog_1a160ab1d508bf8b9747fd46c15dfeeef0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDialog::setCaption</definition>
+        <argsstring>(const QString &amp;caption)</argsstring>
+        <name>setCaption</name>
+        <qualifiedname>FileDialog::setCaption</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>caption</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileDialog.h" line="64" column="10" bodyfile="FileDialog.cpp" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_dialog_1a26507b658bfac1f1f804ffab00322648" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDialog::setDefaultDir</definition>
+        <argsstring>(const QString &amp;defaultDir, bool force=false)</argsstring>
+        <name>setDefaultDir</name>
+        <qualifiedname>FileDialog::setDefaultDir</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>defaultDir</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>force</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>setDefaultDir set the default directory to defaultDir. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>defaultDir</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a path to a file or directory </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileDialog.h" line="71" column="10" bodyfile="FileDialog.cpp" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_dialog_1a5e7eeeba357a1841f2d41490392bb4a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDialog::setDirectoryUrl</definition>
+        <argsstring>(const QUrl &amp;defaultUri)</argsstring>
+        <name>setDirectoryUrl</name>
+        <qualifiedname>FileDialog::setDirectoryUrl</qualifiedname>
+        <param>
+          <type>const QUrl &amp;</type>
+          <declname>defaultUri</declname>
+        </param>
+        <briefdescription>
+<para>setDirectoryUrl set the default URI to defaultUri. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>defaultUri</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a Uri to a file from some ContentProvider </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileDialog.h" line="77" column="10" bodyfile="FileDialog.cpp" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_dialog_1aa81437b63ec8d14ebf632dcb6933b383" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDialog::setImageFilters</definition>
+        <argsstring>()</argsstring>
+        <name>setImageFilters</name>
+        <qualifiedname>FileDialog::setImageFilters</qualifiedname>
+        <briefdescription>
+<para>setImageFilters sets the name filters for the file dialog to all image formats Qt&apos;s QImageReader supports. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileDialog.h" line="83" column="10" bodyfile="FileDialog.cpp" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_dialog_1a2bcac4b11d41af0de794f9f071016806" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDialog::setMimeTypeFilters</definition>
+        <argsstring>(const QStringList &amp;mimeTypeList, QString defaultMimeType=QString())</argsstring>
+        <name>setMimeTypeFilters</name>
+        <qualifiedname>FileDialog::setMimeTypeFilters</qualifiedname>
+        <param>
+          <type>const QStringList &amp;</type>
+          <declname>mimeTypeList</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>defaultMimeType</declname>
+          <defval>QString()</defval>
+        </param>
+        <briefdescription>
+<para>setMimeTypeFilters Update the list of file filters from mime types. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mimeTypeList</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A list of mime types that forms the basis of this dialog&apos;s file filters </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>defaultMimeType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sets the default filter based on this mime type </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileDialog.h" line="90" column="10" bodyfile="FileDialog.cpp" bodystart="80" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_dialog_1af3179c58e042baec635af83047b2658d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDialog::setNameFilter</definition>
+        <argsstring>(const QString &amp;filter)</argsstring>
+        <name>setNameFilter</name>
+        <qualifiedname>FileDialog::setNameFilter</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>filter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileDialog.h" line="94" column="10" bodyfile="FileDialog.cpp" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_dialog_1a89801941657609ebc02285aa07da5891" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDialog::selectNameFilter</definition>
+        <argsstring>(const QString &amp;filter)</argsstring>
+        <name>selectNameFilter</name>
+        <qualifiedname>FileDialog::selectNameFilter</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>filter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileDialog.h" line="97" column="10" bodyfile="FileDialog.cpp" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_dialog_1a2120e6b8ec71680beb3d902ea729b371" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QStringList</type>
+        <definition>QStringList FileDialog::filenames</definition>
+        <argsstring>()</argsstring>
+        <name>filenames</name>
+        <qualifiedname>FileDialog::filenames</qualifiedname>
+        <briefdescription>
+<para>Show the file dialog and return multiple file names the user selected. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileDialog.h" line="100" column="17" bodyfile="FileDialog.cpp" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_dialog_1a803fa896805a157c894ef62b132b5d65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString FileDialog::filename</definition>
+        <argsstring>()</argsstring>
+        <name>filename</name>
+        <qualifiedname>FileDialog::filename</qualifiedname>
+        <briefdescription>
+<para>Show the file dialog and return the file name the user selected. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileDialog.h" line="103" column="13" bodyfile="FileDialog.cpp" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_dialog_1a63f49b847bc16174dd466fc1670d8ef0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString FileDialog::selectedNameFilter</definition>
+        <argsstring>() const</argsstring>
+        <name>selectedNameFilter</name>
+        <qualifiedname>FileDialog::selectedNameFilter</qualifiedname>
+        <briefdescription>
+<para>selectedNameFilter returns the name filter the user selected, either directory or by clicking on it. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileDialog.h" line="156" column="13" bodyfile="FileDialog.cpp" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_dialog_1a4a48e0a7dc7c4672b51bdc1b9bec53af" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString FileDialog::selectedMimeType</definition>
+        <argsstring>() const</argsstring>
+        <name>selectedMimeType</name>
+        <qualifiedname>FileDialog::selectedMimeType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileDialog.h" line="158" column="13" bodyfile="FileDialog.cpp" bodystart="55" bodyend="58"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_file_dialog_1af378bed4a4fc2a9120bcfd048dd5c2d3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString FileDialog::getOpenFileName</definition>
+        <argsstring>(QWidget *parent=nullptr, const QString &amp;caption=QString(), const QString &amp;directory=QString(), const QString &amp;filter=QString(), const QString &amp;selectedFilter=QString(), const QString &amp;dialogName=QString())</argsstring>
+        <name>getOpenFileName</name>
+        <qualifiedname>FileDialog::getOpenFileName</qualifiedname>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>caption</declname>
+          <defval>QString()</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>directory</declname>
+          <defval>QString()</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>filter</declname>
+          <defval>QString()</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>selectedFilter</declname>
+          <defval>QString()</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>dialogName</declname>
+          <defval>QString()</defval>
+        </param>
+        <briefdescription>
+<para>Create and show a file dialog and return the name of an existing file selected by the user. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dialog parent widget </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>caption</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dialog caption </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>directory</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Starting directory for the file dialog </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name filters for files shown </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selectedFilter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The selected name filter </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dialogName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Internal name of the dialog used for remembering the opened directory </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the name of an existing file selected by the user </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileDialog.h" line="115" column="20" bodyfile="FileDialog.cpp" bodystart="96" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_dialog_1afdcb881aa1960cb21e5f79c6965790bf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QStringList</type>
+        <definition>QStringList FileDialog::getOpenFileNames</definition>
+        <argsstring>(QWidget *parent=nullptr, const QString &amp;caption=QString(), const QString &amp;directory=QString(), const QString &amp;filter=QString(), const QString &amp;selectedFilter=QString(), const QString &amp;dialogName=QString())</argsstring>
+        <name>getOpenFileNames</name>
+        <qualifiedname>FileDialog::getOpenFileNames</qualifiedname>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>caption</declname>
+          <defval>QString()</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>directory</declname>
+          <defval>QString()</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>filter</declname>
+          <defval>QString()</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>selectedFilter</declname>
+          <defval>QString()</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>dialogName</declname>
+          <defval>QString()</defval>
+        </param>
+        <briefdescription>
+<para>Create and show a file dialog and return the name of multiple existing files selected by the user. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dialog parent widget </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>caption</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dialog caption </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>directory</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Starting directory for the file dialog </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name filters for files shown </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selectedFilter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The selected name filter </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dialogName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Internal name of the dialog used for remembering the opened directory </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the name of multiple existing files selected by the user </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileDialog.h" line="127" column="24" bodyfile="FileDialog.cpp" bodystart="101" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_dialog_1a88620bb7c4f30ae4a89291718788b1ea" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString FileDialog::getExistingDirectory</definition>
+        <argsstring>(QWidget *parent=nullptr, const QString &amp;caption=QString(), const QString &amp;directory=QString(), const QString &amp;dialogName=QString())</argsstring>
+        <name>getExistingDirectory</name>
+        <qualifiedname>FileDialog::getExistingDirectory</qualifiedname>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>caption</declname>
+          <defval>QString()</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>directory</declname>
+          <defval>QString()</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>dialogName</declname>
+          <defval>QString()</defval>
+        </param>
+        <briefdescription>
+<para>Create and show a file dialog and return the name of an existing directory selected by the user. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dialog parent widget </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>caption</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dialog caption </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>directory</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Starting directory for the file dialog </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dialogName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Internal name of the dialog used for remembering the opened directory </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the name of an existing directory selected by the user </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileDialog.h" line="137" column="20" bodyfile="FileDialog.cpp" bodystart="106" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_dialog_1ad73c0049a070d04cbed4f9dcc2d9e808" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString FileDialog::getSaveFileName</definition>
+        <argsstring>(QWidget *parent=nullptr, const QString &amp;caption=QString(), const QString &amp;directory=QString(), const QString &amp;filter=QString(), const QString &amp;selectedFilter=QString(), const QString &amp;dialogName=QString())</argsstring>
+        <name>getSaveFileName</name>
+        <qualifiedname>FileDialog::getSaveFileName</qualifiedname>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>caption</declname>
+          <defval>QString()</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>directory</declname>
+          <defval>QString()</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>filter</declname>
+          <defval>QString()</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>selectedFilter</declname>
+          <defval>QString()</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>dialogName</declname>
+          <defval>QString()</defval>
+        </param>
+        <briefdescription>
+<para>Create and show a file dialog and return the name of a file to save to selected by the user. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dialog parent widget </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>caption</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dialog caption </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>directory</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Starting directory for the file dialog </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name filters for files shown </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selectedFilter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The selected name filter </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dialogName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Internal name of the dialog used for remembering the opened directory </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the name of a file to save to selected by the user </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileDialog.h" line="149" column="20" bodyfile="FileDialog.cpp" bodystart="111" bodyend="114"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_file_dialog_1a1e97bc27641634737ea79a8b32cd998c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDialog::onFilterSelected</definition>
+        <argsstring>(const QString &amp;filter)</argsstring>
+        <name>onFilterSelected</name>
+        <qualifiedname>FileDialog::onFilterSelected</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>filter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileDialog.h" line="162" column="10" bodyfile="FileDialog.cpp" bodystart="116" bodyend="119"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Wrapper around KoFileDialog, which is a wrapper around QFileDialog, providing native file dialogs on KDE/Gnome/Windows/OSX/etc. <ref refid="class_file_dialog" kindref="compound">FileDialog</ref> respects <ref refid="class_krita" kindref="compound">Krita</ref>&apos;s &quot;Don&apos;t use native file dialogs&quot; setting. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FileDialog</label>
+        <link refid="class_file_dialog"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QDialog</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FileDialog</label>
+        <link refid="class_file_dialog"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QDialog</label>
+      </node>
+    </collaborationgraph>
+    <location file="FileDialog.h" line="19" column="1" bodyfile="FileDialog.h" bodystart="20" bodyend="169"/>
+    <listofallmembers>
+      <member refid="class_file_dialog_1acca05ac7b20514c2b56a4d6fefb63f53" prot="private" virt="non-virtual"><scope>FileDialog</scope><name>d</name></member>
+      <member refid="class_file_dialog_1a9f0ef4051efbdd60ad5ce92ddb218104" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>DialogType</name></member>
+      <member refid="class_file_dialog_1af64d0a14ec374e2fe596c226edf5d680" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>FileDialog</name></member>
+      <member refid="class_file_dialog_1a803fa896805a157c894ef62b132b5d65" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>filename</name></member>
+      <member refid="class_file_dialog_1a2120e6b8ec71680beb3d902ea729b371" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>filenames</name></member>
+      <member refid="class_file_dialog_1a88620bb7c4f30ae4a89291718788b1ea" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>getExistingDirectory</name></member>
+      <member refid="class_file_dialog_1af378bed4a4fc2a9120bcfd048dd5c2d3" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>getOpenFileName</name></member>
+      <member refid="class_file_dialog_1afdcb881aa1960cb21e5f79c6965790bf" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>getOpenFileNames</name></member>
+      <member refid="class_file_dialog_1ad73c0049a070d04cbed4f9dcc2d9e808" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>getSaveFileName</name></member>
+      <member refid="class_file_dialog_1a9f0ef4051efbdd60ad5ce92ddb218104ac0ea499ce2fb0230247791c9e993f702" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>ImportDirectory</name></member>
+      <member refid="class_file_dialog_1a9f0ef4051efbdd60ad5ce92ddb218104aecbc5b6defe235c237b08119aa1b4dc6" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>ImportFile</name></member>
+      <member refid="class_file_dialog_1a9f0ef4051efbdd60ad5ce92ddb218104a43ecd8d7c662e567b0d02626cef017dc" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>ImportFiles</name></member>
+      <member refid="class_file_dialog_1a1e97bc27641634737ea79a8b32cd998c" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>onFilterSelected</name></member>
+      <member refid="class_file_dialog_1a9f0ef4051efbdd60ad5ce92ddb218104a81b2870f16ff822da5ced284c8ae2b8d" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>OpenDirectory</name></member>
+      <member refid="class_file_dialog_1a9f0ef4051efbdd60ad5ce92ddb218104a856f777752629a384e75668420ad99fe" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>OpenFile</name></member>
+      <member refid="class_file_dialog_1a9f0ef4051efbdd60ad5ce92ddb218104a487bcbc6dc1a2f441780dafa04aafa72" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>OpenFiles</name></member>
+      <member refid="class_file_dialog_1a9f0ef4051efbdd60ad5ce92ddb218104a71e530315aa587a471f47982488deeb0" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>SaveFile</name></member>
+      <member refid="class_file_dialog_1a4a48e0a7dc7c4672b51bdc1b9bec53af" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>selectedMimeType</name></member>
+      <member refid="class_file_dialog_1a63f49b847bc16174dd466fc1670d8ef0" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>selectedNameFilter</name></member>
+      <member refid="class_file_dialog_1a89801941657609ebc02285aa07da5891" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>selectNameFilter</name></member>
+      <member refid="class_file_dialog_1a160ab1d508bf8b9747fd46c15dfeeef0" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>setCaption</name></member>
+      <member refid="class_file_dialog_1a26507b658bfac1f1f804ffab00322648" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>setDefaultDir</name></member>
+      <member refid="class_file_dialog_1a5e7eeeba357a1841f2d41490392bb4a4" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>setDirectoryUrl</name></member>
+      <member refid="class_file_dialog_1aa81437b63ec8d14ebf632dcb6933b383" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>setImageFilters</name></member>
+      <member refid="class_file_dialog_1a2bcac4b11d41af0de794f9f071016806" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>setMimeTypeFilters</name></member>
+      <member refid="class_file_dialog_1af3179c58e042baec635af83047b2658d" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>setNameFilter</name></member>
+      <member refid="class_file_dialog_1a1ef8dbc180e8bb58fd41ef0763be4d01" prot="public" virt="non-virtual"><scope>FileDialog</scope><name>~FileDialog</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

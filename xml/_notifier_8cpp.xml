@@ -15,7 +15,7 @@
         <link refid="_clone_layer_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -29,7 +29,7 @@
         <link refid="_colorize_mask_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="41" relation="include">
         </childnode>
@@ -40,16 +40,16 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="20">
+      <node id="17">
         <label>Document.h</label>
         <link refid="_document_8h_source"/>
-        <childnode refid="3" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
         <childnode refid="23" relation="include">
         </childnode>
@@ -71,13 +71,17 @@
         </childnode>
         <childnode refid="40" relation="include">
         </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
       </node>
       <node id="24">
         <label>FileLayer.h</label>
         <link refid="_file_layer_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -91,7 +95,7 @@
         <link refid="_fill_layer_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="30" relation="include">
         </childnode>
@@ -121,7 +125,7 @@
         <link refid="_filter_layer_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
@@ -139,7 +143,7 @@
         <link refid="_filter_mask_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
@@ -150,14 +154,38 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="21">
+      <node id="46">
+        <label>GridConfig.h</label>
+        <link refid="_grid_config_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
         <label>GroupLayer.h</label>
         <link refid="_group_layer_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>GuidesConfig.h</label>
+        <link refid="_guides_config_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
@@ -190,7 +218,7 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="22">
+      <node id="20">
         <label>Node.h</label>
         <link refid="_node_8h_source"/>
         <childnode refid="3" relation="include">
@@ -201,23 +229,25 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
       </node>
       <node id="1">
         <label>Notifier.cpp</label>
         <link refid="_notifier_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
         <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
         <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -231,7 +261,13 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>PaintingResources.h</label>
+        <link refid="_painting_resources_8h_source"/>
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
       <node id="28">
@@ -251,7 +287,7 @@
         <link refid="_selection_mask_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -279,7 +315,7 @@
         <link refid="_transform_mask_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -293,7 +329,7 @@
         <link refid="_transparency_mask_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -315,12 +351,12 @@
         </childnode>
         <childnode refid="33" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="34" relation="include">
         </childnode>
       </node>
-      <node id="17">
+      <node id="14">
         <label>View.h</label>
         <link refid="_view_8h_source"/>
         <childnode refid="3" relation="include">
@@ -330,14 +366,14 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="18">
+      <node id="15">
         <label>Window.h</label>
         <link refid="_window_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
@@ -353,20 +389,14 @@
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
       </node>
-      <node id="14">
+      <node id="11">
         <label>KisApplication.h</label>
       </node>
-      <node id="15">
+      <node id="12">
         <label>KisPart.h</label>
       </node>
-      <node id="13">
+      <node id="10">
         <label>KisView.h</label>
       </node>
       <node id="35">
@@ -375,19 +405,16 @@
       <node id="33">
         <label>KoShapeControllerBase.h</label>
       </node>
-      <node id="12">
+      <node id="9">
         <label>QAction</label>
       </node>
-      <node id="11">
-        <label>QByteArray</label>
+      <node id="18">
+        <label>QFileInfo</label>
       </node>
-      <node id="7">
-        <label>QList</label>
-      </node>
-      <node id="19">
+      <node id="16">
         <label>QMainWindow</label>
       </node>
-      <node id="10">
+      <node id="8">
         <label>QMap</label>
       </node>
       <node id="3">
@@ -396,20 +423,26 @@
       <node id="43">
         <label>QScopedPointer</label>
       </node>
-      <node id="8">
-        <label>QString</label>
-      </node>
-      <node id="9">
+      <node id="7">
         <label>QVariant</label>
       </node>
       <node id="42">
         <label>QVector</label>
       </node>
-      <node id="16">
+      <node id="13">
         <label>kis_config_notifier.h</label>
+      </node>
+      <node id="22">
+        <label>kis_figure_painting_tool_helper.h</label>
       </node>
       <node id="27">
         <label>kis_filter_configuration.h</label>
+      </node>
+      <node id="47">
+        <label>kis_grid_config.h</label>
+      </node>
+      <node id="45">
+        <label>kis_guides_config.h</label>
       </node>
       <node id="31">
         <label>kis_properties_configuration.h</label>
@@ -487,28 +520,28 @@
 <codeline lineno="58"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_notifier_1a59440dce7fa9d4916f924f414ccd9a45" kindref="member">Notifier::imageCreated</ref>(KisDocument*<sp/>document)</highlight></codeline>
 <codeline lineno="59"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_document" kindref="compound">Document</ref><sp/>*doc<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_document" kindref="compound">Document</ref>(document,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="class_notifier_1a59440dce7fa9d4916f924f414ccd9a45" kindref="member">imageCreated</ref>(doc);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_EMIT<sp/><ref refid="class_notifier_1a59440dce7fa9d4916f924f414ccd9a45" kindref="member">imageCreated</ref>(doc);</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>doc;</highlight></codeline>
 <codeline lineno="63"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_notifier_1a1acf8f910223aebc212440faf196e0ed" kindref="member">Notifier::viewCreated</ref>(KisView<sp/>*view)</highlight></codeline>
 <codeline lineno="66"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_view" kindref="compound">View</ref><sp/>*v<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_view" kindref="compound">View</ref>(view);</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="class_notifier_1a1acf8f910223aebc212440faf196e0ed" kindref="member">viewCreated</ref>(v);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_EMIT<sp/><ref refid="class_notifier_1a1acf8f910223aebc212440faf196e0ed" kindref="member">viewCreated</ref>(v);</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>v;</highlight></codeline>
 <codeline lineno="70"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_notifier_1a7ff56289ade63245704149cbb72e1fb3" kindref="member">Notifier::viewClosed</ref>(KisView<sp/>*view)</highlight></codeline>
 <codeline lineno="73"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_view" kindref="compound">View</ref><sp/>*v<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_view" kindref="compound">View</ref>(view);</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="class_notifier_1a7ff56289ade63245704149cbb72e1fb3" kindref="member">viewClosed</ref>(v);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_EMIT<sp/><ref refid="class_notifier_1a7ff56289ade63245704149cbb72e1fb3" kindref="member">viewClosed</ref>(v);</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>v;</highlight></codeline>
 <codeline lineno="77"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_notifier_1aab17707e80874ad8061001f711459d61" kindref="member">Notifier::windowIsBeingCreated</ref>(KisMainWindow<sp/>*window)</highlight></codeline>
 <codeline lineno="80"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_window" kindref="compound">Window</ref><sp/>*w<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_window" kindref="compound">Window</ref>(window);</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="class_notifier_1aab17707e80874ad8061001f711459d61" kindref="member">windowIsBeingCreated</ref>(w);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_EMIT<sp/><ref refid="class_notifier_1aab17707e80874ad8061001f711459d61" kindref="member">windowIsBeingCreated</ref>(w);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>w;</highlight></codeline>
 <codeline lineno="84"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>

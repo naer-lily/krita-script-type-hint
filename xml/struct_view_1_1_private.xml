@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.cpp" line="36" column="14" bodyfile="View.cpp" bodystart="36" bodyend="-1"/>
+        <location file="View.cpp" line="35" column="14" bodyfile="View.cpp" bodystart="35" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -31,14 +31,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="View.cpp" line="35" column="5" bodyfile="View.cpp" bodystart="35" bodyend="35"/>
+        <location file="View.cpp" line="34" column="5" bodyfile="View.cpp" bodystart="34" bodyend="34"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="View.cpp" line="34" column="1" bodyfile="View.cpp" bodystart="34" bodyend="37"/>
+    <location file="View.cpp" line="33" column="1" bodyfile="View.cpp" bodystart="33" bodyend="36"/>
     <listofallmembers>
       <member refid="struct_view_1_1_private_1a276843c794c9b2bf2a5853a81f80ff19" prot="public" virt="non-virtual"><scope>View::Private</scope><name>Private</name></member>
       <member refid="struct_view_1_1_private_1ab6e6a7ae9620761588dfa639ab0126c4" prot="public" virt="non-virtual"><scope>View::Private</scope><name>view</name></member>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="struct_double_slider_spin_box_1_1_private" kind="struct" language="C++" prot="public">
+    <compoundname>DoubleSliderSpinBox::Private</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_double_slider_spin_box_1_1_private_1a1c1868f55233cad9cba4fa5917fbf4de" prot="public" static="no" mutable="no">
+        <type>KisDoubleSliderSpinBox *</type>
+        <definition>KisDoubleSliderSpinBox* DoubleSliderSpinBox::Private::widget</definition>
+        <argsstring></argsstring>
+        <name>widget</name>
+        <qualifiedname>DoubleSliderSpinBox::Private::widget</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.cpp" line="113" column="28" bodyfile="SliderSpinBox.cpp" bodystart="113" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_double_slider_spin_box_1_1_private_1a41e8e048c8d4a87bf5242a247b623baa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DoubleSliderSpinBox::Private::Private</definition>
+        <argsstring>()</argsstring>
+        <name>Private</name>
+        <qualifiedname>DoubleSliderSpinBox::Private::Private</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.cpp" line="111" column="5" bodyfile="SliderSpinBox.cpp" bodystart="111" bodyend="111"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SliderSpinBox.cpp" line="110" column="1" bodyfile="SliderSpinBox.cpp" bodystart="110" bodyend="114"/>
+    <listofallmembers>
+      <member refid="struct_double_slider_spin_box_1_1_private_1a41e8e048c8d4a87bf5242a247b623baa" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox::Private</scope><name>Private</name></member>
+      <member refid="struct_double_slider_spin_box_1_1_private_1a1c1868f55233cad9cba4fa5917fbf4de" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox::Private</scope><name>widget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

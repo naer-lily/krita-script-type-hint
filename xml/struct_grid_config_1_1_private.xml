@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="struct_grid_config_1_1_private" kind="struct" language="C++" prot="public">
+    <compoundname>GridConfig::Private</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_grid_config_1_1_private_1a07b33f757c04f2f4fc0417e66ea86f48" prot="public" static="no" mutable="no">
+        <type>KisGridConfig *</type>
+        <definition>KisGridConfig* GridConfig::Private::gridConfig</definition>
+        <argsstring></argsstring>
+        <name>gridConfig</name>
+        <qualifiedname>GridConfig::Private::gridConfig</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.cpp" line="16" column="19" bodyfile="GridConfig.cpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_grid_config_1_1_private_1a4af56d9a1504ac4735e7438e9059d574" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GridConfig::Private::Private</definition>
+        <argsstring>()</argsstring>
+        <name>Private</name>
+        <qualifiedname>GridConfig::Private::Private</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GridConfig.cpp" line="15" column="5" bodyfile="GridConfig.cpp" bodystart="15" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="GridConfig.cpp" line="14" column="1" bodyfile="GridConfig.cpp" bodystart="14" bodyend="17"/>
+    <listofallmembers>
+      <member refid="struct_grid_config_1_1_private_1a07b33f757c04f2f4fc0417e66ea86f48" prot="public" virt="non-virtual"><scope>GridConfig::Private</scope><name>gridConfig</name></member>
+      <member refid="struct_grid_config_1_1_private_1a4af56d9a1504ac4735e7438e9059d574" prot="public" virt="non-virtual"><scope>GridConfig::Private</scope><name>Private</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -26,9 +26,9 @@
         <link refid="_clone_layer_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -40,27 +40,27 @@
         <link refid="_colorize_mask_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
         <childnode refid="51" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="32">
+      <node id="29">
         <label>Document.h</label>
         <link refid="_document_8h_source"/>
-        <childnode refid="3" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
         <childnode refid="35" relation="include">
         </childnode>
@@ -82,15 +82,19 @@
         </childnode>
         <childnode refid="50" relation="include">
         </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
       </node>
-      <node id="29">
+      <node id="26">
         <label>Extension.h</label>
         <link refid="_extension_8h_source"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
       </node>
       <node id="36">
@@ -98,9 +102,9 @@
         <link refid="_file_layer_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -112,13 +116,13 @@
         <link refid="_fill_layer_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
         <childnode refid="42" relation="include">
         </childnode>
         <childnode refid="40" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -142,13 +146,13 @@
         <link refid="_filter_layer_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
         <childnode refid="38" relation="include">
         </childnode>
         <childnode refid="40" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -160,25 +164,11 @@
         <link refid="_filter_mask_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
         <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="33">
-        <label>GroupLayer.h</label>
-        <link refid="_group_layer_8h_source"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="34" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -186,6 +176,32 @@
         </childnode>
       </node>
       <node id="56">
+        <label>GridConfig.h</label>
+        <link refid="_grid_config_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>GroupLayer.h</label>
+        <link refid="_group_layer_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="60">
         <label>GroupShape.h</label>
         <link refid="_group_shape_8h_source"/>
         <childnode refid="5" relation="include">
@@ -194,9 +210,21 @@
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="57" relation="include">
+        <childnode refid="61" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>GuidesConfig.h</label>
+        <link refid="_guides_config_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="42">
@@ -211,26 +239,26 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="28">
+      <node id="25">
         <label>Krita.h</label>
         <link refid="_krita_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
         <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="32" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="58" relation="include">
         </childnode>
-        <childnode refid="54" relation="include">
-        </childnode>
-        <childnode refid="55" relation="include">
+        <childnode refid="59" relation="include">
         </childnode>
       </node>
       <node id="51">
@@ -247,30 +275,38 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="34">
+      <node id="32">
         <label>Node.h</label>
         <link refid="_node_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
       </node>
-      <node id="55">
+      <node id="59">
         <label>Notifier.h</label>
         <link refid="_notifier_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>PaintingResources.h</label>
+        <link refid="_painting_resources_8h_source"/>
+        <childnode refid="34" relation="include">
         </childnode>
       </node>
       <node id="40">
@@ -282,7 +318,7 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
       </node>
       <node id="47">
@@ -290,9 +326,9 @@
         <link refid="_selection_mask_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -303,6 +339,12 @@
         <label>Shape.cpp</label>
         <link refid="_shape_8cpp"/>
         <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
@@ -328,15 +370,9 @@
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
-        <childnode refid="28" relation="include">
-        </childnode>
-        <childnode refid="32" relation="include">
-        </childnode>
-        <childnode refid="56" relation="include">
+        <childnode refid="60" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -350,7 +386,7 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
       </node>
       <node id="49">
@@ -358,9 +394,9 @@
         <link refid="_transform_mask_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -372,9 +408,9 @@
         <link refid="_transparency_mask_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -386,7 +422,7 @@
         <link refid="_vector_layer_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -394,12 +430,12 @@
         </childnode>
         <childnode refid="45" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="54">
+      <node id="58">
         <label>View.h</label>
         <link refid="_view_8h_source"/>
         <childnode refid="3" relation="include">
@@ -409,14 +445,14 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="30">
+      <node id="27">
         <label>Window.h</label>
         <link refid="_window_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -432,59 +468,50 @@
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
       </node>
-      <node id="23">
+      <node id="20">
         <label>KisDocument.h</label>
       </node>
-      <node id="25">
+      <node id="22">
         <label>KisMainWindow.h</label>
       </node>
-      <node id="21">
+      <node id="18">
         <label>KisPart.h</label>
       </node>
-      <node id="22">
+      <node id="19">
         <label>KisView.h</label>
       </node>
-      <node id="19">
+      <node id="16">
         <label>KoDocumentResourceManager.h</label>
       </node>
-      <node id="27">
+      <node id="24">
         <label>KoSelection.h</label>
       </node>
       <node id="4">
         <label>KoShape.h</label>
       </node>
-      <node id="26">
+      <node id="23">
         <label>KoShapeController.h</label>
       </node>
       <node id="45">
         <label>KoShapeControllerBase.h</label>
       </node>
-      <node id="57">
+      <node id="61">
         <label>KoShapeGroup.h</label>
       </node>
-      <node id="12">
+      <node id="9">
         <label>QAction</label>
       </node>
-      <node id="18">
+      <node id="15">
         <label>QBuffer</label>
       </node>
-      <node id="11">
-        <label>QByteArray</label>
+      <node id="30">
+        <label>QFileInfo</label>
       </node>
-      <node id="7">
-        <label>QList</label>
-      </node>
-      <node id="31">
+      <node id="28">
         <label>QMainWindow</label>
       </node>
-      <node id="10">
+      <node id="8">
         <label>QMap</label>
       </node>
       <node id="3">
@@ -493,40 +520,46 @@
       <node id="53">
         <label>QScopedPointer</label>
       </node>
-      <node id="8">
-        <label>QString</label>
-      </node>
-      <node id="9">
+      <node id="7">
         <label>QVariant</label>
       </node>
       <node id="52">
         <label>QVector</label>
       </node>
-      <node id="16">
+      <node id="13">
         <label>SvgParser.h</label>
       </node>
-      <node id="17">
+      <node id="14">
         <label>SvgSavingContext.h</label>
       </node>
-      <node id="15">
+      <node id="12">
         <label>SvgWriter.h</label>
       </node>
-      <node id="24">
+      <node id="21">
         <label>kis_canvas2.h</label>
+      </node>
+      <node id="34">
+        <label>kis_figure_painting_tool_helper.h</label>
       </node>
       <node id="39">
         <label>kis_filter_configuration.h</label>
       </node>
-      <node id="14">
+      <node id="57">
+        <label>kis_grid_config.h</label>
+      </node>
+      <node id="55">
+        <label>kis_guides_config.h</label>
+      </node>
+      <node id="11">
         <label>kis_icon_utils.h</label>
       </node>
-      <node id="20">
+      <node id="17">
         <label>kis_processing_applicator.h</label>
       </node>
       <node id="43">
         <label>kis_properties_configuration.h</label>
       </node>
-      <node id="13">
+      <node id="10">
         <label>kis_types.h</label>
       </node>
       <node id="5">

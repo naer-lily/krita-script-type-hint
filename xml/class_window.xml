@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Window.h" line="27" column="14" bodyfile="Window.cpp" bodystart="30" bodyend="38"/>
+        <location file="Window.h" line="27" column="14" bodyfile="Window.cpp" bodystart="29" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="class_window_1a5388fe1ea0247653def5810c2998c270" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Window.h" line="28" column="5" bodyfile="Window.cpp" bodystart="40" bodyend="43"/>
+        <location file="Window.h" line="28" column="5" bodyfile="Window.cpp" bodystart="39" bodyend="42"/>
       </memberdef>
       <memberdef kind="function" id="class_window_1a7ba23fb8fcfcfab31e54a3393d953d65" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Window.h" line="30" column="10" bodyfile="Window.cpp" bodystart="45" bodyend="48"/>
+        <location file="Window.h" line="30" column="10" bodyfile="Window.cpp" bodystart="44" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="class_window_1a26bb72877e46c302e886ec704441d5cd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Window.h" line="31" column="10" bodyfile="Window.cpp" bodystart="50" bodyend="53"/>
+        <location file="Window.h" line="31" column="10" bodyfile="Window.cpp" bodystart="49" bodyend="52"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-slot">
@@ -110,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Window.h" line="39" column="17" bodyfile="Window.cpp" bodystart="55" bodyend="58"/>
+        <location file="Window.h" line="39" column="17" bodyfile="Window.cpp" bodystart="54" bodyend="57"/>
       </memberdef>
       <memberdef kind="slot" id="class_window_1a5e1bc0e9da0d92f6dba586b9ee5c19d4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QList&lt; QDockWidget * &gt;</type>
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Window.h" line="45" column="11" bodyfile="Window.cpp" bodystart="60" bodyend="67"/>
+        <location file="Window.h" line="45" column="11" bodyfile="Window.cpp" bodystart="59" bodyend="66"/>
       </memberdef>
       <memberdef kind="slot" id="class_window_1a6a567e4898b290c141eb5ef94f784221" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QList&lt; <ref refid="class_view" kindref="compound">View</ref> * &gt;</type>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Window.h" line="50" column="11" bodyfile="Window.cpp" bodystart="69" bodyend="81"/>
+        <location file="Window.h" line="50" column="11" bodyfile="Window.cpp" bodystart="68" bodyend="80"/>
       </memberdef>
       <memberdef kind="slot" id="class_window_1af3dfb2c3a8feca3f94be9658fd125a99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_view" kindref="compound">View</ref> *</type>
@@ -164,17 +164,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Window.h" line="55" column="10" bodyfile="Window.cpp" bodystart="83" bodyend="94"/>
+        <location file="Window.h" line="55" column="10" bodyfile="Window.cpp" bodystart="82" bodyend="93"/>
       </memberdef>
-      <memberdef kind="slot" id="class_window_1a8c1a0b11e3ae1c7ec37eb8fbc53d22de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="slot" id="class_window_1ab7f73e746a32e4d302557355a4bea7a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void Window::showView</definition>
-        <argsstring>(View *view)</argsstring>
+        <argsstring>(View *v)</argsstring>
         <name>showView</name>
         <qualifiedname>Window::showView</qualifiedname>
         <param>
           <type><ref refid="class_view" kindref="compound">View</ref> *</type>
-          <declname>view</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -183,7 +183,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Window.h" line="61" column="10" bodyfile="Window.cpp" bodystart="96" bodyend="102"/>
+        <location file="Window.h" line="61" column="10" bodyfile="Window.cpp" bodystart="95" bodyend="102"/>
       </memberdef>
       <memberdef kind="slot" id="class_window_1a586ace18f4be797f92af47a92195a084" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_view" kindref="compound">View</ref> *</type>
@@ -377,7 +377,7 @@
       <member refid="class_window_1a26bb72877e46c302e886ec704441d5cd" prot="public" virt="non-virtual"><scope>Window</scope><name>operator!=</name></member>
       <member refid="class_window_1a7ba23fb8fcfcfab31e54a3393d953d65" prot="public" virt="non-virtual"><scope>Window</scope><name>operator==</name></member>
       <member refid="class_window_1a99d38be2aff3bd79b04d03f51e501265" prot="public" virt="non-virtual"><scope>Window</scope><name>qwindow</name></member>
-      <member refid="class_window_1a8c1a0b11e3ae1c7ec37eb8fbc53d22de" prot="public" virt="non-virtual"><scope>Window</scope><name>showView</name></member>
+      <member refid="class_window_1ab7f73e746a32e4d302557355a4bea7a9" prot="public" virt="non-virtual"><scope>Window</scope><name>showView</name></member>
       <member refid="class_window_1a05608b0d47638b86d7e56baa1cec9da3" prot="public" virt="non-virtual"><scope>Window</scope><name>themeChanged</name></member>
       <member refid="class_window_1a6a567e4898b290c141eb5ef94f784221" prot="public" virt="non-virtual"><scope>Window</scope><name>views</name></member>
       <member refid="class_window_1a1b663df9be5ffb269f7f4a638dd1fd12" prot="public" virt="non-virtual"><scope>Window</scope><name>Window</name></member>

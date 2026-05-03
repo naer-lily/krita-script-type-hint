@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="struct_file_dialog_1_1_private" kind="struct" language="C++" prot="public">
+    <compoundname>FileDialog::Private</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_file_dialog_1_1_private_1afea9625c084ac699586d28324b65b1f4" prot="public" static="no" mutable="no">
+        <type>KoFileDialog *</type>
+        <definition>KoFileDialog* FileDialog::Private::dialog</definition>
+        <argsstring></argsstring>
+        <name>dialog</name>
+        <qualifiedname>FileDialog::Private::dialog</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileDialog.cpp" line="14" column="18" bodyfile="FileDialog.cpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_file_dialog_1_1_private_1a74a493c7be824b5caef8ccbd99ab5b62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FileDialog::Private::Private</definition>
+        <argsstring>()</argsstring>
+        <name>Private</name>
+        <qualifiedname>FileDialog::Private::Private</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileDialog.cpp" line="12" column="5" bodyfile="FileDialog.cpp" bodystart="12" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="FileDialog.cpp" line="11" column="1" bodyfile="FileDialog.cpp" bodystart="11" bodyend="15"/>
+    <listofallmembers>
+      <member refid="struct_file_dialog_1_1_private_1afea9625c084ac699586d28324b65b1f4" prot="public" virt="non-virtual"><scope>FileDialog::Private</scope><name>dialog</name></member>
+      <member refid="struct_file_dialog_1_1_private_1a74a493c7be824b5caef8ccbd99ab5b62" prot="public" virt="non-virtual"><scope>FileDialog::Private</scope><name>Private</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

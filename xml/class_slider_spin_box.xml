@@ -1,0 +1,640 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_slider_spin_box" kind="class" language="C++" prot="public">
+    <compoundname>SliderSpinBox</compoundname>
+    <basecompoundref refid="class_int_parse_spin_box" prot="public" virt="non-virtual">IntParseSpinBox</basecompoundref>
+    <includes refid="_slider_spin_box_8h" local="no">SliderSpinBox.h</includes>
+    <innerclass refid="struct_slider_spin_box_1_1_private" prot="public">SliderSpinBox::Private</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_slider_spin_box_1a2a7f77a74f4d9c7640f60dfc86154b53" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_slider_spin_box_1_1_private" kindref="compound">Private</ref> *const</type>
+        <definition>Private* const SliderSpinBox::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>SliderSpinBox::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="204" column="19" bodyfile="SliderSpinBox.h" bodystart="204" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_slider_spin_box_1accb31a76e17b8efb7de0a852a3a7579b" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SliderSpinBox::SliderSpinBox</definition>
+        <argsstring>()</argsstring>
+        <name>SliderSpinBox</name>
+        <qualifiedname>SliderSpinBox::SliderSpinBox</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="57" column="14" bodyfile="SliderSpinBox.cpp" bodystart="17" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_slider_spin_box_1ad11d8f7d9d650cbdfe78ebb8503fae73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SliderSpinBox::~SliderSpinBox</definition>
+        <argsstring>() override</argsstring>
+        <name>~SliderSpinBox</name>
+        <qualifiedname>SliderSpinBox::~SliderSpinBox</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="58" column="5" bodyfile="SliderSpinBox.cpp" bodystart="27" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_slider_spin_box_1abcc176941be38d96d4358eb89503d25c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QWidget *</type>
+        <definition>QWidget * SliderSpinBox::widget</definition>
+        <argsstring>() const</argsstring>
+        <name>widget</name>
+        <qualifiedname>SliderSpinBox::widget</qualifiedname>
+        <briefdescription>
+<para>Get the internal KisSliderSpinBox as a QWidget, so it may be added to a UI. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the internal KisSliderSpinBox as a QWidget </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="68" column="13" bodyfile="SliderSpinBox.cpp" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_slider_spin_box_1a10b85bc672d750106a437259a3f84a35" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SliderSpinBox::fastSliderStep</definition>
+        <argsstring>() const</argsstring>
+        <name>fastSliderStep</name>
+        <qualifiedname>SliderSpinBox::fastSliderStep</qualifiedname>
+        <briefdescription>
+<para>Get the value to which multiples the spinbox value snaps when the control key is pressed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the value to which multiples the spinbox value snaps when the control key is pressed </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_slider_spin_box_1a1b6ae067642b55dd37c809f3bb1fd5dd" kindref="member">setFastSliderStep(int)</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="78" column="9" bodyfile="SliderSpinBox.cpp" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_slider_spin_box_1a521d56ac51827d9715d535c0bc06d4d2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SliderSpinBox::softMinimum</definition>
+        <argsstring>() const</argsstring>
+        <name>softMinimum</name>
+        <qualifiedname>SliderSpinBox::softMinimum</qualifiedname>
+        <briefdescription>
+<para>Get the minimum value of the &quot;soft range&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the minimum value of the &quot;soft range&quot; </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_slider_spin_box_1af1332db4c8aeaa5e7e0ec03751daf62e" kindref="member">setSoftMinimum(int)</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_slider_spin_box_1a828c636653a26f408bf35dd07cbbef1f" kindref="member">setSoftRange(int, int)</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_slider_spin_box_1a70880fa75dd59c406441418feafda766" kindref="member">softMaximum() const </ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="86" column="9" bodyfile="SliderSpinBox.cpp" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_slider_spin_box_1a70880fa75dd59c406441418feafda766" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SliderSpinBox::softMaximum</definition>
+        <argsstring>() const</argsstring>
+        <name>softMaximum</name>
+        <qualifiedname>SliderSpinBox::softMaximum</qualifiedname>
+        <briefdescription>
+<para>Get the maximum value of the &quot;soft range&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the maximum value of the &quot;soft range&quot; </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_slider_spin_box_1ab6bc957c46736d6ce6babb01787d2d8d" kindref="member">setSoftMaximum(int)</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_slider_spin_box_1a828c636653a26f408bf35dd07cbbef1f" kindref="member">setSoftRange(int, int)</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_slider_spin_box_1a521d56ac51827d9715d535c0bc06d4d2" kindref="member">softMinimum</ref>) const </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="94" column="9" bodyfile="SliderSpinBox.cpp" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_slider_spin_box_1ae94e1d47efe2a9400db731857a2bfde8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SliderSpinBox::isDragging</definition>
+        <argsstring>() const</argsstring>
+        <name>isDragging</name>
+        <qualifiedname>SliderSpinBox::isDragging</qualifiedname>
+        <briefdescription>
+<para>Get if the user is currently dragging the slider with the pointer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if the user is currently dragging the slider with the pointer, false otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="100" column="10" bodyfile="SliderSpinBox.cpp" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_slider_spin_box_1a6da2b32b17a8bb0619d6429e96fe6edd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SliderSpinBox::setValue</definition>
+        <argsstring>(int newValue)</argsstring>
+        <name>setValue</name>
+        <qualifiedname>SliderSpinBox::setValue</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>newValue</declname>
+        </param>
+        <briefdescription>
+<para>Set the value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="105" column="10" bodyfile="SliderSpinBox.cpp" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_slider_spin_box_1a4d44e08e7ffa10bd3694c6acfad86a9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SliderSpinBox::setRange</definition>
+        <argsstring>(int newMinimum, int newMaximum, bool computeNewFastSliderStep=true)</argsstring>
+        <name>setRange</name>
+        <qualifiedname>SliderSpinBox::setRange</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>newMinimum</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newMaximum</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>computeNewFastSliderStep</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Set the minimum and the maximum values of the range, computing a new &quot;fast slider step&quot; based on the range if required. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The soft range will be adapted to fit inside the range <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newMinimum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new minimum value </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newMaximum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new maximum value </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>computeNewFastSliderStep</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if a new &quot;fast slider step&quot; must be computed based on the range </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>setMinimum(int) </para>
+</simplesect>
+<simplesect kind="see"><para>setMaximum(int) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="118" column="10" bodyfile="SliderSpinBox.cpp" bodystart="61" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_slider_spin_box_1a00482b7f454223ef95325eb164ae6cbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SliderSpinBox::setMinimum</definition>
+        <argsstring>(int newMinimum, bool computeNewFastSliderStep=true)</argsstring>
+        <name>setMinimum</name>
+        <qualifiedname>SliderSpinBox::setMinimum</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>newMinimum</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>computeNewFastSliderStep</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Set the minimum value of the range. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The soft range will be adapted to fit inside the range <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newMinimum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new minimum value </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>computeNewFastSliderStep</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if a new &quot;fast slider step&quot; must be computed based on the range </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>setRange(int,int) </para>
+</simplesect>
+<simplesect kind="see"><para>setMaximum(int) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="129" column="10" bodyfile="SliderSpinBox.cpp" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_slider_spin_box_1ae039aa3871e936fa5bc0a8d28ae36b1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SliderSpinBox::setMaximum</definition>
+        <argsstring>(int newMaximum, bool computeNewFastSliderStep=true)</argsstring>
+        <name>setMaximum</name>
+        <qualifiedname>SliderSpinBox::setMaximum</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>newMaximum</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>computeNewFastSliderStep</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Set the maximum value of the range. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The soft range will be adapted to fit inside the range <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newMaximum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new maximum value </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>computeNewFastSliderStep</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if a new &quot;fast slider step&quot; must be computed based on the range </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>setRange(int,int) </para>
+</simplesect>
+<simplesect kind="see"><para>setMinimum(int) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="140" column="10" bodyfile="SliderSpinBox.cpp" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_slider_spin_box_1ac3186386823f6edab319d52b35060582" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SliderSpinBox::setExponentRatio</definition>
+        <argsstring>(qreal newExponentRatio)</argsstring>
+        <name>setExponentRatio</name>
+        <qualifiedname>SliderSpinBox::setExponentRatio</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>newExponentRatio</declname>
+        </param>
+        <briefdescription>
+<para>Set the exponent used by a power function to modify the values as a function of the horizontal position. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This allows having more values concentrated in one side of the slider than the other <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newExponentRatio</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new exponent to be used by the power function </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="149" column="10" bodyfile="SliderSpinBox.cpp" bodystart="76" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_slider_spin_box_1a90780034d8b7818d4bbc0664ccfe3a74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SliderSpinBox::setBlockUpdateSignalOnDrag</definition>
+        <argsstring>(bool newBlockUpdateSignalOnDrag)</argsstring>
+        <name>setBlockUpdateSignalOnDrag</name>
+        <qualifiedname>SliderSpinBox::setBlockUpdateSignalOnDrag</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>newBlockUpdateSignalOnDrag</declname>
+        </param>
+        <briefdescription>
+<para>Set if the spinbox should not Q_EMIT signals when dragging the slider. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This is useful to prevent multiple updates when changing the value if the update operation is costly. A valueChanged signal will be emitted when the pointer is released from the slider. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newBlockUpdateSignalOnDrag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the spinbox should not emit signals when dragging the slider. false otherwise </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="161" column="10" bodyfile="SliderSpinBox.cpp" bodystart="85" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_slider_spin_box_1a1b6ae067642b55dd37c809f3bb1fd5dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SliderSpinBox::setFastSliderStep</definition>
+        <argsstring>(int newFastSliderStep)</argsstring>
+        <name>setFastSliderStep</name>
+        <qualifiedname>SliderSpinBox::setFastSliderStep</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>newFastSliderStep</declname>
+        </param>
+        <briefdescription>
+<para>Set the value to which multiples the spinbox value snaps when the control key is pressed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newFastSliderStep</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>value to which multiples the spinbox value snaps when the control key is pressed </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_slider_spin_box_1a10b85bc672d750106a437259a3f84a35" kindref="member">fastSliderStep() const</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="169" column="10" bodyfile="SliderSpinBox.cpp" bodystart="90" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_slider_spin_box_1a828c636653a26f408bf35dd07cbbef1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SliderSpinBox::setSoftRange</definition>
+        <argsstring>(int newSoftMinimum, int newSoftMaximum)</argsstring>
+        <name>setSoftRange</name>
+        <qualifiedname>SliderSpinBox::setSoftRange</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>newSoftMinimum</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSoftMaximum</declname>
+        </param>
+        <briefdescription>
+<para>Set the minimum and the maximum values of the soft range. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newSoftMinimum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new minimum value </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newSoftMaximum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new maximum value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_slider_spin_box_1af1332db4c8aeaa5e7e0ec03751daf62e" kindref="member">setSoftMinimum(int)</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_slider_spin_box_1ab6bc957c46736d6ce6babb01787d2d8d" kindref="member">setSoftMaximum(int)</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_slider_spin_box_1a521d56ac51827d9715d535c0bc06d4d2" kindref="member">softMinimum() const</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_slider_spin_box_1a70880fa75dd59c406441418feafda766" kindref="member">softMaximum() const</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="179" column="10" bodyfile="SliderSpinBox.cpp" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_slider_spin_box_1af1332db4c8aeaa5e7e0ec03751daf62e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SliderSpinBox::setSoftMinimum</definition>
+        <argsstring>(int newSoftMinimum)</argsstring>
+        <name>setSoftMinimum</name>
+        <qualifiedname>SliderSpinBox::setSoftMinimum</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>newSoftMinimum</declname>
+        </param>
+        <briefdescription>
+<para>Set the minimum value of the soft range. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newSoftMinimum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new minimum value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_slider_spin_box_1a828c636653a26f408bf35dd07cbbef1f" kindref="member">setSoftRange(int,int)</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_slider_spin_box_1ab6bc957c46736d6ce6babb01787d2d8d" kindref="member">setSoftMaximum(int)</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_slider_spin_box_1a521d56ac51827d9715d535c0bc06d4d2" kindref="member">softMinimum() const</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_slider_spin_box_1a70880fa75dd59c406441418feafda766" kindref="member">softMaximum() const</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="188" column="10" bodyfile="SliderSpinBox.cpp" bodystart="100" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_slider_spin_box_1ab6bc957c46736d6ce6babb01787d2d8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SliderSpinBox::setSoftMaximum</definition>
+        <argsstring>(int newSoftMaximum)</argsstring>
+        <name>setSoftMaximum</name>
+        <qualifiedname>SliderSpinBox::setSoftMaximum</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>newSoftMaximum</declname>
+        </param>
+        <briefdescription>
+<para>Set the maximum value of the soft range. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newSoftMaximum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new maximum value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_slider_spin_box_1a828c636653a26f408bf35dd07cbbef1f" kindref="member">setSoftRange(int,int)</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_slider_spin_box_1af1332db4c8aeaa5e7e0ec03751daf62e" kindref="member">setSoftMinimum(int)</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_slider_spin_box_1a521d56ac51827d9715d535c0bc06d4d2" kindref="member">softMinimum() const</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_slider_spin_box_1a70880fa75dd59c406441418feafda766" kindref="member">softMaximum() const</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="197" column="10" bodyfile="SliderSpinBox.cpp" bodystart="105" bodyend="108"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_slider_spin_box_1a1a5f0e88c8510dfc4be114ab5d575b5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SliderSpinBox::draggingFinished</definition>
+        <argsstring>()</argsstring>
+        <name>draggingFinished</name>
+        <qualifiedname>SliderSpinBox::draggingFinished</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="200" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class is a wrapper around KisSliderSpinBox, a spinbox in which you can click and drag to set the value, with a slider like bar displayed inside. The widget itself is accessed with the <ref refid="class_slider_spin_box_1abcc176941be38d96d4358eb89503d25c" kindref="member">widget()</ref> function. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The value can be set by click and dragging with the mouse or pen or by typing in with the keyboard. To enter the edit mode, in which the keyboard can be used, one has to right-click inside the spinbox or click and hold the pointer inside or press the enter key. To leave the edit mode, one can press the enter key again, in which case the value is committed, or press the escape key, in which case the value is rejected.</para>
+<para>When dragging with the pointer, one can fine tune the value by dragging far away vertically from the spinbox. The farther the pointer is, the slower the value will change. If the pointer is inside the spinbox plus a certain margin, the value will not be scaled. By pressing the shift key the slow down will be even more pronounced and by pressing the control key the value will snap to the increment set by <ref refid="class_slider_spin_box_1a1b6ae067642b55dd37c809f3bb1fd5dd" kindref="member">setFastSliderStep</ref>. The two keys can be used at the same time.</para>
+<para>A &quot;soft range&quot; can be set to make the slider display only a sub-range of the spinbox range. This way one can have a large range but display and set with the pointer and with more precision only the most commonly used sub-set of values. A value outside the &quot;soft range&quot; can be set by entering the edit mode and using the keyboard. The &quot;soft range&quot; is considered valid if the &quot;soft maximum&quot; is greater than the &quot;soft minimum&quot;. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IntParseSpinBox</label>
+        <link refid="class_int_parse_spin_box"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>SliderSpinBox</label>
+        <link refid="class_slider_spin_box"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IntParseSpinBox</label>
+        <link refid="class_int_parse_spin_box"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>SliderSpinBox</label>
+        <link refid="class_slider_spin_box"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="SliderSpinBox.h" line="50" column="1" bodyfile="SliderSpinBox.h" bodystart="51" bodyend="205"/>
+    <listofallmembers>
+      <member refid="class_slider_spin_box_1a2a7f77a74f4d9c7640f60dfc86154b53" prot="private" virt="non-virtual"><scope>SliderSpinBox</scope><name>d</name></member>
+      <member refid="class_slider_spin_box_1a1a5f0e88c8510dfc4be114ab5d575b5d" prot="public" virt="non-virtual"><scope>SliderSpinBox</scope><name>draggingFinished</name></member>
+      <member refid="class_int_parse_spin_box_1a4f48b0f5db78f853a13bfa1939891bbf" prot="public" virt="non-virtual"><scope>SliderSpinBox</scope><name>errorWhileParsing</name></member>
+      <member refid="class_slider_spin_box_1a10b85bc672d750106a437259a3f84a35" prot="public" virt="non-virtual"><scope>SliderSpinBox</scope><name>fastSliderStep</name></member>
+      <member refid="class_int_parse_spin_box_1aa1118c40a80bddd74494c9a783446a03" prot="public" virt="non-virtual"><scope>SliderSpinBox</scope><name>IntParseSpinBox</name></member>
+      <member refid="class_slider_spin_box_1ae94e1d47efe2a9400db731857a2bfde8" prot="public" virt="non-virtual"><scope>SliderSpinBox</scope><name>isDragging</name></member>
+      <member refid="class_int_parse_spin_box_1af285e6bdeac68b0761dde3cc98dc09c5" prot="public" virt="non-virtual"><scope>SliderSpinBox</scope><name>isLastValid</name></member>
+      <member refid="class_int_parse_spin_box_1a7ff0d4b38329881a21a757f12238fe4c" prot="public" virt="non-virtual"><scope>SliderSpinBox</scope><name>noMoreParsingError</name></member>
+      <member refid="class_slider_spin_box_1a90780034d8b7818d4bbc0664ccfe3a74" prot="public" virt="non-virtual"><scope>SliderSpinBox</scope><name>setBlockUpdateSignalOnDrag</name></member>
+      <member refid="class_slider_spin_box_1ac3186386823f6edab319d52b35060582" prot="public" virt="non-virtual"><scope>SliderSpinBox</scope><name>setExponentRatio</name></member>
+      <member refid="class_slider_spin_box_1a1b6ae067642b55dd37c809f3bb1fd5dd" prot="public" virt="non-virtual"><scope>SliderSpinBox</scope><name>setFastSliderStep</name></member>
+      <member refid="class_slider_spin_box_1ae039aa3871e936fa5bc0a8d28ae36b1e" prot="public" virt="non-virtual"><scope>SliderSpinBox</scope><name>setMaximum</name></member>
+      <member refid="class_slider_spin_box_1a00482b7f454223ef95325eb164ae6cbc" prot="public" virt="non-virtual"><scope>SliderSpinBox</scope><name>setMinimum</name></member>
+      <member refid="class_slider_spin_box_1a4d44e08e7ffa10bd3694c6acfad86a9a" prot="public" virt="non-virtual"><scope>SliderSpinBox</scope><name>setRange</name></member>
+      <member refid="class_slider_spin_box_1ab6bc957c46736d6ce6babb01787d2d8d" prot="public" virt="non-virtual"><scope>SliderSpinBox</scope><name>setSoftMaximum</name></member>
+      <member refid="class_slider_spin_box_1af1332db4c8aeaa5e7e0ec03751daf62e" prot="public" virt="non-virtual"><scope>SliderSpinBox</scope><name>setSoftMinimum</name></member>
+      <member refid="class_slider_spin_box_1a828c636653a26f408bf35dd07cbbef1f" prot="public" virt="non-virtual"><scope>SliderSpinBox</scope><name>setSoftRange</name></member>
+      <member refid="class_slider_spin_box_1a6da2b32b17a8bb0619d6429e96fe6edd" prot="public" virt="non-virtual"><scope>SliderSpinBox</scope><name>setValue</name></member>
+      <member refid="class_int_parse_spin_box_1a6260a27cb58a723dee50564bc55eebb5" prot="public" virt="non-virtual" ambiguityscope="IntParseSpinBox::"><scope>SliderSpinBox</scope><name>setValue</name></member>
+      <member refid="class_slider_spin_box_1accb31a76e17b8efb7de0a852a3a7579b" prot="public" virt="non-virtual"><scope>SliderSpinBox</scope><name>SliderSpinBox</name></member>
+      <member refid="class_slider_spin_box_1a70880fa75dd59c406441418feafda766" prot="public" virt="non-virtual"><scope>SliderSpinBox</scope><name>softMaximum</name></member>
+      <member refid="class_slider_spin_box_1a521d56ac51827d9715d535c0bc06d4d2" prot="public" virt="non-virtual"><scope>SliderSpinBox</scope><name>softMinimum</name></member>
+      <member refid="class_int_parse_spin_box_1a24fa9d50a35d2c8456305a0bffe6f50d" prot="public" virt="non-virtual"><scope>SliderSpinBox</scope><name>stepBy</name></member>
+      <member refid="class_int_parse_spin_box_1ac11c7e9a90c63a00324cfaf2a2021137" prot="public" virt="virtual"><scope>SliderSpinBox</scope><name>veryCleanText</name></member>
+      <member refid="class_slider_spin_box_1abcc176941be38d96d4358eb89503d25c" prot="public" virt="non-virtual"><scope>SliderSpinBox</scope><name>widget</name></member>
+      <member refid="class_int_parse_spin_box_1a1c53721e993497ffa8c414cce3e92ff0" prot="public" virt="non-virtual"><scope>SliderSpinBox</scope><name>~IntParseSpinBox</name></member>
+      <member refid="class_slider_spin_box_1ad11d8f7d9d650cbdfe78ebb8503fae73" prot="public" virt="non-virtual"><scope>SliderSpinBox</scope><name>~SliderSpinBox</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

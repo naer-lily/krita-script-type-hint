@@ -10,7 +10,7 @@
         <link refid="_group_shape_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -20,25 +20,25 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-      </node>
-      <node id="11">
-        <label>Shape.h</label>
-        <link refid="_shape_8h_source"/>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+      </node>
+      <node id="8">
+        <label>Shape.h</label>
+        <link refid="_shape_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -50,41 +50,26 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-      </node>
-      <node id="13">
-        <label>KoShape.h</label>
-      </node>
-      <node id="15">
-        <label>KoShapeGroup.h</label>
       </node>
       <node id="10">
-        <label>QAction</label>
-      </node>
-      <node id="9">
-        <label>QByteArray</label>
-      </node>
-      <node id="5">
-        <label>QList</label>
-      </node>
-      <node id="8">
-        <label>QMap</label>
+        <label>KoShape.h</label>
       </node>
       <node id="12">
-        <label>QObject</label>
-      </node>
-      <node id="6">
-        <label>QString</label>
+        <label>KoShapeGroup.h</label>
       </node>
       <node id="7">
+        <label>QAction</label>
+      </node>
+      <node id="6">
+        <label>QMap</label>
+      </node>
+      <node id="9">
+        <label>QObject</label>
+      </node>
+      <node id="5">
         <label>QVariant</label>
       </node>
-      <node id="14">
+      <node id="11">
         <label>kis_types.h</label>
       </node>
       <node id="3">

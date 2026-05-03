@@ -14,7 +14,7 @@
     <includedby refid="_node_8cpp" local="yes">Node.cpp</includedby>
     <includedby refid="_vector_layer_8cpp" local="yes">VectorLayer.cpp</includedby>
     <incdepgraph>
-      <node id="13">
+      <node id="10">
         <label>Node.h</label>
         <link refid="_node_8h_source"/>
         <childnode refid="2" relation="include">
@@ -25,13 +25,21 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
       </node>
-      <node id="14">
+      <node id="11">
+        <label>PaintingResources.h</label>
+        <link refid="_painting_resources_8h_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
         <label>Shape.h</label>
         <link refid="_shape_8h_source"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
@@ -51,11 +59,11 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
         </childnode>
       </node>
       <node id="5">
@@ -67,39 +75,27 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
       </node>
-      <node id="15">
+      <node id="14">
         <label>KoShape.h</label>
       </node>
-      <node id="12">
+      <node id="9">
         <label>KoShapeControllerBase.h</label>
       </node>
-      <node id="11">
+      <node id="8">
         <label>QAction</label>
       </node>
-      <node id="10">
-        <label>QByteArray</label>
-      </node>
-      <node id="6">
-        <label>QList</label>
-      </node>
-      <node id="9">
+      <node id="7">
         <label>QMap</label>
       </node>
       <node id="2">
         <label>QObject</label>
       </node>
-      <node id="7">
-        <label>QString</label>
-      </node>
-      <node id="8">
+      <node id="6">
         <label>QVariant</label>
+      </node>
+      <node id="12">
+        <label>kis_figure_painting_tool_helper.h</label>
       </node>
       <node id="3">
         <label>kis_types.h</label>
@@ -177,10 +173,13 @@
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
 <codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_shape" kindref="compound">Shape</ref>*<sp/>createGroupShape(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;name,<sp/>QList&lt;Shape<sp/>*&gt;<sp/>shapes)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>LIBKIS_VECTORLAYER_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isAntialiased()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setAntialiased(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>antialiased);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>LIBKIS_VECTORLAYER_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="VectorLayer.h"/>
   </compounddef>

@@ -20,6 +20,8 @@
         <link refid="_colorize_mask_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
         <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="18" relation="include">
@@ -40,8 +42,6 @@
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
       </node>
       <node id="2">
         <label>ColorizeMask.h</label>
@@ -50,7 +50,7 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -59,14 +59,14 @@
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="14">
+      <node id="13">
         <label>ManagedColor.h</label>
         <link refid="_managed_color_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
@@ -84,8 +84,16 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
       </node>
-      <node id="20">
+      <node id="11">
+        <label>PaintingResources.h</label>
+        <link refid="_painting_resources_8h_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
         <label>Selection.h</label>
         <link refid="_selection_8h_source"/>
         <childnode refid="3" relation="include">
@@ -106,74 +114,62 @@
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
       </node>
-      <node id="22">
+      <node id="21">
         <label>KoColor.h</label>
       </node>
-      <node id="13">
+      <node id="10">
         <label>QAction</label>
       </node>
-      <node id="12">
-        <label>QByteArray</label>
-      </node>
-      <node id="8">
-        <label>QList</label>
-      </node>
-      <node id="11">
+      <node id="9">
         <label>QMap</label>
       </node>
       <node id="3">
         <label>QObject</label>
       </node>
-      <node id="16">
+      <node id="15">
         <label>QScopedPointer</label>
       </node>
-      <node id="9">
-        <label>QString</label>
-      </node>
-      <node id="10">
+      <node id="8">
         <label>QVariant</label>
       </node>
-      <node id="15">
+      <node id="14">
         <label>QVector</label>
       </node>
-      <node id="27">
+      <node id="26">
         <label>kis_default_bounds.h</label>
       </node>
-      <node id="19">
+      <node id="12">
+        <label>kis_figure_painting_tool_helper.h</label>
+      </node>
+      <node id="18">
         <label>kis_image.h</label>
       </node>
-      <node id="23">
+      <node id="22">
         <label>kis_layer_properties_icons.h</label>
       </node>
-      <node id="21">
+      <node id="20">
         <label>kis_selection.h</label>
       </node>
-      <node id="24">
+      <node id="23">
         <label>kis_transaction.h</label>
       </node>
       <node id="5">
         <label>kis_types.h</label>
       </node>
-      <node id="26">
+      <node id="25">
         <label>kis_undo_stores.h</label>
       </node>
-      <node id="25">
+      <node id="24">
         <label>kis_update_scheduler.h</label>
       </node>
       <node id="6">
         <label>kritalibkis_export.h</label>
       </node>
-      <node id="17">
+      <node id="16">
         <label>lazybrush/kis_colorize_mask.h</label>
       </node>
-      <node id="18">
+      <node id="17">
         <label>lazybrush/kis_lazy_fill_tools.h</label>
       </node>
     </incdepgraph>

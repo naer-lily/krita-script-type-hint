@@ -1,0 +1,652 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_guides_config" kind="class" language="C++" prot="public">
+    <compoundname>GuidesConfig</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <includes refid="_guides_config_8h" local="no">GuidesConfig.h</includes>
+    <innerclass refid="struct_guides_config_1_1_private" prot="public">GuidesConfig::Private</innerclass>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_guides_config_1a883538034e58fc5c0de7d4e4cab3cef7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Document</definition>
+        <argsstring></argsstring>
+        <name>Document</name>
+        <qualifiedname>GuidesConfig::Document</qualifiedname>
+        <param>
+          <type><ref refid="class_document" kindref="compound">Document</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="160" column="18" bodyfile="GuidesConfig.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_guides_config_1afd60bc238ca4b1a61ba4190c5eb67c90" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_guides_config_1_1_private" kindref="compound">Private</ref> *</type>
+        <definition>Private* GuidesConfig::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>GuidesConfig::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="166" column="13" bodyfile="GuidesConfig.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_guides_config_1ac182ff771d240e4089ac2fd1da98704f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GuidesConfig::GuidesConfig</definition>
+        <argsstring>(KisGuidesConfig *guidesConfig)</argsstring>
+        <name>GuidesConfig</name>
+        <qualifiedname>GuidesConfig::GuidesConfig</qualifiedname>
+        <param>
+          <type>KisGuidesConfig *</type>
+          <declname>guidesConfig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="24" column="5" bodyfile="GuidesConfig.cpp" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_guides_config_1af83f81000a481170d0d0e0e542599ce0" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GuidesConfig::GuidesConfig</definition>
+        <argsstring>(QObject *parent=0)</argsstring>
+        <name>GuidesConfig</name>
+        <qualifiedname>GuidesConfig::GuidesConfig</qualifiedname>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new, empty <ref refid="class_guides_config" kindref="compound">GuidesConfig</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="29" column="14" bodyfile="GuidesConfig.cpp" bodystart="25" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_guides_config_1ad2bf4c8771de738dc6f701fdfcd026ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GuidesConfig::~GuidesConfig</definition>
+        <argsstring>() override</argsstring>
+        <name>~GuidesConfig</name>
+        <qualifiedname>GuidesConfig::~GuidesConfig</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="30" column="5" bodyfile="GuidesConfig.cpp" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_guides_config_1a2d8976cd694939b0fdd1e00eabac108b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GuidesConfig::operator==</definition>
+        <argsstring>(const GuidesConfig &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>GuidesConfig::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="class_guides_config" kindref="compound">GuidesConfig</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="32" column="10" bodyfile="GuidesConfig.cpp" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_guides_config_1a1385eea8e191cd437ef1edf351c990b5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GuidesConfig::operator!=</definition>
+        <argsstring>(const GuidesConfig &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>GuidesConfig::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="class_guides_config" kindref="compound">GuidesConfig</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="33" column="10" bodyfile="GuidesConfig.cpp" bodystart="42" bodyend="45"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_guides_config_1a187f5b23c07b8a775280c1ba9076916a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QColor</type>
+        <definition>QColor GuidesConfig::color</definition>
+        <argsstring>() const</argsstring>
+        <name>color</name>
+        <qualifiedname>GuidesConfig::color</qualifiedname>
+        <briefdescription>
+<para>Guides color. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>color applied for all guides </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="41" column="12" bodyfile="GuidesConfig.cpp" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_guides_config_1a0bd40ed88eb9d01d4dbc98e2e0322bff" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GuidesConfig::setColor</definition>
+        <argsstring>(const QColor &amp;color) const</argsstring>
+        <name>setColor</name>
+        <qualifiedname>GuidesConfig::setColor</qualifiedname>
+        <param>
+          <type>const QColor &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>Define guides color. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>color to apply </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="47" column="10" bodyfile="GuidesConfig.cpp" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_guides_config_1a8917556bd1577506095caa03b2a1fb31" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString GuidesConfig::lineType</definition>
+        <argsstring>() const</argsstring>
+        <name>lineType</name>
+        <qualifiedname>GuidesConfig::lineType</qualifiedname>
+        <briefdescription>
+<para>Guides line type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>line type applied for all guides Can be:<itemizedlist>
+<listitem><para>&quot;solid&quot;</para>
+</listitem><listitem><para>&quot;dashed&quot;</para>
+</listitem><listitem><para>&quot;dot&quot; </para>
+</listitem></itemizedlist>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="57" column="13" bodyfile="GuidesConfig.cpp" bodystart="57" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_guides_config_1af8cdd1ce233bfbde8999ab5a0c84feee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GuidesConfig::setLineType</definition>
+        <argsstring>(const QString &amp;lineType)</argsstring>
+        <name>setLineType</name>
+        <qualifiedname>GuidesConfig::setLineType</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>lineType</declname>
+        </param>
+        <briefdescription>
+<para>Define guides lines type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lineType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>line type to use for guides: Can be:<itemizedlist>
+<listitem><para>&quot;solid&quot;</para>
+</listitem><listitem><para>&quot;dashed&quot;</para>
+</listitem><listitem><para>&quot;dot&quot; </para>
+</listitem></itemizedlist>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="67" column="10" bodyfile="GuidesConfig.cpp" bodystart="69" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_guides_config_1a4c450e4d519100f422bcb17d8ec28d97" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GuidesConfig::hasGuides</definition>
+        <argsstring>() const</argsstring>
+        <name>hasGuides</name>
+        <qualifiedname>GuidesConfig::hasGuides</qualifiedname>
+        <briefdescription>
+<para>indicate if there&apos;s guides defined </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if at least one guide is defined, otherwise False </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="73" column="10" bodyfile="GuidesConfig.cpp" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_guides_config_1a048ffe49629cf34d6be3d601146b2c39" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GuidesConfig::hasSamePositionAs</definition>
+        <argsstring>(const GuidesConfig &amp;guideConfig) const</argsstring>
+        <name>hasSamePositionAs</name>
+        <qualifiedname>GuidesConfig::hasSamePositionAs</qualifiedname>
+        <param>
+          <type>const <ref refid="class_guides_config" kindref="compound">GuidesConfig</ref> &amp;</type>
+          <declname>guideConfig</declname>
+        </param>
+        <briefdescription>
+<para>indicate if position from current guides configuration match positions from another guides configuration </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if positions are the same </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="79" column="10" bodyfile="GuidesConfig.cpp" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_guides_config_1a1020772889c43f3958be5d418797b805" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; qreal &gt;</type>
+        <definition>QList&lt; qreal &gt; GuidesConfig::horizontalGuides</definition>
+        <argsstring>() const</argsstring>
+        <name>horizontalGuides</name>
+        <qualifiedname>GuidesConfig::horizontalGuides</qualifiedname>
+        <briefdescription>
+<para>The horizontal guides. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a list of the horizontal positions of guides. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="85" column="11" bodyfile="GuidesConfig.cpp" bodystart="158" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_guides_config_1acc3f3b9b734731f50e8a8f2f40e6c6df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GuidesConfig::setHorizontalGuides</definition>
+        <argsstring>(const QList&lt; qreal &gt; &amp;lines)</argsstring>
+        <name>setHorizontalGuides</name>
+        <qualifiedname>GuidesConfig::setHorizontalGuides</qualifiedname>
+        <param>
+          <type>const QList&lt; qreal &gt; &amp;</type>
+          <declname>lines</declname>
+        </param>
+        <briefdescription>
+<para>Set the horizontal guides. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lines</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a list of the horizontal positions of guides to set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="91" column="10" bodyfile="GuidesConfig.cpp" bodystart="148" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_guides_config_1aceba8e77bc94db9dcd5e9ae806125c1f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; qreal &gt;</type>
+        <definition>QList&lt; qreal &gt; GuidesConfig::verticalGuides</definition>
+        <argsstring>() const</argsstring>
+        <name>verticalGuides</name>
+        <qualifiedname>GuidesConfig::verticalGuides</qualifiedname>
+        <briefdescription>
+<para>The vertical guides. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a list of vertical positions of guides. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="97" column="11" bodyfile="GuidesConfig.cpp" bodystart="163" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_guides_config_1a26ad3445c6affb718a01903603fac5a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GuidesConfig::setVerticalGuides</definition>
+        <argsstring>(const QList&lt; qreal &gt; &amp;lines)</argsstring>
+        <name>setVerticalGuides</name>
+        <qualifiedname>GuidesConfig::setVerticalGuides</qualifiedname>
+        <param>
+          <type>const QList&lt; qreal &gt; &amp;</type>
+          <declname>lines</declname>
+        </param>
+        <briefdescription>
+<para>Set the vertical guides. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lines</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a list of the vertical positions of guides to set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="103" column="10" bodyfile="GuidesConfig.cpp" bodystart="153" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_guides_config_1a1c787e55bff64a2f4bc335d2096cf3eb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GuidesConfig::fromXml</definition>
+        <argsstring>(const QString &amp;xmlContent) const</argsstring>
+        <name>fromXml</name>
+        <qualifiedname>GuidesConfig::fromXml</qualifiedname>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>xmlContent</declname>
+        </param>
+        <briefdescription>
+<para>Load guides definition from an XML document. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>xmlContent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>xml content provided as a string </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if xml content is valid and guides has been loaded, otherwise False </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="110" column="10" bodyfile="GuidesConfig.cpp" bodystart="104" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_guides_config_1a06bbf358cd8851872d549e896c3a917c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString GuidesConfig::toXml</definition>
+        <argsstring>() const</argsstring>
+        <name>toXml</name>
+        <qualifiedname>GuidesConfig::toXml</qualifiedname>
+        <briefdescription>
+<para>Save guides definition as an XML document. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A string with xml content </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="116" column="13" bodyfile="GuidesConfig.cpp" bodystart="115" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_guides_config_1a1e093eba4aa6aa84b245de11ae09434e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GuidesConfig::removeAllGuides</definition>
+        <argsstring>()</argsstring>
+        <name>removeAllGuides</name>
+        <qualifiedname>GuidesConfig::removeAllGuides</qualifiedname>
+        <briefdescription>
+<para>Remove all guides. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="121" column="10" bodyfile="GuidesConfig.cpp" bodystart="123" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_guides_config_1aca1c3e733aaf9f9e1613fd5a2be26ba1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GuidesConfig::visible</definition>
+        <argsstring>() const</argsstring>
+        <name>visible</name>
+        <qualifiedname>GuidesConfig::visible</qualifiedname>
+        <briefdescription>
+<para>Returns guides visibility status. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if guides are visible, otherwise False </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="127" column="10" bodyfile="GuidesConfig.cpp" bodystart="94" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_guides_config_1a5af892150ae48f1fabffcd05cc1cca5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GuidesConfig::setVisible</definition>
+        <argsstring>(const bool value)</argsstring>
+        <name>setVisible</name>
+        <qualifiedname>GuidesConfig::setVisible</qualifiedname>
+        <param>
+          <type>const bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set guides visibility status. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True to set guides visible, otherwise False </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="133" column="10" bodyfile="GuidesConfig.cpp" bodystart="99" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_guides_config_1ad30b38d49e2cea604f845fb796067117" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GuidesConfig::locked</definition>
+        <argsstring>() const</argsstring>
+        <name>locked</name>
+        <qualifiedname>GuidesConfig::locked</qualifiedname>
+        <briefdescription>
+<para>Returns guide lock status. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if guides are locked, otherwise False </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="139" column="10" bodyfile="GuidesConfig.cpp" bodystart="128" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_guides_config_1a318a13dd336e4c596a49b8b543c64b42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GuidesConfig::setLocked</definition>
+        <argsstring>(const bool value)</argsstring>
+        <name>setLocked</name>
+        <qualifiedname>GuidesConfig::setLocked</qualifiedname>
+        <param>
+          <type>const bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set guides lock status. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True to set guides locked, otherwise False </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="145" column="10" bodyfile="GuidesConfig.cpp" bodystart="133" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_guides_config_1acb3a322e078b5542be7b59af8f95cc52" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GuidesConfig::snap</definition>
+        <argsstring>() const</argsstring>
+        <name>snap</name>
+        <qualifiedname>GuidesConfig::snap</qualifiedname>
+        <briefdescription>
+<para>Returns guide snap status. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if snap to guides is active, otherwise False </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="151" column="10" bodyfile="GuidesConfig.cpp" bodystart="138" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_guides_config_1adc169a8a412a8b18ba10ede7401784e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GuidesConfig::setSnap</definition>
+        <argsstring>(const bool value)</argsstring>
+        <name>setSnap</name>
+        <qualifiedname>GuidesConfig::setSnap</qualifiedname>
+        <param>
+          <type>const bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set guides snap status. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True to set snap to guides active, otherwise False </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="157" column="10" bodyfile="GuidesConfig.cpp" bodystart="143" bodyend="146"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_guides_config_1aa4408992f7ab69f1252348e8d8b3a64d" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>KisGuidesConfig</type>
+        <definition>KisGuidesConfig GuidesConfig::guidesConfig</definition>
+        <argsstring>() const</argsstring>
+        <name>guidesConfig</name>
+        <qualifiedname>GuidesConfig::guidesConfig</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GuidesConfig.h" line="162" column="21" bodyfile="GuidesConfig.cpp" bodystart="168" bodyend="171"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The <ref refid="class_guides_config" kindref="compound">GuidesConfig</ref> class encapsulates a <ref refid="class_krita" kindref="compound">Krita</ref> Guides configuration. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GuidesConfig</label>
+        <link refid="class_guides_config"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GuidesConfig</label>
+        <link refid="class_guides_config"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="GuidesConfig.h" line="19" column="1" bodyfile="GuidesConfig.h" bodystart="20" bodyend="168"/>
+    <listofallmembers>
+      <member refid="class_guides_config_1a187f5b23c07b8a775280c1ba9076916a" prot="public" virt="non-virtual"><scope>GuidesConfig</scope><name>color</name></member>
+      <member refid="class_guides_config_1afd60bc238ca4b1a61ba4190c5eb67c90" prot="private" virt="non-virtual"><scope>GuidesConfig</scope><name>d</name></member>
+      <member refid="class_guides_config_1a883538034e58fc5c0de7d4e4cab3cef7" prot="private" virt="non-virtual"><scope>GuidesConfig</scope><name>Document</name></member>
+      <member refid="class_guides_config_1a1c787e55bff64a2f4bc335d2096cf3eb" prot="public" virt="non-virtual"><scope>GuidesConfig</scope><name>fromXml</name></member>
+      <member refid="class_guides_config_1ac182ff771d240e4089ac2fd1da98704f" prot="public" virt="non-virtual"><scope>GuidesConfig</scope><name>GuidesConfig</name></member>
+      <member refid="class_guides_config_1af83f81000a481170d0d0e0e542599ce0" prot="public" virt="non-virtual"><scope>GuidesConfig</scope><name>GuidesConfig</name></member>
+      <member refid="class_guides_config_1aa4408992f7ab69f1252348e8d8b3a64d" prot="private" virt="non-virtual"><scope>GuidesConfig</scope><name>guidesConfig</name></member>
+      <member refid="class_guides_config_1a4c450e4d519100f422bcb17d8ec28d97" prot="public" virt="non-virtual"><scope>GuidesConfig</scope><name>hasGuides</name></member>
+      <member refid="class_guides_config_1a048ffe49629cf34d6be3d601146b2c39" prot="public" virt="non-virtual"><scope>GuidesConfig</scope><name>hasSamePositionAs</name></member>
+      <member refid="class_guides_config_1a1020772889c43f3958be5d418797b805" prot="public" virt="non-virtual"><scope>GuidesConfig</scope><name>horizontalGuides</name></member>
+      <member refid="class_guides_config_1a8917556bd1577506095caa03b2a1fb31" prot="public" virt="non-virtual"><scope>GuidesConfig</scope><name>lineType</name></member>
+      <member refid="class_guides_config_1ad30b38d49e2cea604f845fb796067117" prot="public" virt="non-virtual"><scope>GuidesConfig</scope><name>locked</name></member>
+      <member refid="class_guides_config_1a1385eea8e191cd437ef1edf351c990b5" prot="public" virt="non-virtual"><scope>GuidesConfig</scope><name>operator!=</name></member>
+      <member refid="class_guides_config_1a2d8976cd694939b0fdd1e00eabac108b" prot="public" virt="non-virtual"><scope>GuidesConfig</scope><name>operator==</name></member>
+      <member refid="class_guides_config_1a1e093eba4aa6aa84b245de11ae09434e" prot="public" virt="non-virtual"><scope>GuidesConfig</scope><name>removeAllGuides</name></member>
+      <member refid="class_guides_config_1a0bd40ed88eb9d01d4dbc98e2e0322bff" prot="public" virt="non-virtual"><scope>GuidesConfig</scope><name>setColor</name></member>
+      <member refid="class_guides_config_1acc3f3b9b734731f50e8a8f2f40e6c6df" prot="public" virt="non-virtual"><scope>GuidesConfig</scope><name>setHorizontalGuides</name></member>
+      <member refid="class_guides_config_1af8cdd1ce233bfbde8999ab5a0c84feee" prot="public" virt="non-virtual"><scope>GuidesConfig</scope><name>setLineType</name></member>
+      <member refid="class_guides_config_1a318a13dd336e4c596a49b8b543c64b42" prot="public" virt="non-virtual"><scope>GuidesConfig</scope><name>setLocked</name></member>
+      <member refid="class_guides_config_1adc169a8a412a8b18ba10ede7401784e9" prot="public" virt="non-virtual"><scope>GuidesConfig</scope><name>setSnap</name></member>
+      <member refid="class_guides_config_1a26ad3445c6affb718a01903603fac5a8" prot="public" virt="non-virtual"><scope>GuidesConfig</scope><name>setVerticalGuides</name></member>
+      <member refid="class_guides_config_1a5af892150ae48f1fabffcd05cc1cca5f" prot="public" virt="non-virtual"><scope>GuidesConfig</scope><name>setVisible</name></member>
+      <member refid="class_guides_config_1acb3a322e078b5542be7b59af8f95cc52" prot="public" virt="non-virtual"><scope>GuidesConfig</scope><name>snap</name></member>
+      <member refid="class_guides_config_1a06bbf358cd8851872d549e896c3a917c" prot="public" virt="non-virtual"><scope>GuidesConfig</scope><name>toXml</name></member>
+      <member refid="class_guides_config_1aceba8e77bc94db9dcd5e9ae806125c1f" prot="public" virt="non-virtual"><scope>GuidesConfig</scope><name>verticalGuides</name></member>
+      <member refid="class_guides_config_1aca1c3e733aaf9f9e1613fd5a2be26ba1" prot="public" virt="non-virtual"><scope>GuidesConfig</scope><name>visible</name></member>
+      <member refid="class_guides_config_1ad2bf4c8771de738dc6f701fdfcd026ff" prot="public" virt="non-virtual"><scope>GuidesConfig</scope><name>~GuidesConfig</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

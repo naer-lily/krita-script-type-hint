@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="PaletteView.h" line="96" column="26" bodyfile="PaletteView.h" bodystart="96" bodyend="-1"/>
+        <location file="PaletteView.h" line="94" column="26" bodyfile="PaletteView.h" bodystart="94" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -39,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="PaletteView.h" line="35" column="5" bodyfile="PaletteView.cpp" bodystart="17" bodyend="32"/>
+        <location file="PaletteView.h" line="34" column="5" bodyfile="PaletteView.cpp" bodystart="17" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="class_palette_view_1a8b61805ccbde12bb0494801ec2b54c69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="PaletteView.h" line="36" column="5" bodyfile="PaletteView.cpp" bodystart="34" bodyend="37"/>
+        <location file="PaletteView.h" line="35" column="5" bodyfile="PaletteView.cpp" bodystart="32" bodyend="36"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-slot">
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="PaletteView.h" line="43" column="10" bodyfile="PaletteView.cpp" bodystart="39" bodyend="43"/>
+        <location file="PaletteView.h" line="42" column="10" bodyfile="PaletteView.cpp" bodystart="38" bodyend="42"/>
       </memberdef>
       <memberdef kind="slot" id="class_palette_view_1a0b41a25c3d0cc883d9a3716104c3d3f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="PaletteView.h" line="51" column="10" bodyfile="PaletteView.cpp" bodystart="45" bodyend="51"/>
+        <location file="PaletteView.h" line="50" column="10" bodyfile="PaletteView.cpp" bodystart="44" bodyend="50"/>
       </memberdef>
       <memberdef kind="slot" id="class_palette_view_1acd8251b5dfac0e25e6c3cb66e5fd26e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -133,7 +133,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="PaletteView.h" line="57" column="10" bodyfile="PaletteView.cpp" bodystart="53" bodyend="59"/>
+        <location file="PaletteView.h" line="56" column="10" bodyfile="PaletteView.cpp" bodystart="52" bodyend="58"/>
       </memberdef>
       <memberdef kind="slot" id="class_palette_view_1a6ae64f979bba278189896d25da213c4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -151,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="PaletteView.h" line="64" column="10" bodyfile="PaletteView.cpp" bodystart="61" bodyend="67"/>
+        <location file="PaletteView.h" line="63" column="10" bodyfile="PaletteView.cpp" bodystart="60" bodyend="66"/>
       </memberdef>
       <memberdef kind="slot" id="class_palette_view_1a94739533dae4bc8c2ffe098fddb16a29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -180,7 +180,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="PaletteView.h" line="71" column="10" bodyfile="PaletteView.cpp" bodystart="69" bodyend="72"/>
+        <location file="PaletteView.h" line="70" column="10" bodyfile="PaletteView.cpp" bodystart="68" bodyend="71"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="signal">
@@ -211,7 +211,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="PaletteView.h" line="78" column="10"/>
+        <location file="PaletteView.h" line="77" column="10"/>
       </memberdef>
       <memberdef kind="signal" id="class_palette_view_1ab48ccabd5f7383f2725e62d9a41d73be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -240,19 +240,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="PaletteView.h" line="84" column="10"/>
+        <location file="PaletteView.h" line="83" column="10"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-slot">
-      <memberdef kind="slot" id="class_palette_view_1a9dd4b42af8237d2b6dc4dc99f51d367c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="slot" id="class_palette_view_1ad870d8b3de2aecdccdc8dd9a9bca6534" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void PaletteView::fgSelected</definition>
-        <argsstring>(KisSwatch swatch)</argsstring>
+        <argsstring>(QModelIndex index)</argsstring>
         <name>fgSelected</name>
         <qualifiedname>PaletteView::fgSelected</qualifiedname>
         <param>
-          <type>KisSwatch</type>
-          <declname>swatch</declname>
+          <type>QModelIndex</type>
+          <declname>index</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -260,25 +260,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="PaletteView.h" line="88" column="10" bodyfile="PaletteView.cpp" bodystart="74" bodyend="77"/>
-      </memberdef>
-      <memberdef kind="slot" id="class_palette_view_1af2c239eeac90ef87cf372293f9b548d1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void PaletteView::bgSelected</definition>
-        <argsstring>(KisSwatch swatch)</argsstring>
-        <name>bgSelected</name>
-        <qualifiedname>PaletteView::bgSelected</qualifiedname>
-        <param>
-          <type>KisSwatch</type>
-          <declname>swatch</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="PaletteView.h" line="89" column="10" bodyfile="PaletteView.cpp" bodystart="79" bodyend="82"/>
+        <location file="PaletteView.h" line="87" column="10" bodyfile="PaletteView.cpp" bodystart="73" bodyend="77"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -308,15 +290,14 @@
         <label>QWidget</label>
       </node>
     </collaborationgraph>
-    <location file="PaletteView.h" line="31" column="1" bodyfile="PaletteView.h" bodystart="32" bodyend="97"/>
+    <location file="PaletteView.h" line="30" column="1" bodyfile="PaletteView.h" bodystart="31" bodyend="95"/>
     <listofallmembers>
       <member refid="class_palette_view_1a0b41a25c3d0cc883d9a3716104c3d3f2" prot="public" virt="non-virtual"><scope>PaletteView</scope><name>addEntryWithDialog</name></member>
       <member refid="class_palette_view_1acd8251b5dfac0e25e6c3cb66e5fd26e7" prot="public" virt="non-virtual"><scope>PaletteView</scope><name>addGroupWithDialog</name></member>
-      <member refid="class_palette_view_1af2c239eeac90ef87cf372293f9b548d1" prot="private" virt="non-virtual"><scope>PaletteView</scope><name>bgSelected</name></member>
       <member refid="class_palette_view_1ae5111209e5d49bfaf39dd93d43366693" prot="private" virt="non-virtual"><scope>PaletteView</scope><name>d</name></member>
       <member refid="class_palette_view_1ab48ccabd5f7383f2725e62d9a41d73be" prot="public" virt="non-virtual"><scope>PaletteView</scope><name>entrySelectedBackGround</name></member>
       <member refid="class_palette_view_1a0655b8406939098ca9392ac8b44dc80c" prot="public" virt="non-virtual"><scope>PaletteView</scope><name>entrySelectedForeGround</name></member>
-      <member refid="class_palette_view_1a9dd4b42af8237d2b6dc4dc99f51d367c" prot="private" virt="non-virtual"><scope>PaletteView</scope><name>fgSelected</name></member>
+      <member refid="class_palette_view_1ad870d8b3de2aecdccdc8dd9a9bca6534" prot="private" virt="non-virtual"><scope>PaletteView</scope><name>fgSelected</name></member>
       <member refid="class_palette_view_1a2e6c6aad26c498ee41c8929f8f8bc4a5" prot="public" virt="non-virtual"><scope>PaletteView</scope><name>PaletteView</name></member>
       <member refid="class_palette_view_1a6ae64f979bba278189896d25da213c4f" prot="public" virt="non-virtual"><scope>PaletteView</scope><name>removeSelectedEntryWithDialog</name></member>
       <member refid="class_palette_view_1a79f29b7666cb028ae846f6531b2a9a9b" prot="public" virt="non-virtual"><scope>PaletteView</scope><name>setPalette</name></member>

@@ -1,3 +1,5 @@
 libkis/
 libs/
-node_modules/
+krita-src/
+__pycache__/
+*.pyc

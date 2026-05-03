@@ -1,0 +1,466 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_double_slider_spin_box" kind="class" language="C++" prot="public">
+    <compoundname>DoubleSliderSpinBox</compoundname>
+    <basecompoundref refid="class_double_parse_spin_box" prot="public" virt="non-virtual">DoubleParseSpinBox</basecompoundref>
+    <includes refid="_slider_spin_box_8h" local="no">SliderSpinBox.h</includes>
+    <innerclass refid="struct_double_slider_spin_box_1_1_private" prot="public">DoubleSliderSpinBox::Private</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_double_slider_spin_box_1a24cd4f99f11e434dfe0f406bb4291c16" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_double_slider_spin_box_1_1_private" kindref="compound">Private</ref> *const</type>
+        <definition>Private* const DoubleSliderSpinBox::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>DoubleSliderSpinBox::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="267" column="19" bodyfile="SliderSpinBox.h" bodystart="267" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_double_slider_spin_box_1ae1a1767504cad86087eb0e37c6f5e2bc" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DoubleSliderSpinBox::DoubleSliderSpinBox</definition>
+        <argsstring>()</argsstring>
+        <name>DoubleSliderSpinBox</name>
+        <qualifiedname>DoubleSliderSpinBox::DoubleSliderSpinBox</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="220" column="14" bodyfile="SliderSpinBox.cpp" bodystart="116" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_double_slider_spin_box_1a3500e83f82d4d22cc8e57beb38ebd29b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DoubleSliderSpinBox::~DoubleSliderSpinBox</definition>
+        <argsstring>() override</argsstring>
+        <name>~DoubleSliderSpinBox</name>
+        <qualifiedname>DoubleSliderSpinBox::~DoubleSliderSpinBox</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="221" column="5" bodyfile="SliderSpinBox.cpp" bodystart="126" bodyend="129"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_double_slider_spin_box_1ae9f22ca05fde82cd416345c9b4f6d2bf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QWidget *</type>
+        <definition>QWidget * DoubleSliderSpinBox::widget</definition>
+        <argsstring>() const</argsstring>
+        <name>widget</name>
+        <qualifiedname>DoubleSliderSpinBox::widget</qualifiedname>
+        <briefdescription>
+<para>Get the internal KisDoubleSliderSpinBox as a QWidget, so it may be added to a UI. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the internal KisDoubleSliderSpinBox as a QWidget </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="231" column="13" bodyfile="SliderSpinBox.cpp" bodystart="131" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_double_slider_spin_box_1a782d97fcea2086752c76c920df5e8cb4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>double DoubleSliderSpinBox::fastSliderStep</definition>
+        <argsstring>() const</argsstring>
+        <name>fastSliderStep</name>
+        <qualifiedname>DoubleSliderSpinBox::fastSliderStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="233" column="11" bodyfile="SliderSpinBox.cpp" bodystart="136" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_double_slider_spin_box_1a0d5345c4e22aa6abe7ccaa59c9247b23" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>double DoubleSliderSpinBox::softMinimum</definition>
+        <argsstring>() const</argsstring>
+        <name>softMinimum</name>
+        <qualifiedname>DoubleSliderSpinBox::softMinimum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="234" column="11" bodyfile="SliderSpinBox.cpp" bodystart="141" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_double_slider_spin_box_1addce61b4356527a0e48618993e6e99b7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>double DoubleSliderSpinBox::softMaximum</definition>
+        <argsstring>() const</argsstring>
+        <name>softMaximum</name>
+        <qualifiedname>DoubleSliderSpinBox::softMaximum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="235" column="11" bodyfile="SliderSpinBox.cpp" bodystart="146" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_double_slider_spin_box_1ab9e3a4e07bbe2284978c991f6c996c5a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DoubleSliderSpinBox::isDragging</definition>
+        <argsstring>() const</argsstring>
+        <name>isDragging</name>
+        <qualifiedname>DoubleSliderSpinBox::isDragging</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="236" column="10" bodyfile="SliderSpinBox.cpp" bodystart="151" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_double_slider_spin_box_1a62e870e6a5b53963be8c8940a0f54643" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoubleSliderSpinBox::setValue</definition>
+        <argsstring>(qreal newValue)</argsstring>
+        <name>setValue</name>
+        <qualifiedname>DoubleSliderSpinBox::setValue</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>newValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="237" column="10" bodyfile="SliderSpinBox.cpp" bodystart="156" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_double_slider_spin_box_1a01e4b51ca9c66a140cd13a99400f3657" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoubleSliderSpinBox::setRange</definition>
+        <argsstring>(qreal newMinimum, qreal newMaximum, int newNumberOfDecimals=0, bool computeNewFastSliderStep=true)</argsstring>
+        <name>setRange</name>
+        <qualifiedname>DoubleSliderSpinBox::setRange</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>newMinimum</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>newMaximum</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newNumberOfDecimals</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>computeNewFastSliderStep</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Set the minimum and the maximum values of the range. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The soft range will be adapted to fit inside the range The number of decimals used can be changed with the newNumberOfDecimals parameter <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newMinimum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new minimum value </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newMaximum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new maximum value </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newNumberOfDecimals</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new number of decimals </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>computeNewFastSliderStep</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if a new &quot;fast slider step&quot; must be computed based on the range </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>setMinimum(qreal) </para>
+</simplesect>
+<simplesect kind="see"><para>setMaximum(qreal) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="252" column="10" bodyfile="SliderSpinBox.cpp" bodystart="161" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_double_slider_spin_box_1a4783ee79a1fc742eb967dad88f58a82f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoubleSliderSpinBox::setMinimum</definition>
+        <argsstring>(qreal newMinimum, bool computeNewFastSliderStep=true)</argsstring>
+        <name>setMinimum</name>
+        <qualifiedname>DoubleSliderSpinBox::setMinimum</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>newMinimum</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>computeNewFastSliderStep</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="253" column="10" bodyfile="SliderSpinBox.cpp" bodystart="166" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_double_slider_spin_box_1a8448182c1bf512314b02d1e5d5dd1a2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoubleSliderSpinBox::setMaximum</definition>
+        <argsstring>(qreal newMaximum, bool computeNewFastSliderStep=true)</argsstring>
+        <name>setMaximum</name>
+        <qualifiedname>DoubleSliderSpinBox::setMaximum</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>newMaximum</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>computeNewFastSliderStep</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="254" column="10" bodyfile="SliderSpinBox.cpp" bodystart="171" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_double_slider_spin_box_1af31123af51cc46ae002b38bae2689b30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoubleSliderSpinBox::setExponentRatio</definition>
+        <argsstring>(qreal newExponentRatio)</argsstring>
+        <name>setExponentRatio</name>
+        <qualifiedname>DoubleSliderSpinBox::setExponentRatio</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>newExponentRatio</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="255" column="10" bodyfile="SliderSpinBox.cpp" bodystart="176" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_double_slider_spin_box_1aa7fd94f07c6389434cd1df7d41b613c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoubleSliderSpinBox::setBlockUpdateSignalOnDrag</definition>
+        <argsstring>(bool newBlockUpdateSignalOnDrag)</argsstring>
+        <name>setBlockUpdateSignalOnDrag</name>
+        <qualifiedname>DoubleSliderSpinBox::setBlockUpdateSignalOnDrag</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>newBlockUpdateSignalOnDrag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="256" column="10" bodyfile="SliderSpinBox.cpp" bodystart="185" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_double_slider_spin_box_1a783797ff95162be8b16eb204e7ca5883" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoubleSliderSpinBox::setFastSliderStep</definition>
+        <argsstring>(qreal newFastSliderStep)</argsstring>
+        <name>setFastSliderStep</name>
+        <qualifiedname>DoubleSliderSpinBox::setFastSliderStep</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>newFastSliderStep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="257" column="10" bodyfile="SliderSpinBox.cpp" bodystart="190" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_double_slider_spin_box_1aee3a0e5cd00c92635b7365c4aa9327dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoubleSliderSpinBox::setSoftRange</definition>
+        <argsstring>(qreal newSoftMinimum, qreal newSoftMaximum)</argsstring>
+        <name>setSoftRange</name>
+        <qualifiedname>DoubleSliderSpinBox::setSoftRange</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>newSoftMinimum</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>newSoftMaximum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="258" column="10" bodyfile="SliderSpinBox.cpp" bodystart="195" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_double_slider_spin_box_1ad50f4b66cfecec2b69dca3aa115d2976" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoubleSliderSpinBox::setSoftMinimum</definition>
+        <argsstring>(qreal newSoftMinimum)</argsstring>
+        <name>setSoftMinimum</name>
+        <qualifiedname>DoubleSliderSpinBox::setSoftMinimum</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>newSoftMinimum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="259" column="10" bodyfile="SliderSpinBox.cpp" bodystart="200" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_double_slider_spin_box_1a3e53d86c3b2ebd28703ea1b22c0b239d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoubleSliderSpinBox::setSoftMaximum</definition>
+        <argsstring>(qreal newSoftMaximum)</argsstring>
+        <name>setSoftMaximum</name>
+        <qualifiedname>DoubleSliderSpinBox::setSoftMaximum</qualifiedname>
+        <param>
+          <type>qreal</type>
+          <declname>newSoftMaximum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="260" column="10" bodyfile="SliderSpinBox.cpp" bodystart="205" bodyend="208"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_double_slider_spin_box_1ab7fd0b2fd8c7eb029b843d529bc531fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoubleSliderSpinBox::draggingFinished</definition>
+        <argsstring>()</argsstring>
+        <name>draggingFinished</name>
+        <qualifiedname>DoubleSliderSpinBox::draggingFinished</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SliderSpinBox.h" line="263" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class is a wrapper around KisDoubleSliderSpinBox, a spinbox in which you can click and drag to set the value, with a slider like bar displayed inside. The widget itself is accessed with the <ref refid="class_double_slider_spin_box_1ae9f22ca05fde82cd416345c9b4f6d2bf" kindref="member">widget()</ref> function. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="class_slider_spin_box" kindref="compound">SliderSpinBox</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>DoubleParseSpinBox</label>
+        <link refid="class_double_parse_spin_box"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>DoubleSliderSpinBox</label>
+        <link refid="class_double_slider_spin_box"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>DoubleParseSpinBox</label>
+        <link refid="class_double_parse_spin_box"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>DoubleSliderSpinBox</label>
+        <link refid="class_double_slider_spin_box"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="SliderSpinBox.h" line="214" column="1" bodyfile="SliderSpinBox.h" bodystart="215" bodyend="268"/>
+    <listofallmembers>
+      <member refid="class_double_slider_spin_box_1a24cd4f99f11e434dfe0f406bb4291c16" prot="private" virt="non-virtual"><scope>DoubleSliderSpinBox</scope><name>d</name></member>
+      <member refid="class_double_parse_spin_box_1a26e54d0c42ca554ffeba41bc3428dd1f" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox</scope><name>DoubleParseSpinBox</name></member>
+      <member refid="class_double_slider_spin_box_1ae1a1767504cad86087eb0e37c6f5e2bc" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox</scope><name>DoubleSliderSpinBox</name></member>
+      <member refid="class_double_slider_spin_box_1ab7fd0b2fd8c7eb029b843d529bc531fd" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox</scope><name>draggingFinished</name></member>
+      <member refid="class_double_parse_spin_box_1ad15ef5e2ca98a2e3cdddfe5043221d2c" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox</scope><name>errorWhileParsing</name></member>
+      <member refid="class_double_slider_spin_box_1a782d97fcea2086752c76c920df5e8cb4" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox</scope><name>fastSliderStep</name></member>
+      <member refid="class_double_slider_spin_box_1ab9e3a4e07bbe2284978c991f6c996c5a" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox</scope><name>isDragging</name></member>
+      <member refid="class_double_parse_spin_box_1a646c27da08eada2d3eb097145a23b179" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox</scope><name>isLastValid</name></member>
+      <member refid="class_double_parse_spin_box_1a2fcf88a0398bc0413cb0d1935eac0366" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox</scope><name>noMoreParsingError</name></member>
+      <member refid="class_double_slider_spin_box_1aa7fd94f07c6389434cd1df7d41b613c5" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox</scope><name>setBlockUpdateSignalOnDrag</name></member>
+      <member refid="class_double_slider_spin_box_1af31123af51cc46ae002b38bae2689b30" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox</scope><name>setExponentRatio</name></member>
+      <member refid="class_double_slider_spin_box_1a783797ff95162be8b16eb204e7ca5883" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox</scope><name>setFastSliderStep</name></member>
+      <member refid="class_double_slider_spin_box_1a8448182c1bf512314b02d1e5d5dd1a2e" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox</scope><name>setMaximum</name></member>
+      <member refid="class_double_slider_spin_box_1a4783ee79a1fc742eb967dad88f58a82f" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox</scope><name>setMinimum</name></member>
+      <member refid="class_double_slider_spin_box_1a01e4b51ca9c66a140cd13a99400f3657" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox</scope><name>setRange</name></member>
+      <member refid="class_double_slider_spin_box_1a3e53d86c3b2ebd28703ea1b22c0b239d" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox</scope><name>setSoftMaximum</name></member>
+      <member refid="class_double_slider_spin_box_1ad50f4b66cfecec2b69dca3aa115d2976" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox</scope><name>setSoftMinimum</name></member>
+      <member refid="class_double_slider_spin_box_1aee3a0e5cd00c92635b7365c4aa9327dd" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox</scope><name>setSoftRange</name></member>
+      <member refid="class_double_slider_spin_box_1a62e870e6a5b53963be8c8940a0f54643" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox</scope><name>setValue</name></member>
+      <member refid="class_double_parse_spin_box_1abdf63d5556608eab25789c6e165b1f51" prot="public" virt="non-virtual" ambiguityscope="DoubleParseSpinBox::"><scope>DoubleSliderSpinBox</scope><name>setValue</name></member>
+      <member refid="class_double_slider_spin_box_1addce61b4356527a0e48618993e6e99b7" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox</scope><name>softMaximum</name></member>
+      <member refid="class_double_slider_spin_box_1a0d5345c4e22aa6abe7ccaa59c9247b23" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox</scope><name>softMinimum</name></member>
+      <member refid="class_double_parse_spin_box_1aad3c29eb6ce1662a95a9e0a1a5206e4a" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox</scope><name>stepBy</name></member>
+      <member refid="class_double_parse_spin_box_1ab97680f96ee0770892c962da20419014" prot="public" virt="virtual"><scope>DoubleSliderSpinBox</scope><name>veryCleanText</name></member>
+      <member refid="class_double_slider_spin_box_1ae9f22ca05fde82cd416345c9b4f6d2bf" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox</scope><name>widget</name></member>
+      <member refid="class_double_parse_spin_box_1ae8c975baec9e3b37bf91a3702f04f48b" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox</scope><name>~DoubleParseSpinBox</name></member>
+      <member refid="class_double_slider_spin_box_1a3500e83f82d4d22cc8e57beb38ebd29b" prot="public" virt="non-virtual"><scope>DoubleSliderSpinBox</scope><name>~DoubleSliderSpinBox</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

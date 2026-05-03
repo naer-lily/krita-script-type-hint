@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="struct_int_parse_spin_box_1_1_private" kind="struct" language="C++" prot="public">
+    <compoundname>IntParseSpinBox::Private</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_int_parse_spin_box_1_1_private_1a347f4477abafb2324c447a351a8c715e" prot="public" static="no" mutable="no">
+        <type>KisIntParseSpinBox *</type>
+        <definition>KisIntParseSpinBox* IntParseSpinBox::Private::widget</definition>
+        <argsstring></argsstring>
+        <name>widget</name>
+        <qualifiedname>IntParseSpinBox::Private::widget</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IntParseSpinBox.cpp" line="13" column="24" bodyfile="IntParseSpinBox.cpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_int_parse_spin_box_1_1_private_1acf76cf5f26375dc523d0165982cd941b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>IntParseSpinBox::Private::Private</definition>
+        <argsstring>()</argsstring>
+        <name>Private</name>
+        <qualifiedname>IntParseSpinBox::Private::Private</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IntParseSpinBox.cpp" line="11" column="5" bodyfile="IntParseSpinBox.cpp" bodystart="11" bodyend="11"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="IntParseSpinBox.cpp" line="10" column="1" bodyfile="IntParseSpinBox.cpp" bodystart="10" bodyend="14"/>
+    <listofallmembers>
+      <member refid="struct_int_parse_spin_box_1_1_private_1acf76cf5f26375dc523d0165982cd941b" prot="public" virt="non-virtual"><scope>IntParseSpinBox::Private</scope><name>Private</name></member>
+      <member refid="struct_int_parse_spin_box_1_1_private_1a347f4477abafb2324c447a351a8c715e" prot="public" virt="non-virtual"><scope>IntParseSpinBox::Private</scope><name>widget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

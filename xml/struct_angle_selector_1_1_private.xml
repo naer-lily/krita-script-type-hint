@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="struct_angle_selector_1_1_private" kind="struct" language="C++" prot="public">
+    <compoundname>AngleSelector::Private</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_angle_selector_1_1_private_1aa40762b097181214db68095774e04de9" prot="public" static="no" mutable="no">
+        <type>KisAngleSelector *</type>
+        <definition>KisAngleSelector* AngleSelector::Private::widget</definition>
+        <argsstring></argsstring>
+        <name>widget</name>
+        <qualifiedname>AngleSelector::Private::widget</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.cpp" line="26" column="22" bodyfile="AngleSelector.cpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_angle_selector_1_1_private_1af91be291aee60df333a1d408ec537712" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AngleSelector::Private::Private</definition>
+        <argsstring>()</argsstring>
+        <name>Private</name>
+        <qualifiedname>AngleSelector::Private::Private</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AngleSelector.cpp" line="24" column="5" bodyfile="AngleSelector.cpp" bodystart="24" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="AngleSelector.cpp" line="23" column="1" bodyfile="AngleSelector.cpp" bodystart="23" bodyend="27"/>
+    <listofallmembers>
+      <member refid="struct_angle_selector_1_1_private_1af91be291aee60df333a1d408ec537712" prot="public" virt="non-virtual"><scope>AngleSelector::Private</scope><name>Private</name></member>
+      <member refid="struct_angle_selector_1_1_private_1aa40762b097181214db68095774e04de9" prot="public" virt="non-virtual"><scope>AngleSelector::Private</scope><name>widget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
