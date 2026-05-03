@@ -2,7 +2,7 @@
 
 为 Krita 插件开发提供 IDE 自动补全和类型检查的类型标注文件，从 C++ 头文件通过 Doxygen XML 生成。
 
-> 2024 年 5 月由小仓那尔编写，2026 年 5 月由 deepseek-v4-pro 重构为纯 Python 实现。
+> 2024 年 5 月由我编写，2026 年 5 月由 deepseek-v4-pro 重构为纯 Python 实现。
 
 **当前版本：Krita v6.0.1.1**（与 5.3.1 共用 libkis API，Qt6 构建为 Krita 6，Qt5 构建为 5.3）
 
