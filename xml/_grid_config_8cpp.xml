@@ -436,30 +436,32 @@
 <codeline lineno="356"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_grid_config_1aa03aa5d746b535903e6f68515b44cd0d" kindref="member">GridConfig::fromXml</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;xmlContent)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="357"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/>QDomDocument<sp/>doc<sp/>=<sp/>QDomDocument();</highlight></codeline>
-<codeline lineno="359"><highlight class="normal"></highlight></codeline>
-<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(doc.setContent(xmlContent))<sp/>{</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>errorMsg<sp/>{</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>errorLine<sp/>{0},<sp/>errorColumn<sp/>{0};</highlight></codeline>
 <codeline lineno="361"><highlight class="normal"></highlight></codeline>
-<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;gridConfig-&gt;loadDynamicDataFromXml(doc.documentElement());</highlight></codeline>
-<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="364"><highlight class="normal"></highlight></codeline>
-<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="366"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="367"><highlight class="normal"></highlight></codeline>
-<codeline lineno="368"><highlight class="normal">QString<sp/><ref refid="class_grid_config_1a30fb9ee5aedd633eebe6011450653e68" kindref="member">GridConfig::toXml</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="369"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/>QDomDocument<sp/>doc<sp/>=<sp/>QDomDocument();</highlight></codeline>
-<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/>QDomElement<sp/>elt<sp/>=<sp/>d-&gt;gridConfig-&gt;saveDynamicDataToXml(doc,<sp/></highlight><highlight class="stringliteral">&quot;grid&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/>doc.appendChild(elt);</highlight></codeline>
-<codeline lineno="373"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>doc.toString(2);</highlight></codeline>
-<codeline lineno="374"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="375"><highlight class="normal"></highlight></codeline>
-<codeline lineno="376"><highlight class="normal"></highlight></codeline>
-<codeline lineno="377"><highlight class="normal">KisGridConfig<sp/>GridConfig::gridConfig()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="378"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="379"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*d-&gt;gridConfig;</highlight></codeline>
-<codeline lineno="380"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="381"><highlight class="normal"></highlight></codeline>
-<codeline lineno="382"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(doc.setContent(xmlContent,<sp/>&amp;errorMsg,<sp/>&amp;errorLine,<sp/>&amp;errorColumn))<sp/>{</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;gridConfig-&gt;loadDynamicDataFromXml(doc.documentElement());</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="368"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight></codeline>
+<codeline lineno="370"><highlight class="normal">QString<sp/><ref refid="class_grid_config_1a30fb9ee5aedd633eebe6011450653e68" kindref="member">GridConfig::toXml</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="371"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/>QDomDocument<sp/>doc<sp/>=<sp/>QDomDocument();</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"><sp/><sp/><sp/><sp/>QDomElement<sp/>elt<sp/>=<sp/>d-&gt;gridConfig-&gt;saveDynamicDataToXml(doc,<sp/></highlight><highlight class="stringliteral">&quot;grid&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/>doc.appendChild(elt);</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>doc.toString(2);</highlight></codeline>
+<codeline lineno="376"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight></codeline>
+<codeline lineno="379"><highlight class="normal">KisGridConfig<sp/>GridConfig::gridConfig()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="380"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*d-&gt;gridConfig;</highlight></codeline>
+<codeline lineno="382"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"></highlight></codeline>
+<codeline lineno="384"><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="GridConfig.cpp"/>
   </compounddef>

@@ -1283,7 +1283,7 @@ LineTypeVertical value is used for grid type &quot;isometric&quot;. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="GridConfig.h" line="400" column="10" bodyfile="GridConfig.cpp" bodystart="356" bodyend="366"/>
+        <location file="GridConfig.h" line="400" column="10" bodyfile="GridConfig.cpp" bodystart="356" bodyend="368"/>
       </memberdef>
       <memberdef kind="slot" id="class_grid_config_1a30fb9ee5aedd633eebe6011450653e68" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -1301,7 +1301,7 @@ LineTypeVertical value is used for grid type &quot;isometric&quot;. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="GridConfig.h" line="406" column="13" bodyfile="GridConfig.cpp" bodystart="368" bodyend="374"/>
+        <location file="GridConfig.h" line="406" column="13" bodyfile="GridConfig.cpp" bodystart="370" bodyend="376"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -1317,7 +1317,7 @@ LineTypeVertical value is used for grid type &quot;isometric&quot;. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="GridConfig.h" line="412" column="19" bodyfile="GridConfig.cpp" bodystart="377" bodyend="380"/>
+        <location file="GridConfig.h" line="412" column="19" bodyfile="GridConfig.cpp" bodystart="379" bodyend="382"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

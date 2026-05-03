@@ -221,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="54" column="29" bodyfile="Document.cpp" bodystart="845" bodyend="859"/>
+        <location file="Document.h" line="54" column="29" bodyfile="Document.cpp" bodystart="847" bodyend="861"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a8d51ceb6f54c696a3dffa1a42cf07532" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Q_DECL_DEPRECATED QList&lt; qreal &gt;</type>
@@ -239,7 +239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="60" column="29" bodyfile="Document.cpp" bodystart="861" bodyend="874"/>
+        <location file="Document.h" line="60" column="29" bodyfile="Document.cpp" bodystart="863" bodyend="876"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a047471b983ac42cb1f2e9d63079a2d36" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Q_DECL_DEPRECATED bool</type>
@@ -257,7 +257,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="67" column="28" bodyfile="Document.cpp" bodystart="876" bodyend="880"/>
+        <location file="Document.h" line="67" column="28" bodyfile="Document.cpp" bodystart="878" bodyend="882"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a90f86452915fabb8fbfb61b2e71bf749" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Q_DECL_DEPRECATED bool</type>
@@ -275,7 +275,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="73" column="28" bodyfile="Document.cpp" bodystart="882" bodyend="886"/>
+        <location file="Document.h" line="73" column="28" bodyfile="Document.cpp" bodystart="884" bodyend="888"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a68ae4fc363bd83064e5e81d3cf2116ed" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_document" kindref="compound">Document</ref> *</type>
@@ -294,7 +294,7 @@
         <inbodydescription>
 <para>We set ownsDocument to true, it will be reset automatically as soon as we create the first view for the document</para>
         </inbodydescription>
-        <location file="Document.h" line="79" column="14" bodyfile="Document.cpp" bodystart="888" bodyend="898"/>
+        <location file="Document.h" line="79" column="14" bodyfile="Document.cpp" bodystart="890" bodyend="900"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a81fc9b650731cdba56d98567aa8b19e5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -796,7 +796,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="262" column="10" bodyfile="Document.cpp" bodystart="267" bodyend="272"/>
+        <location file="Document.h" line="262" column="10" bodyfile="Document.cpp" bodystart="267" bodyend="274"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a43b524bd6c269c67bb808e4ef40293a4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -813,7 +813,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="267" column="13" bodyfile="Document.cpp" bodystart="275" bodyend="279"/>
+        <location file="Document.h" line="267" column="13" bodyfile="Document.cpp" bodystart="277" bodyend="281"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1ab9e04f2f12a31d7ec6d3bc5a1022d073" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -842,7 +842,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="272" column="10" bodyfile="Document.cpp" bodystart="281" bodyend="287"/>
+        <location file="Document.h" line="272" column="10" bodyfile="Document.cpp" bodystart="283" bodyend="289"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a128e829bb24b055de57026223326b815" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -859,7 +859,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="277" column="9" bodyfile="Document.cpp" bodystart="289" bodyend="295"/>
+        <location file="Document.h" line="277" column="9" bodyfile="Document.cpp" bodystart="291" bodyend="297"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1af108092810b0ed079a37b4fa8523977b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -888,7 +888,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="282" column="10" bodyfile="Document.cpp" bodystart="297" bodyend="305"/>
+        <location file="Document.h" line="282" column="10" bodyfile="Document.cpp" bodystart="299" bodyend="307"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a2e566b3a96b81f300f9a409e84f9eb07" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -905,7 +905,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="287" column="13" bodyfile="Document.cpp" bodystart="308" bodyend="312"/>
+        <location file="Document.h" line="287" column="13" bodyfile="Document.cpp" bodystart="310" bodyend="314"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a6e5f546ad95c06e192f82e58b0af4927" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -924,7 +924,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="292" column="10" bodyfile="Document.cpp" bodystart="314" bodyend="318"/>
+        <location file="Document.h" line="292" column="10" bodyfile="Document.cpp" bodystart="316" bodyend="320"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a08b6c8e6e160f9229f36540ad3d84807" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -941,7 +941,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="297" column="9" bodyfile="Document.cpp" bodystart="321" bodyend="328"/>
+        <location file="Document.h" line="297" column="9" bodyfile="Document.cpp" bodystart="323" bodyend="330"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1ac95799577e5ab54714768455cc4d52a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -970,7 +970,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="302" column="10" bodyfile="Document.cpp" bodystart="330" bodyend="341"/>
+        <location file="Document.h" line="302" column="10" bodyfile="Document.cpp" bodystart="332" bodyend="343"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a35dd582b73479dbc79847326de510640" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
@@ -988,7 +988,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="309" column="10" bodyfile="Document.cpp" bodystart="344" bodyend="351"/>
+        <location file="Document.h" line="309" column="10" bodyfile="Document.cpp" bodystart="346" bodyend="353"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1ac920de30e9d3d817e6c2fe61ca1e25ee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_selection" kindref="compound">Selection</ref> *</type>
@@ -1006,7 +1006,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="315" column="15" bodyfile="Document.cpp" bodystart="353" bodyend="359"/>
+        <location file="Document.h" line="315" column="15" bodyfile="Document.cpp" bodystart="355" bodyend="361"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a0fc9fffcb7107b3f5796d9ae084b8369" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1035,7 +1035,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="321" column="10" bodyfile="Document.cpp" bodystart="361" bodyend="371"/>
+        <location file="Document.h" line="321" column="10" bodyfile="Document.cpp" bodystart="363" bodyend="373"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1aac01dc47c514bfa5eff0284011e1d17d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1052,7 +1052,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="326" column="9" bodyfile="Document.cpp" bodystart="374" bodyend="380"/>
+        <location file="Document.h" line="326" column="9" bodyfile="Document.cpp" bodystart="376" bodyend="382"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1aab6dfa77a9ec6e87127d9bb36eefc0ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1081,7 +1081,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="331" column="10" bodyfile="Document.cpp" bodystart="382" bodyend="390"/>
+        <location file="Document.h" line="331" column="10" bodyfile="Document.cpp" bodystart="384" bodyend="392"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1ac8776ca65040584553dbfc3825363fe7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1098,7 +1098,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="336" column="9" bodyfile="Document.cpp" bodystart="393" bodyend="399"/>
+        <location file="Document.h" line="336" column="9" bodyfile="Document.cpp" bodystart="395" bodyend="401"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a24bb072eba4939b7133fcfafc4ca4d62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1117,7 +1117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="341" column="10" bodyfile="Document.cpp" bodystart="401" bodyend="409"/>
+        <location file="Document.h" line="341" column="10" bodyfile="Document.cpp" bodystart="403" bodyend="411"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a7cb75e4e283ca0d1fa0e174011634c53" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1134,7 +1134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="346" column="9" bodyfile="Document.cpp" bodystart="412" bodyend="418"/>
+        <location file="Document.h" line="346" column="9" bodyfile="Document.cpp" bodystart="414" bodyend="420"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a29e0958a34e384130aaf4baea4053dd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1153,7 +1153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="351" column="10" bodyfile="Document.cpp" bodystart="420" bodyend="428"/>
+        <location file="Document.h" line="351" column="10" bodyfile="Document.cpp" bodystart="422" bodyend="430"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1ae25a768a5a198b6bf07945472e708c1d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -1170,7 +1170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="358" column="12" bodyfile="Document.cpp" bodystart="431" bodyend="436"/>
+        <location file="Document.h" line="358" column="12" bodyfile="Document.cpp" bodystart="433" bodyend="438"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a71c0a9a745c4e1b17f7bbcb4d3eca1c4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1189,7 +1189,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="364" column="10" bodyfile="Document.cpp" bodystart="438" bodyend="449"/>
+        <location file="Document.h" line="364" column="10" bodyfile="Document.cpp" bodystart="440" bodyend="451"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a63c7a48f667c7d063bd62b3b783c87a3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -1206,7 +1206,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="370" column="12" bodyfile="Document.cpp" bodystart="451" bodyend="456"/>
+        <location file="Document.h" line="370" column="12" bodyfile="Document.cpp" bodystart="453" bodyend="458"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1ab480128d3849a9a4f68bddf5fdfb3398" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1225,7 +1225,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="376" column="10" bodyfile="Document.cpp" bodystart="458" bodyend="469"/>
+        <location file="Document.h" line="376" column="10" bodyfile="Document.cpp" bodystart="460" bodyend="471"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1aca1d1874a0ca18658f4bb130de735b20" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QByteArray</type>
@@ -1317,7 +1317,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="410" column="16" bodyfile="Document.cpp" bodystart="472" bodyend="484"/>
+        <location file="Document.h" line="410" column="16" bodyfile="Document.cpp" bodystart="474" bodyend="486"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a1e6ae3aa647783af3298351725f52649" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1336,7 +1336,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="421" column="10" bodyfile="Document.cpp" bodystart="486" bodyend="507"/>
+        <location file="Document.h" line="421" column="10" bodyfile="Document.cpp" bodystart="488" bodyend="509"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1ac522dcff08ffba00d287a965fffcd2a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1401,7 +1401,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="431" column="10" bodyfile="Document.cpp" bodystart="509" bodyend="517"/>
+        <location file="Document.h" line="431" column="10" bodyfile="Document.cpp" bodystart="511" bodyend="519"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1abda324b9beee9384879af8b7e7807cfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1513,7 +1513,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="472" column="10" bodyfile="Document.cpp" bodystart="519" bodyend="527"/>
+        <location file="Document.h" line="472" column="10" bodyfile="Document.cpp" bodystart="521" bodyend="529"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a24b2184ed0e6e2a22f12455b674ff0cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1528,7 +1528,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="477" column="10" bodyfile="Document.cpp" bodystart="529" bodyend="535"/>
+        <location file="Document.h" line="477" column="10" bodyfile="Document.cpp" bodystart="531" bodyend="537"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a35900d72f16669e76886e25c154cb329" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1593,7 +1593,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="487" column="10" bodyfile="Document.cpp" bodystart="537" bodyend="550"/>
+        <location file="Document.h" line="487" column="10" bodyfile="Document.cpp" bodystart="539" bodyend="552"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a551478c89e1f505bdd7d5902d18c3a96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1696,7 +1696,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="508" column="9" bodyfile="Document.cpp" bodystart="552" bodyend="566"/>
+        <location file="Document.h" line="508" column="9" bodyfile="Document.cpp" bodystart="554" bodyend="568"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a4dbe5faf96b18d226c37ff22d836add9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1725,7 +1725,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="515" column="9" bodyfile="Document.cpp" bodystart="568" bodyend="575"/>
+        <location file="Document.h" line="515" column="9" bodyfile="Document.cpp" bodystart="570" bodyend="577"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1ad588ffd3f2f21f32275b48d43bf0a4ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1766,7 +1766,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="522" column="9" bodyfile="Document.cpp" bodystart="577" bodyend="584"/>
+        <location file="Document.h" line="522" column="9" bodyfile="Document.cpp" bodystart="579" bodyend="586"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1ab3688d7332c79fb5553a259edfe49ae9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1784,7 +1784,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="529" column="10" bodyfile="Document.cpp" bodystart="586" bodyend="595"/>
+        <location file="Document.h" line="529" column="10" bodyfile="Document.cpp" bodystart="588" bodyend="597"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a3d5231b032ce674a8b42036db3c66206" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1815,7 +1815,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="537" column="10" bodyfile="Document.cpp" bodystart="597" bodyend="611"/>
+        <location file="Document.h" line="537" column="10" bodyfile="Document.cpp" bodystart="599" bodyend="613"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1aa1631e73169ba8f683a58f3e98003493" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
@@ -1875,7 +1875,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="581" column="10" bodyfile="Document.cpp" bodystart="613" bodyend="659"/>
+        <location file="Document.h" line="581" column="10" bodyfile="Document.cpp" bodystart="615" bodyend="661"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1aef5a97ba7a846833987d3134c4e84529" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_group_layer" kindref="compound">GroupLayer</ref> *</type>
@@ -1906,7 +1906,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="589" column="16" bodyfile="Document.cpp" bodystart="661" bodyend="668"/>
+        <location file="Document.h" line="589" column="16" bodyfile="Document.cpp" bodystart="663" bodyend="670"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1abaca7e44a32810bc075b5b61a07be315" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_file_layer" kindref="compound">FileLayer</ref> *</type>
@@ -1974,7 +1974,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="600" column="15" bodyfile="Document.cpp" bodystart="670" bodyend="677"/>
+        <location file="Document.h" line="600" column="15" bodyfile="Document.cpp" bodystart="672" bodyend="679"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1ad8e1f26cb819aea4486ecd7e597e0364" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_filter_layer" kindref="compound">FilterLayer</ref> *</type>
@@ -2029,7 +2029,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="610" column="17" bodyfile="Document.cpp" bodystart="679" bodyend="686"/>
+        <location file="Document.h" line="610" column="17" bodyfile="Document.cpp" bodystart="681" bodyend="688"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a4e8741dbfa8911d6bf0bd691eef863f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_fill_layer" kindref="compound">FillLayer</ref> *</type>
@@ -2107,7 +2107,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="634" column="15" bodyfile="Document.cpp" bodystart="688" bodyend="705"/>
+        <location file="Document.h" line="634" column="15" bodyfile="Document.cpp" bodystart="690" bodyend="707"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a75a68fd60041dc990cefd731777b59f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_clone_layer" kindref="compound">CloneLayer</ref> *</type>
@@ -2150,7 +2150,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="642" column="16" bodyfile="Document.cpp" bodystart="707" bodyend="715"/>
+        <location file="Document.h" line="642" column="16" bodyfile="Document.cpp" bodystart="709" bodyend="717"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a9fbf5ba51d8800b26fc2f4001f5236f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_vector_layer" kindref="compound">VectorLayer</ref> *</type>
@@ -2181,7 +2181,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="650" column="17" bodyfile="Document.cpp" bodystart="717" bodyend="724"/>
+        <location file="Document.h" line="650" column="17" bodyfile="Document.cpp" bodystart="719" bodyend="726"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1ae1d2e159374cae2f25bfa24531dbe814" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_filter_mask" kindref="compound">FilterMask</ref> *</type>
@@ -2236,7 +2236,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="660" column="16" bodyfile="Document.cpp" bodystart="748" bodyend="761"/>
+        <location file="Document.h" line="660" column="16" bodyfile="Document.cpp" bodystart="750" bodyend="763"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a00be8454032e36f9084a35b425b258b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_filter_mask" kindref="compound">FilterMask</ref> *</type>
@@ -2291,7 +2291,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="670" column="16" bodyfile="Document.cpp" bodystart="726" bodyend="746"/>
+        <location file="Document.h" line="670" column="16" bodyfile="Document.cpp" bodystart="728" bodyend="748"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a12a3332c98429df0559bd5be569768ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_selection_mask" kindref="compound">SelectionMask</ref> *</type>
@@ -2322,7 +2322,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="678" column="19" bodyfile="Document.cpp" bodystart="763" bodyend="770"/>
+        <location file="Document.h" line="678" column="19" bodyfile="Document.cpp" bodystart="765" bodyend="772"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1abbd8e5ca62dd2952623c2d5cbc6faf5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_transparency_mask" kindref="compound">TransparencyMask</ref> *</type>
@@ -2353,7 +2353,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="686" column="22" bodyfile="Document.cpp" bodystart="772" bodyend="779"/>
+        <location file="Document.h" line="686" column="22" bodyfile="Document.cpp" bodystart="774" bodyend="781"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a0a6f9de929e7d26b301d8b783b020391" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_transform_mask" kindref="compound">TransformMask</ref> *</type>
@@ -2384,7 +2384,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="694" column="19" bodyfile="Document.cpp" bodystart="781" bodyend="788"/>
+        <location file="Document.h" line="694" column="19" bodyfile="Document.cpp" bodystart="783" bodyend="790"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a230bb260030a6dddee8166fd6712b86e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_colorize_mask" kindref="compound">ColorizeMask</ref> *</type>
@@ -2415,7 +2415,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="702" column="18" bodyfile="Document.cpp" bodystart="790" bodyend="797"/>
+        <location file="Document.h" line="702" column="18" bodyfile="Document.cpp" bodystart="792" bodyend="799"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a00a314a39fa727401b891add13e1e9d1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QImage</type>
@@ -2450,7 +2450,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="708" column="12" bodyfile="Document.cpp" bodystart="799" bodyend="803"/>
+        <location file="Document.h" line="708" column="12" bodyfile="Document.cpp" bodystart="801" bodyend="805"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a22eb5d71a63b6bb49f37ed6dd46ffc03" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QImage</type>
@@ -2477,7 +2477,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="717" column="12" bodyfile="Document.cpp" bodystart="805" bodyend="809"/>
+        <location file="Document.h" line="717" column="12" bodyfile="Document.cpp" bodystart="807" bodyend="811"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1ad195c0ceb939a77fa61958ea7f750e87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2496,7 +2496,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="737" column="10" bodyfile="Document.cpp" bodystart="812" bodyend="816"/>
+        <location file="Document.h" line="737" column="10" bodyfile="Document.cpp" bodystart="814" bodyend="818"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a453e1d004961ee80b3ce5e0cd0d81d67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2511,7 +2511,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="744" column="10" bodyfile="Document.cpp" bodystart="818" bodyend="822"/>
+        <location file="Document.h" line="744" column="10" bodyfile="Document.cpp" bodystart="820" bodyend="824"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a843e1dd149b4c23f29cff528e81a28e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2526,7 +2526,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="751" column="10" bodyfile="Document.cpp" bodystart="824" bodyend="829"/>
+        <location file="Document.h" line="751" column="10" bodyfile="Document.cpp" bodystart="826" bodyend="831"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1ab15cba7c760590f94f78bc0ebbe8dcc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2545,7 +2545,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="762" column="10" bodyfile="Document.cpp" bodystart="831" bodyend="835"/>
+        <location file="Document.h" line="762" column="10" bodyfile="Document.cpp" bodystart="833" bodyend="837"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a90f8065fa35298a1634ca9a818aa2d4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2560,7 +2560,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="768" column="10" bodyfile="Document.cpp" bodystart="837" bodyend="843"/>
+        <location file="Document.h" line="768" column="10" bodyfile="Document.cpp" bodystart="839" bodyend="845"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a3417f75f20608385c1d056d538b6148e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_DECL_DEPRECATED void</type>
@@ -2589,7 +2589,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="775" column="28" bodyfile="Document.cpp" bodystart="900" bodyend="914"/>
+        <location file="Document.h" line="775" column="28" bodyfile="Document.cpp" bodystart="902" bodyend="916"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1ab00bfba1ff1261a083abe5516b930b53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_DECL_DEPRECATED void</type>
@@ -2618,7 +2618,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="781" column="28" bodyfile="Document.cpp" bodystart="916" bodyend="930"/>
+        <location file="Document.h" line="781" column="28" bodyfile="Document.cpp" bodystart="918" bodyend="932"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a87fa583189e57a60b63349a41e2aedef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_DECL_DEPRECATED void</type>
@@ -2647,7 +2647,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="788" column="28" bodyfile="Document.cpp" bodystart="932" bodyend="939"/>
+        <location file="Document.h" line="788" column="28" bodyfile="Document.cpp" bodystart="934" bodyend="941"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a0c3541ac01af75be0dbb782c40623853" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_DECL_DEPRECATED void</type>
@@ -2676,7 +2676,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="795" column="28" bodyfile="Document.cpp" bodystart="941" bodyend="948"/>
+        <location file="Document.h" line="795" column="28" bodyfile="Document.cpp" bodystart="943" bodyend="950"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a1eac9c1a6a388559e949130c25362b7b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2691,7 +2691,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="800" column="10" bodyfile="Document.cpp" bodystart="950" bodyend="954"/>
+        <location file="Document.h" line="800" column="10" bodyfile="Document.cpp" bodystart="952" bodyend="956"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a89622dd480142497a747eddda752dfe2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2720,7 +2720,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="806" column="10" bodyfile="Document.cpp" bodystart="956" bodyend="960"/>
+        <location file="Document.h" line="806" column="10" bodyfile="Document.cpp" bodystart="958" bodyend="962"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1ad0151e34bca74b36414d89ff35e122ee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QRect</type>
@@ -2738,7 +2738,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="812" column="11" bodyfile="Document.cpp" bodystart="962" bodyend="966"/>
+        <location file="Document.h" line="812" column="11" bodyfile="Document.cpp" bodystart="964" bodyend="968"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a25d83acddc8c4aac7ef8d7e6bb03a0bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2768,7 +2768,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="825" column="10" bodyfile="Document.cpp" bodystart="980" bodyend="993"/>
+        <location file="Document.h" line="825" column="10" bodyfile="Document.cpp" bodystart="982" bodyend="995"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1ac342615d709c91b8c2dc39666c67d1f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -2786,7 +2786,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="831" column="9" bodyfile="Document.cpp" bodystart="995" bodyend="1001"/>
+        <location file="Document.h" line="831" column="9" bodyfile="Document.cpp" bodystart="997" bodyend="1003"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a0e170aea326eb9bfafc8e5ba9d1b51b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2805,7 +2805,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="836" column="10" bodyfile="Document.cpp" bodystart="1003" bodyend="1009"/>
+        <location file="Document.h" line="836" column="10" bodyfile="Document.cpp" bodystart="1005" bodyend="1011"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a1191798a181070b563e0ae8958d1503d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2824,7 +2824,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="841" column="10" bodyfile="Document.cpp" bodystart="1011" bodyend="1017"/>
+        <location file="Document.h" line="841" column="10" bodyfile="Document.cpp" bodystart="1013" bodyend="1019"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a2808154f87dd5084359ace73cce4404d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -2842,7 +2842,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="847" column="9" bodyfile="Document.cpp" bodystart="1020" bodyend="1026"/>
+        <location file="Document.h" line="847" column="9" bodyfile="Document.cpp" bodystart="1022" bodyend="1028"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a0e6b4140a9fa8234ca863d8cc38a1711" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2861,7 +2861,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="852" column="10" bodyfile="Document.cpp" bodystart="1029" bodyend="1035"/>
+        <location file="Document.h" line="852" column="10" bodyfile="Document.cpp" bodystart="1031" bodyend="1037"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a220ff2207595616c59e8bfc9eccd478b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -2879,7 +2879,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="858" column="9" bodyfile="Document.cpp" bodystart="1038" bodyend="1044"/>
+        <location file="Document.h" line="858" column="9" bodyfile="Document.cpp" bodystart="1040" bodyend="1046"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a0b7eb880488fdcfe5b189d2b2bd86a1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -2897,7 +2897,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="864" column="9" bodyfile="Document.cpp" bodystart="1046" bodyend="1052"/>
+        <location file="Document.h" line="864" column="9" bodyfile="Document.cpp" bodystart="1048" bodyend="1054"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a4f7469e9e152a6a4bddb3c47d416a518" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2920,7 +2920,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="869" column="10" bodyfile="Document.cpp" bodystart="1054" bodyend="1061"/>
+        <location file="Document.h" line="869" column="10" bodyfile="Document.cpp" bodystart="1056" bodyend="1063"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1abb82652117a8d4a63d9daca5ee8e7abe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -2938,7 +2938,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="875" column="9" bodyfile="Document.cpp" bodystart="1063" bodyend="1069"/>
+        <location file="Document.h" line="875" column="9" bodyfile="Document.cpp" bodystart="1065" bodyend="1071"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a4e246c53d6102d3360eda947855abd19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -2956,7 +2956,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="881" column="9" bodyfile="Document.cpp" bodystart="1071" bodyend="1077"/>
+        <location file="Document.h" line="881" column="9" bodyfile="Document.cpp" bodystart="1073" bodyend="1079"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a160e8e942f1ddc2c55906f7c793e2f0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -2974,7 +2974,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="887" column="9" bodyfile="Document.cpp" bodystart="1079" bodyend="1085"/>
+        <location file="Document.h" line="887" column="9" bodyfile="Document.cpp" bodystart="1081" bodyend="1087"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1ae68fd5ef0831ee06e94d7fca9f074dd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2993,7 +2993,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="892" column="10" bodyfile="Document.cpp" bodystart="1087" bodyend="1093"/>
+        <location file="Document.h" line="892" column="10" bodyfile="Document.cpp" bodystart="1089" bodyend="1095"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a484016e481d9aafe8b15225c2ebd4281" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QStringList</type>
@@ -3008,7 +3008,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="898" column="17" bodyfile="Document.cpp" bodystart="1095" bodyend="1120"/>
+        <location file="Document.h" line="898" column="17" bodyfile="Document.cpp" bodystart="1097" bodyend="1122"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1ad4b61dff3fe5fbbb84863794ba8d4ffc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -3039,7 +3039,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="905" column="13" bodyfile="Document.cpp" bodystart="1122" bodyend="1127"/>
+        <location file="Document.h" line="905" column="13" bodyfile="Document.cpp" bodystart="1124" bodyend="1129"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1ae32a697218e1dc97243518626e8ce9c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QByteArray</type>
@@ -3070,7 +3070,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="913" column="16" bodyfile="Document.cpp" bodystart="1129" bodyend="1139"/>
+        <location file="Document.h" line="913" column="16" bodyfile="Document.cpp" bodystart="1131" bodyend="1141"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1ac14a7967cae6208045d29034b969dd02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3123,7 +3123,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="921" column="10" bodyfile="Document.cpp" bodystart="1141" bodyend="1147"/>
+        <location file="Document.h" line="921" column="10" bodyfile="Document.cpp" bodystart="1143" bodyend="1149"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a7f00eb295da0131886522cef8f4f1a64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3152,7 +3152,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="927" column="10" bodyfile="Document.cpp" bodystart="1149" bodyend="1153"/>
+        <location file="Document.h" line="927" column="10" bodyfile="Document.cpp" bodystart="1151" bodyend="1155"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a62bae31d334d9b3818902e1c9add9b11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3187,7 +3187,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="941" column="10" bodyfile="Document.cpp" bodystart="1155" bodyend="1158"/>
+        <location file="Document.h" line="941" column="10" bodyfile="Document.cpp" bodystart="1157" bodyend="1160"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1ab4f5a2a4709f2f2e7948835bf64ff07f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -3214,7 +3214,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="954" column="10" bodyfile="Document.cpp" bodystart="1160" bodyend="1163"/>
+        <location file="Document.h" line="954" column="10" bodyfile="Document.cpp" bodystart="1162" bodyend="1165"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a545e2b783b958b48f948f35014e89b46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_guides_config" kindref="compound">GuidesConfig</ref> *</type>
@@ -3232,7 +3232,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="960" column="18" bodyfile="Document.cpp" bodystart="1165" bodyend="1215"/>
+        <location file="Document.h" line="960" column="18" bodyfile="Document.cpp" bodystart="1167" bodyend="1217"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a0d8ffb7003d6843b7e011540dd5e194c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3271,7 +3271,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="986" column="10" bodyfile="Document.cpp" bodystart="1217" bodyend="1249"/>
+        <location file="Document.h" line="986" column="10" bodyfile="Document.cpp" bodystart="1219" bodyend="1251"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1aabf1dcd98162755785b7052cf8a8138c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_grid_config" kindref="compound">GridConfig</ref> *</type>
@@ -3289,7 +3289,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="992" column="16" bodyfile="Document.cpp" bodystart="1252" bodyend="1257"/>
+        <location file="Document.h" line="992" column="16" bodyfile="Document.cpp" bodystart="1254" bodyend="1259"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a2c0352afc6dd15afe4ab2f25e9a96b16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3328,7 +3328,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="1018" column="10" bodyfile="Document.cpp" bodystart="1259" bodyend="1264"/>
+        <location file="Document.h" line="1018" column="10" bodyfile="Document.cpp" bodystart="1261" bodyend="1266"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a776c0c1b1738e1ca1d6ef0cdbcc2b88f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>qreal</type>
@@ -3346,7 +3346,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="1024" column="11" bodyfile="Document.cpp" bodystart="1266" bodyend="1269"/>
+        <location file="Document.h" line="1024" column="11" bodyfile="Document.cpp" bodystart="1268" bodyend="1271"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a5a17f06317ce75c4b18e86e7bbf61ca6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3375,7 +3375,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="1030" column="10" bodyfile="Document.cpp" bodystart="1271" bodyend="1274"/>
+        <location file="Document.h" line="1030" column="10" bodyfile="Document.cpp" bodystart="1273" bodyend="1276"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1adbfa10287b64b447dc8fdcee255888f9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QList&lt; QString &gt;</type>
@@ -3393,7 +3393,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="1036" column="11" bodyfile="Document.cpp" bodystart="1276" bodyend="1283"/>
+        <location file="Document.h" line="1036" column="11" bodyfile="Document.cpp" bodystart="1278" bodyend="1285"/>
       </memberdef>
       <memberdef kind="slot" id="class_document_1a3bde0f04021f803e12f667df266b52ca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -3425,7 +3425,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="1050" column="10" bodyfile="Document.cpp" bodystart="1285" bodyend="1303"/>
+        <location file="Document.h" line="1050" column="10" bodyfile="Document.cpp" bodystart="1287" bodyend="1305"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -3441,7 +3441,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="1060" column="14" bodyfile="Document.cpp" bodystart="968" bodyend="971"/>
+        <location file="Document.h" line="1060" column="14" bodyfile="Document.cpp" bodystart="970" bodyend="973"/>
       </memberdef>
       <memberdef kind="function" id="class_document_1af62cf1923acb777e79274ca19a31600c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3459,7 +3459,7 @@ The supported formats have specific configurations that must be used when in bat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Document.h" line="1061" column="10" bodyfile="Document.cpp" bodystart="973" bodyend="976"/>
+        <location file="Document.h" line="1061" column="10" bodyfile="Document.cpp" bodystart="975" bodyend="978"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

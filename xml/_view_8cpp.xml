@@ -813,144 +813,132 @@
 <codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;view-&gt;resourceProvider()-&gt;setSize(<ref refid="class_view_1afde6199aea404549c344dd531c556a8c" kindref="member">brushSize</ref>);</highlight></codeline>
 <codeline lineno="247"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="248"><highlight class="normal"></highlight></codeline>
-<codeline lineno="249"><highlight class="normal">qreal<sp/><ref refid="class_view_1aa7987507e15f437bb3851a8876c79e7b" kindref="member">View::brushFade</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="249"><highlight class="normal">qreal<sp/><ref refid="class_view_1aa15321d641fbe8cb62f433bb35a8380b" kindref="member">View::brushRotation</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="250"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0.0;</highlight></codeline>
-<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;view-&gt;resourceProvider()-&gt;fade();</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;view-&gt;resourceProvider()-&gt;brushRotation();</highlight></codeline>
 <codeline lineno="253"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="254"><highlight class="normal"></highlight></codeline>
-<codeline lineno="255"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_view_1aed393c43695cb4699714749691d05d6a" kindref="member">View::setBrushFade</ref>(qreal<sp/><ref refid="class_view_1aa7987507e15f437bb3851a8876c79e7b" kindref="member">brushFade</ref>)</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_view_1a0bbc7ed156aa6ca4ff8d58b79bb7214d" kindref="member">View::setBrushRotation</ref>(qreal<sp/><ref refid="class_view_1aa15321d641fbe8cb62f433bb35a8380b" kindref="member">brushRotation</ref>)</highlight></codeline>
 <codeline lineno="256"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;view-&gt;resourceProvider()-&gt;setFade(<ref refid="class_view_1aa7987507e15f437bb3851a8876c79e7b" kindref="member">brushFade</ref>);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;view-&gt;resourceProvider()-&gt;setBrushRotation(<ref refid="class_view_1aa15321d641fbe8cb62f433bb35a8380b" kindref="member">brushRotation</ref>);</highlight></codeline>
 <codeline lineno="259"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="260"><highlight class="normal"></highlight></codeline>
-<codeline lineno="261"><highlight class="normal">qreal<sp/><ref refid="class_view_1aa15321d641fbe8cb62f433bb35a8380b" kindref="member">View::brushRotation</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="261"><highlight class="normal">qreal<sp/><ref refid="class_view_1a3d8f1702f2b67e0adbb4a0824879797a" kindref="member">View::paintingFlow</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="262"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0.0;</highlight></codeline>
-<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;view-&gt;resourceProvider()-&gt;brushRotation();</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;view-&gt;resourceProvider()-&gt;flow();</highlight></codeline>
 <codeline lineno="265"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="266"><highlight class="normal"></highlight></codeline>
-<codeline lineno="267"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_view_1a0bbc7ed156aa6ca4ff8d58b79bb7214d" kindref="member">View::setBrushRotation</ref>(qreal<sp/><ref refid="class_view_1aa15321d641fbe8cb62f433bb35a8380b" kindref="member">brushRotation</ref>)</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_view_1ab04ace4224618b8f46059f3d4a85a546" kindref="member">View::setPaintingFlow</ref>(qreal<sp/>flow)</highlight></codeline>
 <codeline lineno="268"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;view-&gt;resourceProvider()-&gt;setBrushRotation(<ref refid="class_view_1aa15321d641fbe8cb62f433bb35a8380b" kindref="member">brushRotation</ref>);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;view-&gt;resourceProvider()-&gt;setFlow(flow);</highlight></codeline>
 <codeline lineno="271"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="272"><highlight class="normal"></highlight></codeline>
-<codeline lineno="273"><highlight class="normal">qreal<sp/><ref refid="class_view_1a3d8f1702f2b67e0adbb4a0824879797a" kindref="member">View::paintingFlow</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="273"><highlight class="normal">qreal<sp/><ref refid="class_view_1a27a99d16d2482efab1c8e4fe06696cad" kindref="member">View::patternSize</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="274"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0.0;</highlight></codeline>
-<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;view-&gt;resourceProvider()-&gt;flow();</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;view-&gt;resourceProvider()-&gt;patternSize();</highlight></codeline>
 <codeline lineno="277"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="278"><highlight class="normal"></highlight></codeline>
-<codeline lineno="279"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_view_1ab04ace4224618b8f46059f3d4a85a546" kindref="member">View::setPaintingFlow</ref>(qreal<sp/>flow)</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_view_1aa73c0c236c133c8b004b7398c8d90b59" kindref="member">View::setPatternSize</ref>(qreal<sp/>size)</highlight></codeline>
 <codeline lineno="280"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;view-&gt;resourceProvider()-&gt;setFlow(flow);</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;view-&gt;resourceProvider()-&gt;setPatternSize(size);</highlight></codeline>
 <codeline lineno="283"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="284"><highlight class="normal"></highlight></codeline>
-<codeline lineno="285"><highlight class="normal">qreal<sp/><ref refid="class_view_1a27a99d16d2482efab1c8e4fe06696cad" kindref="member">View::patternSize</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_view_1a1638c345204e9146955bf91b0877dc3c" kindref="member">View::eraserMode</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="286"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0.0;</highlight></codeline>
-<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;view-&gt;resourceProvider()-&gt;patternSize();</highlight></codeline>
-<codeline lineno="289"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="290"><highlight class="normal"></highlight></codeline>
-<codeline lineno="291"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_view_1aa73c0c236c133c8b004b7398c8d90b59" kindref="member">View::setPatternSize</ref>(qreal<sp/>size)</highlight></codeline>
-<codeline lineno="292"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;view-&gt;resourceProvider()-&gt;setPatternSize(size);</highlight></codeline>
-<codeline lineno="295"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="296"><highlight class="normal"></highlight></codeline>
-<codeline lineno="297"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_view_1a1638c345204e9146955bf91b0877dc3c" kindref="member">View::eraserMode</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="298"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view)<sp/>{</highlight></codeline>
-<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;view-&gt;resourceProvider()-&gt;eraserMode();</highlight></codeline>
-<codeline lineno="303"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="304"><highlight class="normal"></highlight></codeline>
-<codeline lineno="305"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_view_1accf67d92f632bbffef38a252b4823091" kindref="member">View::setEraserMode</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
-<codeline lineno="306"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view)<sp/>{</highlight></codeline>
-<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;view-&gt;resourceProvider()-&gt;setEraserMode(value);</highlight></codeline>
-<codeline lineno="311"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="312"><highlight class="normal"></highlight></codeline>
-<codeline lineno="313"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_view_1a239102701c922a03cf5b573989ab9244" kindref="member">View::globalAlphaLock</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="314"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view)<sp/>{</highlight></codeline>
-<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;view-&gt;resourceProvider()-&gt;globalAlphaLock();</highlight></codeline>
-<codeline lineno="319"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="320"><highlight class="normal"></highlight></codeline>
-<codeline lineno="321"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_view_1a384cf6e2046a66c8c728013a14446b45" kindref="member">View::setGlobalAlphaLock</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
-<codeline lineno="322"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view)<sp/>{</highlight></codeline>
-<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;view-&gt;resourceProvider()-&gt;setGlobalAlphaLock(value);</highlight></codeline>
-<codeline lineno="327"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="328"><highlight class="normal"></highlight></codeline>
-<codeline lineno="329"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_view_1aff9f281d713b7ba29edabda9dae37071" kindref="member">View::disablePressure</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="330"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view)<sp/>{</highlight></codeline>
-<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;view-&gt;resourceProvider()-&gt;disablePressure();</highlight></codeline>
-<codeline lineno="335"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="336"><highlight class="normal"></highlight></codeline>
-<codeline lineno="337"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_view_1a31b83c09f36518ea087d5dae5bcd769c" kindref="member">View::setDisablePressure</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
-<codeline lineno="338"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view)<sp/>{</highlight></codeline>
-<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;view-&gt;resourceProvider()-&gt;setDisablePressure(value);</highlight></codeline>
-<codeline lineno="343"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="344"><highlight class="normal"></highlight></codeline>
-<codeline lineno="345"><highlight class="normal"></highlight></codeline>
-<codeline lineno="346"><highlight class="normal">QList&lt;Node<sp/>*&gt;<sp/><ref refid="class_view_1aa7956b8880a33fe130b5555280b2fb25" kindref="member">View::selectedNodes</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="347"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QList&lt;Node<sp/>*&gt;();</highlight></codeline>
-<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view-&gt;viewManager())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QList&lt;Node<sp/>*&gt;();</highlight></codeline>
-<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view-&gt;viewManager()-&gt;nodeManager())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QList&lt;Node<sp/>*&gt;();</highlight></codeline>
-<codeline lineno="351"><highlight class="normal"></highlight></codeline>
-<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/>KisNodeList<sp/><ref refid="class_view_1aa7956b8880a33fe130b5555280b2fb25" kindref="member">selectedNodes</ref><sp/>=<sp/>d-&gt;view-&gt;viewManager()-&gt;nodeManager()-&gt;selectedNodes();</highlight></codeline>
-<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>LibKisUtils::createNodeList(<ref refid="class_view_1aa7956b8880a33fe130b5555280b2fb25" kindref="member">selectedNodes</ref>,<sp/>d-&gt;view-&gt;image());</highlight></codeline>
-<codeline lineno="354"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="355"><highlight class="normal"></highlight></codeline>
-<codeline lineno="356"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_view_1a79cdd37c763800a22e1f4bba9fdedcad" kindref="member">View::showFloatingMessage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;message,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QIcon&amp;<sp/>icon,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>timeout,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>priority)</highlight></codeline>
-<codeline lineno="357"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view)<sp/>{</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;view-&gt;resourceProvider()-&gt;eraserMode();</highlight></codeline>
+<codeline lineno="291"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_view_1accf67d92f632bbffef38a252b4823091" kindref="member">View::setEraserMode</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="294"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view)<sp/>{</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;view-&gt;resourceProvider()-&gt;setEraserMode(value);</highlight></codeline>
+<codeline lineno="299"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_view_1a239102701c922a03cf5b573989ab9244" kindref="member">View::globalAlphaLock</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="302"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view)<sp/>{</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;view-&gt;resourceProvider()-&gt;globalAlphaLock();</highlight></codeline>
+<codeline lineno="307"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight></codeline>
+<codeline lineno="309"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_view_1a384cf6e2046a66c8c728013a14446b45" kindref="member">View::setGlobalAlphaLock</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="310"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view)<sp/>{</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;view-&gt;resourceProvider()-&gt;setGlobalAlphaLock(value);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_view_1aff9f281d713b7ba29edabda9dae37071" kindref="member">View::disablePressure</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="318"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view)<sp/>{</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;view-&gt;resourceProvider()-&gt;disablePressure();</highlight></codeline>
+<codeline lineno="323"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_view_1a31b83c09f36518ea087d5dae5bcd769c" kindref="member">View::setDisablePressure</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="326"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view)<sp/>{</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;view-&gt;resourceProvider()-&gt;setDisablePressure(value);</highlight></codeline>
+<codeline lineno="331"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334"><highlight class="normal">QList&lt;Node<sp/>*&gt;<sp/><ref refid="class_view_1aa7956b8880a33fe130b5555280b2fb25" kindref="member">View::selectedNodes</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="335"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QList&lt;Node<sp/>*&gt;();</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view-&gt;viewManager())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QList&lt;Node<sp/>*&gt;();</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view-&gt;viewManager()-&gt;nodeManager())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QList&lt;Node<sp/>*&gt;();</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/>KisNodeList<sp/><ref refid="class_view_1aa7956b8880a33fe130b5555280b2fb25" kindref="member">selectedNodes</ref><sp/>=<sp/>d-&gt;view-&gt;viewManager()-&gt;nodeManager()-&gt;selectedNodes();</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>LibKisUtils::createNodeList(<ref refid="class_view_1aa7956b8880a33fe130b5555280b2fb25" kindref="member">selectedNodes</ref>,<sp/>d-&gt;view-&gt;image());</highlight></codeline>
+<codeline lineno="342"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_view_1a79cdd37c763800a22e1f4bba9fdedcad" kindref="member">View::showFloatingMessage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;message,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QIcon&amp;<sp/>icon,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>timeout,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>priority)</highlight></codeline>
+<codeline lineno="345"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/>KisFloatingMessage::Priority<sp/>p;</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/>p<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">KisFloatingMessage::Priority</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(priority);</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;view-&gt;showFloatingMessage(message,<sp/>icon,<sp/>timeout,<sp/>p);</highlight></codeline>
+<codeline lineno="352"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"></highlight></codeline>
+<codeline lineno="354"><highlight class="normal">QTransform<sp/><ref refid="class_view_1ac6347e3d8c592cdec3f202bdd7025f55" kindref="member">View::flakeToDocumentTransform</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="355"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view-&gt;document())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QTransform();</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;view-&gt;canvasBase()-&gt;coordinatesConverter()-&gt;documentToFlakeTransform().inverted();</highlight></codeline>
+<codeline lineno="358"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="359"><highlight class="normal"></highlight></codeline>
-<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/>KisFloatingMessage::Priority<sp/>p;</highlight></codeline>
-<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/>p<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">KisFloatingMessage::Priority</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(priority);</highlight></codeline>
-<codeline lineno="362"><highlight class="normal"></highlight></codeline>
-<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/>d-&gt;view-&gt;showFloatingMessage(message,<sp/>icon,<sp/>timeout,<sp/>p);</highlight></codeline>
+<codeline lineno="360"><highlight class="normal">QTransform<sp/><ref refid="class_view_1a6ecf5929fcac8e3ec1e7f426c82a1d03" kindref="member">View::flakeToCanvasTransform</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="361"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view-&gt;document())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QTransform();</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;view-&gt;canvasBase()-&gt;coordinatesConverter()-&gt;flakeToWidgetTransform();</highlight></codeline>
 <codeline lineno="364"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="365"><highlight class="normal"></highlight></codeline>
-<codeline lineno="366"><highlight class="normal">QTransform<sp/><ref refid="class_view_1ac6347e3d8c592cdec3f202bdd7025f55" kindref="member">View::flakeToDocumentTransform</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="366"><highlight class="normal">QTransform<sp/><ref refid="class_view_1a87b0192a7aa2176455a7a4653858c41f" kindref="member">View::flakeToImageTransform</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="367"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="368"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view-&gt;document())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QTransform();</highlight></codeline>
-<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;view-&gt;canvasBase()-&gt;coordinatesConverter()-&gt;documentToFlakeTransform().inverted();</highlight></codeline>
-<codeline lineno="370"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="371"><highlight class="normal"></highlight></codeline>
-<codeline lineno="372"><highlight class="normal">QTransform<sp/><ref refid="class_view_1a6ecf5929fcac8e3ec1e7f426c82a1d03" kindref="member">View::flakeToCanvasTransform</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="373"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view-&gt;document())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QTransform();</highlight></codeline>
-<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d-&gt;view-&gt;canvasBase()-&gt;coordinatesConverter()-&gt;flakeToWidgetTransform();</highlight></codeline>
-<codeline lineno="376"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="377"><highlight class="normal"></highlight></codeline>
-<codeline lineno="378"><highlight class="normal">QTransform<sp/><ref refid="class_view_1a87b0192a7aa2176455a7a4653858c41f" kindref="member">View::flakeToImageTransform</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="379"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="380"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d-&gt;view-&gt;document())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QTransform();</highlight></codeline>
-<codeline lineno="381"><highlight class="normal"></highlight></codeline>
-<codeline lineno="382"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KisCoordinatesConverter*<sp/>coordinatesConverter(d-&gt;view-&gt;canvasBase()-&gt;coordinatesConverter());</highlight></codeline>
-<codeline lineno="383"><highlight class="normal"><sp/><sp/><sp/><sp/>QTransform<sp/>imageToFlakeTransform<sp/>=<sp/>coordinatesConverter-&gt;imageToDocumentTransform()<sp/>*<sp/>coordinatesConverter-&gt;documentToFlakeTransform();</highlight></codeline>
-<codeline lineno="384"><highlight class="normal"></highlight></codeline>
-<codeline lineno="385"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>imageToFlakeTransform.inverted();</highlight></codeline>
-<codeline lineno="386"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KisCoordinatesConverter*<sp/>coordinatesConverter(d-&gt;view-&gt;canvasBase()-&gt;coordinatesConverter());</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/>QTransform<sp/>imageToFlakeTransform<sp/>=<sp/>coordinatesConverter-&gt;imageToDocumentTransform()<sp/>*<sp/>coordinatesConverter-&gt;documentToFlakeTransform();</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"></highlight></codeline>
+<codeline lineno="373"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>imageToFlakeTransform.inverted();</highlight></codeline>
+<codeline lineno="374"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="View.cpp"/>
   </compounddef>

@@ -62,7 +62,7 @@
 </parameteritem>
 </parameterlist>
 For a &quot;pattern&quot; fill layer, the <ref refid="class_info_object" kindref="compound">InfoObject</ref> can contain a single &quot;pattern&quot; parameter with the name of a pattern as known to the resource system: &quot;pattern&quot; = &quot;Cross01.pat&quot;.</para>
-<para>For a &quot;color&quot; fill layer, the <ref refid="class_info_object" kindref="compound">InfoObject</ref> can contain a single &quot;color&quot; parameter with a QColor, a string that QColor can parse (see <ulink url="https://doc.qt.io/qt-6/qcolor.html#fromString">https://doc.qt.io/qt-6/qcolor.html#fromString</ulink>) or an XML description of the color, which can be derived from a <simplesect kind="see"><para><ref refid="class_managed_color" kindref="compound">ManagedColor</ref>.</para>
+<para>For a &quot;color&quot; fill layer, the <ref refid="class_info_object" kindref="compound">InfoObject</ref> can contain a single &quot;color&quot; parameter with a QColor, a string that QColor can parse (see <ulink url="https://doc.qt.io/qt-5/qcolor.html#setNamedColor">https://doc.qt.io/qt-5/qcolor.html#setNamedColor</ulink>) or an XML description of the color, which can be derived from a <simplesect kind="see"><para><ref refid="class_managed_color" kindref="compound">ManagedColor</ref>.</para>
 </simplesect>
 <parameterlist kind="param"><parameteritem>
 <parameternamelist>

@@ -217,7 +217,7 @@
         </briefdescription>
         <detaileddescription>
 <para>set the property identified by <computeroutput>key</computeroutput> to <computeroutput>value</computeroutput> </para>
-<para>If you want create a property that represents a color, you can use a QColor or hex string, as defined in <ulink url="https://doc.qt.io/qt-6/qcolor.html#fromString">https://doc.qt.io/qt-6/qcolor.html#fromString</ulink>. </para>
+<para>If you want create a property that represents a color, you can use a QColor or hex string, as defined in <ulink url="https://doc.qt.io/qt-5/qcolor.html#setNamedColor">https://doc.qt.io/qt-5/qcolor.html#setNamedColor</ulink>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

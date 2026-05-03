@@ -1,38 +1,47 @@
-Python krita module stub file generated from C++ headers via Doxygen XML, used for IDE auto-completion when writing Krita plugins. Inspired by [scottpetrovic/krita-python-auto-complete](https://github.com/scottpetrovic/krita-python-auto-complete).
+# krita.pyi — Krita scripting type stubs
+
+为 Krita 插件开发提供 IDE 自动补全和类型检查的类型标注文件，从 C++ 头文件通过 Doxygen XML 生成。
 
 > 2024 年 5 月由小仓那尔编写，2026 年 5 月由 deepseek-v4-pro 重构为纯 Python 实现。
+
+**当前版本：Krita v6.0.1.1**（与 5.3.1 共用 libkis API，Qt6 构建为 Krita 6，Qt5 构建为 5.3）
 
 # Usage
 
 1. Clone this repository.
-2. Copy the file `krita.pyi` into your plugin directory.
+2. Copy `krita.pyi` into your plugin directory.
 3. Enjoy type-safety.
 
 ![Alt text](image.png)
 
 # Building from source
 
-Requires [Doxygen](https://www.doxygen.nl/) and Python 3.9+.
+需要 [Doxygen](https://www.doxygen.nl/) 和 Python 3.9+。Krita 主仓库在 [invent.kde.org/graphics/krita](https://invent.kde.org/graphics/krita)。
 
-1. Download the `libs/libkis` directory from [Krita's source](https://github.com/KDE/krita/tree/master/libs/libkis):
-   ```bash
-   git clone --depth 1 --filter=blob:none --sparse https://github.com/KDE/krita.git krita-src
-   cd krita-src && git sparse-checkout set libs/libkis && git checkout
-   ```
-2. Generate Doxygen XML:
-   ```bash
-   cd krita-src/libs/libkis
-   doxygen -s -g
-   # Edit Doxyfile: set GENERATE_XML = YES, GENERATE_HTML = NO
-   doxygen
-   ```
-3. Copy the generated XML to this project's `xml/` directory:
-   ```bash
-   cp doxygen-out/xml/class_*.xml doxygen-out/xml/namespace_*.xml /path/to/krita-script-type-hint/xml/
-   cp doxygen-out/xml/*.xsd doxygen-out/xml/*.xslt /path/to/krita-script-type-hint/xml/
-   ```
-4. Run the build script:
-   ```bash
-   cd /path/to/krita-script-type-hint
-   python build.py --xml-dir ./xml --output ./krita.pyi
-   ```
+## 列举所有 release 版本
+
+```bash
+git ls-remote --tags https://invent.kde.org/graphics/krita.git | grep -oP 'v\d+\.\d+\.\d+[.\d]*(?=\^|\s|$)' | sort -Vu
+```
+
+## 为指定版本生成
+
+将 `TAG` 替换为你要的版本号，例如 `v6.0.1.1`：
+
+```bash
+git clone --depth 1 --branch TAG \
+  --filter=blob:none --sparse \
+  https://invent.kde.org/graphics/krita.git krita-src
+cd krita-src
+git sparse-checkout set libs/libkis && git checkout
+
+cd libs/libkis
+doxygen -s -g
+# 编辑 Doxyfile：设置 GENERATE_XML = YES，GENERATE_HTML = NO
+doxygen
+
+cp doxygen-out/xml/class_*.xml doxygen-out/xml/namespace_*.xml /path/to/krita-script-type-hint/xml/
+cp doxygen-out/xml/*.xsd doxygen-out/xml/*.xslt /path/to/krita-script-type-hint/xml/
+cd /path/to/krita-script-type-hint
+python build.py --xml-dir ./xml --output ./krita.pyi
+```

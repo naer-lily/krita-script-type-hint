@@ -4125,7 +4125,7 @@ class InfoObject:
         set the property identified by `key` to `value`
 
 
-        If you want create a property that represents a color, you can use a QColor or hex string, as defined in [https://doc.qt.io/qt-6/qcolor.html#fromString](https://doc.qt.io/qt-6/qcolor.html#fromString).
+        If you want create a property that represents a color, you can use a QColor or hex string, as defined in [https://doc.qt.io/qt-5/qcolor.html#setNamedColor](https://doc.qt.io/qt-5/qcolor.html#setNamedColor).
         """
 
         ...
@@ -5968,15 +5968,6 @@ class View:
 
         ...
 
-    def brushFade(self) -> float:
-        """
-        return the current fade for brush
-
-        :returns: the brush fade value (0.00 - 1.00)
-        """
-
-        ...
-
     def brushRotation(self) -> float:
         """
         return the current rotation for brush tip
@@ -6160,15 +6151,6 @@ class View:
         ...
 
     def setBackGroundColor(self, color: ManagedColor) -> None:
-        ...
-
-    def setBrushFade(self, brushFade: float) -> None:
-        """
-        set the current fade for brush
-
-        :param brushFade: the brush fade (0.00 - 1.00)
-        """
-
         ...
 
     def setBrushRotation(self, brushRotation: float) -> None:

@@ -1120,8 +1120,6 @@
     <member refid="class_view_1a85ae27b0f1a895b3666e014157ee9ee5" kind="slot"><name>setPaintingOpacity</name></member>
     <member refid="class_view_1afde6199aea404549c344dd531c556a8c" kind="slot"><name>brushSize</name></member>
     <member refid="class_view_1a2c6bd83434d1a71ad7a8f695e192c5de" kind="slot"><name>setBrushSize</name></member>
-    <member refid="class_view_1aa7987507e15f437bb3851a8876c79e7b" kind="slot"><name>brushFade</name></member>
-    <member refid="class_view_1aed393c43695cb4699714749691d05d6a" kind="slot"><name>setBrushFade</name></member>
     <member refid="class_view_1aa15321d641fbe8cb62f433bb35a8380b" kind="slot"><name>brushRotation</name></member>
     <member refid="class_view_1a0bbc7ed156aa6ca4ff8d58b79bb7214d" kind="slot"><name>setBrushRotation</name></member>
     <member refid="class_view_1a3d8f1702f2b67e0adbb4a0824879797a" kind="slot"><name>paintingFlow</name></member>
