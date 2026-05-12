@@ -6,11 +6,15 @@
 
 **当前版本：Krita v6.0.1.1**（与 5.3.1 共用 libkis API，Qt6 构建为 Krita 6，Qt5 构建为 5.3）
 
+# 架构
+
+`krita/` 目录是一个 stub-only 包，将 43 个 API 类拆分为 `_types/` 下的独立文件，每个类一个 `.pyi`。`__init__.pyi` 作为索引，re-export 所有类并附带完整 docstring——这样 AI/LLM 工具只需先读 `__init__.pyi` 即可获取全局视图，需要细节时再按需读取 `_types/xxx.pyi`，避免一次性加载 7000+ 行的单文件。
+
 # Usage
 
 1. Clone this repository.
-2. Copy `krita.pyi` into your plugin directory.
-3. Enjoy type-safety.
+2. Copy the `krita/` directory into your plugin project.
+3. `from krita import Node` — IDE will auto-complete as usual.
 
 ![Alt text](image.png)
 
@@ -43,5 +47,5 @@ doxygen
 cp doxygen-out/xml/class_*.xml doxygen-out/xml/namespace_*.xml /path/to/krita-script-type-hint/xml/
 cp doxygen-out/xml/*.xsd doxygen-out/xml/*.xslt /path/to/krita-script-type-hint/xml/
 cd /path/to/krita-script-type-hint
-python build.py --xml-dir ./xml --output ./krita.pyi
+python build.py --xml-dir ./xml --output ./krita
 ```

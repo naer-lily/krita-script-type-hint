@@ -395,6 +395,7 @@ class EnumDef:
     name: str
     values: list[EnumValue]
 
+
 @dataclasses.dataclass
 class ClassDef:
     name: str
@@ -710,6 +711,20 @@ def topological_sort(classes: list[ClassDef]) -> list[ClassDef]:
 
 
 # ---------------------------------------------------------------------------
+# Utilities
+# ---------------------------------------------------------------------------
+
+def _class_to_filename(name: str) -> str:
+    """Convert ClassName to class_name (snake_case)."""
+    result: list[str] = []
+    for i, ch in enumerate(name):
+        if ch.isupper() and i > 0:
+            result.append('_')
+        result.append(ch.lower())
+    return ''.join(result)
+
+
+# ---------------------------------------------------------------------------
 # Code generation
 # ---------------------------------------------------------------------------
 
@@ -734,10 +749,8 @@ def emit_method(member: Member, class_name: str = "") -> str:
     parts: list[str] = []
 
     if member.kind == "signal":
-        # Signal → ClassVar with trailing comment
         result = f"{member.name}: ClassVar[pyqtSignal]"
         if member.doc.strip():
-            # Use a single-line comment for short doc, docstring for longer
             doc = member.doc.strip()
             if '\n' in doc:
                 result += "\n" + _emit_docstring(doc, 0)
@@ -745,7 +758,6 @@ def emit_method(member: Member, class_name: str = "") -> str:
                 result += f"  # {doc}"
         return result
 
-    # Method or constructor
     if member.kind == "static_method":
         parts.append("@staticmethod")
 
@@ -794,37 +806,31 @@ def emit_enum(enum_def: EnumDef) -> str:
     return "\n".join(lines)
 
 
-def emit_class(cls: ClassDef, has_overloads: bool) -> str:
-    """Generate a complete class definition for .pyi."""
+def emit_class_body(cls: ClassDef) -> str:
+    """Generate the class definition body (no file header or imports)."""
     lines: list[str] = []
 
-    # Class header
     bases_str = f"({', '.join(cls.bases)})" if cls.bases else ""
     lines.append(f"class {cls.name}{bases_str}:")
 
-    # Class docstring
     if cls.doc.strip():
         lines.append(indent('"""', 1))
         lines.append(indent(cls.doc.rstrip(), 1))
         lines.append(indent('"""', 1))
         lines.append("")
 
-    # Enums
     for enum in cls.enums:
         lines.append(indent(emit_enum(enum), 1))
         lines.append("")
 
-    # Group methods by name to detect overloads
     by_name: dict[str, list[Member]] = defaultdict(list)
     for m in cls.members:
         by_name[m.name].append(m)
 
     def sort_key(name_members: tuple[str, list[Member]]) -> tuple[int, str]:
         name, _members = name_members
-        # __init__ first
         if name == "__init__" or any(m.kind == "constructor" for m in _members):
             return (0, name)
-        # signals last
         if all(m.kind == "signal" for m in _members):
             return (2, name)
         return (1, name)
@@ -834,7 +840,6 @@ def emit_class(cls: ClassDef, has_overloads: bool) -> str:
         signals_in_group = [m for m in group if m.kind == "signal"]
 
         if len(non_signal) > 1:
-            # Overloaded methods
             lines.append(indent(emit_overload_group(name, non_signal), 1))
             lines.append("")
         elif len(non_signal) == 1:
@@ -848,8 +853,6 @@ def emit_class(cls: ClassDef, has_overloads: bool) -> str:
     result = "\n".join(lines).rstrip()
 
     # Qualify unqualified enum references
-    # e.g. DialogType.OpenFile → FileDialog.DialogType.OpenFile
-    # e.g. ClassVar[DialogType] → ClassVar[FileDialog.DialogType]
     for enum in cls.enums:
         for sep in (" ", "(", ","):
             result = result.replace(f"{sep}{enum.name}.", f"{sep}{cls.name}.{enum.name}.")
@@ -858,91 +861,167 @@ def emit_class(cls: ClassDef, has_overloads: bool) -> str:
     return result
 
 
-def emit_namespace(ns: NamespaceDef) -> str:
-    """Generate the namespace section."""
-    lines: list[str] = []
-    lines.append(f"# {ns.name}")
-    if ns.doc.strip():
-        lines.append(f"# {ns.doc.strip()}")
-
-    # Variables
-    for vname, vtype in ns.variables:
-        lines.append(f"{vname}: {vtype}")
-
-    # Functions
-    for func in ns.functions:
-        params_strs = [
-            _emit_param(pname, ptype, defval)
-            for pname, ptype, defval in (func.params or [])
-        ]
-        ret = f" -> {func.return_type}"
-        lines.append(f"def {func.name}({', '.join(params_strs)}){ret}: ...")
-
-    return "\n".join(lines) + "\n"
-
-
 # ---------------------------------------------------------------------------
-# Import collection
+# Per-class import detection
 # ---------------------------------------------------------------------------
 
-def collect_imports(classes: list[ClassDef], opaque: set[str]) -> str:
-    """Build the import block dynamically based on what's used."""
+def _collect_class_imports(cls: ClassDef) -> tuple[set[str], dict[str, set[str]]]:
+    """Collect typing and PyQt5 imports needed for a single class.
+
+    Returns (typing_imports, qt_imports).
+    """
     typing_imports: set[str] = set()
+    qt_imports: dict[str, set[str]] = defaultdict(set)
 
-    # Check if overload is needed
-    for cls in classes:
-        by_name: dict[str, list[Member]] = defaultdict(list)
-        for m in cls.members:
-            if m.kind not in ("signal",):
-                by_name[m.name].append(m)
-        if any(len(v) > 1 for v in by_name.values()):
-            typing_imports.add("overload")
+    # Check for overloads
+    by_name: dict[str, list[Member]] = defaultdict(list)
+    for m in cls.members:
+        if m.kind not in ("signal",):
+            by_name[m.name].append(m)
+    if any(len(v) > 1 for v in by_name.values()):
+        typing_imports.add("overload")
 
-    # Check if ClassVar is needed (signals)
-    has_signals = any(m.kind == "signal" for c in classes for m in c.members)
+    # Check for signals
+    has_signals = any(m.kind == "signal" for m in cls.members)
     if has_signals:
         typing_imports.add("ClassVar")
 
-    # Check if Any is used in types
+    # Check for enums using ClassVar
+    for enum in cls.enums:
+        if any(val.value is None for val in enum.values):
+            typing_imports.add("ClassVar")
+
+    # Collect all type text
     all_type_text = " ".join(
         m.return_type + " " + " ".join(pt for _, pt, _ in (m.params or []))
-        for c in classes for m in c.members
+        for m in cls.members
     )
     if "Any" in all_type_text:
         typing_imports.add("Any")
 
-    # Qt imports — only include what's actually referenced
-    qt_imports: dict[str, set[str]] = defaultdict(set)
+    # Qt imports
     for qt_type, module in QT_MODULES.items():
-        if module.startswith("PyQt5"):
-            if re.search(r'\b' + re.escape(qt_type) + r'\b', all_type_text):
-                qt_imports[module].add(qt_type)
-    # Also check class bases for QObject etc.
-    for cls in classes:
-        if cls.bases and "QObject" in str(cls.bases):
-            if "PyQt5.QtCore" not in qt_imports:
-                qt_imports["PyQt5.QtCore"] = set()
-            qt_imports["PyQt5.QtCore"].add("QObject")
-    # Signals need pyqtSignal
+        if re.search(r'\b' + re.escape(qt_type) + r'\b', all_type_text):
+            qt_imports[module].add(qt_type)
+
+    # Check if QObject is a base
+    if any("QObject" in base for base in cls.bases):
+        qt_imports["PyQt5.QtCore"].add("QObject")
+
     if has_signals:
         qt_imports["PyQt5.QtCore"].add("pyqtSignal")
 
+    return typing_imports, dict(qt_imports)
+
+
+def _detect_krita_references(
+        cls: ClassDef,
+        all_class_names: set[str],
+        opaque: set[str],
+) -> tuple[set[str], set[str]]:
+    """Find Krita API class names and opaque types referenced in this class.
+
+    Returns (krita_api_refs, opaque_refs).
+    """
+    krita_refs: set[str] = set()
+    opaque_refs: set[str] = set()
+
+    for m in cls.members:
+        for type_str in [m.return_type] + [pt for _, pt, _ in (m.params or [])]:
+            for word in re.findall(r'\b([A-Z][A-Za-z0-9_]+)\b', type_str):
+                if word in all_class_names and word != cls.name:
+                    krita_refs.add(word)
+                elif word in opaque:
+                    opaque_refs.add(word)
+
+    for base in cls.bases:
+        if base in all_class_names:
+            krita_refs.add(base)
+        elif base in opaque:
+            opaque_refs.add(base)
+
+    return krita_refs, opaque_refs
+
+
+# ---------------------------------------------------------------------------
+# File-level emitters
+# ---------------------------------------------------------------------------
+
+def emit_class_file(cls: ClassDef, all_class_names: set[str],
+                    opaque: set[str]) -> str:
+    """Generate a complete .pyi file for a single class."""
+    typing_imports, qt_imports = _collect_class_imports(cls)
+    krita_refs, opaque_refs = _detect_krita_references(cls, all_class_names, opaque)
+
     lines: list[str] = []
+    lines.append("# Generated by build.py — DO NOT EDIT")
+    lines.append("")
+
     if typing_imports:
         lines.append(f"from typing import {', '.join(sorted(typing_imports))}")
+
     for module in sorted(qt_imports):
         names = sorted(qt_imports[module])
         if names:
             lines.append(f"from {module} import {', '.join(names)}")
 
-    # Opaque types
-    if opaque:
-        lines.append("")
-        lines.append("# Internal C++ types (opaque to Python)")
-        for t in sorted(opaque):
-            lines.append(f"class {t}: ...")
+    for ref_name in sorted(opaque_refs):
+        lines.append(f"from krita._types._opaque import {ref_name}")
+    for ref_name in sorted(krita_refs):
+        fname = _class_to_filename(ref_name)
+        lines.append(f"from krita._types.{fname} import {ref_name}")
 
-    return "\n".join(lines) + "\n\n"
+    if lines[-1]:
+        lines.append("")
+    lines.append("")
+
+    lines.append(emit_class_body(cls))
+
+    return "\n".join(lines)
+
+
+def emit_opaque_file(opaque: set[str]) -> str:
+    """Generate krita/_types/_opaque.pyi."""
+    lines = [
+        "# Generated by build.py — DO NOT EDIT",
+        "",
+        "# Internal C++ types (opaque to Python)",
+    ]
+    for t in sorted(opaque):
+        lines.append(f"class {t}: ...")
+    return "\n".join(lines)
+
+
+def emit_index(classes: list[ClassDef], opaque: set[str]) -> str:
+    """Generate krita/__init__.pyi — re-exports with AI docstrings."""
+    lines: list[str] = []
+    lines.append("# Generated by build.py — DO NOT EDIT")
+    lines.append("# Type stub for Krita scripting API (libkis)")
+    lines.append("")
+
+    if opaque:
+        lines.append("# Internal C++ types (opaque to Python)")
+        lines.append("from krita._types._opaque import *")
+        lines.append("")
+
+    lines.append("# Krita Scripting API classes")
+    lines.append("")
+    for cls in classes:
+        fname = _class_to_filename(cls.name)
+        if cls.doc.strip():
+            lines.append(f"# {cls.name}:")
+            for doc_line in cls.doc.strip().splitlines():
+                lines.append(f"#   {doc_line}")
+            lines.append("#")
+        lines.append(f"from krita._types.{fname} import {cls.name} as {cls.name}")
+        lines.append("")
+
+    return "\n".join(lines)
+
+
+def _emit_types_init() -> str:
+    """Generate krita/_types/__init__.pyi placeholder."""
+    return "# Generated by build.py — DO NOT EDIT\n"
 
 
 # ---------------------------------------------------------------------------
@@ -951,15 +1030,15 @@ def collect_imports(classes: list[ClassDef], opaque: set[str]) -> str:
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Generate krita.pyi from Doxygen XML documentation"
+        description="Generate Krita type stubs from Doxygen XML documentation"
     )
     parser.add_argument(
         "--xml-dir", default="./xml",
         help="Directory containing Doxygen-generated XML files (default: ./xml)"
     )
     parser.add_argument(
-        "--output", "-o", default="./krita.pyi",
-        help="Output path for the .pyi file (default: ./krita.pyi)"
+        "--output", "-o", default="./krita",
+        help="Output directory for the stub package (default: ./krita)"
     )
     args = parser.parse_args()
 
@@ -968,7 +1047,8 @@ def main() -> None:
         print(f"Error: XML directory not found: {xml_dir}", file=sys.stderr)
         sys.exit(1)
 
-    output_path = Path(args.output)
+    output_dir = Path(args.output)
+    types_dir = output_dir / "_types"
 
     # Parse all class XML files
     class_files = sorted(xml_dir.glob("class_*.xml"))
@@ -985,7 +1065,7 @@ def main() -> None:
             classes.append(cdef)
             print(f"  ✓ {cdef.name} ({len(cdef.members)} members)")
 
-    # Parse namespace XML only for type reference collection (not output)
+    # Parse namespace XML only for type reference collection
     namespace_files = sorted(xml_dir.glob("namespace_*.xml"))
     namespaces: list[NamespaceDef] = []
     for fp in namespace_files:
@@ -998,31 +1078,39 @@ def main() -> None:
 
     # Topological sort
     ordered = topological_sort(classes)
-    print(f"\nGenerating stub for {len(ordered)} classes…")
+    print(f"\nGenerating stubs for {len(ordered)} classes…")
 
-    # Generate output
-    output_parts: list[str] = []
+    all_class_names = {c.name for c in ordered}
 
-    # File header
-    output_parts.append(
-        "# Generated by build.py — DO NOT EDIT\n"
-        "# Type stub for Krita scripting API (libkis)\n"
-    )
+    # Create output directories
+    types_dir.mkdir(parents=True, exist_ok=True)
 
-    # Imports + opaque types
-    output_parts.append(collect_imports(ordered, opaque))
+    # Write _opaque.pyi
+    opaque_path = types_dir / "_opaque.pyi"
+    opaque_content = emit_opaque_file(opaque)
+    opaque_path.write_text(opaque_content, encoding="utf-8")
+    print(f"  ✓ _types/_opaque.pyi ({len(opaque)} types)")
 
-    # Class definitions
-    has_overloads = False  # determined during emit
+    # Write each class file
     for cls in ordered:
-        output_parts.append(emit_class(cls, has_overloads))
-        output_parts.append("")
+        fname = _class_to_filename(cls.name)
+        filepath = types_dir / f"{fname}.pyi"
+        content = emit_class_file(cls, all_class_names, opaque)
+        filepath.write_text(content, encoding="utf-8")
+        print(f"  ✓ _types/{fname}.pyi")
 
-    result = "\n".join(output_parts)
+    # Write _types/__init__.pyi
+    types_init_path = types_dir / "__init__.pyi"
+    types_init_path.write_text(_emit_types_init(), encoding="utf-8")
+    print("  ✓ _types/__init__.pyi")
 
-    # Write
-    output_path.write_text(result, encoding="utf-8")
-    print(f"\n✓ Written to {output_path} ({len(result)} bytes)")
+    # Write __init__.pyi (index)
+    index_path = output_dir / "__init__.pyi"
+    index_content = emit_index(ordered, opaque)
+    index_path.write_text(index_content, encoding="utf-8")
+    print("  ✓ __init__.pyi")
+
+    print(f"\n✓ Stub package written to {output_dir}/")
 
 
 if __name__ == "__main__":
